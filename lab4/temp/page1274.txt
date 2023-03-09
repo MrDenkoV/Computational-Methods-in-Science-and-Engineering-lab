@@ -1,0 +1,14 @@
+Mental state
+
+A mental state is a state of mind that an agent is in. Most simplistically, a mental state is a mental condition. It is a relation that connects the agent with a proposition. Several of these states are a combination of mental representations and propositional attitudes. There are several paradigmatic states of mind that an agent has: love, hate, pleasure and pain, and attitudes toward propositions such as: believing that, conceiving that, hoping and fearing that, etc.
+
+Discussions about mental states can be found in many areas of study.
+
+In cognitive psychology and the philosophy of mind, a mental state is a kind of hypothetical state that corresponds to thinking and feeling, and consists of a conglomeration of mental representations and propositional attitudes. Several theories in philosophy and psychology try to determine the relationship between the agent's mental state and a proposition.
+
+Instead of looking into what a mental state is, in itself, clinical psychology and psychiatry determine a person's mental health through a mental status examination.
+
+Mental states also include attitudes towards propositions, of which there are at least two—factive, non-factive, both of which entail the mental state of acquaintance. To be acquainted with a proposition is to understand its meaning and be able to entertain it. The proposition can be true or false, and acquaintance requires no specific attitude towards that truth or falsity. Factive attitudes include those mental states that are attached to the truth of the proposition—i.e. the proposition entails truth. Some factive mental states include "perceiving that", "remembering that", "regretting that", and (more controversially) "knowing that". Non-factive attitudes do not entail the truth of the propositions to which they are attached. That is, one can be in one of these mental states and the proposition can be false. An example of a non-factive attitude is believing—you can believe a false proposition and you can believe a true proposition. Since you have the possibility of both, such mental states do not entail truth, and therefore, are not factive. However, belief does entail an attitude of assent toward the presumed truth of the proposition (whether or not it's so), making it and other non-factive attitudes different than mere acquaintance.
+
+
+

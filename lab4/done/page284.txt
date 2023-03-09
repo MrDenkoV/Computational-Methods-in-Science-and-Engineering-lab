@@ -1,0 +1,118 @@
+Long division
+
+In arithmetic, long division is a standard division algorithm suitable for dividing multi-digit numbers that is simple enough to perform by hand. It breaks down a division problem into a series of easier steps.
+
+As in all division problems, one number, called the dividend, is divided by another, called the divisor, producing a result called the quotient. It enables computations involving arbitrarily large numbers to be performed by following a series of simple steps. The abbreviated form of long division is called short division, which is almost always used instead of long division when the divisor has only one digit. Chunking (also known as the partial quotients method or the hangman method) is a less mechanical form of long division prominent in the UK which contributes to a more holistic understanding about the division process.
+
+While related algorithms have existed since the 12th century AD, the specific algorithm in modern use was introduced by Henry Briggs 1600 AD.
+
+Inexpensive calculators and computers have become the most common way to solve division problems, eliminating a traditional mathematical exercise, and decreasing the educational opportunity to show how to do so by paper and pencil techniques. (Internally, those devices use one of a variety of division algorithms, the faster ones of which relies on approximations and multiplications to achieve the tasks). In the United States, long division has been especially targeted for de-emphasis, or even elimination from the school curriculum, by reform mathematics, though traditionally introduced in the 4th or 5th grades.
+
+In English-speaking countries, long division does not use the division slash or obelus signs but instead constructs a tableau. The divisor is separated from the dividend by a right parenthesis or vertical bar ; the dividend is separated from the quotient by a vinculum (i.e., overbar). The combination of these two symbols is sometimes known as a long division symbol or division bracket. It developed in the 18th century from an earlier single-line notation separating the dividend from the quotient by a left parenthesis.
+
+The process is begun by dividing the left-most digit of the dividend by the divisor. The quotient (rounded down to an integer) becomes the first digit of the result, and the remainder is calculated (this step is notated as a subtraction). This remainder carries forward when the process is repeated on the following digit of the dividend (notated as 'bringing down' the next digit to the remainder). When all digits have been processed and no remainder is left, the process is complete.
+
+An example is shown below, representing the division of 500 by 4 (with a result of 125).
+A more detailed breakdown of the steps goes as follows:
+
+
+If the last remainder when we ran out of dividend digits had been something other than 0, there would have been two possible courses of action:
+
+
+In this example, the decimal part of the result is calculated by continuing the process beyond the units digit, "bringing down" zeros as being the decimal part of the dividend.
+
+This example also illustrates that, at the beginning of the process, a step that produces a zero can be omitted. Since the first digit 1 is less than the divisor 4, the first step is instead performed on the first two digits 12. Similarly, if the divisor were 13, one would perform the first step on 127 rather than 12 or 1.
+
+
+A divisor of any number of digits can be used. In this example, 1260257 is to be divided by 37. First the problem is set up as follows:
+
+Digits of the number 1260257 are taken until a number greater than or equal to 37 occurs. So 1 and 12 are less than 37, but 126 is greater. Next, the greatest multiple of 37 less than or equal to 126 is computed. So 3 × 37 = 111 < 126, but 4 × 37 > 126. The multiple 111 is written underneath the 126 and the 3 is written on the top where the solution will appear:
+
+Note carefully which place-value column these digits are written into. The 3 in the quotient goes in the same column (ten-thousands place) as the 6 in the dividend 1260257, which is the same column as the last digit of 111.
+
+The 111 is then subtracted from the line above, ignoring all digits to the right:
+
+Now the digit from the next smaller place value of the dividend is copied down and appended to the result 15:
+
+The process repeats: the greatest multiple of 37 less than or equal to 150 is subtracted. This is 148 = 4 × 37, so a 4 is added to the top as the next quotient digit. Then the result of the subtraction is extended by another digit taken from the dividend:
+
+The greatest multiple of 37 less than or equal to 22 is 0 × 37 = 0. Subtracting 0 from 22 gives 22, we often don't write the subtraction step. Instead, we simply take another digit from the dividend:
+
+The process is repeated until 37 divides the last line exactly:
+
+For non-decimal currencies (such as the British £sd system before 1971) and measures (such as avoirdupois) mixed mode division must be used. Consider dividing 50 miles 600 yards into 37 pieces:
+
+Each of the four columns is worked in turn. Starting with the miles: 50/37 = 1 remainder 13. No further division is
+possible, so perform a long multiplication by 1,760 to convert miles to yards, the result is 22,880 yards. Carry this to the top of the yards column and add it to the 600 yards in the dividend giving 23,480. Long division of 23,480 / 37 now proceeds as normal yielding 634 with remainder 22. The remainder is multiplied by 3 to get feet and carried up to the feet column. Long division of the feet gives 1 remainder 29 which is then multiplied by twelve to get 348 inches. Long division continues with the final remainder of 15 inches being shown on the result line.
+
+When the quotient is not an integer and the division process is extended beyond the decimal point, one of two things can happen:
+
+
+China, Japan, Korea use the same notation as English-speaking nations including India. Elsewhere, the same general principles are used, but the figures are often arranged differently.
+
+In Latin America (except Argentina, Bolivia, Mexico, Colombia, Paraguay, Venezuela, Uruguay and Brazil), the calculation is almost exactly the same, but is written down differently as shown below with the same two examples used above. Usually the quotient is written under a bar drawn under the divisor. A long vertical line is sometimes drawn to the right of the calculations.
+
+and
+
+In Mexico, the English-speaking world notation is used, except that only the result of the subtraction is annotated and the calculation is done mentally, as shown below:
+
+In Bolivia, Brazil, Paraguay, Venezuela, Quebec, Colombia, and Peru, the European notation (see below) is used, except that the quotient is not separated by a vertical line, as shown below:
+
+Same procedure applies in Mexico, Uruguay and Argentina, only the result of the subtraction is annotated and the calculation is done mentally.
+
+In Spain, Italy, France, Portugal, Lithuania, Romania, Turkey, Greece, Belgium, Belarus, Ukraine, and Russia, the divisor is to the right of the dividend, and separated by a vertical bar. The division also occurs in the column, but the quotient (result) is written below the divider, and separated by the horizontal line. The same method is used in Iran and Mongolia.
+
+In Cyprus, as well as in France, a long vertical bar separates the dividend and subsequent subtractions from the quotient and divisor, as in the below of 6359 divided by 17, which is 374 with a remainder of 1.
+
+Decimal numbers are not divided directly, the dividend and divisor are multiplied by a power of ten so that the division involves two whole numbers. Therefore, if one were dividing 12,7 by 0,4 (commas being used instead of decimal points), the dividend and divisor would first be changed to 127 and 4, and then the division would proceed as above.
+
+In Austria, Germany and Switzerland, the notational form of a normal equation is used. <dividend> : <divisor> = <quotient>, with the colon ":" denoting a binary infix symbol for the division operator (analogous to "/" or "÷"). In these regions the decimal separator is written as a comma. (cf. first section of Latin American countries above, where it's done virtually the same way):
+
+The same notation is adopted in Denmark, Norway, Bulgaria, North Macedonia, Poland, Croatia, Slovenia, Hungary, Czech Republic, Slovakia, Vietnam and in Serbia.
+
+In the Netherlands, the following notation is used:
+
+Every natural number n can be uniquely represented in an arbitrary number base formula_1 as a sequence of digits formula_2 where formula_3, where formula_4 is the number of digits in formula_5. The value of n in terms of its digits and the base is
+Let formula_5 be the dividend and formula_8 be the divisor, where formula_9 is the number of digits in formula_8. If formula_11, then formula_12 and formula_13. Otherwise, we iterate from formula_14, before stopping.
+
+For each iteration formula_15, let formula_16 be the quotient extracted so far, formula_17 be the intermediate dividend, formula_18 be the intermediate remainder, formula_19 be the next digit of the original dividend, and formula_20 be the next digit of the quotient. By definition of digits in base formula_21, formula_22. All values are natural numbers. We initiate 
+the first formula_9 digits of formula_5.
+
+With every iteration, the three equations are true:
+There only exists one such formula_20 such that formula_31.
+The final quotient is formula_32 and the final remainder is formula_33
+
+In base 10, using the example above with formula_34 and formula_35, the initial values formula_36 and formula_37.
+
+Thus, formula_38 and formula_39.
+
+In base 16, with formula_40 and formula_41, the initial values are formula_36 and formula_43.
+
+Thus, formula_44 and formula_45.
+
+If one doesn't have the addition, subtraction, or multiplication tables for base formula_21 memorised, then this algorithm still works if the numbers are converted to decimal and at the end are converted back to base formula_21. For example, with the above example, 
+and 
+with formula_50. The initial values are formula_36 and formula_52.
+Thus, formula_53 and formula_54.
+
+This algorithm can be done using the same kind of pencil-and-paper notations as shown in above sections.
+
+If the quotient is not constrained to be an integer, then the algorithm does not terminate for formula_55. Instead, if formula_55 then formula_57 by definition. If the remainder formula_18 is equal to zero at any iteration, then the quotient is a formula_21-adic fraction, and is represented as a finite decimal expansion in base formula_21 positional notation. Otherwise, it is still a rational number but not a formula_21-adic rational, and is instead represented as an infinite repeating decimal expansion in base formula_21 positional notation.
+
+Calculation within the binary number system is simpler, because each digit in the course can only be 1 or 0 - no multiplication is needed as multiplication by either either results in the same number or zero.
+
+If this were on a computer, multiplication by 10 can be represented by a bit shift of 1 to the left, and finding formula_20 reduces down to the logical operation formula_64, where true = 1 and false = 0. With every iteration formula_65, the following operations are done:
+
+For example, with formula_81 and formula_82, the initial values are formula_36 and formula_84.
+
+Thus, formula_85 and formula_86.
+
+On each iteration, the most time-consuming task is to select formula_20. We know that there are formula_21 possible values, so we can find formula_20 using formula_90 comparisons. Each comparison will require evaluating formula_91. Let formula_4 be the number of digits in the dividend formula_5 and formula_9 be the number of digits in the divisor formula_8. The number of digits in formula_96. The multiplication of formula_97 is therefore formula_98, and likewise the subtraction of formula_91. Thus it takes formula_100 to select formula_20. The remainder of the algorithm are addition and the digit-shifting of formula_16 and formula_18 to the left one digit, and so takes time formula_104 and formula_98 in base formula_21, so each iteration takes formula_107, or just formula_108. For all formula_109 digits, the algorithm takes time formula_110, or formula_111 in base formula_21.
+
+Long division of integers can easily be extended to include non-integer dividends, as long as they are rational. This is because every rational number has a recurring decimal expansion. The procedure can also be extended to include divisors which have a finite or terminating decimal expansion (i.e. decimal fractions). In this case the procedure involves multiplying the divisor and dividend by the appropriate power of ten so that the new divisor is an integer – taking advantage of the fact that "a" ÷ "b" = ("ca") ÷ ("cb") – and then proceeding as above.
+
+A generalised version of this method called polynomial long division is also used for dividing polynomials (sometimes using a shorthand version called synthetic division).
+
+
+
+

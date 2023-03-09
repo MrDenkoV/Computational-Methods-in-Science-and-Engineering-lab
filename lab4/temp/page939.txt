@@ -1,0 +1,46 @@
+Principle of sufficient reason
+
+The principle of sufficient reason states that everything must have a reason or a cause. The modern formulation of the principle is usually attributed to Gottfried Leibniz, although the idea was conceived of and utilized by various philosophers who preceded him, including Anaximander, Parmenides, Archimedes, Plato and Aristotle, Cicero, Avicenna, Thomas Aquinas, and Spinoza. Some philosophers have associated the principle of sufficient reason with "ex nihilo nihil fit". Hamilton identified the laws of inference modus ponens with the "law of Sufficient Reason, or of Reason and Consequent" and modus tollens with its contrapositive expression.
+
+The principle has a variety of expressions, all of which are perhaps best summarized by the following:
+
+
+A sufficient explanation may be understood either in terms of "reasons" or "causes," for like many philosophers of the period, Leibniz did not carefully distinguish between the two. The resulting principle is very different, however, depending on which interpretation is given.
+
+It is an open question whether the principle of sufficient reason can be applied to axioms within a logic construction like a mathematical or a physical theory, because axioms are propositions accepted as having no justification possible within the system
+The principle declares that all propositions considered to be true within a system should be deducible from the set axioms at the base of the construction (with some theoretical exceptions: see Gödel's theorem).
+
+Leibniz identified two kinds of truth, necessary and contingent truths. He believed necessary mathematical truths to be derived from the law of identity (and the principle of non-contradiction): "Necessary truths are those that can be demonstrated through an analysis of terms, so that in the end they become identities, just as in Algebra an equation expressing an identity ultimately results from the substitution of values [for variables]. That is, necessary truths depend upon the principle of contradiction." Leibniz states that the sufficient reason for necessary truths is that their negation is a contradiction.
+
+Leibniz admitted contingent truths on the basis of infinitary reasons, to which God had access but humans did not:
+In contingent truths, even though the predicate is in the subject, this can never be demonstrated, nor can a proposition ever be reduced to an equality or to an identity, but the resolution proceeds to infinity, God alone seeing, not the end of the resolution, of course, which does not exist, but the connection of the terms or the containment of the predicate in the subject, since he sees whatever is in the series.Without this qualification, the principle can be seen as a description of a certain notion of closed system, in which there is no 'outside' to provide unexplained events with causes. It is also in tension with the paradox of Buridan's ass. Leibniz denied that the paradox of Buridan's ass could ever occur, saying:
+
+Leibniz also used the principle of sufficient reason to refute the idea of absolute space:
+
+I say then, that if space is an absolute being, there would be something for which it would be impossible there should be a sufficient reason. Which is against my axiom. And I prove it thus. Space is something absolutely uniform; and without the things placed in it, one point in space does not absolutely differ in any respect whatsoever from another point of space. Now from hence it follows, (supposing space to be something in itself, beside the order of bodies among themselves,) that 'tis impossible that there should be a reason why God, preserving the same situation of bodies among themselves, should have placed them in space after one particular manner, and not otherwise; why everything was not placed the quite contrary way, for instance, by changing East into West.
+
+The principle was one of the four recognised laws of thought, that held a place in European pedagogy of logic and reasoning (and, to some extent, philosophy in general) in the 18th and 19th centuries. It was influential in the thinking of Leo Tolstoy, amongst others, in the elevated form that history could not be accepted as random.
+
+A sufficient reason is sometimes described as the coincidence of every single thing that is needed for the occurrence of an effect (i.e. of the so-called "necessary conditions"). Such view could perhaps be also applied to indeterministic systems, as long as randomness is in a way incorporated in the preconditions.
+
+Here is how Hamilton, circa 1837–1838, expressed his "fourth law" in his LECT. V. LOGIC. 60–61:
+
+According to Schopenhauer's "On the Fourfold Root of the Principle of Sufficient Reason", there are four distinct forms of the principle.
+
+First Form: The Principle of Sufficient Reason of Becoming (principium rationis sufficientis fiendi); appears as the law of causality in the understanding.
+
+Second Form: The Principle of Sufficient Reason of Knowing (principium rationis sufficientis cognoscendi); asserts that if a judgment is to express a piece of knowledge, it must have a sufficient ground or reason, in which case it receives the predicate true.
+
+Third Form: The Principle of Sufficient Reason of Being (principium rationis sufficientis essendi); the law whereby the parts of space and time determine one another as regards those relations. Example in arithmetic: Each number presupposes the preceding numbers as grounds or reasons of its being; "I can reach ten only by going through all the preceding numbers; and only by virtue of this insight into the ground of being, do I know that where there are ten, so are there eight, six, four."
+
+"Now just as the subjective correlative to the first class of representations is the understanding, that to the second the faculty of reason, and that to the third pure sensibility, so is the subjective correlative to this fourth class found to be the inner sense, or generally self-consciousness." 
+
+Fourth Form: The Principle of Sufficient Reason of Acting (principium rationis sufficientis agendi); briefly known as the law of motivation. "Any judgment that does not follow its previously existing ground or reason" or any state that cannot be explained away as falling under the three previous headings "must be produced by an act of will which has a motive." As his proposition in 43 states, "Motivation is causality seen from within."
+
+Several proofs have been prepared in order to demonstrate that the universe is at bottom causal, i.e. works in accord with the principle in question; perhaps not in every single case (randomness might still play a part here and there), but that causality must be the way it works at least "in general", in most of what we see; and that our minds are aware of the principle even before any experience. The two famous arguments or proofs were proposed by Immanuel Kant (from the form of Time, temporal ordering of events and "directionality" of time) and by Arthur Schopenhauer (by demonstrating how all perception depends on causality and the intellect).
+
+Once it is agreed (e.g. from a kind of an "arrow of time") that causal interconnections, as a form of principle of sufficient reason, indeed must in general exist everywhere in the universe (at least in the large scale), "backwards" causality in general might then be precluded using a form of the paradox of free will (i.e. an event that has a future source might cause us to remove that source quick enough and thus causality would not work).
+
+
+
+

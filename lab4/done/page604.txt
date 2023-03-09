@@ -1,0 +1,10 @@
+Metaphenomics
+
+Metaphenomics studies the phenome of plants or other organisms by means of meta-analysis. Main goal is to establish dose-response relationships of a wide range of phenotypic traits for a large set of a-biotic environmental factors.<br><br>
+
+A popular way to study the effect of the environment on plants is to set up experiments where subgroups of individuals of a species of interest are exposed to different levels of one environmental factor (e.g. light, CO), while all other factors are similar. These studies have yielded a lot of insight into the way plants respond to the environment, but may be challenging to integrate by means of a classical meta-analysis. One of the reasons for that is that phenotypic traits often respond to the environment in a non-linear way. Rather than evaluating the difference between ‘low-CO’ and ‘high-CO’ grown plants, it would be better to derive dose-response curves which take into account at which CO2 levels experiments were carried out. Metaphenomics uses a method to calculate dose-response curves from a variety of experiments, and is applicable to any phenotypic trait and many environmental variables.<br>
+
+Core of the method used in metaphenomics is to scale all phenotypic data for a given species or genotype across all the levels of the environmental variable of interest (say CO) to the value they have at a reference value of that environmental variable (for example, a CO concentration of 400 ppm). In this way, inherent variation among species or genotypes in the trait of interest is removed, as for all experiments and species, the scaled value at 400 ppm will be 1.0. Subsequently, general dose-response curves can be derived by fitting mathematical equations to the data.
+The results generally are a family of curves where dose-response curves for one phenotypic trait are compared for a range of different environmental variables, or where many different phenotypic traits are analysed for their response to one environmental factor. This provides a simple and quantitative overview of the many ways plants or other organisms respond to their environmental.
+
+

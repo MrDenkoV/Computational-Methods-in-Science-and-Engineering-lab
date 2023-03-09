@@ -1,0 +1,25 @@
+AVT Statistical filtering algorithm
+
+AVT Statistical filtering algorithm is an approach to improving quality of raw data collected from various sources. It is most effective in cases when there is inband noise present. In those cases AVT is better at filtering data then, band-pass filter or any digital filtering based on variation of.
+
+Conventional filtering is useful when signal/data has different frequency than noise and signal/data is separated/filtered by frequency discrimination of noise. Frequency discrimination filtering is done using Low Pass, High Pass and Band Pass filtering which refers to relative frequency filtering criteria target for such configuration. Those filters are created using passive and active components and sometimes are implemented using software algorithms based on Fast Fourier transform (FFT).
+
+AVT filtering is implemented in software and its inner working is based on statistical analysis of raw data.
+
+When signal frequency/(useful data distribution frequency) coincides with noise frequency/(noisy data distribution frequency) we have inband noise. In this situations frequency discrimination filtering does not work since the noise and useful signal are indistinguishable and where AVT excels. To achieve filtering in such conditions there are several methods/algorithms available which are briefly described below.
+
+
+
+AVT algorithm stands for Antonyan Vardan Transform and its implementation explained below.
+
+This algorithm is based on amplitude discrimination and can easily reject any noise that is not like actual signal, otherwise statistically different then 1 standard deviation of the signal. Note that this type of filtering can be used in situations where the actual environmental noise is not known in advance.
+
+Using a system that has signal value of 1 and has noise added at 0.1% and 1% levels will simplify quantification of algorithm performance. The R script is used to create pseudo random noise added to signal and analyze the results of filtering using several algorithms. Please refer to "Reduce Inband Noise with the AVT Algorithm" article for details.
+This graphs show that AVT algorithm provides best results compared with Median and Averaging algorithms while using data sample size of 32, 64 and 128 values. Note that this graph was created by analyzing random data array of 10000 values. Sample of this data is graphically represented below.
+
+In some situations better results can be obtained by cascading several stages of AVT filtering. This will produce singular constant value which can be used for equipment that has known stable characteristics like thermometers, thermistors and other slow acting sensors.
+
+This is useful for detecting minute signals that are close to background noise level.
+
+
+

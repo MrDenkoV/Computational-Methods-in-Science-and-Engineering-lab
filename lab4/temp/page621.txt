@@ -1,0 +1,30 @@
+Extracellular polymeric substance
+
+Extracellular polymeric substances (EPSs) are natural polymers of high molecular weight secreted by microorganisms into their environment. EPSs establish the functional and structural integrity of biofilms, and are considered the fundamental component that determines the physiochemical properties of a biofilm.
+
+EPSs are mostly composed of polysaccharides (exopolysaccharides) and proteins, but include other macro-molecules such as DNA, lipids and humic substances. EPSs are the construction material of bacterial settlements and either remain attached to the cell's outer surface, or are secreted into its growth medium. These compounds are important in biofilm formation and cells attachment to surfaces. EPSs constitute 50% to 90% of a biofilm's total organic matter.
+
+Exopolysaccharides (also sometimes abbreviated EPSs) are high-molecular-weight polymers that are composed of sugar residues and are secreted by a microorganism into the surrounding environment. Microorganisms synthesize a wide spectrum of multifunctional polysaccharides including intracellular polysaccharides, structural polysaccharides and extracellular polysaccharides or exopolysaccharides. Exopolysaccharides generally consist of monosaccharides and some non-carbohydrate substituents (such as acetate, pyruvate, succinate, and phosphate). Owing to the wide diversity in composition, exopolysaccharides have found multifarious applications in various food and pharmaceutical industries. Many microbial EPSs provide properties that are almost identical to the gums currently in use. With innovative approaches, efforts are underway to supersede the traditionally used plant and algal gums by their microbial counterparts. Moreover, considerable progress has been made in discovering and developing new microbial EPSs that possess novel industrial significance.
+
+Capsular exopolysaccharides can protect pathogenic bacteria against desiccation and predation, and contribute to their pathogenicity. Bacteria existing in biofilms are less vulnerable compared to planktonic bacteria, as the EPS matrix is able to act as a protective diffusion barrier. The physical and chemical characteristics of bacterial cells can be affected by EPS composition, influencing factors such as cellular recognition, aggregation, and adhesion in their natural environments. Furthermore, the EPS layer acts as a nutrient trap, facilitating bacterial growth.
+
+The exopolysaccharides of some strains of lactic acid bacteria, e.g., Lactococcus lactis subsp. cremoris, contribute a gelatinous texture to fermented milk products (e.g., Viili), and these polysaccharides are also digestible. An example of the industrial use of exopolysaccharides is the application of dextran in panettone and other breads in the bakery industry.
+
+Exopolysaccharides can facilitate the attachment of nitrogen-fixing bacteria to plant roots and soil particles, which mediates a symbiotic relationship. This is important for colonization of roots and the rhizosphere, which is a key component of soil food webs and nutrient cycling in ecosystems. It also allows for successful invasion and infection of the host plant.
+
+Bacterial extracellular polymeric substances can aid in bioremediation of heavy metals as they have the capacity to adsorb metal cations, among other dissolved substances. This can be useful in the treatment of wastewater systems, as biofilms are able to bind to and remove metals such as copper, lead, nickel, and cadmium. The binding affinity and metal specificity of EPS varies depending on polymer composition, as well as environmental factors such as concentration and pH.
+
+In a geomicrobiological context, EPS has been observed to affect precipitation of minerals, particularly carbonates. EPS may also bind to and trap particles in biofilm suspensions, which can restrict dispersion and element cycling. Sediment stability can be increased by EPS, as it influences cohesion, permeability, and erosion of the sediment. There is evidence that the adhesion and metal-binding ability of EPS affects mineral leaching rates in both environmental and industrial contexts. These interactions between EPS and the abiotic environment allow for EPS to have a large impact on biogeochemical cycling.
+
+Due to the growing need to find a more efficient and environmentally friendly alternative to conventional waste removal methods, industries are paying more attention to the function of bacteria and their EPSs in bioremediation.
+
+Researchers found that adding EPSs from cyanobacteria to wastewaters removes heavy metals such as copper, cadmium and lead.  EPSs alone can physically interact with these heavy metals and take them in through biosorption. The efficiency of removal can be optimized by treating the EPSs with different acids or bases first before adding them to the wastewaters. 
+
+Contaminated soils contain high levels of polycyclic aromatic hydrocarbons (PAHs); EPSs from the bacterium "Zoogloea" sp. and the fungus  "Aspergillus niger", are efficient at removing these toxic compounds. EPSs contain enzymes such as oxidoreductase and hydrolase, which are capable of  degrading PAHs. The amount of PAHs degradation depends on the concentration of EPSs added to the soil. This method proves to be low cost and highly efficient. 
+
+In recent years, EPSs from marine bacteria have been found to speed up the cleanup of oil spills. During the Deepwater Horizon oil spill in 2010, these EPS-producing bacteria were able to grow and multiply rapidly.  It was later found that their EPSs dissolved the oil and formed oil aggregates on the ocean surface, which sped up the cleaning process. These oil aggregates also  provided a valuable source of nutrients for other marine microbial communities. This let scientists modify and optimize the use of EPSs to clean up oil spills.
+
+
+
+
+

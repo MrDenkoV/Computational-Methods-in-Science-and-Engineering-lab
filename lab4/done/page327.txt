@@ -1,0 +1,23 @@
+Sliding DFT
+
+The sliding DFT is a recursive algorithm to compute
+successive STFTs of input data frames that are a single sample
+apart (hopsize-1).
+
+Starting with a DFT at time n,
+
+formula_1
+
+The DFT for time n+1 can be computed as
+
+formula_2
+
+and recursively thereafter as
+
+formula_3
+
+with
+
+formula_4
+
+

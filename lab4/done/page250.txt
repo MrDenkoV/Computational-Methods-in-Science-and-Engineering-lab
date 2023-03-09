@@ -1,0 +1,9 @@
+KiSAO
+
+The Kinetic Simulation Algorithm Ontology (KiSAO) supplies information about existing algorithms available for the simulation of systems biology models, their characterization and interrelationships. KiSAO is part of the BioModels.net project and of the COMBINE initiative.
+
+KiSAO consists of three main branches:
+The elements of each algorithm branch are linked to characteristic and parameter branches using "has characteristic" and "has parameter" relationships accordingly. The algorithm branch itself is hierarchically structured using relationships which denote that the descendant algorithms were derived from, or specify, more general ancestors.
+
+
+

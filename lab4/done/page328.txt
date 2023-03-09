@@ -1,0 +1,72 @@
+Collective operation
+
+Collective operations are building blocks for interaction patterns, that are often used in SPMD algorithms in the parallel programming context. Hence, there is an interest in efficient realizations of these operations.
+
+A realization of the collective operations is provided by the Message Passing Interface (MPI).
+
+In all asymptotic runtime functions, we denote the latency formula_1, the communication cost per word formula_2, the number of processing units formula_3 and the input size per node formula_4. In cases where we have initial messages on more than one node we assume that all local messages are of the same size. To address individual processing units we use formula_5. 
+
+If we do not have an equal distribution, i.e. node formula_6 has a message of size formula_7, we get an upper bound for the runtime by setting formula_8. 
+
+A distributed memory model is assumed. The concepts are similar for the shared memory model. However, shared memory systems can provide hardware support for some operations like broadcast () for example, which allows convenient concurrent read . Thus, new algorithmic possibilities can become available.
+
+The broadcast pattern is used to distribute data from one processing unit to all processing units, which is often needed in SPMD parallel programs to dispense input or global values. Broadcast can be interpreted as an inverse version of the reduce pattern (). Initially only root formula_9 with formula_10 formula_11 stores message formula_12. During broadcast formula_12 is sent to the remaining processing units, so that eventually formula_12 is available to all processing units.
+
+Since an implementation by means of a sequential for-loop with formula_15 iterations becomes a bottleneck, divide-and-conquer approaches are common. One possibility is to utilize a binomial tree structure with the requirement that formula_3 has to be a power of two. When a processing unit is responsible for sending formula_12 to processing units formula_18, it sends formula_12 to processing unit formula_20 and delegates responsibility for the processing units formula_21 to it, while its own responsibility is cut down to formula_22.
+
+Binomial trees have a problem with long messages formula_12. The receiving unit of formula_12 can only propagate the message to other units, after it received the whole message. In the meantime, the communication network is not utilized. Therefore pipelining on binary trees is used, where formula_12 is split into an array of formula_26 packets of size formula_27. The packets are then broadcast one after another, so that data is distributed fast in the communication network.
+
+Pipelined broadcast on balanced binary tree is possible in formula_28.
+
+The reduce pattern is used to collect data or partial results from different processing units and to combine them into a global result by a chosen operator. Reduction can be seen as an inverse version of broadcast (). Given formula_3 processing units, message formula_30 is on processing unit formula_6 initially. All formula_30 are aggregated by formula_33 and the result is eventually stored on formula_34. The reduction operator formula_33 must be associative at least. Some algorithms require a commutative operator with a neutral element. Operators like formula_36, formula_37, formula_38 are common.
+
+Since reduce can be interpreted as an inverse broadcast, equal implementation considerations apply (). For pipelining on binary trees the message must be representable as a vector of smaller object for component-wise reduction.
+
+Pipelined reduce on a balanced binary tree is possible in formula_28.
+
+The all-reduce pattern is used, if the result of a reduce operation () must be distributed to all processing units. Given formula_3 processing units, message formula_30 is on processing unit formula_6 initially. All formula_30 are aggregated by an operator formula_33 and the result is eventually stored on all formula_6. Analog to the reduce operation, the operator formula_33 must be at least associative.
+
+All-reduce can be interpreted as a reduce operation with a subsequent broadcast (). For long messages a corresponding implementation is suitable, whereas for short messages, the latency can be reduced by using a hypercube () topology, if formula_3 is a power of two.
+
+All-reduce is possible in formula_28, since reduce and broadcast are possible in formula_28 with pipelining on balanced binary trees.
+
+The prefix-sum or scan operation is used to collect data or partial results from different processing units and to compute intermediate results by an operator, which are stored on those processing units. It can be seen as a generalization of the reduce operation (). Given formula_3 processing units, message formula_30 is on processing unit formula_6. The operator formula_33 must be at least associative, whereas some algorithms require also a commutative operator and a neutral element. Common operators are formula_36, formula_37 and formula_38. Eventually processing unit formula_6 stores the prefix sum formula_58formula_59. In the case of the so-called exclusive prefix sum, processing unit formula_6 stores the prefix sum formula_61formula_59. Some algorithms require to store the overall sum at each processing unit in addition to the prefix sums.
+
+For short messages, this can be achieved with a hypercube topology if formula_3 is a power of two. For long messages, the hypercube (, ) topology is not suitable, since all processing units are active in every step and therefore pipelining can't be used. A binary tree topology is better suited for arbitrary formula_3 and long messages ().
+
+Prefix-sum on a binary tree can be implemented with an upward and downward phase. In the upward phase reduction is performed, while the downward phase is similar to broadcast, where the prefix sums are computed by sending different data to the left and right children. With this approach pipelining is possible, because the operations are equal to reduction () and broadcast ().
+
+Pipelined prefix sum on a binary tree is possible in formula_28.
+The barrier as a collective operation is a generalization of the concept of a barrier, that can be used in distributed computing. When a processing unit calls barrier, it waits until all other processing units have called barrier as well. Barrier is thus used to achieve global synchronization in distributed computing.
+
+One way to implement barrier is to call all-reduce () with an empty/ dummy operand. We know the runtime of All-reduce is formula_66. Using a dummy operand reduces size formula_4 to a constant factor and leads to a runtime of formula_68.
+
+The gather communication pattern is used to store data from all processing units on a single processing unit. Given formula_3 processing units, message formula_30 on processing unit formula_6. For a fixed processing unit formula_72, we want to store the message formula_73 on formula_72. Gather can be thought of as a reduce operation () that uses the concatenation operator. This works due to the fact that concatenation is associative. By using the same binomial tree reduction algorithm we get a runtime of formula_75. We see that the asymptotic runtime is similar to the asymptotic runtime of reduce formula_28, but with the addition of a factor p to the term formula_77. This additional factor is due to the message size increasing in each step as messages get concatenated. Compare this to reduce where message size is a constant for operators like formula_37.
+
+The all-gather communication pattern is used to collect data from all processing units and to store the collected data on all processing units. Given formula_3 processing units formula_6, message formula_30 initially stored on formula_6, we want to store the message formula_73 on each formula_72.
+
+It can be thought of in multiple ways. The first is as an all-reduce operation () with concatenation as the operator, in the same way that gather can be represented by reduce. The second is as a gather-operation followed by a broadcast of the new message of size formula_85. With this we see that all-gather in formula_75 is possible.
+
+The scatter communication pattern is used to distribute data from one processing unit to all the processing units. It differs from broadcast, in that it does not send the same message to all processing units. Instead it splits the message and delivers one part of it to each processing unit.
+
+Given formula_3 processing units formula_6, a fixed processing unit formula_72 that holds the message formula_90. We want to transport the message formula_30 onto formula_6. The same implementation concerns as for gather () apply. This leads to an optimal runtime in formula_75. 
+
+All-to-all is the most general communication pattern. For formula_94, message formula_95 is the message that is initially stored on node formula_96 and has to be delivered to node formula_97. We can express all communication primitives that do not use operators through all-to-all. For example, broadcast of message formula_12 from node formula_99 is emulated by setting formula_100 for formula_101 and setting formula_102 empty for formula_103.
+
+Assuming we have a fully connected network, the best possible runtime for all-to-all is in formula_104 . This is achieved through formula_3 rounds of direct message exchange. For formula_3 power of 2, in communication round formula_26 , node formula_6 exchanges messages with node formula_109 .
+
+If the message size is small and latency dominates the communication, a hypercube algorithm can be used to distribute the messages in time formula_110 .
+
+This table gives an overview over the best known asymptotic runtimes, assuming we have free choice of network topology.
+
+Example topologies we want for optimal runtime are binary tree, binomial tree, hypercube.
+
+In practice, we have to adjust to the available physical topologies, e.g. dragonfly, fat tree, grid network (references other topologies, too).
+
+More information under Network topology.
+
+For each operation, the optimal algorithm can depend on the input sizes formula_4. For example, broadcast for short messages is best implemented using a binomial tree whereas for long messages a pipelined communication on a balanced binary tree is optimal.
+
+The complexities stated in the table depend on the latency formula_1 and the communication cost per word formula_2 in addition to the number of processing units formula_3 and the input message size per node formula_4. The "# senders" and "# receivers" columns represent the number of senders and receivers that are involved in the operation respectively. The "# messages" column lists the number of input messages and the "Computations?" column indicates if any computations are done on the messages or if the messages are just delivered without processing. "Complexity" gives the asymptotic runtime complexity of an optimal implementation under free choice of topology.
+
+

@@ -1,0 +1,17 @@
+Sponsoring Consortium for Open Access Publishing in Particle Physics
+
+The Sponsoring Consortium for Open Access Publishing in Particle Physics (or SCOAP) is an international collaboration in the high-energy physics community to convert traditional closed access physics journals to open access, freely available for everyone to read and reuse, shifting away the burden of the publishing cost from readers (traditional model) and authors (in the case of hybrid open access journals). Under the terms of the agreement, authors retain copyrights and the articles published under SCOAP will be in perpetuity under a CC-BY license. The initiative was promoted by CERN in collaboration with international partners.
+
+Participating countries in the agreement sponsor SCOAP journals through the consortium, and contribute according to their scientific output. More productive countries pay more, while lower-output countries pay less.
+
+SCOAP supports journals mostly publishing High-Energy Physics content fully, and those articles in other journals that have been submitted by their authors to a High-Energy Physics category on arXiv.org. Each year more than 4,000 articles are published in open access as part of the initiative.
+
+In 2012, SCOAP reached agreements with 12 subscription journals to make their articles openly accessible. This agreement would cover 90% of all published particle physics articles from 2014 onwards. Of the original 12 journals, two journals pulled out of the agreement: "Physical Review C" and "Physical Review D".
+
+On April 19, 2016, SCOAP3 announced the extension of the initiative until 2019 with 8 journals participating. From 2018 on also APS joined with three journals to a total of 11 supported journals at the moment.
+
+The following journals participate currently, or are have been participated in the first phase of the consortia:
+Countries are usually represented by one or few library consortia, funding agencies or research organizations that act as a coordinator for the country. Currently, 43 countries as well as 3 intergovernmental organisations (CERN, IAEA, JINR) are members of the consortium.
+
+
+

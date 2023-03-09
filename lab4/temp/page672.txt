@@ -1,0 +1,11 @@
+'The All-Species Living Tree' Project
+
+'The All-Species Living Tree' Project is a collaboration between various academic groups/institutes, such as ARB, SILVA rRNA database project, and LPSN, with the aim of assembling a database of 16S rRNA sequences of all validly published species of "Bacteria" and "Archaea". At one stage, 23S sequences were also collected, but this has since stopped.
+
+Currently there are over 10,950 species in the aligned dataset and several more are being added either as new species are discovered or species that are not represented in the database are sequenced. Initially the latter group consisted of 7% of species.
+
+Similar (and more recent) projects include the Genomic Encyclopedia of Bacteria and Archaea (GEBA), which focused on whole genome sequencing of bacteria and archaea.
+
+The tree was created by maximum likelihood analysis without bootstrap: consequently accuracy is traded off for size and many phylum level clades are not correctly resolved (such as the Firmicutes). (Eukaryotes not present in analysis). This 16S rRNA-based phylogenetic tree is based on the ARB-SILVA release LTPs 121 (June 2015) and contains all type species with validly published names up to December 2014.
+
+

@@ -1,0 +1,27 @@
+Knowledge translation
+
+Knowledge translation (KT) is the activities involved in moving research from the laboratory, the research journal, and the academic conference into the hands of people and organizations who can put it to practical use. Knowledge translation is most often used in the health professions, including medicine, nursing, pharmaceuticals, rehabilitation, physical therapy, and public health.
+
+Depending on the type of research being translated, the "practical user" might be a medical doctor, a nurse, a teacher, a school administrator, an occupational or physical therapist, a legislator, an epidemiologist, a community health worker, or a parent.
+
+KT is not an action, but a spectrum of activities which will change according to the type of research, the time frame, and the audience being targeted.
+
+The most widely used definition of knowledge translation was published in 2000 by the Canadian Institutes of Health Research (CIHR): "Knowledge translation (KT) is defined as a dynamic and iterative process that includes synthesis, dissemination, exchange and ethically-sound application of knowledge to improve the health of Canadians, provide more effective health services and products and strengthen the health care system."
+
+Using the CIHR definition as a basis, the National Center for the Dissemination of Disability Research (NCDDR) published this definition of KT in 2005: "The collaborative and systematic review, assessment, identification, aggregation, and practical application of high-quality disability and rehabilitation research by key stakeholders (i.e., consumers, researchers, practitioners, and policymakers) for the purpose of improving the lives of individuals with disabilities."
+
+In 2006, Graham, et al., acknowledged the proliferation of related terms for the activity of knowledge translation, documenting 29 different terms used by 33 different health research funding agencies in their publications, including knowledge transfer, knowledge mobilization, knowledge exchange, implementation, and translational research.
+
+In 2007, NCDDR re-published an overview written by Pimjai Sudsawad, then with the University of Wisconsin-Madison, now with the U.S. Department of Education, entitled: "Knowledge Translation: Introduction to Models, Strategies, and Measures". The overview correlates a variety of KT models which have been in development since at least 1976, including the Stetler Model of Research Utilization, the Coordinated Implementation Model, the Promoting Action on Research Implementation in Health Services (PARIHS) framework, the Ottawa Model of Research Utilization (OMRU), and the Knowledge to Action (KTA) process framework.
+
+The activity of knowledge translation is observable as far back as agricultural extension services established by the Smith-Lever Act of 1914. The Smith-Lever Act formalized the relationship between United States land-grant universities and the United States Department of Agriculture (USDA) for the performance of agricultural extension. Agricultural extension agents based at the land-grant universities disseminated information to farmers and ranchers on seed development, land management and animal husbandry.
+
+In their Technical Brief #10 2005, NCDDR points out: "KT is a relatively new term that is used to describe a relatively old problem - the underutilization of evidence-based research in systems of care. Underutilization of evidence-based research is often described as a gap between 'what is known' and 'what is currently done' in practice settings."
+
+While evaluations of research utilization in the health fields have been going on since at least the mid-1960s, institutional interest in this long-standing issue has accelerated in the last 25 years. In 1989, the U.S. Department of Health and Human Services established the Agency for Healthcare Research and Quality. In 1997, the Canadian government endowed the Canadian Health Services Research Foundation (CHSRF) - now called the Canadian Foundation for Healthcare Improvement, or CFHI. In 2000, the Canadian government consolidated several existing agencies into the Canadian Institutes for Health Research. In 2006, the U.S. National Institutes of Health created the Clinical and Translational Science Awards, currently funding about 60 academic medical institutions across the country. The role of health research funders is increasingly playing a role in how evidence is being moved to practice, reducing the time between research and implementation.
+
+More recently, the challenges of filtering information for knowledge translation is being increasingly addressed with Moloney, Taylor & Ralph proposing a "spillway model" to better control information flow and improve the implementation of research in healthcare. Other recent studies look at the role of design artefacts such as sketches, visual representations and prototypes to support knowledge translation in research and development projects.
+
+
+
+

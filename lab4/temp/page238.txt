@@ -1,0 +1,48 @@
+HCS clustering algorithm
+
+The HCS (Highly Connected Subgraphs) clustering algorithm (also known as the HCS algorithm, and other names such as Highly Connected Clusters/Components/Kernels) is an algorithm based on graph connectivity for cluster analysis. It works by representing the similarity data in a similarity graph, and then finding all the highly connected subgraphs. It does not make any prior assumptions on the number of the clusters. This algorithm was published by Erez Hartuv and Ron Shamir in 1998.
+
+The HCS algorithm gives a clustering solution, which is inherently meaningful in the application domain, since each solution cluster must have diameter 2 while a union of two solution clusters will have diameter 3.
+
+The goal of cluster analysis is to group elements into disjoint subsets, or clusters, based on similarity between elements, so that elements in the same cluster are highly similar to each other (homogeneity), while elements from different clusters have low similarity to each other (separation). Similarity graph is one of the models to represent the similarity between elements, and in turn facilitate generating of clusters. To construct a similarity graph from similarity data, represent elements as vertices, and elicit edges between vertices when the similarity value between them is above some threshold.
+
+In the similarity graph, the more edges exist for a given number of vertices, the more similar such a set of vertices are between each other. In other words, if we try to disconnect a similarity graph by removing edges, the more edges we need to remove before the graph becomes disconnected, the more similar the vertices in this graph. Minimum cut is a minimum set of edges without which the graph will become disconnected.
+
+HCS clustering algorithm finds all the subgraphs with n vertices such that the minimum cut of those subgraphs contain more than n/2 edges, and identifies them as clusters. Such a subgraph is called a Highly Connected Subgraph (HCS). Single vertices are not considered clusters and are grouped into a singletons set S.
+
+Given a similarity graph G(V,E), HCS clustering algorithm will check if it is already highly connected, if yes, returns G, otherwise uses the minimum cut of G to partition G into two subgraphs H and H', and recursively run HCS clustering algorithm on H and H'.
+
+The following animation shows how the HCS clustering algorithm partitions a similarity graph into three clusters.
+
+ function HCS(G(V, E)) is
+
+The step of finding the minimum cut on graph is a subroutine that can be implemented using different algorithms for this problem. See below for an example algorithm for finding minimum cut using randomization.
+
+The running time of the HCS clustering algorithm is bounded by × f(n, m). f(n, m) is the time complexity of computing a minimum cut in a graph with n vertices and m edges, and is the number of clusters found. In many applications N « n.
+
+For fast algorithms for finding a minimum cut in an unweighted graph: 
+
+The clusters produced by the HCS clustering algorithm possess several properties, which can demonstrate the homogeneity and the separation of the solution.
+
+Theorem 1 The diameter of every highly connect graph is at most two.
+
+"Proof:" We know the edges of minimum cut must be greater or equal than the minimum degree of the graph. If the graph G is highly connected, then the edges of the minimum cut must be greater than the number of vertices divided by 2. So the degree of vertices in the highly connected graph G must be greater than half the vertices. Therefore, for any two vertices in this graph G, there must be at least one common neighbor, as the distance between them is two.
+
+Theorem 2 (a) The number of edges in a highly connected subgraph is quadratic. (b) The number of edges removed by each iteration of the HCS algorithm is at most linear.
+
+"Proof:" (For a) From Theorem 1 we know every vertex must have more than half of the total vertices as neighbors. Therefore, the total number of edges in a highly connect subgraph must be at least (/2) × n × 1/2, where we sum all the degrees of each vertex and divide by 2.
+
+(For b) Each iteration HCS algorithm will separate a graph containing n vertices into two subgraphs, so the number of edges between those two components is at most /2.
+
+Theorem 1 and 2a provide a strong indication to the homogeneity, as the only better possibility in terms of the diameter is that every two vertices of a cluster are connected by an edge, which is both too stringent and also a NP-hard problem.
+
+Theorem 2b also indicates separation since the number of edges removed by each iteration of the HCS algorithm is at most linear in the size of the underlying subgraph, contrast to the quadratic number of edges within final clusters.
+
+Singletons adoption: Elements left as singletons by the initial clustering process can be "adopted" by clusters based on similarity to the cluster. If the maximum number of neighbors to a specific cluster is large enough, then it can be added to that cluster.
+
+Removing Low Degree Vertices: When the input graph has vertices with low degrees, it is not worthy to run the algorithm since it is computationally expensive and not informative. Alternatively, a refinement of the algorithm can first remove all vertices with a degree lower than certain threshold.
+
+
+
+
+

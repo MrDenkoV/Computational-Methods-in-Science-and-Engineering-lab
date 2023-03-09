@@ -1,0 +1,31 @@
+Distributed tree search
+
+Distributed tree search (DTS) algorithm is a class of algorithms for searching values in an efficient and distributed manner. Their purpose is to iterate through a tree by working along multiple branches in parallel and merging the results of each branch into one common solution, in order to minimize time spent searching for a value in a tree-like data structure.
+
+The original paper was written in 1988 by Chris Ferguson and Richard E. Korf, from the University of California's Computer Science Department. They used multiple other chess AIs to develop this wider range algorithm.
+
+The Distributed Tree Search Algorithm (also known as Korf–Ferguson algorithm) was created to solve the following problem: "Given a tree with non-uniform branching factor and depth, search it in parallel with an arbitrary number of processors as fast as possible."
+
+The top-level part of this algorithm is general and does not use a particular existing type of tree-search, but it can be easily specialized to fit any type of non-distributed tree-search.
+
+DTS consists of using multiple processes, each with a node and a set of processors attached, with the goal of searching the sub-tree below the said node. Each process then divides itself into multiple coordinated sub-processes which recursively divide themselves again until an optimal way to search the tree has been found based on the number of processors available to each process. Once a process finishes, DTS dynamically reassigns the processors to other processes as to keep the efficiency to a maximum through good load-balancing, especially in irregular trees.
+
+Once a process finishes searching, it recursively sends and merges a resulting signal to its parent-process, until all the different sub-answers have been merged and the entire problem has been solved.
+
+DTS is only applicable under two major conditions: the data structure to search through is a tree, and the algorithm can make use of at least one computation unit (Although it cannot be considered as distributed if there is only one).
+
+One major example of the everyday use of DTS is network routing. The Internet can be seen as a tree of IP addresses, and an analogy to a routing protocol could be how post offices work in the real world. Since there are over 4.3 billion IP addresses currently, society heavily depends on the time the data takes to find its way to its destination. As such, IP-routing divides the work into multiple sub-units which each have different scales of calculation capabilities and use each other's result to find the route in a very efficient manner. This is an instance of DTS that affects over 43% of the world's population, for reasons going from entertainment to national security.
+
+Although DTS is currently one of the most widely used algorithms, many of its applications have alternatives to them which could potentially develop into more efficient, less resource-demanding solutions, were they more researched.
+
+One of the more controversial examples is Big-Data processing. In applications like Google Search Engine, Facebook, YouTube, search needs to be optimized to keep waiting time inside a reasonable window. This could be achieved through the plain use of DTS, but other algorithms are used in place (for example data-hashing in SQL databases), or in conjunction (Facebook's Haystack algorithm groups parallel tree-search, data-hashing and memory-ordering/sorting).
+
+One of the more important limits of DTS is the fact that it requires a tree as input. Trees are a sub-instance of a data structure known as Graphs, which means every Graph can be converted into a tree. Although there currently exists no better way to search through trees than Korf-Ferguson's algorithm, each task has different particularities and in most cases, there will exist more efficient data structures to represent the problem and solve it than through tree-search. And so there exist instances of tree structures with cycles that cannot possibly be faster than a graph-search on the same structure with the same processing power.
+
+There are few controversies around Korf-Ferguson's DTS algorithm, since it is recognized as very complete, but simple. It is very often used as a stepping stone for students to discover the fundamentals and key concepts of distributed problem-solving.
+
+The most important challenge to this algorithmic concept was an article by Kröll B, « Balanced Distributed Search Trees Do Not Exist », which does not attack the veracity or current efficiency of the algorithm, but rather the fact that DTS itself, no matter how many improvements are made to it (for example balancing the input tree before-hand), will never be able to reach optimal resolution-time. This opens a new view point: are too many resources used into the completion of DTS, which blocks new algorithms with higher efficiency-potential from getting researched and developed? Another limit of DTS is the fact that no matter how efficient the division, coordination and merging of the solutions is, it will always be limited by the material number or processors and their processing power. Until recently, this was admitted as being a limit to nearly every computation, but new-generation algorithms like Euclideon might one day be able to crush DFS's efficiency through processing-power-independent problem resolution.
+
+
+
+

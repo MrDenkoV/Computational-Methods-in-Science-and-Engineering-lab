@@ -1,0 +1,65 @@
+Tree line
+
+The tree line is the edge of the habitat at which trees are capable of growing. It is found at high elevations and high latitudes. Beyond the tree line, trees cannot tolerate the environmental conditions (usually cold temperatures or associated lack of available moisture). The tree line is sometimes distinguished from a lower timberline or forest line, which is the line below which trees form a forest with a closed canopy.
+
+At the tree line, tree growth is often sparse, stunted, and deformed by wind and cold. This is sometimes known as "krummholz" (German for "crooked wood").
+
+The tree line often appears well-defined, but it can be a more gradual transition. Trees grow shorter and often at lower densities as they approach the tree line, above which they cease to exist.
+
+Several types of tree lines are defined in ecology and geography:
+
+An alpine tree line is the highest elevation that sustains trees; higher up it is too cold, or the snow cover lasts for too much of the year, to sustain trees. The climate above the tree line of mountains is called an alpine climate, and the terrain can be described as alpine tundra. Treelines on north-facing slopes in the northern hemisphere are lower than on south-facing slopes, because the increased shade on north-facing slopes means the snowpack takes longer to melt. This shortens the growing season for trees. In the southern hemisphere, the south-facing slopes have the shorter growing season.
+
+The alpine tree line boundary is seldom abrupt: it usually forms a transition zone between closed forest below and treeless alpine tundra above. This zone of transition occurs "near the top of the tallest peaks in the northeastern United States, high up on the giant volcanoes in central Mexico, and on mountains in each of the 11 western states and throughout much of Canada and Alaska". Environmentally dwarfed shrubs ("krummholz") commonly form the upper limit.
+
+The decrease in air temperature due to increasing elevation causes the alpine climate. The rate of decrease can vary in different mountain chains, from per of elevation gain in the dry mountains of the western United States, to per in the moister mountains of the eastern United States. Skin effects and topography can create microclimates that alter the general cooling trend.
+
+Compared with arctic timberlines, alpine timberlines may receive fewer than half of the number of degree days (above ) based on air temperature, but because solar radiation intensities are greater at alpine than at arctic timberlines the number of degree days calculated from leaf temperatures may be very similar.
+
+Summer warmth generally sets the limit to which tree growth can occur, for while timberline conifers are very frost-hardy during most of the year, they become sensitive to just 1 or 2 degrees of frost in mid-summer. A series of warm summers in the 1940s seems to have permitted the establishment of "significant numbers" of spruce seedlings above the previous treeline in the hills near Fairbanks, Alaska. Survival depends on a sufficiency of new growth to support the tree. The windiness of high-elevation sites is also a potent determinant of the distribution of tree growth. Wind can mechanically damage tree tissues directly, including blasting with windborne particles, and may also contribute to the desiccation of foliage, especially of shoots that project above snow cover.
+
+At the alpine timberline, tree growth is inhibited when excessive snow lingers and shortens the growing season to the point where new growth would not have time to harden before the onset of fall frost. Moderate snowpack, however, may promote tree growth by insulating the trees from extreme cold during the winter, curtailing water loss, and prolonging a supply of moisture through the early part of the growing season. However, snow accumulation in sheltered gullies in the Selkirk Mountains of southeastern British Columbia causes the timberline to be lower than on exposed intervening shoulders.
+
+In a desert, the tree line marks the driest places where trees can grow; drier desert areas having insufficient rainfall to sustain them. These tend to be called the "lower" tree line, and occur below about elevation in the desert of the southwestern United States. The desert tree line tends to be lower on pole-facing slopes than equator-facing slopes, because the increased shade on the former keeps them cooler and prevents moisture from evaporating as quickly, giving trees a longer growing season and more access to water.
+
+In some mountainous areas, higher elevations above the condensation line, or on equator-facing and leeward slopes, can result in low rainfall and increased exposure to solar radiation. This dries out the soil, resulting in a localized arid environment unsuitable for trees. Many south-facing ridges of the mountains of the Western U.S. have a lower treeline than the northern faces because of increased sun exposure and aridity.
+
+Different tree species have different tolerances to drought and cold. Mountain ranges isolated by oceans or deserts may have restricted repertoires of tree species with gaps that are above the alpine tree line for some species yet below the desert tree line for others. For example, several mountain ranges in the Great Basin of North America have lower belts of pinyon pines and junipers separated by intermediate brushy but treeless zones from upper belts of limber and bristlecone pines.
+
+On coasts and isolated mountains the tree line is often much lower than in corresponding altitudes inland and in larger, more complex mountain systems, because strong winds reduce tree growth. In addition the lack of suitable soil, such as along talus slopes or exposed rock formations, prevents trees from gaining an adequate foothold and exposes them to drought and sun.
+
+The arctic tree line is the northernmost latitude in the Northern Hemisphere where trees can grow; farther north, it is too cold all year round to sustain trees. Extremely cold temperatures, especially when prolonged, can freeze the internal sap of trees, killing them. In addition, permafrost in the soil can prevent trees from getting their roots deep enough for the necessary structural support.
+
+Unlike alpine timberlines, the northern timberline occurs at low elevations. The arctic forest–tundra transition zone in northwestern Canada varies in width, perhaps averaging and widening markedly from west to east, in contrast with the telescoped alpine timberlines. North of the arctic timberline lies the low-growing tundra, and southwards lies the boreal forest.
+
+Two zones can be distinguished in the arctic timberline: a forest–tundra zone of scattered patches of "krummholz" or stunted trees, with larger trees along rivers and on sheltered sites set in a matrix of tundra; and "open boreal forest" or "lichen woodland", consisting of open groves of erect trees underlain by a carpet of "Cladonia" spp. lichens. The proportion of trees to lichen mat increases southwards towards the "forest line", where trees cover 50 percent or more of the landscape.
+
+A southern treeline exists in the New Zealand Subantarctic Islands and the Australian Macquarie Island, with places where mean annual temperatures above support trees and woody plants, and those below do not.
+Another treeline exists in the southwestern most parts of the Magellanic subpolar forests ecoregion, where the forest merges into the subantarctic tundra (termed Magellanic moorland or Magellanic tundra). For example, the northern halves of Hoste and Navarino Islands have Nothofagus antarctica forests but the southern parts consist of moorlands and tundra.
+
+Several other reasons may cause the environment to be too extreme for trees to grow. This can include geothermal exposure associated with hot springs or volcanoes, such as at Yellowstone; high soil acidity near bogs; high salinity associated with playas or salt lakes; or ground that is saturated with groundwater that excludes oxygen from the soil, which most tree roots need for growth. The margins of muskegs and bogs are common examples of these types of open area. However, no such line exists for swamps, where trees, such as bald cypress and the many mangrove species, have adapted to growing in permanently waterlogged soil. In some colder parts of the world there are tree lines around swamps, where there are no local tree species that can develop. There are also man-made pollution tree lines in weather-exposed areas, where new tree lines have developed because of the increased stress caused by pollution. Examples are found around Nikel in Russia and previously in the Erzgebirge.
+
+Some typical Arctic and alpine tree line tree species (note the predominance of conifers):
+
+
+The alpine tree line at a location is dependent on local variables, such as aspect of slope, rain shadow and proximity to either geographical pole. In addition, in some tropical or island localities, the lack of biogeographical access to species that have evolved in a subalpine environment can result in lower tree lines than one might expect by climate alone.
+
+Averaging over many locations and local microclimates, the treeline rises when moving 1 degree south from 70 to 50°N, and per degree from 50 to 30°N. Between 30°N and 20°S, the treeline is roughly constant, between .
+
+Here is a list of approximate tree lines from locations around the globe:
+Like the alpine tree lines shown above, polar tree lines are heavily influenced by local variables such as aspect of slope and degree of shelter. In addition, permafrost has a major impact on the ability of trees to place roots into the ground. When roots are too shallow, trees are susceptible to windthrow and erosion. Trees can often grow in river valleys at latitudes where they could not grow on a more exposed site. Maritime influences such as ocean currents also play a major role in determining how far from the equator trees can grow as well as the warm summers experienced in extreme continental climates. In northern inland Scandinavia there is substantial maritime influence on high parallels that keep winters relatively mild, but enough inland effect to have summers well above the threshold for the tree line. Here are some typical polar treelines:
+
+Trees exist on Tierra del Fuego (55°S) at the southern end of South America, but generally not on subantarctic islands and not in Antarctica. Therefore, there is no explicit Antarctic tree line.
+
+Kerguelen Island (49°S), South Georgia (54°S), and other subantarctic islands are all so heavily wind-exposed and with a too-cold summer climate (tundra) that none have any indigenous tree species. The Falkland Islands (51°S) summer temperature is near the limit, but the islands are also treeless, although some planted trees exist.
+
+Antarctic Peninsula is the northernmost point in Antarctica (63°S) and has the mildest weather—it is located from Cape Horn on Tierra del Fuego—yet no trees survive there; only a few mosses, lichens, and species of grass do so. In addition, no trees survive on any of the subantarctic islands near the peninsula.
+Southern Rata forests exist on Enderby Island and Auckland Islands (both 50°S) and these grow up to an elevation of in sheltered valleys. These trees seldom grow above in height and they get smaller as one gains altitude, so that by they are waist-high. These islands have only between 600 and 800 hours of sun annually. Campbell Island (52°S) further south is treeless, except for one stunted pine, planted by scientists. The climate on these islands is not severe, but tree growth is limited by almost continual rain and wind. Summers are very cold with an average January temperature of . Winters are mild but wet. Macquarie Island (Australia) is located at 54°S and has no vegetation beyond snow grass and alpine grasses and mosses.
+
+In Southwestern United States like Arizona, New Mexico, and Nevada, the tree line is categorized at the point where the most extreme amounts of rainfall and temperature are sufficient for tree growth. Due to wildfire risk, the tree line may be permanently altered by humans during prescribed fires, and most of the times, there is only one tree line the separates elevated temperate grassland biomes and alpine forests. There is no alpine forest and tundra separation point unless the elevation is higher than 15,000 feet. Mountain ranges in these states are between 2,000 and 12,000 feet in elevation on average, though.
+
+There are several monitoring protocols developed for long term monitoring of alpine biodiversity. One such network which is developed on the line of Global Observation Research Initiative in Alpine Environments (GLORIA), in India HIMADRI.
+
+
+
+

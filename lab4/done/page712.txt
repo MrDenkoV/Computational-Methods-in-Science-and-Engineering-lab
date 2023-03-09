@@ -1,0 +1,18 @@
+Cable bacteria
+
+Cable bacteria are filamentous bacteria that conduct electricity across distances over 1 cm in sediment and groundwater aquifers. Cable bacteria couple the reduction of oxygen or nitrate at the sediment's surface to the oxidation of sulfide in the deeper, anoxic, sediment layers.
+
+Long-distance electrical conductance in sediment was first observed in 2010 as a spatial separation of sulfide oxidation and oxygen reduction in marine sediment that was interrupted and re-established at a rate faster than could be explained by chemical diffusion. It was later found that this electrical conductance could be observed across a non-conductive layer of glass microspheres, where the only possible conductive structures were filamentous bacteria belonging to the family Desulfobulbaceae. The conductivity of single, live filaments was later demonstrated by observing the oxidation state of cytochromes using Raman microscopy. The same phenomenon was later observed in freshwater sediments and groundwater aquifers. Within a 15 cm thick top layer of sediment, cable bacteria densities providing total length of up to 2 km per square centimeter of surface have been observed.
+
+Cable bacteria filaments are 0.4—1.7 µm in diameter and up to 15 mm long. Filaments consist of rod-shaped cells with an average length of 3 µm and 15-58 ridges around encircling the cells diameter. These ridges are hypothesized to contain the cells' conductive structures. Each ridge contains two parallel "strings" - continuous structures that connect cells in the filament to one another. The diameter of junctions between cells in the filament varies from being smaller than the cell diameter, the same diameter as the cells on either side of the junction, or bulging out to become wider than the cell diameter. 
+
+Two candidate genera of cable bacteria have been described: "Electrothrix" containing four candidate species, found in marine or brackish sediments, and "Electronema" containing two candidate species, found in freshwater sediments. These genera are classified within the family Desulfobulbaceae. Cable bacteria are defined by their function rather than their phylogeny, and it is possible that further cable bacteria taxa will be discovered.
+
+Cable bacteria strongly influence the geochemical properties of the surrounding environment. Their activity promotes the oxidation of iron at the surface of the sediment, and the resulting iron oxides bind phosphorus-containing compounds and hydrogen sulfide, limiting the amount of phosphorus and hydrogen sulfide in the water. Phosphorus can cause eutrophication, and hydrogen sulfide can be toxic to marine life, meaning that cable bacteria play an important role in maintaining marine ecosystems in coastal areas.
+
+Cable bacteria have been found associated with benthic microbial fuel cells, devices that convert chemical energy on the ocean floor to electrical energy. In the future, cable bacteria may play a role in increasing the efficiency of microbial fuel cells. Cable bacteria have also been found associated with a bioelectrochemical system for degrading contaminating hydrocarbons in marine sediment and thus may play a role in future oil spill cleanup technologies.
+
+Cable bacteria have been identified in a diverse range of climatic conditions worldwide, including Denmark, the Netherlands, Japan, Australia, and the United States.
+
+
+

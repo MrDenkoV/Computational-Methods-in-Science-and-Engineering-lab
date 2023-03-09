@@ -1,0 +1,18 @@
+Simulation algorithms for coupled DEVS
+
+Given a coupled DEVS model, simulation algorithms are methods to generate the model's "legal" behaviors, which are a set of trajectories not to reach illegal states. (see behavior of a Coupled DEVS model.) [Zeigler84] originally introduced the algorithms that handle time variables related to "lifespan" formula_1 and "elapsed time" formula_2 by introducing two other time variables, "last event time", formula_3, and "next event time" formula_4 with the following relations: formula_5
+
+and
+
+formula_6
+
+where formula_7 denotes the "current time". And the "remaining time",
+
+formula_9, apparently formula_10.
+Based on these relationships, the algorithms to simulate the behavior of a given Coupled DEVS are written as follows.
+
+ DEVS-coordinator
+
+
+
+

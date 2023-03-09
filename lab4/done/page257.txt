@@ -1,0 +1,51 @@
+Zassenhaus algorithm
+
+In mathematics, the Zassenhaus algorithm
+is a method to calculate a basis for the intersection and sum of two subspaces of a vector space.
+It is named after Hans Zassenhaus, but no publication of this algorithm by him is known. It is used in computer algebra systems.
+
+Let be a vector space and , two finite-dimensional subspaces of with the following spanning sets:
+and
+Finally, let formula_3 be linearly independent vectors so that formula_4 and formula_5 can be written as
+and
+
+The algorithm computes the base of the sum formula_8 and a base of the intersection formula_9.
+
+The algorithm creates the following block matrix of size formula_10:
+
+Using elementary row operations, this matrix is transformed to the row echelon form. Then, it has the following shape:
+Here, formula_13 stands for arbitrary numbers, and the vectors 
+formula_14 for every formula_15 and formula_16 for every formula_17 are nonzero.
+
+Then formula_18 with
+is a basis of formula_20
+and formula_21 with
+is a basis of formula_9.
+
+First, we define formula_24 to be the projection to the first component.
+
+Let
+formula_25
+Then formula_26 and
+formula_27.
+
+Also, formula_28 is the kernel of formula_29, the projection restricted to .
+Therefore, formula_30.
+
+The Zassenhaus Algorithm calculates a basis of . In the first columns of this matrix, there is a basis formula_31 of formula_20.
+
+The rows of the form formula_33 (with formula_34) are obviously in formula_28. Because the matrix is in row echelon form, they are also linearly independent.
+All rows which are different from zero (formula_36 and formula_33) are a basis of , so there are formula_38 such formula_39s. Therefore, the formula_39s form a basis of formula_9.
+
+Consider the two subspaces formula_42 and formula_43 of the vector space formula_44.
+
+Using the standard basis, we create the following matrix of dimension formula_45:
+
+Using elementary row operations, we transform this matrix into the following matrix:
+
+Therefore,
+formula_49 is a basis of formula_20, and
+formula_51 is a basis of formula_9.
+
+
+

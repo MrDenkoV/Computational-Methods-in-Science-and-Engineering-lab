@@ -1,0 +1,7 @@
+Manhattan address algorithm
+
+The Manhattan address algorithm refers to the formulas used to estimate the closest east–west cross street for building numbers on north–south avenues in the New York City borough of Manhattan.
+
+To find the approximate number of the closest cross street, divide the building number by a divisor (generally 20) and add (or subtract) the "magic number" from the table below:
+
+

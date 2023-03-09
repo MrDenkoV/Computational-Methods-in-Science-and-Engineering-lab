@@ -1,0 +1,7 @@
+Fluctuation spectrum
+
+Fluctuation spectra are commonly denoted by sets of physical phenomena such as hydrodynamic turbulence, the collective behaviour of bacteria and more generally fluctuations originating from the equilibrium state. All of these phenomena can be generalised by a few theoretical results that qualitatively describe these non-equilibrium steady states. A common example of this is the derivation of the force exerted by a non-equilibrium system on two embedded walls. It is characteristic of a narrow, unimodal spectrum for the force to be dependent on the width and peak within a fluctuation spectrum, which oscillates between repulsion and attraction.
+
+Some common generalisations of this theory can be applied to the Maritime Casimir Effect and through the motion of active Brownian particles within a closed system. Examples of active non-equilibrium systems can be demonstrated through many chemical, physical and biological processes; which range from turbulence, mechanical driving, chemical bonding, chemical gradients and cosmic background radiation.
+
+

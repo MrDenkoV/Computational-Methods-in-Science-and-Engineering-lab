@@ -1,0 +1,12 @@
+Beetle (ASIC)
+
+The Beetle ASIC is an analog readout chip. It is developed for the LHCb experiment at CERN.
+
+The chip integrates 128 channels with low-noise charge-sensitive pre-amplifiers and shapers. The pulse shape can be chosen such that it complies with LHCb specifications: a peaking time of 25 ns with a remainder of the peak voltage after 25 ns of less than 30%. A comparator per channel with configurable polarity provides a binary signal. Four adjacent comparator channels are being ORed and brought off chip via LVDS drivers.
+
+Either the shaper or comparator output is sampled with the LHC bunch-crossing frequency of 40 MHz into an analog pipeline. This ring buffer has a programmable latency of a maximum of 160 sampling intervals and an integrated derandomising buffer of 16 stages. For analogue readout data is multiplexed with up to 40 MHz onto one or four ports. A binary readout mode operates at up to 80 MHz output rate on two ports. Current drivers bring the serialised data off chip.
+
+The chip can accept trigger rates up to 1.1 MHz to perform a dead-timeless readout within 900 ns per trigger. For testability and calibration purposes, a charge injector with adjustable pulse height is implemented. The bias settings and various other parameters can be controlled via a standard I²C-interface. The chip is radiation hardened to an accumulated dose of more than 100 Mrad. Robustness against single event upset is achieved by redundant logic.
+
+
+

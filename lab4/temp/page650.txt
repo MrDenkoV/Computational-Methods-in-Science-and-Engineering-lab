@@ -1,0 +1,52 @@
+Microbial corrosion
+
+Microbial corrosion, also called bacterial corrosion, bio-corrosion, microbiologically influenced corrosion, or microbially induced corrosion (MIC), is corrosion caused or promoted by microorganisms, usually chemoautotrophs. It can apply to both metals and non-metallic materials.
+
+Some sulfate-reducing bacteria produce hydrogen sulfide, which can cause sulfide stress cracking. "Acidithiobacillus" bacteria produce sulfuric acid; "Acidothiobacillus thiooxidans" frequently damages sewer pipes. "Ferrobacillus ferrooxidans" directly oxidizes iron to iron oxides and iron hydroxides; the rusticles forming on the RMS "Titanic" wreck are caused by bacterial activity. Other bacteria produce various acids, both organic and mineral, or ammonia.
+
+In presence of oxygen, aerobic bacteria like "Acidithiobacillus thiooxidans", "Thiobacillus thioparus", and "Thiobacillus concretivorus", all three widely present in the environment, are the common corrosion-causing factors resulting in biogenic sulfide corrosion.
+
+Without presence of oxygen, anaerobic bacteria, especially "Desulfovibrio" and "Desulfotomaculum", are common. "Desulfovibrio salixigens" requires at least 2.5% concentration of sodium chloride, but "D. vulgaris" and "D. desulfuricans" can grow in both fresh and salt water. "D. africanus" is another common corrosion-causing microorganism. The genus "Desulfotomaculum" comprises sulfate-reducing spore-forming bacteria; "Dtm. orientis" and "Dtm. nigrificans" are involved in corrosion processes. Sulfate-reducers require reducing environment; an electrode potential lower than -100 mV is required for them to thrive. However, even a small amount of produced hydrogen sulfide can achieve this shift, so the growth, once started, tends to accelerate.
+
+Layers of anaerobic bacteria can exist in the inner parts of the corrosion deposits, while the outer parts are inhabited by aerobic bacteria.
+
+Some bacteria are able to utilize hydrogen formed during cathodic corrosion processes.
+
+Bacterial colonies and deposits can form concentration cells, causing and enhancing galvanic corrosion. .
+
+Bacterial corrosion may appear in form of pitting corrosion, for example in pipelines of the oil and gas industry. Anaerobic corrosion is evident as layers of metal sulfides and hydrogen sulfide smell. On cast iron, a graphitic corrosion selective leaching may be the result, with iron being consumed by the bacteria, leaving graphite matrix with low mechanical strength in place.
+
+Various corrosion inhibitors can be used to combat microbial corrosion. Formulae based on benzalkonium chloride are common in oilfield industry.
+
+Microbial corrosion can also apply to plastics, concrete, and many other materials. Two examples are Nylon-eating bacteria and Plastic-eating bacteria.
+
+Hydrocarbon utilizing microorganisms, mostly "Cladosporium resinae" and "Pseudomonas aeruginosa" and Sulfate Reducing Bacteria, colloquially known as "HUM bugs", are commonly present in jet fuel. They live in the water-fuel interface of the water droplets, form dark black/brown/green, gel-like mats, and cause microbial corrosion to plastic and rubber parts of the aircraft fuel system by consuming them, and to the metal parts by the means of their acidic metabolic products. They are also incorrectly called algae due to their appearance. FSII, which is added to the fuel, acts as a growth retardant for them. There are about 250 kinds of bacteria that can live in jet fuel, but fewer than a dozen are meaningfully harmful.
+
+Microorganisms can negatively effect radioactive elements confined in nuclear waste .
+
+Sewer network structures are prone to biodeterioration of
+materials due to the action of some microorganisms associated to the sulfur cycle. It can be a severely damaging phenomenon which was firstly described by Olmstead and Hamlin in 1900 for a brick sewer located in Los Angeles. Jointed mortar between the bricks disintegrated and ironwork was heavily rusted. The mortar joint had ballooned to two to three times its original volume, leading to the destruction or the loosening of some bricks.
+
+Around 9% of damages described in sewer networks can be ascribed to the successive action of two kinds of microorganisms. Sulfate-reducing bacteria (SRB) can grow in relatively thick layers of sedimentary sludge and sand (typically 1 mm thick) accumulating at the bottom of the pipes and characterized by anoxic conditions. They can grow using oxidized sulfur compounds present in the effluent as electron acceptor and excrete hydrogen sulfide (HS). This gas is then emitted in the aerial part of the pipe and can impact the structure in two ways: either directly by reacting with the material and leading to a decrease in pH, or indirectly through its
+use as a nutrient by sulfur-oxidizing bacteria (SOB), growing in oxic conditions, which produce biogenic sulfuric acid. The structure is then submitted to a biogenic sulfuric acid attack. Materials like calcium aluminate cements, PVC or vitrified clay pipe may be substituted for ordinary concrete or steel sewers that are not resistant in these environments.
+
+
+
+
+Kobrin, G., "A Practical Manual on Microbiologically Influenced Corrosion", NACE, Houston, Texas, USA, 1993.
+
+Heitz,E., Flemming HC., Sand, W., "Microbially Influenced Corrosion of Materials", Springer, Berlin, Heidelberg, 1996.
+
+Videla, H., "Manual of Biocorrosion", CRC Press, 1996.
+
+Javaherdashti, R., "Microbiologically Influenced Corrosion – An Engineering Insight", Springer, UK, 2008.
+
+Tomei FA, Mitchell R (1986) "Development of an Alternative Method for Studying the Role of H-Consuming Bacteria in the Anaerobic Oxidation of Iron." In: Dexter SC (ed) Proceedings of the International Conference on Biologically Induced Corrosion. National Association of Corrosion Engineers, Houston, Texas, 8:309–320
+
+D. Weismann, M. Lohse (Hrsg.): "Sulfid-Praxishandbuch der Abwassertechnik; Geruch, Gefahr, Korrosion verhindern und Kosten beherrschen!" 1. Auflage, VULKAN-Verlag, 2007, – German.
+
+Mansouri, Hamidreza, Seyed Abolhasan Alavi, and Meysam Fotovat. "Microbial-Influenced Corrosion of Corten Steel Compared with Carbon Steel and Stainless Steel in Oily Wastewater by Pseudomonas aeruginosa." JOM: 1–7.
+
+J. F. Parisot (editor), "Corrosion and alteration of nuclear materials", CEA Saclay, Paris, 2010, p 147-150
+
+

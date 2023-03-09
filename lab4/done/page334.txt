@@ -1,0 +1,9 @@
+Table of the largest known graphs of a given diameter and maximal degree
+
+In graph theory, the degree diameter problem is the problem of finding the largest possible graph for a given maximum degree and diameter. The Moore bound sets limits on this, but for many years mathematicians in the field have been interested in a more precise answer. The table below gives current progress on this problem (excluding the case of degree 2, where the largest graphs are cycles with an odd number of vertices).
+
+Below is the table of the vertex numbers for the best-known graphs (as of October 2008) in the undirected degree diameter problem for graphs of degree at most 3 ≤ "d" ≤ 16 and diameter 2 ≤ "k" ≤ 10. Only a few of the graphs in this table (marked in bold) are known to be optimal (that is, largest possible). The remainder are merely the largest so far discovered, and thus finding a larger graph that is closer in order (in terms of the size of the vertex set) to the Moore bound is considered an open problem. Some general constructions are known for values of "d" and "k" outside the range shown in the table.
+The following table is the key to the colors in the table presented above:
+
+
+

@@ -1,0 +1,23 @@
+CTF3 (CERN)
+
+CTF3 (CLIC Test Facility 3) was an electron accelerator facility built at CERN with the aim of demonstrating the key concepts of the Compact Linear Collider accelerator. The facility consisted in two electron beamlines to mimic the functionalities of the CLIC Drive Beam and Main Beam.
+
+The facility used the former assets of the LEP Pre-Injector (LPI) accelerator complex. LPI was primarily used to inject electrons and positrons into the CERN accelerator complex, to be ultimately delivered to Large Electron–Positron Collider (LEP). Following the LEP shut down in 2000, LPI ceased to provide beams to experiments (LPI provided beams directly to some experiments independent of LEP) in April 2001. Then work begun to convert LPI facility to be used for the CTF3. The conversion happened in stages, with the first stage (so-called Preliminary Phase) starting accelerator commissioning in September 2001. In the following years, LPI morphed into CTF3. 
+
+The facility stopped its operation in December 2016, and one of its beamlines has been converted into the new CERN Linear Electron Accelerator for Research (CLEAR) facility.
+
+This page provides a general description of the facility with references to its main experimental program. More detailed informations can be found in the facility Design Report.
+
+The facility implemented and demonstrated the feasibility of a scaled version of the CLIC Drive Beam: a 1.2 μs-long electron beam (bunched at 1.5 GHz, and with 4 A mean current) was generated and accelerated up to ~135 MeV in a ~80 m-long LINAC by using fully loaded accelerating structures powered by ~40 MW, 3 GHz RF pulses. The beam was then going through a simplified version of the Drive Beam Recombination Complex (DBRC): a system composed of a delay loop and a combiner ring allowed to recombine different part of the incoming beam to finally produce a 140 ns-long train of bunches at 12 GHz and with mean current as high as 28 A.
+
+A second electron beam of lower intensity (a few bunches of about 100 pC/bunch), called Probe Beam, was generated and accelerated up to 200 MeV in the so-called "Concept d’Accélerateur Linéaire pour Faisceau d’Electrons Sonde" (CALIFES) injector. The main purpose of the Probe Beam was to emulate the main, colliding beam of CLIC.
+
+The two electron beams produced at CTF3 were used to demonstrate the two-beam acceleration concept in the Two-Beam-Module installed into the CLEX experimental area: the Drive Beam was decelerated in special Power Extraction and Transfer Structures (PETS), and the power produced used to accelerate the Probe Beam with gradients as high as ~145 MeV/m.
+
+The facility served as test bed for other CLIC related R&D, for example:
+
+Thanks to its ease of operation and versatility, the Probe Beam was used also for activities not directly connected to CLIC. This triggered the interest of various communities, and a workshop was organised to discuss possible re-use of such a beamline. In December 2016, while CTF3 was ending its operation, it was then decided to transform the Probe Beam in a new general purpose R&D facility under the name of CERN Linear Electron Accelerator for Research, or CLEAR.
+
+CLEAR keeps providing testing capabilities for X-band accelerator technology, including CLIC, but it also allows to explore novel concepts as plasma acceleration, THz radiation production. Furthermore, it provides electron irradiation capabilities to space and medical communities.
+
+

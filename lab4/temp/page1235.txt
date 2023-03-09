@@ -1,0 +1,17 @@
+Li Europan lingues
+
+Li Europan lingues () is a quotation in Occidental (Interlingue), an international auxiliary language devised by Edgar von Wahl in 
+1922. It is used in some HTML templates as a fill-in or placeholder text.
+
+When used as placeholder text, "Li Europan lingues" is usually one or two paragraphs and reads as follows:
+
+
+The original text of Li Europan lingues comes from an article written in 1933 for the journal Cosmoglotta entitled "Occidental es inevitabil" (Occidental is inevitable), in which S.W. Beer from the universities of London and Cambridge wrote a letter explaining that he supported the language for practical reasons because he believed it would inevitably become Europe's lingua franca.
+
+The text of "Li Europan lingues" is found in many HTML templates and through copying and uploading of templates this phrase seems to have found its use in many websites.
+
+Don Harlow posted a message to the Auxlang List on 5 August 2006, mentioning its appearance in the "CSS Cookbook" from O'Reilly by Christopher Schmitt, and in templates of webpages which implement CSS.
+
+
+
+

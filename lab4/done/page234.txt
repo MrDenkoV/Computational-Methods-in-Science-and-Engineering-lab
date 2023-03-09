@@ -1,0 +1,210 @@
+Generalized distributive law
+
+The generalized distributive law (GDL) is a generalization of the distributive property which gives rise to a general message passing algorithm. It is a synthesis of the work of many authors in the information theory, digital communications, signal processing, statistics, and artificial intelligence communities. The law and algorithm were introduced in a semi-tutorial by Srinivas M. Aji and Robert J. McEliece with the same title.
+
+"The distributive law in mathematics is the law relating the operations of multiplication and addition, stated symbolically, formula_1; that is, the monomial factor formula_2 is distributed, or separately applied, to each term of the binomial factor formula_3, resulting in the product formula_4" - Britannica
+
+As it can be observed from the definition, application of distributive law to an arithmetic expression reduces the number of operations in it. In the previous example the total number of operations reduced from three (two multiplications and an addition in formula_4) to two (one multiplication and one addition in formula_6). Generalization of distributive law leads to a large family of fast algorithms. This includes the FFT and Viterbi algorithm.
+
+This is explained in a more formal way in the example below:
+
+formula_7 where formula_8 and formula_9 are real-valued functions, formula_10 and formula_11 (say)
+
+Here we are "marginalizing out" the independent variables (formula_12, formula_13, and formula_14) to obtain the result. When we are calculating the computational complexity, we can see that for each formula_15 pairs of formula_16, there are formula_17 terms due to the triplet formula_18 which needs to take part in the evaluation of formula_19 with each step having one addition and one multiplication. Therefore, the total number of computations needed is formula_20. Hence the asymptotic complexity of the above function is formula_21.
+
+If we apply the distributive law to the RHS of the equation, we get the following:
+
+This implies that formula_23 can be described as a product formula_24 where formula_25 and formula_26
+
+Now, when we are calculating the computational complexity, we can see that there are formula_17 additions in formula_28 and formula_29 each and there are formula_30 multiplications when we are using the product formula_24 to evaluate formula_23. Therefore, the total number of computations needed is formula_33. Hence the asymptotic complexity of calculating formula_34 reduces to formula_35 from formula_36. This shows by an example that applying distributive law reduces the computational complexity which is one of the good features of a "fast algorithm".
+
+Some of the problems that used distributive law to solve can be grouped as follows
+
+1. Decoding algorithms<br>
+A GDL like algorithm was used by Gallager's for decoding low density parity-check codes. Based on Gallager's work Tanner introduced the Tanner graph and expressed Gallagers work in message passing form. The tanners graph also helped explain the Viterbi algorithm.
+
+It is observed by Forney that Viterbi's maximum likelihood decoding of convolutional codes also used algorithms of GDL-like generality.
+
+2. Forward-backward algorithm<br>
+The forward backward algorithm helped as an algorithm for tracking the states in the markov chain. And this also was used the algorithm of GDL like generality
+
+3. Artificial intelligence<br>
+The notion of junction trees has been used to solve many problems in AI. Also the concept of bucket elimination used many of the concepts.
+
+MPF or marginalize a product function is a general computational problem which as special case includes many classical problems such as computation of discrete Hadamard transform, maximum likelihood decoding of a linear code over a memory-less channel, and matrix chain multiplication. The power of the GDL lies in the fact that it applies to situations in which additions and multiplications are generalized.
+A commutative semiring is a good framework for explaining this behavior. It is defined over a set formula_37 with operators "formula_38" and "formula_39" where formula_40 and formula_41 are a commutative monoids and the distributive law holds.
+
+Let formula_42 be variables such that formula_43 where formula_44 is a finite set and formula_45. Here formula_46. If formula_47 and formula_48, let
+formula_49,
+formula_50, 
+formula_51, 
+formula_52, and
+formula_53
+
+Let formula_54 where formula_55. Suppose a function is defined as formula_56, where formula_57 is a commutative semiring. Also, formula_58 are named the "local domains" and formula_59 as the "local kernels".
+
+Now the global kernel formula_60 is defined as :
+formula_61
+
+"Definition of MPF problem": For one or more indices formula_62, compute a table of the values of formula_63-"marginalization" of the global kernel formula_64, which is the function formula_65 defined as formula_66
+
+Here formula_67 is the complement of formula_63 with respect to formula_69 and the formula_70 is called the formula_71 "objective function", or the "objective function" at formula_72. It can observed that the computation of the formula_71 objective function in the obvious way needs formula_74 operations. This is because there are formula_75 additions and formula_76 multiplications needed in the computation of the formula_77 objective function. The GDL algorithm which is explained in the next section can reduce this computational complexity.
+
+The following is an example of the MPF problem. 
+Let formula_78 and formula_79 be variables such that formula_80 and formula_81. Here formula_82 and formula_83. The given functions using these variables are formula_84 and formula_85 and we need to calculate formula_86 and formula_87 defined as:
+
+Here local domains and local kernels are defined as follows: 
+where formula_90 is the formula_91 objective function and formula_87 is the formula_93 objective function.
+
+Consider another example where formula_94 and formula_95 is a real valued function. Now, we shall consider the MPF problem where the commutative semiring is defined as the set of real numbers with ordinary addition and multiplication and the local domains and local kernels are defined as follows:
+
+Now since the global kernel is defined as the product of the local kernels, it is
+
+and the objective function at the local domain formula_97 is
+
+This is the Hadamard transform of the function formula_8. Hence we can see that the computation of Hadamard transform is a special case of the MPF problem. More examples can be demonstrated to prove that the MPF problem forms special cases of many classical problem as explained above whose details can be found at
+
+If one can find a relationship among the elements of a given set formula_100, then one can solve the MPF problem basing on the notion of belief propagation which is a special use of "message passing" technique. The required relationship is that the given set of local domains can be organised into a junction tree. In other words, we create a graph theoretic tree with the elements of formula_100 as the vertices of the tree formula_102, such that for any two arbitrary vertices say formula_103 and formula_104 where formula_105 and there exists an edge between these two vertices, then the intersection of corresponding labels, viz formula_106, is a subset of the label on each vertex on the unique path from formula_103 to formula_104.
+
+For example,
+
+Example 1: Consider the following nine local domains:
+
+
+For the above given set of local domains, one can organize them into a junction tree as shown below:
+
+Similarly If another set like the following is given
+
+Example 2: Consider the following four local domains:
+
+
+Then constructing the tree only with these local domains is not possible since this set of values has no common domains which can be placed between any two values of the above set. But however if add the two dummy domains as shown below then organizing the updated set into a junction tree would be possible and easy too.
+
+5.formula_122,formula_123
+6.formula_124,formula_123
+
+Similarly for these set of domains, the junction tree looks like shown below:
+Input: A set of local domains.
+Output: For the given set of domains, possible minimum number of operations that is required to solve the problem is computed. 
+So, if formula_103 and formula_104 are connected by an edge in the junction tree, then a message from formula_103 to formula_104 is a set/table of values given by a function: formula_130:formula_131. To begin with all the functions i.e. for all combinations of formula_132 and formula_133 in the given tree, formula_130 is defined to be identically formula_135 and when a particular message is update, it follows the equation given below.
+
+where formula_138 means that formula_139 is an adjacent vertex to formula_103 in tree.
+
+Similarly each vertex has a state which is defined as a table containing the values from the function formula_141, Just like how messages initialize to 1 identically, state of formula_103 is defined to be local kernel formula_143, but whenever formula_144 gets updated, it follows the following equation:
+
+For the given set of local domains as input, we find out if we can create a junction tree, either by using the set directly or by adding dummy domains to the set first and then creating the junction tree, if construction junction is not possible then algorithm output that there is no way to reduce the number of steps to compute the given equation problem, but once we have junction tree, algorithm will have to schedule messages and compute states, by doing these we can know where steps can be reduced, hence will be discusses this below.
+
+There are two special cases we are going to talk about here namely "Single Vertex Problem" in which the objective function is computed at only one vertex formula_146 and the second one is "All Vertices Problem" where the goal is to compute the objective function at all vertices.
+
+Lets begin with the single-vertex problem, GDL will start by directing each edge towards the targeted vertex formula_147. Here messages are sent only in the direction towards the targeted vertex. Note that all the directed messages are sent only once. The messages are started from the leaf nodes(where the degree is 1) go up towards the target vertex formula_147. The message travels from the leaves to its parents and then from there to their parents and so on until it reaches the target vertex formula_147. The target vertex formula_147 will compute its state only when it receives all messages from all its neighbors. Once we have the state, We have got the answer and hence the algorithm terminates.
+
+For Example, Lets consider a junction tree constructed from the set of local domains given above i.e. the set from example 1, Now the Scheduling table for these domains is (where the target vertex is formula_151).
+
+formula_152
+formula_153
+formula_154
+formula_155
+formula_156
+formula_157
+formula_158
+formula_159
+formula_160
+formula_161
+
+Thus the complexity for Single Vertex GDL can be shown as
+
+formula_162 arithmetic operations
+Where (Note: The explanation for the above equation is explained later in the article )
+formula_163 is the label of formula_164.
+formula_165 is the degree of formula_164 (i.e. number of vertices adjacent to v).
+
+To solve the All-Vertices problem, we can schedule GDL in several ways, some of them are parallel implementation where in each round, every state is updated and every message is computed and transmitted at the same time. In this type of implementation the states and messages will stabilizes after number of rounds that is at most equal to the diameter of the tree. At this point all the all states of the vertices will be equal to the desired objective function.
+
+Another way to schedule GDL for this problem is serial implementation where its similar to the Single vertex problem except that we don't stop the algorithm until all the vertices of a required set have not got all the messages from all their neighbors and have compute their state. 
+Thus the number of arithmetic this implementation requires is at most formula_167 arithmetic operations.
+
+The key to constructing a junction tree lies in the local domain graph formula_168, which is a weighted complete graph with formula_169 vertices formula_170 i.e. one for each local domain, having the weight of the edge formula_171 defined by
+formula_172.
+if formula_173, then we say formula_174 is contained informula_175. Denoted by formula_176 (the weight of a maximal-weight spanning tree of formula_168), which is defined by
+
+where "n" is the number of elements in that set. For more clarity and details, please refer to these.
+
+Let formula_179 be a junction tree with vertex set formula_180 and edge set formula_181. In this algorithm, the messages are sent in both the direction on any edge, so we can say/regard the edge set E as set of ordered pairs of vertices. For example, from Figure 1 formula_181 can be defined as follows
+
+NOTE:formula_184 above gives you all the possible directions that a message can travel in the tree.
+
+The schedule for the GDL is defined as a finite sequence of subsets offormula_184. Which is generally represented by 
+formula_186{formula_187}, Where formula_188 is the set of messages updated during the formula_189 round of running the algorithm.
+
+Having defined/seen some notations, we will see want the theorem says,
+When we are given a schedule formula_190, the corresponding message trellis as a finite directed graph with Vertex set of formula_191, in which a typical element is denoted by formula_192 for formula_193, Then after completion of the message passing, state at vertex formula_104 will be the formula_195 objective defined in
+
+and <nowiki>iff</nowiki> there is a path from formula_197 to formula_198
+
+Here we try to explain the complexity of solving the MPF problem in terms of the number of mathematical operations required for the calculation. i.e. We compare the number of operations required when calculated using the normal method (Here by normal method we mean by methods that do not use message passing or junction trees in short methods that do not use the concepts of GDL)and the number of operations using the generalized distributive law.
+
+Example: Consider the simplest case where we need to compute the following expression formula_199.
+
+To evaluate this expression naively requires two multiplications and one addition. The expression when expressed using the distributive law can be written as formula_200 a simple optimization that reduces the number of operations to one addition and one multiplication.
+
+Similar to the above explained example we will be expressing the equations in different forms to perform as few operation as possible by applying the GDL.
+
+As explained in the previous sections we solve the problem by using the concept of the junction trees. The optimization obtained by the use of these trees is comparable to the optimization obtained by solving a semi group problem on trees. For example, to find the minimum of a group of numbers we can observe that if we have a tree and the elements are all at the bottom of the tree, then we can compare the minimum of two items in parallel and the resultant minimum will be written to the parent. When this process is propagated up the tree the minimum of the group of elements will be found at the root.
+
+The following is the complexity for solving the junction tree using message passing
+
+We rewrite the formula used earlier to the following form. This is the eqn for a message to be sent from vertex "v" to "w"
+
+Similarly we rewrite the equation for calculating the state of vertex v as follows
+
+We first will analyze for the single-vertex problem and assume the target vertex is formula_147 and hence we have one edge from formula_164 to formula_205. 
+Suppose we have an edge formula_206 we calculate the message using the message equation. To calculate formula_207 requires
+
+additions and
+
+multiplications.
+
+But there will be many possibilities for formula_212 hence 
+formula_213 possibilities for formula_214.
+Thus the entire message will need
+
+additions and
+
+multiplications
+
+The total number of arithmetic operations required to send a message towards formula_217along the edges of tree will be
+
+additions and
+
+multiplications.
+
+Once all the messages have been transmitted the algorithm terminates with the computation of state at formula_147 The state computation requires formula_221 more multiplications.
+Thus number of calculations required to calculate the state is given as below
+
+additions and
+
+multiplications
+
+Thus the grand total of the number of calculations is
+
+where formula_226 is an edge and its size is defined by formula_227
+
+The formula above gives us the upper bound.
+
+If we define the complexity of the edge formula_226 as
+
+Therefore, formula_225 can be written as
+
+We now calculate the edge complexity for the problem defined in Figure 1 as follows
+
+The total complexity will be formula_240 which is considerably low compared to the direct method. (Here by direct method we mean by methods that do not use message passing. The time taken using the direct method will be the equivalent to calculating message at each node and time to calculate the state of each of the nodes.)
+
+Now we consider the all-vertex problem where the message will have to be sent in both the directions and state must be computed at both the vertexes. This would take formula_241 but by precomputing we can reduce the number of multiplications to formula_242. Here formula_13 is the degree of the vertex. Ex : If there is a set formula_244 with formula_245 numbers. It is possible to compute all the d products of formula_246 of the formula_247 with at most formula_242 multiplications rather than the obvious formula_249. 
+We do this by precomputing the quantities 
+formula_250 and formula_251 this takes formula_252 multiplications. Then if formula_253 denotes the product of all formula_254 except for formula_255 we have formula_256 and so on will need another formula_257 multiplications making the total formula_258
+
+There is not much we can do when it comes to the construction of the junction tree except that we may have many maximal weight spanning tree and we should choose the spanning tree with the least formula_259 and sometimes this might mean adding a local domain to lower the junction tree complexity.
+
+It may seem that GDL is correct only when the local domains can be expressed as a junction tree. But even in cases where there are cycles and a number of iterations the messages will approximately be equal to the objective function. The experiments on Gallager–Tanner–Wiberg algorithm for low density parity-check codes were supportive of this claim.
+
+

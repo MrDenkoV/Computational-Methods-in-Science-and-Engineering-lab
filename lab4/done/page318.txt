@@ -1,0 +1,39 @@
+Berlekamp–Rabin algorithm
+
+In number theory, Berlekamp's root finding algorithm, also called the Berlekamp–Rabin algorithm, is the probabilistic method of finding roots of polynomials over a field formula_1. The method was discovered by Elwyn Berlekamp in 1970 as an auxiliary to the algorithm for polynomial factorization over finite fields. The algorithm was later modified by Rabin for arbitrary finite fields in 1979. The method was also independently discovered before Berlekamp by other researchers.
+
+The method was proposed by Elwyn Berlekamp in his 1970 work on polynomial factorization over finite fields. His original work lacked a formal correctness proof and was later refined and modified for arbitrary finite fields by Michael Rabin. In 1986 René Peralta proposed a similar algorithm for finding square roots in formula_1. In 2000 Peralta's method was generalized for cubic equations.
+
+Let formula_3 be an odd prime number. Consider the polynomial formula_4 over the field formula_1 of remainders modulo formula_3. The algorithm should find all formula_7 in formula_1 such that formula_9 in formula_1.
+
+Let formula_11. Finding all roots of this polynomial is equivalent to finding its factorization into linear factors. To find such factorization it is sufficient to split the polynomial into any two non-trivial divisors and factorize them recursively. To do this, consider the polynomial formula_12 where formula_13 is some any element of formula_1. If one can represent this polynomial as the product formula_15 then in terms of the initial polynomial it means that formula_16, which provides needed factorization of formula_17.
+
+Due to Euler's criterion, for every monomial formula_19 exactly one of following properties holds:
+
+
+Thus if formula_28 is not divisible by formula_20, which may be checked separately, then formula_28 is equal to the product of greatest common divisors formula_31 and formula_32.
+
+The property above leads to the following algorithm:
+
+
+If formula_17 is divisible by some non-linear primitive polynomial formula_45 over formula_1 then when calculating formula_40 with formula_48 and formula_49 one will obtain a non-trivial factorization of formula_50, thus algorithm allows to find all roots of arbitrary polynomials over formula_1.
+
+Consider equation formula_52 having elements formula_53 and formula_54 as its roots. Solution of this equation is equivalent to factorization of polynomial formula_55 over formula_1. In this particular case problem it is sufficient to calculate only formula_57. For this polynomial exactly one of the following properties will hold:
+
+
+In the third case GCD is equal to either formula_63 or formula_64. It allows to write the solution as formula_65.
+
+Assume we need to solve the equation formula_66. For this we need to factorize formula_67. Consider some possible values of formula_13:
+
+
+
+A manual check shows that, indeed, formula_80 and formula_81.
+
+The algorithm finds factorization of formula_28 in all cases except for ones when all numbers formula_83 are quadratic residues or non-residues simultaneously. According to theory of cyclotomy, the probability of such an event for the case when formula_84 are all residues or non-residues simultaneously (that is, when formula_85 would fail) may be estimated as formula_86 where formula_87 is the number of distinct values in formula_84. In this way even for the worst case of formula_89 and formula_90, the probability of error may be estimated as formula_91 and for modular square root case error probability is at most formula_92.
+
+Let a polynomial have degree formula_93. We derive the algorithm's complexity as follows:
+
+
+Thus the whole procedure may be done in formula_101. Using the fast Fourier transform and Half-GCD algorithm, the algorithm's complexity may be improved to formula_105. For the modular square root case, the degree is formula_106, thus the whole complexity of algorithm in such case is bounded by formula_107 per iteration.
+
+

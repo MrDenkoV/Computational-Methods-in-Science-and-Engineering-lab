@@ -1,0 +1,52 @@
+First International Conference on the World-Wide Web
+
+The First International Conference on the World-Wide Web (also known as WWW1) was the first-ever conference about the World Wide Web, and the first meeting of what became the International World Wide Web Conference. It was held on May 25 to 27, 1994 in Geneva, Switzerland. The conference had 380 participants, who were accepted out of 800 applicants. It has been referred to as the "Woodstock of the Web".
+
+The event was organized by Robert Cailliau, a computer scientist who had helped to develop the original WWW specification, and was hosted by CERN. Cailliau had lobbied inside CERN, and at conferences like the ACM Hypertext Conference in 1991 (in San Antonio) and 1993 (in Seattle). After returning from the Seattle conference, he announced the new World Wide Web Conference 1. Coincidentally, the NCSA announced their Mosaic and the Web conference 23 hours later.
+
+Dave Raggett showed his testbed web browser Arena and gave a summary of his first HTML+ Internet Draft. He also submitted a paper for VRML.
+
+The Biological Sciences Division of the University of Chicago presented a web browser and HTML editor called "Phoenix" built upon tkWWW version 0.9. The editor extended the functionality of tkWWW.
+
+The Best of the Web Awards were given out on May 26 following the "Best of WWW" contest set up by Brandon Plewe. The awards were selected via a two-month open nomination, and a two-week open voting period. A total of 5,225 votes were cast, with the winners averaging 100 votes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The following people were inducted into the World Wide Web Hall of Fame for their contributions and influence. The inductees received a Chromachron watch, engraved with the WWW logo.
+
+
+

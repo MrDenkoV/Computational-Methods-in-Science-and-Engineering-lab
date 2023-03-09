@@ -1,0 +1,42 @@
+Deprescribing
+
+Deprescribing is the process of intentionally stopping a medication or reducing its dose to improve the person's health or reduce the risk of adverse side effects. Deprescribing is usually done because the drug may be causing harm, may no longer be helping the patient, or may be inappropriate for the individual patient's current situation. Deprescribing is the opposite of prescribing a drug. It can help correct polypharmacy and prescription cascade.
+
+Deprescribing is often done with people who have multiple chronic conditions, for elderly people, and for people who have a limited life expectancy. In all of these situations, certain medications may contribute to an increased risk of adverse events, and people may benefit from a reduction in the amount of medication taken. The goal of deprescribing is to reduce medication burden and harm, while maintaining or improving quality of life. "Simply because a patient has tolerated a therapy for a long duration does not mean that it remains an appropriate treatment. Thoughtful review of a patient’s medication regimen in the context of any changes in medical status and potential future benefits should occur regularly, and those agents that may no longer be necessary should be considered for a trial of medication discontinuation."
+
+The process of deprescribing can be planned and supervised by health care professionals. The definition and concept of deprescribing remain contentious with people using the term deprescribing to mean different things.
+
+Older people are the heaviest users of medications, and frequently take five or more medications (polypharmacy). Polypharmacy is associated with increased risks of adverse events, drug interactions, falls, hospitalization, cognitive deficits, and mortality. Thus, optimizing medication through targeted deprescribing is a vital part of managing chronic conditions, avoiding adverse effects and improving outcomes.
+
+Deprescribing is a feasible and safe intervention. Deprescribing results in fewer medications with no significant changes in health outcomes. A systematic review of deprescribing studies for a wide range of medications, including diuretics, blood pressure medication, sedatives, antidepressants, benzodiazepines and nitrates, concluded that adverse effects of deprescribing were rare.
+
+By deprescribing medications, prescribers are often able to improve patient function, generate a higher quality of life, and reduce bothersome signs and symptoms. Deprescribing has been shown to reduce the number of falls that people experience, but not to change the risk of having the first fall. A large systematic review of deprescribing studies found that most health outcomes remained unchanged as an effect of deprescribing. The absence in a change has been viewed as a positive outcome as the medications can often be safely withdrawn without altering health outcomes. This absence of an effect means that older people may not miss out on potentially beneficial effects of using medications as a result of deprescribing.
+
+Targeted deprescribing can improve adherence to other drugs. Deprescribing can reduce the complexity of medication schedules. Complicated schedules are difficult for people to follow correctly.
+
+The Product Information provided by drug companies provides much information on how to start medications and what to expect when using it, though provides very little information on when and how to stop medications. Research in to deprescribing is accumulating, with two papers showing a rapid acceleration in the use of the word since 2015.
+
+It is possible for the patient to develop adverse drug withdrawal events (ADWE). These symptoms may be related to the original reason why the medication was prescribed, to withdrawal symptoms or to underlying diseases that have been masked by medications. For some medications, ADWEs can generally be minimized or avoided by tapering the dose slowly and carefully monitoring for symptoms. Prescribers should be aware of which medications usually require tapering (such as corticosteroids and benzodiazepines), and which can be safely stopped suddenly (such as antibiotics and nonsteroidal anti-inflammatory drugs).
+
+Deprescribing requires detailed follow-up and monitoring, not unlike the attention required when starting a new medication. It is recommended that prescribers frequently monitor "relevant signs, symptom, laboratory or diagnostic tests that were the original indications for starting the medication" as well as for potential withdrawal effects.
+
+Several tools have been published to make prescribers aware of inappropriate medications for patient groups. The most common deprescribing algorithm is validated and has been tested in two RCTs. It is available for clinicians to use to identify medications that can be deprescribed. It prompts clinicians to consider if it is (1) an inappropriate prescription, (2) adverse effects or interactions that outweigh symptomatic effect or potential future benefits, (3) drugs taken for symptom relief but the symptoms are stable, and (4) drug intended to prevent serious future events but the potential benefit is unlikely to be realised due to limited life expectancy. If the answer to any of the four prompts is yes, then the medication should be considered for deprescribing.
+
+The CEASE algorithm to prompt clinicians to consider if the treated condition remains a current concern for their patient.
+
+The ERASE algorithm prompts clinicians to consider if the treated condition is still requires treatment. ERASE mnemonic stands for "evaluate diagnostic parameters", "resolved conditions", "ageing normally", "select targets" and "eliminate"
+
+The Beers Criteria and the STOPP/START criteria present medications that may be inappropriate for use in the elderly. For people with dementia, the medication appropriateness tool for comorbid health conditions during dementia (MATCH-D) can help clinicians identify when and what to consider deprescribing.
+
+RxFiles, an academic detailing group based in Saskatchewan, Canada, has developed a tool to help long-term care providers identify potentially inappropriate medications in their residents. Tasmanian Medicare Local have created resources to help clinicians deprescribe.
+
+An expert working group concluded that integrated healthcare provided by multidisciplinary patient-centred teams were the most appropriate approach to promote deprescribing and improve the appropriate medication use. The concept of having de-prescribing rounds in tertiary care hospitals has also been evaluated and shown to potentially improve health related outcomes.
+
+Although many trials have successfully resulted in a reduction in medication use, there are some barriers to deprescribing:
+
+
+The prescriber and patients were shown to have the greatest influence on each other rather than external influences. 9 out of 10 older people said they would be willing to stop one or more medicine if their doctor said it was okay.
+
+
+
+

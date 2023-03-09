@@ -1,0 +1,25 @@
+Branch attachment
+
+A branch attachment is where a branch is attached to the trunk of a tree. Three types of branch attachment are recognized due to differences in the anatomical position of buds that form them. Two key components contribute to the mechanical strength and toughness of the attachment: interlocking wood grain at the top of the attachment and an embedded knot that often lies within the attachment. A common malformation of a branch attachment is the inclusion of bark within the join, which can weaken the attachment.
+
+Initially branches are mechanically attached to the trunks of trees by forming interlocking wood grain patterns at the top of the joint, within what is known as 'axillary wood' (Fig. 1). The axillary wood (or xylem) formed in this location is denser than in surrounding tissues of the tree's stem or branch, the wood grain pattern formed is tortuous and in these tissues there is typically a reduction in vessel length, diameter and frequency of occurrence (i.e. more of the xylem consists of fibre cells). This specialized xylem tissue (axillary wood), formed under the branch bark ridge, provides unique mechanical properties to the union of the branch to the trunk, requiring that wood fibres are stretched along their length (the axial strength of the wood) in order to rupture the attachment apart.
+
+As the typical lateral branch of a tree and its trunk expand in diameter at different rates, the base of the smaller branch becomes occluded in the larger trunk of the tree which is producing a larger increment of growth, and this occluded part of the branch forms a knot that provides substantial additional mechanical support to the attachment as it develops (Fig. 2). This is not the case in tree forks, where the growth rate of both branches is approximately equal, and no occluded knot is formed.
+
+The combination of the interlocking axillary wood patterns at the junction apex and the occluded knot embedded into the tree's trunk make mature branch attachments in trees very strong components of a tree's crown. From static testing, branch attachments have been found to be far stronger than attachments made at forks in trees.
+
+Botanists commonly differentiate between branches that originate from the initial extension growth and those that have developed epicormically from the growth of latent buds or adventitious buds that developed later on the tree's trunk surface. A clear anatomical difference can be found on dissection between these branch attachments, in that the former has an initial knot that originates near to the stem's pith, those developing from latent buds will have a bud trace that originates near the stem's pith, and adventitious epicormic branches will exhibit neither of these internal features.
+
+A common malformation of a branch attachment in a tree is the inclusion of bark within the join, commonly referred to as a 'bark inclusion' or 'included bark'. This malformation is known to weaken the connection of the branch to the rest of the tree's structure, as it acts to block the formation of the axillary wood at the branch attachment's apex.
+
+Bark included branch junctions are commonly found in a wide range of tree species, and are primarily caused by the effects of natural bracing within the crowns of the trees. In amenity trees, it is common practice for arborists to prune out young branches with such malformed attachments, subordinate the branch by reducing its length or brace the weakened branch to the rest of the tree, ideally using a flexible brace.
+
+In 1985, the researcher Dr. Alex Shigo published an anatomical model of branch attachment based on analysis of extensive tree cross-sections and which came to be widely utilised in the arboricultural industry. Unfortunately, this model of branch attachment is illogical and anatomically incorrect.
+
+The basis of Shigo's model was that the branch base grew first, then the branch's base was overlapped by the growth of the trunk, and the further development of overlapping layers of these two distinct xylem tissues resulted in the development of a strong connection (Fig. 3). However, this model does not take into account the anatomy of tree forks, nor when tree growth is continuous (such as in tropical trees) and it requires contortions of the vascular cambium that are infeasible.
+
+Prior to the development of Shigo's model of branch attachment, it was commonly thought that wood grain traversed directly from the top of the branch into the trunk of the tree, ascending to the tree's crown. Such a wood grain arrangement would result in sap travelling from the foliage at the end of the branch to other foliage in the tree's crown, which is contrary to the 'source-to-sink' model widely accepted for sap distribution in all woody plants, and can clearly be seen not to be the case by dissections of junctions formed in trees.
+
+
+
+

@@ -1,0 +1,19 @@
+Bacterial anaerobic corrosion
+
+Bacterial anaerobic corrosion is a bacterially-induced oxidation of metals.
+
+In a humid environment and anoxic conditions the corrosion of metals occurs as a result of a redox reaction that generates molecular hydrogen from hydrogen ions, requiring bacteria, unlike anaerobic corrosion that occurs spontaneously.
+
+A base metal, such as iron (Fe) goes into aqueous solution as positively charged cation, Fe. As the metal is oxidized under anaerobic condition by the protons of water, H ions are reduced to form molecular H. This can be written in the following ways under acidic and neutral conditions respectively:
+
+Usually, a thin film of molecular hydrogen forms on the metal. Sulfate-reducing bacteria, oxidize the molecular hydrogen to produce hydrogen sulfide ions (HS) and water:
+
+The iron ions partly precipitate to form iron (II) sulfide. A reaction with water also occurs, producing iron hydroxide.
+
+The net equation comes to:
+
+This form of corrosion by sulfate-reducing bacteria can, in this way, be far more harmful than anaerobic corrosion.
+
+
+
+

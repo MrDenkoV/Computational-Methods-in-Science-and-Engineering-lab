@@ -1,0 +1,21 @@
+Dimensions in Testimony
+
+Dimensions in Testimony is a collection of 3D interactive genocide survivor testimonies, produced by USC Shoah Foundation in order to preserve the conversational experience of asking survivors questions about their life and hearing responses in real time, therefore preserving history through first-person narrative.
+
+Using techniques in physical production and post production, individuals who have witnessed some of the most difficult times in human history are interviewed about their lives and a variety of topics, and natural language processing allows those interviews to become interactive exhibitions and displays in museums, educational centers, and other points of interest. 
+
+Included in the collection are a series of Holocaust survivors, as well as two World War II Liberators and a survivor of the Nanjing Massacre. To date, testimonies have been conducted in English, Spanish, Hebrew, German, Mandarin, Russian and Swedish. An in-depth evaluation project created by USC Shoah Foundation in 2016 showed the technology to be a "valuable education tool".
+
+The project was conceptualized by Heather Maio of Conscience Display and was created in partnership with USC Shoah Foundation and USC's Institute for Creative Technologies. In 2012, the team created a proof of concept for an interactive biography of a genocide survivor, then called "New Dimensions in Testimony". The proof of concept was conducted with survivor Pinchas Gutter, who would go on to film the pilot testimony for the project in April 2014. This pilot would become Dimensions In Testimony's first permanent installation, premiering at the Illinois Holocaust Museum and Education Center in 2015.""We survivors feel that once we are gone, our story is gone...[now] I’m hoping that many, many years from now, people will still be able to speak with me, that I will be able to answer questions for them, that I’ll make the Holocaust more than just a story.”" -Holocaust Survivor Aaron Elster, whose Dimensions in Testimony biography was recorded in 2015
+
+Production for a single interview typically requires a 5-day process, in which the survivor is asked a series of questions, commonly within a rig that is able to film on green screen from multiple angles at once. Between 2013 and 2017, testimonies were filmed within a 116-camera dome at the Institute of Creative Technologies in Playa Vista, CA. In 2018, USC Shoah Foundation developed a mobile rig that allows production crews to travel around the world and film aging survivors in their hometowns volumetrically. Filming from multiple angles “future-proofs” the technology in the hopes that in the future, each testimony might be able to be projected as a hologram using projection display techniques that have yet to be invented.
+
+Thousands of questions are asked and answered over the course of a single interview. To ensure continuity for the duration of the interactive experience, survivors are required to wear the same clothing for each day of interviews and return to a common resting position following each response.
+
+Each interview includes an extensive list of topics that cover life before, during and after conflict as well as off-topic responses in order to have the wide range of information needed to facilitate conversational interactions. Natural language processing and speech recognition allow for the system to map an automated response that best fits a user's question. To maintain usability of each interview as a primary source, USC Shoah Foundation does not animate, edit, or manipulate the video footage of the interviewee's response.
+
+In 2017, independent filmmaker Davina Pardo documented the production process in a 15-minute documentary short entitled "116 Cameras" and an accompanying Opinion piece in the New York Times. The film followed the production of the Dimensions in Testimony interview of Eva Schloss, a Holocaust survivor from Vienna, Austria.
+
+In 2020, American news magazine 60 Minutes ran two segments on Dimensions in Testimony, airing on Sunday, April 5.
+
+

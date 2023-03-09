@@ -1,0 +1,68 @@
+XOR swap algorithm
+
+In computer programming, the XOR swap is an algorithm that uses the XOR bitwise operation to swap values of distinct variables having the same data type without using a temporary variable. "Distinct" means that the variables are stored at different, non-overlapping, memory addresses as the algorithm would set a single aliased value to zero; the actual values of the variables do not have to be different.
+
+Conventional swapping requires the use of a temporary storage variable. Using the XOR swap algorithm, however, no temporary storage is needed. The algorithm is as follows:
+X := X XOR Y
+Y := Y XOR X
+X := X XOR Y
+The algorithm typically corresponds to three machine-code instructions. Since XOR is a commutative operation, X XOR Y can be replaced with Y XOR X in any of the lines. When coded in assembly language, this commutativity is often exercised in the second line:
+
+In the above System/370 assembly code sample, R1 and R2 are distinct registers, and each operation leaves its result in the register named in the first argument. Using x86 assembly, values X and Y are in registers eax and ebx (respectively), and places the result of the operation in the first register.
+
+However, the algorithm fails if "x" and "y" use the same storage location, since the value stored in that location will be zeroed out by the first XOR instruction, and then remain zero; it will not be "swapped with itself". This is "not" the same as if "x" and "y" have the same values. The trouble only comes when "x" and "y" use the same storage location, in which case their values must already be equal. That is, if "x" and "y" use the same storage location, then the line:
+
+X := X XOR Y
+
+sets "x" to zero (because "x" = "y" so X XOR Y is zero) "and" sets "y" to zero (since it uses the same storage location), causing "x" and "y" to lose their original values.
+
+The binary operation XOR over bit strings of length formula_1 exhibits the following properties (where formula_2 denotes XOR):
+
+
+Suppose that we have two distinct registers codice_1 and codice_2 as in the table below, with initial values "A" and "B" respectively. We perform the operations below in sequence, and reduce our results using the properties listed above.
+
+As XOR can be interpreted as binary addition and a pair of bits can be interpreted as a vector in a two-dimensional vector space over the field with two elements, the steps in the algorithm can be interpreted as multiplication by 2×2 matrices over the field with two elements. For simplicity, assume initially that "x" and "y" are each single bits, not bit vectors.
+
+For example, the step:
+
+X := X XOR Y
+
+which also has the implicit:
+
+Y := Y
+
+corresponds to the matrix formula_9 as
+The sequence of operations is then expressed as:
+(working with binary values, so formula_12), which expresses the elementary matrix of switching two rows (or columns) in terms of the transvections (shears) of adding one element to the other.
+
+To generalize to where X and Y are not single bits, but instead bit vectors of length "n", these 2×2 matrices are replaced by 2"n"×2"n" block matrices such as formula_13
+
+These matrices are operating on "values," not on "variables" (with storage locations), hence this interpretation abstracts away from issues of storage location and the problem of both variables sharing the same storage location.
+
+A C function that implements the XOR swap algorithm:
+The code first checks if the addresses are distinct. Otherwise, if they were equal, the algorithm would fold to a triple *x ^= *x resulting in zero.
+
+The XOR swap algorithm can also be defined with a macro:
+In most practical scenarios, the trivial swap algorithm using a temporary register is more efficient. Limited situations in which XOR swapping may be practical include:
+
+
+Because these situations are rare, most optimizing compilers do not generate XOR swap code.
+
+Most modern compilers can optimize away the temporary variable in the three-way swap, in which case it will use the same amount of memory and the same number of registers as the XOR swap and is at least as fast, and often faster. In addition to that, the XOR swap is completely opaque to anyone unfamiliar with the technique.
+
+On modern CPU architectures, the XOR technique can be slower than using a temporary variable to do swapping. At least on recent x86 CPUs, both by AMD and Intel, moving between registers regularly incurs zero latency. (This is called MOV-elimination.) Even if there is not any architectural register available to use, the codice_3 instruction will be at least as fast as the three XORs taken together. Another reason is that modern CPUs strive to execute instructions in parallel via instruction pipelines. In the XOR technique, the inputs to each operation depend on the results of the previous operation, so they must be executed in strictly sequential order, negating any benefits of instruction-level parallelism.
+
+The XOR swap is also complicated in practice by aliasing. If an attempt is made to XOR-swap the contents of some location with itself, the result is that the location is zeroed out and its value lost. Therefore, XOR swapping must not be used blindly in a high-level language if aliasing is possible.
+
+Similar problems occur with call by name, as in Jensen's Device, where swapping codice_4 and codice_5 via a temporary variable yields incorrect results due to the arguments being related: swapping via codice_6 changes the value for codice_4 in the second statement, which then results in the incorrect i value for codice_5 in the third statement.
+
+The underlying principle of the XOR swap algorithm can be applied to any operation meeting criteria L1 through L4 above. Replacing XOR by addition and subtraction gives a slightly different, but largely equivalent, formulation:
+
+Unlike the XOR swap, this variation requires that the underlying processor or programming language uses a method such as modular arithmetic or bignums to guarantee that the computation of codice_9 cannot cause an error due to integer overflow. Therefore, it is seen even more rarely in practice than the XOR swap.
+
+However, the implementation of codice_10 above in the C programming language always works even in case of integer overflow, since, according to the C standard, addition and subtraction of unsigned integers follow the rules of modular arithmetic, i. e. are done in the cyclic group formula_14 where formula_15 is the number of bits of codice_11. Indeed, the correctness of the algorithm follows from the fact that the formulas formula_16 and formula_17 hold in any abelian group. This is actually a generalization of the proof for the XOR swap algorithm: XOR is both the addition and subtraction in the abelian group formula_18 (which is the direct sum of "s" copies of formula_19).
+
+This doesn't hold when dealing with the codice_12 type (the default for codice_13). Signed integer overflow is an undefined behavior in C and thus modular arithmetic is not guaranteed by the standard (a standard-conforming compiler might optimize out such code, which leads to incorrect results).
+
+
+

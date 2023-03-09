@@ -1,0 +1,5 @@
+Domain reduction algorithm
+
+Domain reduction algorithms are algorithms used to reduce constraints and degrees of freedom in order to provide solutions for partial differential equations.
+
+

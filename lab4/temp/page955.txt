@@ -1,0 +1,38 @@
+Performance effects
+
+Strategy researchers want to understand differences in firm performance. For example, what can explain performance differences between Toyota’s cars business and Samsung’s mobile phones business? Studies show that just three effects account for most performance differences between such businesses: the industry to which a business belongs (automotive industry vs electronics industry), the corporation it is part of (Toyota vs. Samsung), and the business itself.
+
+Performance usually means financial performance, measured most often as return on assets (ROA) or less often as return on sales (ROS), return on invested capital (ROIC), or market share.
+
+A performance effect is an observed difference in business performance. For example, it compares the performance of Toyota’s cars business and that of Samsung’s mobile phones business. A performance effect is "not" a causal effect. For example, it does not indicate what the performance of the mobile phone business would have been if Toyota instead of Samsung was the owner.
+
+Performance effects occur at multiple level of analysis. 
+
+Industry, corporate, business, and year effects are among the most investigated levels of analyses. An industry is a group of businesses that sell similar goods or services. For example, Toyota’s cars business belongs to the automotive industry and Samsung’s mobile phones business to the electronics industry. A corporation is the legal owner of the business. For example, Berkshire Hathaway owns many businesses including of clothing, building products, and insurance. Thus, a corporation can own more than one business. A business is then defined by what it does (i.e. industry) and by whom it is owned (i.e. corporation). Year refers to the year of performance.
+
+An industry effect is the performance difference of businesses in an industry and those in other industries. A corporate effect is the performance difference of businesses of a corporation and those of other corporations. A business effect is the performance difference of a business and those of other businesses. A year effect is the performance difference of businesses in one year and those in another year.
+
+Formally, we can write the performance (p) of a business in industry "i", corporation "c", and year "t" as:
+
+Here "m" is the mean performance of all businesses across all years. I is the industry effect for industry "i" (the performance difference between industry "i" and the mean); C is the corporate effect for corporation "c" (the performance difference between corporation "c" and the mean); B is the business effect for a business in industry "i" and corporation "c" (the performance difference between that business and the mean); Y is the year effect for year "t" (the performance difference between year "t" and the mean); and e is an error term (the performance difference between a business and the mean that is not accounted for by industry, corporate, business, and year effects).
+
+A meta-analysis finds that the strongest effects are business, then corporate, then industry, and then year. Figures 1 and 2 show the strength of each effect with effect sizes in variance and in standard deviation, respectively.
+
+Other performance effects include CEO and geographical region or country.
+
+An effect size is a measure of the magnitude of performance differences.
+
+A common measure is the variance. A finding of 36% for business effects means that the variance in business effects is 36% of the total variance in performance. Conversely, the variance in performance is for about one third related to differences between business with the other two thirds related to other effects (e.g. different industries, different corporations, different year, and random differences). An upside of the variance measure is that the effects sum to 100%. A downside is that the variance uses squared distances so that large effects are amplified and small effects are shrunk.
+
+Another measure is the standard deviation, which is the square root of the variance. An upside of this measure is that the standard deviation relates to linear distances so effects are not similarly amplified or shrunk. For example, business effects are greater than year effects by about factor 45 when using variance and by about only factor 8 when using standard deviation. Relatedly, the standard deviation measure has the same unit of measurement as performance. For example, if performance is in dollars, then the standard deviation is also in dollars (the variance would be in dollars squared). A downside is that the effects measured in standard deviations do not sum to 100%.
+
+An alternative measure is the sum of squares measure. It seeks to attribute squared performance difference to the different effects. Because the sum of squares measure does not account for degrees of freedom, it is sensitive to sample dimensions. For example, sampling more businesses in the same number of industries will change the ratio of sum of squares due to industry and sum of squares due to business.
+
+Different methods are used to estimate effect sizes, including hierarchical linear model, or analysis of variance (ANOVA), or variance components analysis (VCA).
+
+• Strategy
+• Strategic management
+
+(2018 Award Recipient of The Dan and Mary Lou Schendel Best Paper Prize)
+
+

@@ -1,0 +1,48 @@
+Reservoir sampling
+
+Reservoir sampling is a family of randomized algorithms for choosing a simple random sample without replacement of items from a population of unknown size in a single pass over the items. The size of the population is not known to the algorithm and is typically too large to fit all items into main memory. The population is revealed to the algorithm over time, and the algorithm cannot look back at previous items. At any point, the current state of the algorithm must permit extraction of a simple random sample without replacement of size over the part of the population seen so far.
+
+Suppose we see a sequence of items, one at a time. We want to keep ten items in memory, and we want them to be selected at random from the sequence. If we know the total number of items and can access the items arbitrarily, then the solution is easy: select 10 distinct indices between 1 and with equal probability, and keep the -th elements. The problem is that we do not always know the exact in advance.
+
+A simple and popular but slow algorithm, commonly known as "Algorithm R", is due to Alan Waterman.
+
+The algorithm works by maintaining a "reservoir" of size , which initially contains the first items of the input. It then iterates over the remaining items until the input is exhausted. Using one-based array indexing, let formula_1 be the index of the item currently under consideration. The algorithm then generates a random number between (and including) 1 and . If is at most , then the item is selected and replaces whichever item currently occupies the -th position in the reservoir. Otherwise, the item is discarded. In effect, for all , the element of the input is chosen to be included in the reservoir with probability formula_2. Similarly, at each iteration the element of the reservoir array is chosen to be replaced with probability formula_3. It can be shown that when the algorithm has finished executing, each item in the input population has equal probability (i.e., formula_4) of being chosen for the reservoir.
+
+While conceptually simple and easy to understand, this algorithm needs to generate a random number for each item of the input, including the items that are discarded. Its asymptotic running time is thus formula_5. This causes the algorithm to be unnecessarily slow if the input population is large.
+
+"Algorithm L" improves upon this algorithm by computing how many items are discarded before the next item enters the reservoir. The key observation is that this number follows a geometric distribution and can therefore be computed in constant time.
+
+This algorithm computes three random numbers for each item that becomes part of the reservoir, and does not spend any time on items that do not. Its expected running time is thus formula_6, which is optimal. At the same time, it is simple to implement efficiently and does not depend on random deviates from exotic or hard-to-compute distributions.
+
+If we associate with each item of the input a uniformly generated random number, the items with the largest (or, equivalently, smallest) associated values form a simple random sample. A simple reservoir-sampling thus maintains the items with the currently largest associated values in a priority queue.
+
+The expected running time of this algorithm is formula_7 and it is relevant mainly because it can easily be extended to items with weights.
+
+Some applications require items' sampling probabilities to be according to weights associated with each item. For example, it might be required to sample queries in a search engine with weight as number of times they were performed so that the sample can be analyzed for overall impact on user experience. Let the weight of item be formula_8, and the sum of all weights be . There are two ways to interpret weights assigned to each item in the set:
+
+The following algorithm was given by Efraimidis and Spirakis that uses interpretation 1:
+ReservoirSample(S[1..?])
+This algorithm is identical to the algorithm given in Reservoir Sampling with Random Sort except for the generation of the items' keys. The algorithm is equivalent to assigning each item a key formula_12 where is the random number and then selecting the items with the largest keys. Equivalently, a more numerically stable formulation of this algorithm computes the keys as formula_13 and select the items with the "smallest" keys.
+
+Following algorithm was given by M. T. Chao uses interpretation 2:
+WeightedReservoir-Chao(S[1..n], R[1..k])
+
+For each item, its relative weight is calculated and used to randomly decide if the item will be added into the reservoir. If the item is selected, then one of the existing items of the reservoir is uniformly selected and replaced with the new item. The trick here is that, if the probabilities of all items in the reservoir are already proportional to their weights, then by selecting uniformly which item to replace, the probabilities of all items remain proportional to their weight after the replacement.
+
+Suppose one wanted to draw random cards from a deck of cards.
+A natural approach would be to shuffle the deck and then take the top cards.
+In the general case, the shuffle also needs to work even if the number of cards in the deck is not known in advance, a condition which is satisfied by the inside-out version of the Fisher–Yates shuffle:
+Shuffle(S[1..n], R[1..n])
+Note that although the rest of the cards are shuffled, only the first are important in the present context.
+Therefore, the array need only track the cards in the first positions while performing the shuffle, reducing the amount of memory needed.
+Truncating to length , the algorithm is modified accordingly:
+
+ReservoirSample(S[1..n], R[1..k])
+Since the order of the first cards is immaterial, the first loop can be removed and can be initialized to be the first items of the input.
+This yields "Algorithm R".
+
+Probabilities of selection of the reservoir methods are discussed in Chao (1982) and Tillé (2006). While the first-order selection probabilities are equal to formula_4 (or, in case of Chao's procedure, to an arbitrary set of unequal probabilities), the second order selection probabilities depend on the order in which the records are sorted in the original reservoir. The problem is overcome by the cube sampling method of Deville and Tillé (2004).
+
+Reservoir sampling makes the assumption that the desired sample fits into main memory, often implying that is a constant independent of . In applications where we would like to select a large subset of the input list (say a third, i.e. formula_15), other methods need to be adopted. Distributed implementations for this problem have been proposed.
+
+

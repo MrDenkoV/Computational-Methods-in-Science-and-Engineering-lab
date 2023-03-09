@@ -1,0 +1,11 @@
+Jump-and-Walk algorithm
+
+Jump-and-Walk is an algorithm for point location in triangulations (though most of the theoretical analysis were performed in 2D and 3D random Delaunay triangulations). Surprisingly, the algorithm does not need any preprocessing or complex data structures except some simple representation of the triangulation itself. The predecessor of Jump-and-Walk was due to Lawson (1977) and Green and Sibson (1978), which picks a random starting point S and then walks from S toward the query point Q one triangle at a time. But no theoretical analysis was known for these predecessors until after mid-1990s.
+
+Jump-and-Walk picks a small group of sample points and starts the walk from the sample point which is the closest to Q until the simplex containing Q is found. The algorithm was a folklore in practice for some time, and the formal presentation of the algorithm and the analysis of its performance on 2D random Delaunay triangulation was done by Devroye, Mucke and Zhu in mid-1990s (the paper appeared in Algorithmica, 1998). The analysis on 3D random Delaunay triangulation was done by Mucke, Saias and Zhu (ACM Symposium of Computational Geometry, 1996). In both cases, a boundary condition was assumed, namely, Q must be slightly away from the boundary of the convex domain where the vertices of the random Delaunay triangulation are drawn. In 2004, Devroye, Lemaire and Moreau showed that in 2D the boundary condition can be withdrawn (the paper appeared in Computational Geometry: Theory and Applications, 2004).
+
+Jump-and-Walk has been used in many famous software packages, e.g., QHULL, Triangle and CGAL.
+
+ 
+
+

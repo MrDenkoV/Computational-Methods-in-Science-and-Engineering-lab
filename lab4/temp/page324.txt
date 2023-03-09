@@ -1,0 +1,22 @@
+Convolution reverb
+
+In audio signal processing, convolution reverb is a process used for digitally simulating the reverberation of a physical or virtual space through the use of software profiles; a piece of software (or algorithm) that creates a simulation of an audio environment. It is based on the mathematical convolution operation, and uses a pre-recorded audio sample of the impulse response of the space being modeled. To apply the reverberation effect, the impulse-response recording is first stored in a digital signal-processing system. This is then convolved with the incoming audio signal to be processed. 
+
+An impulse response is a recording of the reverberation that is caused by an acoustic space when an ideal impulse is played. However, an ideal impulse is a mathematical construct, and cannot exist in reality, as it would have to be infinitesimally narrow in time. Therefore, approximations have to be used: the sound of an electric spark, starter pistol shot or the bursting of a balloon, for instance. A recording of this approximated ideal impulse may be used directly as an impulse response. Techniques involving starter pistols and balloons are sometimes referred to as transient methods, and the response is contained at the beginning of the recording in an impulse. 
+
+Another technique, referred to as the sine sweep method, covers the entire audible frequency range, which can result in a broader-range, and higher-quality, impulse response. This involves the use of a longer sound to excite a space (typically a sine sweep), which is then put through a process of deconvolution to produce an impulse response. This approach has the advantage that such sounds are less susceptible to distortion; however, it requires more sophisticated processing to produce a usable impulse response. 
+
+A third approach involves using maximum-length sequences. This uses a constant-power signal instead of an impulse, so does not require as much dynamic range when recording.
+
+The transfer function (or frequency response) of a system can be measured using any sound that covers the frequency spectrum. For example, to sample the acoustic properties of a larger space such as a small church or cathedral, the space can simply be excited using white noise, with the result recorded both near the source, and somewhere else in the space.
+
+The coefficients of a finite impulse response can then be generated as the inverse Fourier Transform of the cross-correlation of the output of the system with the auto-correlation of the input to the system. This is difficult in practice because such sequences are highly susceptible to distortion.
+
+The primary goal of a convolution reverb is to sample real spaces, in order to simulate the acoustics of the sampled space. A straightforward and simple mono example of capturing an impulse response would be to set up a microphone in a concert hall and to place the microphone in the centre of the auditorium. Next, produce a very brief pulse (often an electric spark) of sound, and record everything that the microphone picks up, which includes both the original sound and the response of the room to it. The recorded take would then be cleanly edited and loaded into the convolution processor. This convolution can be applied as part of a signal processing chain.
+
+It is also possible to sample the impulse response of a reverberation unit, instead of sampling a real space. Thus, it is possible to use a convolution reverb in place of a hardware machine. The techniques used to sample a reverberation unit are the same as the ones used to sample real spaces.
+
+In electronic music convolution is the imposition of a spectral or rhythmic structure on a sound. Often this envelope or structure is taken from another sound. The convolution of two signals is the filtering of one through the other. See applications of convolution
+
+
+

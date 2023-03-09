@@ -1,0 +1,7 @@
+Pseudomonas genome database
+
+The Pseudomonas Genome Database is a database of genomic annotations for the pseudomonas genomes.
+
+
+
+

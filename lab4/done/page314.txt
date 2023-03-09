@@ -1,0 +1,22 @@
+Enumeration algorithm
+
+In computer science, an enumeration algorithm is an algorithm that enumerates the answers to a computational problem. Formally, such an algorithm applies to problems that take an input and produce a list of solutions, similarly to function problems. For each input, the enumeration algorithm must produce the list of all solutions, without duplicates, and then halt. The performance of an enumeration algorithm is measured in terms of the time required to produce the solutions, either in terms of the total time required to produce all solutions, or in terms of the maximal delay between two consecutive solutions and in terms of a preprocessing time, counted as the time before outputting the first solution. This complexity can be expressed in terms of the size of the input, the size of each individual output, or the total size of the set of all outputs, similarly to what is done with output-sensitive algorithms.
+
+An enumeration problem formula_1 is defined as a relation formula_2 over strings of an arbitrary alphabet formula_3:
+
+formula_4
+
+An algorithm solves formula_1 if for every input formula_6 the algorithm produces the (possibly infinite) sequence formula_7 such that formula_7 has no duplicate and formula_9 if and only if formula_10. The algorithm should halt if the sequence formula_7 is finite.
+
+Enumeration problems have been studied in the context of computational complexity theory, and several complexity classes have been introduced for such problems.
+
+A very general such class is EnumP, the class of problems for which the correctness of a possible output can be checked in polynomial time in the input and output. Formally, for such a problem, there must exist an algorithm A which takes as input the problem input "x", the candidate output "y", and solves the decision problem of whether "y" is a correct output for the input "x", in polynomial time in "x" and "y". For instance, this class contains all problems that amount to enumerating the witnesses of a problem in the class NP.
+
+Other classes that have been defined include the following. In the case of problems that are also in EnumP, these problems are ordered from least to most specific
+
+
+
+
+The notion of enumeration algorithms is also used in the field of computability theory to define some high complexity classes such as RE, the class of all recursively enumerable problems. This is the class of sets for which there exist an enumeration algorithm that will produce all elements of the set: the algorithm may run forever if the set is infinite, but each solution must be produced by the algorithm after a finite time.
+
+

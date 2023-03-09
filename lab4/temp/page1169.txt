@@ -1,0 +1,6 @@
+Surprisingly popular
+
+The surprisingly popular answer is a wisdom of the crowd technique that taps into the expert minority opinion within a crowd. For a given question, a group is asked both "What do you think the right answer is?" and "What do you think the popular answer will be?" The answer that maximizes the average difference between the "right" answer and the "popular" answer is the "surprisingly popular" answer.
+
+Question to be determined:<br>
+Is Philadelphia the capital of Pennsylvania?

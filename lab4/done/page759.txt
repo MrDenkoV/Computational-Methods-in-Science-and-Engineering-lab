@@ -1,0 +1,16 @@
+Crenobacter cavernea
+
+"Crenobacter cavernea" Cave-375 is a gram negative bacterium that is closely related to a previously discovered "Crenobacter cavernae" strain K1W11S-77ͭ. "C. cavernea" Cave-375 has not directly been described morphologically, however the related strain K1W11S-77ͭ is a "rod-shaped, motile, and strictly aerobic novel bacteria".
+
+Its metabolism has not yet been determined.
+
+"C. cavernea" Cave-375 was first identified from a water sample coming from a dripping stalactite. This stalactite was located in the Algar do Pena cave in the Maciço Calcário Estremenho karst massif in Central Eastern Portugal.
+"C. cavernea" Cave-375 was first isolated and "grown on nutrient agar at 25 degrees Celsius".
+
+Its ecology is not yet known. With the sequencing of the genome of "C. cavernea" Cave-375, the ecological impact should be able to be identified.
+
+"C. cavernea" Cave-375 belongs in the "Proteobacteria" phylum, "Neisseriaceae" family, and "Crenobacter cavernea" species. By comparing the 16s rRNA of the CAVE-375 stain to "Crenobacter cavernea" species, a 99% similarity value was calculated. When comparing DNA-DNA hybridization using a Genome-to-Genome Distance Calculator, a 62.66% hybridization percentage was found.
+
+"Genomic DNA was extracted from "C. cavernea" Cave-375 using an NZY microbial gDNA isolation kit (NZYTech, Portugal)". The whole genome was then sequenced using whole genome shotgun sequencing method. With this, "17,325,372 high-quality raw sequences were assembled into 15 contigs with an N₅₀ value of 323,281 and a total genome size of 2,273,143 base pairs (2.9 Mb)". NCBI Prokaryotic Genome Annotation Pipeline was able to identify a 65.9% GC content and sequencing coding for proteins and tRNA. "2,779 protein coding sequences and 63 tRNA sequences" were identified using this method.
+
+

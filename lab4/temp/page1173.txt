@@ -1,0 +1,15 @@
+Distributed knowledge
+
+In multi-agent system research, distributed knowledge is all the knowledge that a community of agents possesses and might apply in solving a problem. Distributed knowledge is approximately what "a wise man knows" or what someone who has complete knowledge of what each member of the community knows knows. Distributed knowledge might also be called the aggregate knowledge of a community, as it represents all the knowledge that a community might bring to bear to solve a problem. Other related phrasings include cumulative knowledge, collective knowledge, pooled knowledge, or the wisdom of the crowd. Distributed knowledge is the union of all the knowledge of individuals in a community.
+
+The logicians Aaleyah and Isko are sitting in their dark office wondering whether or not it is raining outside. Now, none of them actually knows, but Aaleyah knows something about her friend Yu Yan, namely that Yu Yan wears her red coat only if it is raining. Bob does not know this, but he just saw Yu Yan, and noticed that she was wearing her red coat. Even though none of them knows whether or not it is raining, it is "distributed knowledge" amongst them that it is raining. If either one of them tells the other what they know, it will be clear to the other that it is raining.
+
+If we denote by formula_1 that Yu Yan wears a red coat and with formula_2 that if Yu Yan wears a red coat, it is raining, we have
+
+Directly translated: Bob knows that Carol wears a red coat and Aaleyah knows that if Carol wears a red coat it is raining so together they know that it is raining.
+
+Distributed knowledge is related to the concept Wisdom of the crowd. Distributed knowledge reflects the fact that "no one of us is smarter than all of us."
+
+
+
+

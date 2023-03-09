@@ -1,0 +1,21 @@
+Coccus
+
+A coccus (plural cocci) is any bacterium or archaeon that has a spherical, ovoid, or generally round shape. Bacteria are categorized based on their shapes into three classes: cocci (spherical-shaped), bacillus (rod-shaped) and spirochetes (spiral-shaped) cells. Coccus refers to the shape of the bacteria, and can contain multiple genera, such as staphylococci or streptococci. Cocci can grow in pairs, chains, or clusters, depending on their orientation and attachment during cell division. Contrast to many bacilli-shaped bacteria, most cocci bacteria do not have flagella and are non-motile.
+
+Cocci is an English loanword of a modern or neo-Latin noun, which in turn stems from the Greek masculine noun "cóccos (κόκκος)" meaning "berry".
+
+Cocci Structure
+
+Structure for cocci may vary between gram positive and gram negative bacterial wall types.   
+
+The cell wall structure for cocci may vary between gram positive (thick peptidoglycan layers) and gram negative (thin peptidoglycan layers). While living in their host organism, cocci can be pathogenic (e.g., streptococcus), commensal, or symbiotic.
+
+Gram-Positive Cocci
+
+The Gram-Positive Cocci are a large group of loosely bacteria with similar morphology. All are spherical or nearly so, but they vary considerably in size. Members of some genera are identifiable by the way cells are attached to one another: in pockets, in chains, or grapes like clusters. These arrangements reflect patterns of cell division and fact that cell stick together. "Sarcina" cells, for example, are arranged in cubical pockets because cell division alternates regularly among the three perpendicular planes. "Streptococcus" spp. resemble a string of beads because division always occurs in the same plane. Some of these strings, for example, "S. pneumoniae," are only two cells long. They are called "diplococci." Species of "Staphylococcus" have no regular plane of division. They form grape-like structures.
+
+The various Gram-positive cocci differ physiologically and by habitat. "Micrococcus" spp. are obligate aerobes that inhabit human skin. "Staphylococcus" spp. also inhabit human skin, but they are facultative anaerobes. They ferment sugars, producing lactic acid as an end product. Many of these species produce carotenoid pigments, which color their colonies yellow or orange. "Staphylococcus aureus" is a major human pathogen. It can infect almost any tissue in the body, frequently the skin. It often causes nosocomial (hospital-acquired) infections.
+
+Cocci may occur as single cells or remain attached following cell division. Those that remain attached can be classified based on cellular arrangement:
+
+

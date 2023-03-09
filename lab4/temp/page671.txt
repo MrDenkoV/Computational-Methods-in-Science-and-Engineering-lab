@@ -1,0 +1,12 @@
+Piezophile
+
+A piezophile (from Greek "piezo-" for pressure and "-phile" for loving) is an organism with optimal growth under high hydrostatic pressure or, more operationally, an organism that have its maximum rate of growth at a hydrostatic pressure equal or above 10 MPa (= 99 atm = 1,450 psi), when tested over all permissible temperatures. Originally, the term barophile was used for these organisms, but since the prefix "baro-" stands for weight, the term piezophile should be given preference. Like all definitions of extremophiles, the definition of piezophiles is anthropocentric, and humans consider that moderate values for hydrostatic pressure are those around 1 atm (= 0.1 MPa = 14.7 psi). Hyperpiezophile is defined as an organism that have their maximum rate of growth above 50 MPa (= 493 atm = 7,252 psi).
+
+The current record for highest hydrostatic pressure where growth was observed is 130 MPa (= 1,283 atm = 18,855 psi), by the archaea "Thermococcus piezophilus". Obligate piezophiles refers to organisms that are unable to grow under lower hydrostatic pressures, such as 0.1 MPa. In contrast, piezotolerant organisms are those that have their maximum rate of growth at a hydrostatic pressure under 10 MPa, but that nevertheless are able to grow at lower rates under higher hydrostatic pressures.
+
+Most of the Earth's biosphere (in terms of volume) is subject to high hydrostatic pressure, and the piezosphere comprises the deep sea (at the depth of 1,000 m and greater) plus the deep subsurface (which can extend up to 5,000 m beneath the seafloor or the continental surface). The deep sea has a mean temperature around 1 to 3 °C, and it is dominated by psychrothermophiles, in contrast to the deep subsurface and hydrothermal vents in the seafloor, which are dominated by thermopiezophiles that prosper on temperatures above 45 °C (113 °F).
+
+The high pressures experienced by these organisms can cause the normal fluid cell membrane to become waxy and relatively impermeable to nutrients. The high pressure decreases the ability of the subunits of multimeric proteins to interact. Thus, large protein complexes must interact to decrease pressure-related effects and regulate processes such as protein and DNA synthesis, which are sensitive to high pressure. Piezophilic bacteria have a high proportion of fatty acids in their cytoplasmic membrane, which allows membranes to remain functional and keep from gelling at high pressures.
+
+
+

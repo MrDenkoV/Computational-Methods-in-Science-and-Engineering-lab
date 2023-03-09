@@ -1,0 +1,7 @@
+Unrestricted algorithm
+
+An unrestricted algorithm is an algorithm for the computation of a mathematical function that puts no restrictions on the range of the argument or on the precision that may be demanded in the result. The idea of such an algorithm was put forward by C. W. Clenshaw and F. W. J. Olver in a paper published in 1980.
+
+In the problem of developing algorithms for computing, as regards the values of a real-valued function of a real variable (e.g., "g"["x"] in "restricted" algorithms), the error that can be tolerated in the result is specified in advance. An interval on the real line would also be specified for values when the values of a function are to be evaluated. Different algorithms may have to be applied for evaluating functions outside the interval. An unrestricted algorithm envisages a situation in which a user may stipulate the value of "x" and also the precision required in "g"("x") quite arbitrarily. The algorithm should then produce an acceptable result without failure.
+
+

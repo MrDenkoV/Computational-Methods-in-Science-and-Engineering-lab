@@ -1,0 +1,13 @@
+Irish logarithm
+
+Irish logarithms were a system of number manipulation invented by Percy Ludgate for machine multiplication. The system used a combination of mechanical cams as look-up tables and mechanical addition to sum pseudo-logarithmic indices to produce partial products, which were then added to produce results. The technique is similar to Zech logarithms (also known as Jacobi logarithms), but uses a system of indices original to Ludgate.
+
+Ludgate's algorithm compresses the multiplication of two single decimal numbers into two table lookups (to convert the digits into indices), the addition of the two indices to create a new index which is input to a second lookup table that generates the output product. Because both lookup tables are one-dimensional, and the addition of indices is simple to implement mechanically, this allows a less complex mechanism than would be needed to implement a two-dimensional 10x10 multiplication lookup table.
+
+The following is an implementation of Ludgate's Irish logarithms algorithm in Python:
+
+Table 1 is taken from Ludgate's original paper; given the first table, the contents of Table 2 can be trivially derived from Table 1 and the definition of the algorithm. Note that the last third of the second table is entirely zeros; this can potentially be exploited to further simplify a mechanical implementation.
+
+
+
+

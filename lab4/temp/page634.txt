@@ -1,0 +1,7 @@
+ALIL pseudoknot
+
+ALIL pseudoknot is an RNA element that induces frameshifting in bacteria. The expression of a minority of genes requires frameshifting to occur where the frequency of frameshifting is increased by a RNA secondary structure located on the 3' side of the shift site. This structure can be either a pseudoknot or a stem-loop and acts as a physical barrier to mRNA translocation so therefore causes ribosome pausing. 
+
+ALIL pseudoknot was identified though comparative analysis of the a class of transposable elements belonging to the insertion sequence 3 (IS3) family and is shown to be conserved across a number of bacteria species. This pseudoknot stimulates programmed -1 ribosomal frameshifting (PRF-1) which in turn stimulates the express of transposase, an enzyme required for transposition. Mutagenesis and chemical probing were used to determine the secondary structure of this pseudoknot and it has been proposed that this pseudoknot is formed by interactions between an apical loop and internal loop.
+
+

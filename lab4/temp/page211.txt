@@ -1,0 +1,42 @@
+Run-time algorithm specialization
+
+In computer science, run-time algorithm specialization is a methodology for creating efficient algorithms for costly computation tasks of certain kinds. The methodology originates in the field of automated theorem proving and, more specifically, in the Vampire theorem prover project.
+
+The idea is inspired by the use of partial evaluation in optimising program translation. 
+Many core operations in theorem provers exhibit the following pattern.
+Suppose that we need to execute some algorithm formula_1 in a situation where a value of formula_2 "is fixed for potentially many different values of" formula_3. In order to do this efficiently, we can try to find a specialization of formula_4 for every fixed formula_2, i.e., such an algorithm formula_6, that executing formula_7 is equivalent to executing formula_1.
+
+The specialized algorithm may be more efficient than the generic one, since it can "exploit some particular properties" of the fixed value formula_2. Typically, formula_7 can avoid some operations that formula_1 would have to perform, if they are known to be redundant for this particular parameter formula_2. 
+In particular, we can often identify some tests that are true or false for formula_2, unroll loops and recursion, etc.
+
+The key difference between run-time specialization and partial evaluation is that the values of formula_2 on which formula_4 is specialised are not known statically, so the "specialization takes place at run-time".
+
+There is also an important technical difference. Partial evaluation is applied to algorithms explicitly represented as codes in some programming language. At run-time, we do not need any concrete representation of formula_4. We only have to "imagine" formula_4 "when we program" the specialization procedure.
+All we need is a concrete representation of the specialized version formula_6. This also means that we cannot use any universal methods for specializing algorithms, which is usually the case with partial evaluation. Instead, we have to program a specialization procedure for every particular algorithm formula_4. An important advantage of doing so is that we can use some powerful "ad hoc" tricks exploiting peculiarities of formula_4 and the representation of formula_2 and formula_3, which are beyond the reach of any universal specialization methods.
+
+The specialized algorithm has to be represented in a form that can be interpreted.
+In many situations, usually when formula_7 is to be computed on many values formula_3 in a row, we can write formula_6 as a code of a special abstract machine, and we often say that formula_2 is "compiled". 
+Then the code itself can be additionally optimized by answer-preserving transformations that rely only on the semantics of instructions of the abstract machine.
+
+Instructions of the abstract machine can usually be represented as records. One field of such a record stores an integer tag that identifies the instruction type, other fields may be used for storing additional parameters of the instruction, for example a pointer to another
+instruction representing a label, if the semantics of the instruction requires a jump. All instructions of a code can be stored in an array, or list, or tree.
+
+Interpretation is done by fetching instructions in some order, identifying their type
+and executing the actions associated with this type. 
+In C or C++ we can use a switch statement to associate 
+some actions with different instruction tags. 
+Modern compilers usually compile a switch statement with integer labels from a narrow range rather efficiently by storing the address of the statement corresponding to a value formula_27 in the formula_27-th cell of a special array. One can exploit this
+by taking values for instruction tags from a small interval of integers.
+
+There are situations when many instances of formula_2 are intended for long-term storage and the calls of formula_1 occur with different formula_3 in an unpredictable order.
+For example, we may have to check formula_32 first, then formula_33, then formula_34, and so on.
+In such circumstances, full-scale specialization with compilation may not be suitable due to excessive memory usage. 
+However, we can sometimes find a compact specialized representation formula_35
+for every formula_2, that can be stored with, or instead of, formula_2. 
+We also define a variant formula_38 that works on this representation 
+and any call to formula_1 is replaced by formula_40, intended to do the same job faster.
+
+
+
+
+

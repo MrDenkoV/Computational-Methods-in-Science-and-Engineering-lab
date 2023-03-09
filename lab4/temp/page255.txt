@@ -1,0 +1,14 @@
+Xulvi-Brunet–Sokolov algorithm
+
+Xulvi-Brunet and Sokolov’s algorithm generates networks with chosen degree correlations. This method is based on link rewiring, in which the desired degree is governed by parameter ρ. By varying this single parameter it is possible to generate networks from random (when ρ = 0) to perfectly assortative or disassortative (when ρ = 1). This algorithm allows to keep network’s degree distribution unchanged when changing the value of ρ.
+
+In assortative networks, well-connected nodes are likely to be connected to other highly connected nodes. Social networks are examples of assortative networks. This means that an assortative network has the property that almost all nodes with the same degree are linked only between themselves.
+
+The Xulvi-Brunet–Sokolov algorithm for this type of networks is the following. 
+In a given network, two links connecting four different nodes are chosen randomly. These nodes are ordered by their degrees. Then, with probability ρ, the links are randomly rewired in such a way that one link connects the two nodes with the smaller degrees and the other connects the two nodes with the larger degrees. If one or both of these links already existed in the network, the step is discarded and is repeated again. Thus, there will be no self-connected nodes or multiple links connecting the same two nodes. Different degrees of assortativity of a network can be achieved by changing the parameter ρ. 
+Assortative networks are characterized by highly connected groups of nodes with similar degree. As assortativity grows, the average path length and clustering coefficient increase.
+
+In disassortative networks, highly connected nodes tend to connect to less-well-connected nodes with larger probability than in uncorrelated networks. Examples of such networks include biological networks.
+The Xulvi-Brunet and Sokolov’s algorithm for this type of networks is similar to the one for assortative networks with one minor change. As before, two links of four nodes are randomly chose and the nodes are ordered with respect to their degrees. However, in this case, the links are rewired (with probability p) such that one link connects the highest connected node with the node with the lowest degree and the other link connects the two remaining nodes randomly with probability 1 − ρ. Similarly, if the new links already existed, the previous step is repeated. This algorithm does not change the degree of nodes and thus the degree distribution of the network.
+
+

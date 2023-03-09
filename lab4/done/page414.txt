@@ -1,0 +1,74 @@
+Radiopharmaceutical
+
+Radiopharmaceuticals, or medicinal radiocompounds, are a group of pharmaceutical drugs containing radioactive isotopes. Radiopharmaceuticals can be used as diagnostic and therapeutic agents. Radiopharmaceuticals emit radiation themselves, which is different from contrast media which absorb or alter external electromagnetism or ultrasound. Radiopharmacology is the branch of pharmacology that specializes in these agents. 
+
+The main group of these compounds are the radiotracers used to diagnose dysfunction in body tissues. While not all medical isotopes are radioactive, radiopharmaceuticals are the oldest and still most common such drugs.
+As with other pharmaceutical drugs, there is standardization of the drug nomenclature for radiopharmaceuticals, although various standards coexist. The International Nonproprietary Names (INNs), United States Pharmacopeia (USP) names, and IUPAC names for these agents are usually similar other than trivial style differences. The details are explained at "Radiopharmacology § Drug nomenclature for radiopharmaceuticals".
+
+A list of nuclear medicine radiopharmaceuticals follows. Some radioisotopes are used in ionic or inert form without attachment to a pharmaceutical; these are also included. There is a section for each radioisotope with a table of radiopharmaceuticals using that radioisotope. The sections are ordered alphabetically by the English name of the radioisotope. Sections for the same element are then ordered by atomic mass number.
+
+Ca is a beta and gamma emitter.
+
+C is a positron emitter.
+
+C is a beta emitter.
+
+Cr is a gamma emitter.
+Co is a gamma emitter.
+
+Co is a gamma emitter.
+
+Er is a beta emitter.
+
+F is a positron emitter with a half-life of 109 minutes. It is produced in medical cyclotrons, usually from oxygen-18, and then chemically attached to a pharmaceutical. See PET scan.
+
+Ga is a gamma emitter. See gallium scan.
+
+Ga is a positron emitter, with a 68-minute half-life, produced by elution from germanium-68 in a gallium-68 generator. See also positron emission tomography.
+
+H or tritium is a beta emitter.
+
+In is a gamma emitter.
+
+Iodine-123 (I-123) is a gamma emitter. It is used only diagnostically, as its radiation is penetrating and short-lived.
+
+I is a gamma emitter with a long half-life of 59.4 days (the longest of all radioiodines used in medicine). Iodine-123 is preferred for imaging, so I-125 is used diagnostically only when the test requires a longer period to prepare the radiopharmaceutical and trace it, such as a fibrinogen scan to diagnose clotting. I-125's gamma radiation is of medium penetration, making it more useful as a therapeutic isotope for brachytherapy implant of radioisotope capsules for local treatment of cancers.
+
+I is a beta and gamma emitter. It is used both to destroy thyroid and thyroid cancer tissues (via beta radiation, which is short-range), and also other neuroendocrine tissues when used in MIBG. It can also be seen by a gamma camera, and can serve as a diagnostic imaging tracer, when treatment is also being attempted at the same time. However iodine-123 is usually preferred when only imaging is desired.
+
+Fe is a beta and gamma emitter.
+
+Kr is a gamma emitter.
+
+ is a beta emitter.
+
+N is a positron emitter.
+
+O is a positron emitter.
+
+P is a beta emitter.
+
+Ra is an alpha emitter.
+
+Rb is a positron and gamma emitter.
+
+Sm is a beta and gamma emitter.
+
+Se is a gamma emitter.
+
+Na is a positron and gamma emitter.
+
+Na is a beta and gamma emitter.
+
+Sr is a beta emitter.
+
+Tc is a gamma emitter. It is obtained on-site at the imaging center as the soluble pertechnetate which is eluted from a technetium-99m generator, and then either used directly as this soluble salt, or else used to synthesize a number of technetium-99m-based radiopharmaceuticals.
+
+Tl is a gamma emitter.
+
+Xe is a gamma emitter.
+
+Y is a beta emitter.
+
+
+

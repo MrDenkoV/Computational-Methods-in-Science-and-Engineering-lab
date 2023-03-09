@@ -1,0 +1,14 @@
+Snap rounding
+
+Snap rounding is a method of approximating line segment locations by creating a grid and placing each point in the centre of a cell (pixel) of the grid. The method preserves certain topological properties of the arrangement of line segments.
+
+Drawbacks include the potential interpolation of additional vertices in line segments (lines become polylines), the arbitrary closeness of a point to a non-incident edge, and arbitrary numbers of intersections between input line-segments. The 3 dimensional case is worse, with a polyhedral subdivision of complexity becoming complexity "O"(n).
+
+There are more refined algorithms to cope with some of these issues, for example "iterated snap rounding" guarantees a "large" separation between points and non-incident edges.
+
+
+Conversely there are undesirable properties:
+
+
+
+

@@ -1,0 +1,30 @@
+Knowledge neglect
+
+Knowledge neglect refers to cases when people fail to retrieve and apply previously stored knowledge appropriately into a current situation (Marsh, Umanath, 2014).
+Perhaps the most famous example of knowledge neglect is the Moses Illusion, discovered in 1981 by Erickson and Mattson. For the illusion, participants are asked to answer the question, “How many pairs of each animal did Moses bring on his ark?” If a participant answers the question by simply saying, “2,” then this is an example of knowledge neglect because the person has failed to apply their previously learned knowledge that Noah was the individual who constructed the ark and herded the animals, not Moses. Another example would be a teacher asking the class, "Who was the main villain in Stephen King's "Harry Potter" series?" Any fan of the "Harry Potter" series knows that J. K. Rowling authored the books, however someone might still answer this question without applying their previous knowledge about the correct author, demonstrating knowledge neglect.
+
+A more general example of knowledge neglect can also occur, for instance, when someone is rehearsing lines for a play and then forgets some of the lines while they are performing. The lines were available to the person in their memory but that person failed to access or retrieve them from their memory and use them for the situation, also demonstrating knowledge neglect.
+
+One possible reason that people fall victim to knowledge neglect is because people tend to have a truth bias, meaning that people tend to believe that the information they hear is true. With the truth bias, people are inclined to believe that plausible information is true, regardless of the source of such information or their own prior knowledge. For this reason, individuals may fall victim to knowledge neglect simply because they aren't expecting that what they are being told or reading about will be incorrect.
+
+Knowledge neglect could also be explained by the idea that people's attention is often fragmented, and that their cognitive ability is being used to examine the meaning of what they are reading or hearing about, rather than detecting errors in validity. For example, while reading stories or detecting/answering distorted questions, the participant is doing a lot and may not have the processing resources available to assess whether or not the information is true (Marsh, Umanath 2014). The reader of a story is processing a plot line, keeping track of characters, and more generally, building a mental model of the text (e.g., Bower & Morrow, 1990; Johnson‐ Laird, 1983); catching contradictions with stored knowledge is thus, not the main focus of the reader (Marsh, Umanath 2014).
+
+The simple fact of believing something when it is presented to you is common. This can be a significant cause for knowledge neglect. When something is believed, the meaning is represented, coded, or presented in a mental system and usually is treated as if it is true (Gilbert 1991). If you have no prior knowledge about a subject when you encode it and you believe such information to be true, you are more likely to retrieve this information at a later time believing it is true, putting you at risk for knowledge neglect.
+
+Rapp, D., & Braasch, J. L. (n.d.). Processing inaccurate information: Theoretical and applied perspectives from cognitive science and the educational sciences.
+
+Bottoms, H. C., Eslick, A. N., & Marsh, E. J. (2010). Memory and the Moses illusion: Failures to detect contradictions with stored knowledge yield negative memorial consequences. Memory, 18(6), 670-678
+
+Park, H., & Reder, L. M. (2004). Moses illusion: Implications for human cognition. In R. F. Pohl (Ed.), Cognitive illusions: A handbook on fallacies and biases in thinking, judgment, and memory (pp. 275"292). Hove, UK: Psychology Press.
+
+Knowledge does not protect against illusory truth.
+Fazio, Lisa K.; Brashier, Nadia M.; Payne, B. Keith; Marsh, Elizabeth J.
+Journal of Experimental Psychology: General, Vol 144(5), Oct 2015, 993-1002.
+
+Allison D. Cantor & Elizabeth J. Marsh (2016): Expertise effects in the Moses illusion: detecting contradictions with stored knowledge, Memory, 
+
+Gilbert, D. T. (1991). How mental systems believe. American psychologist, 46(2), 107.
+
+Marsh, E. J., & Umanath, S. (2014). Knowledge Neglect: Failures to Notice Contradictions with Stored Knowledge. Chapter in D. N. Rapp and J. Braasch (Eds.) Processing Inaccurate Information: Theoretical and Applied Perspectives from Cognitive Science and the Educational Sciences. MIT Press.
+
+

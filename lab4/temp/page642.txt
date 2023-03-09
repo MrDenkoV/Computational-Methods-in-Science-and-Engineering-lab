@@ -1,0 +1,14 @@
+Segmented filamentous bacteria
+
+Segmented filamentous bacteria or "Candidatus" Savagella are members of the gut microbiota of rodents, fish and chickens, and have been shown to potently induce immune responses in mice. They form a distinct lineage within the Clostridiaceae and the name "Candidatus" Savagella has been proposed for this lineage.
+
+They were previously named "Candidatus" Arthromitus because of their morphological resemblance to bacterial filaments previously observed in the guts of insects by Joseph Leidy.
+
+Despite the fact that they have been widely referred to as segmented filamentous bacteria, this term is somewhat problematic as it does not allow one to distinguish between bacteria that colonize various hosts or even if segmented filamentous bacteria are actually several different bacterial species. In mice, these bacteria grow primarily in the terminal ileum in close proximity to the intestinal epithelium where they are thought to help induce T helper 17 cell responses.
+
+Intriguingly, Segmented Filamentous Bacteria were found to expand in AID-deficient mice, which lack the ability to mount an appropriate humoral immune response because of impaired somatic hypermutation; parabiotic experiments revealed the importance of IgA in eliminating Segmented Filamentous Bacteria. This goes hand in hand with an earlier study demonstrating the ability of monocolonization with Segmented Filamentous Bacteria to dramatically increase mucosal IgA levels. Segmented Filamentous Bacteria are species specific, and may be important to immune development.
+
+
+"Two review articles"
+
+

@@ -1,0 +1,43 @@
+Microbial inoculant
+
+Microbial inoculants also known as soil inoculants or bioinoculants are agricultural amendments that use beneficial rhizospheric or endophytic microbes to promote plant health. Many of the microbes involved form symbiotic relationships with the target crops where both parties benefit (mutualism). While microbial inoculants are applied to improve plant nutrition, they can also be used to promote plant growth by stimulating plant hormone production.
+
+Research into the benefits of inoculants in agriculture extends beyond their capacity as biofertilizers. Microbial inoculants can induce systemic acquired resistance (SAR) of crop species to several common crop diseases (provides resistance against pathogens). So far SAR has been demonstrated for powdery mildew ("Blumeria graminis" f. sp. "hordei", Heitefuss, 2001), take-all ("Gaeumannomyces graminis" var. "tritici", Khaosaad "et al.", 2007), leaf spot ("Pseudomonas syringae", Ramos Solano "et al.", 2008) and root rot ("Fusarium culmorum", Waller "et al." 2005).
+
+The rhizobacteria commonly applied as inoculants include nitrogen-fixers, phosphate-solubilisers and other root-associated beneficial bacteria which enhance the availability of the macronutrients nitrogen and phosphorus to the host plant. Such bacteria are commonly referred to as plant growth promoting rhizobacteria (PGPR).
+
+The most commonly applied rhizobacteria are "Rhizobium" and closely related genera. "Rhizobium" are nitrogen-fixing bacteria that form symbiotic associations within nodules on the roots of legumes. This increases host nitrogen nutrition and is important to the cultivation of soybeans, chickpeas and many other leguminous crops. For non-leguminous crops, "Azospirillum" has been demonstrated to be beneficial in some cases for nitrogen fixation and plant nutrition.
+
+For cereal crops, diazotrophic rhizobacteria have increased plant growth, grain yield (Caballero-Mellado "et al.", 1992), nitrogen and phosphorus uptake, and nitrogen (Caballero-Mellado "et al.", 1992), phosphorus (Caballero-Mellado "et al.", 1992; Belimov "et al.", 1995) and potassium content (Caballero-Mellado "et al.", 1992). Rhizobacteria live in root nodes, and are associated with legumes.
+
+To improve phosphorus nutrition, the use of phosphate-solubilising bacteria (PSB) such as "Agrobacterium radiobacter" has also received attention (Belimov "et al.", 1995a; 1995b; Singh & Kapoor, 1999). As the name suggests, PSB are free-living bacteria that break down inorganic soil phosphates to simpler forms that enable uptake by plants.
+
+Symbiotic relationships between fungi and plant roots is referred to as a Mycorrhiza association. This symbiotic relationships is present in nearly all land plants and give both the plant and fungi advantages to survival. The plant can give upwards of 5-30% of its energy production to the fungi in exchange for increasing the root absorptive area with hyphae which gives the plant access to nutrients it would otherwise not be able to attain. The two most common mycorrhizae are arbuscular mycorrhizae and ectomycorrhizae. Ectomycorrhizae associations are most commonly found in woody-species, and have less implications for agricultural systems.  
+
+Arbuscular mycorrhiza (AM) has received attention as a potential agriculture amendment for its ability to access and provide the host plant phosphorus. Under a reduced fertilization greenhouse system that was inoculated with a mixture of AM fungi and rhizobacteria, tomato yields that were given from 100% fertility were attained at 70% fertility. This 30% reduction in fertilizer application can aid in the reduction of nutrient pollution, and help prolong finite mineral resources such as phosphorus (Peak phosphorus). Other effects include increases in salinity tolerance, drought tolerance, and resistance to trace metal toxicity.
+
+Fungal inoculation alone can benefit host
+plants. Inoculation paired with other amendments can further improve
+conditions. Arbuscular mycorrhizal inoculation combined with compost is a
+common household amendment for personal gardens, agriculture, and nurseries. It
+has been observed that this pairing can also promote microbial functions in
+soils that have been affected by mining.
+
+Certain fungal partners do best in specific
+ecotones or with certain crops. Arbuscular mycorrhizal inoculation paired with plant
+growth promoting bacteria resulted in a higher yield and quicker maturation in
+upland rice paddys.
+
+Maize growth improved after an amendment of
+arbuscular mycorrhizae and biochar. This amendment can also decrease
+cadmium uptake by crops.
+
+Fungal inoculants can be used with or without additional amendments in private gardens, homesteads, agricultural production, native nurseries, and land restoration projects.
+
+The combination of strains of Plant Growth Promoting Rhizobacteria (PGPR) has been shown to benefit rice and barley. The main benefit from dual inoculation is increased plant nutrient uptake from both soil and fertilizer. Multiple strains of inoculant have also been demonstrated to increase total nitrogenase activity compared to single strains of inoculants, even when only one strain is diazotrophic.
+
+PGPR and arbuscular mycorrhizae in combination can be useful in increasing wheat growth in nutrient poor soil and improving nitrogen-extraction from fertilised soils.
+
+
+
+

@@ -1,0 +1,5 @@
+L-163,491
+
+L-163,491 is a drug which acts as a partial agonist of angiotensin II receptor type 1, and with lower affinity as an agonist of angiotensin II receptor type 2, mimicking the action of angiotensin II. Its practical applications to date have been limited to scientific research into the function of the angiotensin receptor system, but it has been suggested as a potential therapeutic agent for the treatment of inflammation of the lungs associated with certain viral diseases such as COVID-19.
+
+

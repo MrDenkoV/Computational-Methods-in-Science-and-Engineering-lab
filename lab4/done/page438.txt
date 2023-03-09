@@ -1,0 +1,83 @@
+Custirsen
+
+Custirsen, aliases including custirsen sodium, OGX-011, and CC-8490, is currently under clinical investigation into its therapeutic effects in cancer treatment. Phase I, II, and III clinical studies have shown increased survival rates in patients with prostate cancer undergoing custirsen treatment. Further research into the toxicities and therapeutic effects are underway before the drug can be marketed and distributed.
+
+The discovery of Custirsen was achieved by the partnering of OncoGenex Pharmaceuticals Inc. and Isis. In 2009, OncoGenex Pharmaceuticals Inc. and Teva Pharmaceutical Industries Ltd agreed to develop and commercialise Custirsen. Phase III clinical programs currently in progress include SATURN which is the assessment of pain palliation in men with metastatic castration-resistant prostate cancer, and SYNERGY which assesses the survival of men with metastatic castration-resistant prostate cancer receiving first-line chemotherapy. These are being conducted through the Special Protocol Assessment (SPA) process.
+
+An antisense oligonucleotide (ASO) is a single-strand DNA sequence complementary to a desired messenger RNA (mRNA) sequence. Antisense therapy targets gene sequences using antisense oligonucleotides by binding the ASO to the mRNA strand. This creates an inhibitory complex that reduces plasma protein levels by preventing translation.
+
+Custirsen is a second-generation phosphorothioate antisense oligonucleotide. Phosphorothioates are oligonucleotides with a sulfur ion replacing an oxygen molecule in the chain. They have high antisense activity due to their increased chirality, nuclease stability, and solubility. Second-generation oligonucleotides are highly specific to the target mRNA sequence, increasing the affinity of the compound. Custirsen acts as an anti-cancer drug by binding to the mRNA initiation site of the clusterin gene, reducing clusterin protein plasma concentrations. The synthetic addition of a 2’-methocyethyl on each nucleotide bookending the phosphorothioate backbone causes:
+
+The upregulation of clusterin has been expressed in many tumours including prostate, breast, non-small cell lung, ovary and colorectal. It has been linked with the development of aggressive tumours by protecting the cells from apoptosis. It is also upregulated in response to standard cancer treatments including chemotherapy, androgen deprivation therapy, and radiation therapy. This resistance is caused by the inhibition of the pro-apoptotic BLC2 gene, prevention of protein aggregation, and increased NF-KB.
+
+The anti-apoptotic activity of clusterin in aiding tumour growth is due to interactions with protein complexes. These include:
+
+Custirsen inhibits the growth of estrogen-sensitive breast cancer cells and inhibits the growth of glioblastoma cells by inducing cell apoptosis. Custirsen acts on both protein receptors and gene sequences.
+
+There are three known protein targets:
+
+
+There are three known gene targets:
+
+
+A meta-analysis study evaluated 5588 Custirsen plasma concentrations from 631 subjects over seven clinical studies. Subjects with cancer received multiple doses between 40 mg and 640 mg intravenously over two hours, whilst healthy subjects received either a single or double dose at 320 mg-640 mg.
+
+The pharmacokinetics of Custirsen was described by a three-compartment model with first-order elimination where:
+
+For a representative sixty-six year old with a body mass (kg) of eighty-two and a blood Custirsen level of 0.933 mg/dL, the estimated parameter values were:
+
+Current research into the medical applications of Custirsen as an anti-cancer drug are detailed in the following.
+
+In 2012, Teva Pharmaceutical Industries conducted a study into the “potential impact of Custirsen on the blood levels of the standard chemotherapeutic drug, Paclitaxel, when combined in a treatment regimen.” The aim of the clinical study was to determine whether Custirsen affected body distribution and metabolism of both Paclitaxel and Carboplatin. The study also evaluated Custirsen blood levels amongst cancer patients, and the safety and tolerability of a combined Custirsen and Paciltaxel/Carboplatin treatment regime.
+
+This was a successful Phase I clinical study that propagated Phase II and III studies. Results have not been released.
+
+In 2013, Teva Pharmaceutical Industries initiated another Phase I clinical study into “the effect of Custirsen treatment on cardiac conduction and repolarisation in healthy subjects.” The treatment group received 640 mg of Custirsen intravenously against the control group which received a placebo treatment and a positive control group which received a single oral dose of 400 mg Moxifloxacin. The positive control was used as a comparison of assay sensitivity.
+
+Patients were monitored by an electromyogram with readings collected on day 1 at 0 hours (pre-dose), every two hours for eight hours, then every four hours for sixteen hours. This was repeated on day 8 at 0 hours (pre-dose), every two hours for eight hours, and then every four hours for sixteen ours, at 36 hours after dose, and the final reading at 48 hours.
+
+The results concluded that there were no changes in cardiac repolarisation (differences in QT wave value).
+
+The Achieve Life Sciences centre conducted a Phase I and Phase II clinical study into the combinational effectiveness of treating stage IIIB and stage IV Non-Small Cell Lung Cancer patients with either Custirsen, Gemcitabine and Cisplatin, or Custirsen and Carboplatin. Custirsen was administered at 640 mg intravenously on days 1, 8, and 15 for each three week cycle, Carboplatin infusion followed Custirsin on days 1 and 8, and Cisplatin followed Gemcitabine on day 1. The experiment was concluded after six cycles.
+
+The study concluded that there was an overall mean reduction in clusterin blood plasma concentration in 95% of patients. Patients who had less than 39 mg/mL had an average survival rate of 27.1 months compared to 16.1 months in individuals with a higher serum concentration.
+
+The results of this experiment prompted a phase III trial, comparing the survival rate of patients with stage IIIB and stage IV Non-Small Cell Lung Cancer undergoing the combinational Custirsen and Docetaxel treatment, and Docetaxel alone.
+
+The majority of metastatic prostate cancers eventually develop into castration-resistant disease. Prostate cancer is the second leading cause of death in men in the United States, and so has become the main target in Custirsen clinical studies.
+
+A phase I study investigated the maximum tolerated dose of Custirsen in patients with recurrent or refractory high-grade gliomas.
+
+The recommended and safe dosing of Custirsen was determined in a Phase I same-dose escalation scheme involving forty patients with tumours known to upregulate clusterin with metastatic or locally recurrent disease (prostate, ovary, breast). Custirsen was infused intravenously on days 1, 3, and 5, with weekly dosing starting on day 8 for four weeks. The drug was increasingly administered in six dose cohorts of 40 mg, 80 mg, 160 mg, 320 mg, 480 mg, and 640 mg.
+
+The results found that the recommended dose of Custirsen was 640 mg, with maximum decrease of clusterin blood plasma occurring at this dose. Researchers found a statistically significant increase in the apoptotic index in prostatectomy specimens.
+
+This study provided the dosing framework for further studies into Custirsen, determining 640 mg as a tolerable and biologically active dose.
+
+In this study, no dose-limiting toxicities were reported in doses up to and including 480 mg. For patients who received the 640 mg dose, the following adverse reactions were present:
+
+In patients who received combined treatment with Docetaxel, four of sixteen patients experienced dose-limiting toxicities at 640 mg:
+
+Three phase II studies were conducted into the influence of Custirsen in prostate cancer treatment:
+
+Researchers investigated the response rate of a treatment regime coupling androgen deprivation therapy and weekly 640 mg infusions of Custirsen for twelve weeks in patients with localised prostate cancer. The results were inconclusive for complete responses. It was found that tissue Custirsen levels were more than 1 mg/g, the minimal level at which preclinical effects can be seen. This study confirmed the results found in the phase I study determining safe dosing and toxicity of Custirsen.
+
+A randomized study investigated the effect of the combined treatment of Docetaxel (75 mg/m) and Prednisone (5 mg twice daily), with or without Custirsen (640 mg weekly) in eighty-two men diagnosed with metastatic-castration-resistant prostate cancer that had not undergone chemotherapy treatment.
+
+Results found that in 58% of subjects in custirsen-dependent group and 54% of subjects in the custirsen-independent group, there was more than 50% decrease in Prostate-Specific Antigen levels. Partial responses of 19% and 25% respectively were found in patients with measurable disease. In the Custirsen-dependent group, there was a median progression free survival of 7.3 months against 6.1 months in the independent group. There was also an overall survival rate of 23.8 months compared to 16.9 months respectively. At the end of the first cycle, there was a median decrease of 26% in clusterin plasma levels in individuals with custirsen-dependent treatment, compared to a 1% increase in patients who did not receive custirsen.
+
+The study demonstrated that the addition of custirsen in cancer treatment decrease clusterin plasma concentrations, however limitations to the experiment prevented the study from further analysing the pathological effects of clusterin in survival and remission rates. It prompted further phase II studies into metastatic-castration-resistant prostate cancer cases.
+
+The Canadian Urologic Oncology Group conducted a trial experiment on patients with metastatic-castration-resistant prostate cancer which had progressed within six months of first-line chemotherapy. Patients were treated with either 640 mg Custirsen weekly with 75 mg/m of Docetaxel and 5 mg Prednisone twice daily every three weeks, or 640 mg Custirsen with 12 mg/m Mitoxantrone and 5 mg Prednisone twice daily every three weeks.
+
+Results found that the combination of drugs in both treatment groups was well tolerated, with adverse reactions including fatigue and lymphopenia. The first treatment group had a medium survival rate of 15.8 months and a median progression-free survival of 7.2 months compared to the second treatment group of 11.5 months and 3.4 months respectively. Prostate-Specific Antigen levels decreased over 50% in both treatment groups. 88% of patients had durable pain response. Of 13 patients in the first treatment group, 77% responded with a median time to pain progression of 10 months compared to 46% of patients in the second treatment group who had a median time to pain progression of 5.2 months. It was also found that blood plasma Clusterin levels decreased during treatment, correlating with an improved survival and a 70% reduction in the hazard of death at the time of response.
+
+The findings of this study showed that there was a relationship between clusterin levels and survival rates, suggesting clusterin as a possible biomarker of response to Custirsen.
+
+Phase III studies into the effectiveness of the combinational treatment of Custirsen and chemotherapy as a treatment of metastatic-castration-resistant prostate cancer and also Custirsen as a biomarker for clusterin are currently under evaluation.
+
+The Phase III SYNERGY trial looked into the addition of Custirsen to first-line Docetaxel and Prednisone chemotherapy, concluding that there was no marked increased survival rate compared to the Custirsen-independent treatment group. Researchers also found no difference in the progressive rates of the cancer. Contrasting previous research, subjects in the Custirsen group had more adverse reactions to the treatment than the Custirsen-independent group.
+
+The findings of this clinical study contradict the results found in previous studies. However, researchers suggested further studies into patients with metastatic-castration-resistant prostate cancer whom have poor prognostic features, believing there is a therapeutic effect of Custirsen in individuals with this feature of the disease.
+
+

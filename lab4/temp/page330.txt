@@ -1,0 +1,29 @@
+Gallery of named graphs
+
+Some of the finite structures considered in graph theory have names, sometimes inspired by the graph's topology, and sometimes after their discoverer. A famous example is the Petersen graph, a concrete graph on 10 vertices that appears as a minimal example or counterexample in many different contexts.
+
+The strongly regular graph on "v" vertices and rank "k" is usually denoted srg("v,k",λ,μ).
+
+A symmetric graph is one in which there is a symmetry (graph automorphism) taking any ordered pair of adjacent vertices to any other ordered pair; the Foster census lists all small symmetric 3-regular graphs. Every strongly regular graph is symmetric, but not vice versa.
+
+The complete graph on formula_1 vertices is often called the "formula_1-clique" and usually denoted formula_3, from German "komplett".
+
+The complete bipartite graph is usually denoted formula_4. For formula_5 see the section on star graphs. The graph formula_6 equals the 4-cycle formula_7 (the square) introduced below. 
+
+The cycle graph on formula_1 vertices is called the "n-cycle" and usually denoted formula_9. It is also called a "cyclic graph", a "polygon" or the "n-gon". Special cases are the "triangle" formula_10, the "square" formula_7, and then several with Greek naming "pentagon" formula_12, "hexagon" formula_13, etc.
+
+The friendship graph "F" can be constructed by joining "n" copies of the cycle graph "C" with a common vertex.
+
+In graph theory, the term fullerene refers to any 3-regular, planar graph with all faces of size 5 or 6 (including the external face). It follows from Euler's polyhedron formula, "V" – "E" + "F" = 2 (where "V", "E", "F" indicate the number of vertices, edges, and faces), that there are exactly 12 pentagons in a fullerene and "h" = "V"/2 – 10 hexagons. Therefore "V" = 20 + 2"h"; "E" = 30 + 3"h". Fullerene graphs are the Schlegel representations of the corresponding fullerene compounds.
+
+An algorithm to generate all the non-isomorphic fullerens with a given number of hexagonal faces has been developed by G. Brinkmann and A. Dress. G. Brinkmann also provided a freely available implementation, called fullgen.
+
+The complete graph on four vertices forms the skeleton of the tetrahedron, and more generally the complete graphs form skeletons of simplices. The hypercube graphs are also skeletons of higher-dimensional regular polytopes.
+
+A snark is a bridgeless cubic graph that requires four colors in any proper edge coloring. The smallest snark is the Petersen graph, already listed above.
+
+A star "S" is the complete bipartite graph "K". The star "S" is called the claw graph.
+
+The wheel graph "W" is a graph on "n" vertices constructed by connecting a single vertex to every vertex in an ("n" − 1)-cycle.
+
+

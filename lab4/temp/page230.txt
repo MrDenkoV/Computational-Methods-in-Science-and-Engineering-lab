@@ -1,0 +1,23 @@
+Hyphenation algorithm
+
+A hyphenation algorithm is a set of rules, especially one codified for implementation in a computer program, that decides at which points a word can be broken over two lines with a hyphen. For example, a hyphenation algorithm might decide that "impeachment" can be broken as "impeach-ment" or "im-peachment" but not "impe-achment".
+
+One of the reasons for the complexity of the rules of word-breaking is that different "dialects" of English tend to differ on hyphenation: American English tends to work on sound, but British English tends to look to the origins of the word and then to sound. There are also a large number of exceptions, which further complicates matters.
+
+Some rules of thumb can be found in the Major Keary's: "On Hyphenation – Anarchy of Pedantry." Among the algorithmic approaches to hyphenation, the one implemented in the TeX typesetting system is widely used. It is thoroughly documented in the first two volumes of "Computers and Typesetting" and in Francis Mark Liang's dissertation. The aim of Liang's work was to get the algorithm as accurate as he practically could and to keep any exception dictionary small.
+
+In TeX's original hyphenation patterns for American English, the exception list contains only 14 words.
+
+Ports of the TeX hyphenation algorithm are available as libraries for several programming languages, including Haskell, JavaScript, Perl, PostScript, Python, Ruby, C#, and TeX can be made to show hyphens in the log by the command codice_1.
+
+In LaTeX, hyphenation correction can be added by users by using:
+
+The codice_2 command declares allowed hyphenation points in which words is a list of words, separated by spaces, in which each hyphenation point is indicated by a codice_3 character. For example,
+
+declares that in the current job "fortran" should not be hyphenated and that if "ergonomic" must be hyphenated, it will be at one of the indicated points.
+
+However, there are several limits. For example, the stock codice_2 command accepts only ASCII letters by default and so it cannot be used to correct hyphenation for words with non-ASCII characters (like "ä", "é", "ç"), which are very common in almost all languages except English. Simple workarounds exist, however.
+
+
+
+

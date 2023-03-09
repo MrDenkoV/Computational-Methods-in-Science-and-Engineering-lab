@@ -1,0 +1,11 @@
+Viable but nonculturable
+
+Viable but nonculturable (VBNC) bacteria refers to bacteria that are in a state of very low metabolic activity and do not divide, but are alive and have the ability to become culturable once resuscitated.
+
+Bacteria in a VBNC state cannot grow on standard growth media, though flow cytometry can measure the viability of the bacteria. Bacteria can enter the VBNC state as a response to stress, due to adverse nutrient, temperature, osmotic, oxygen, and light conditions. The cells that are in the VBNC state are morphologically smaller, and demonstrate reduced nutrient transport, rate of respiration, and synthesis of macromolecules. Sometimes, VBNC bacteria can remain in that state for over a year. It has been shown that numerous pathogens and non-pathogens can enter the VBNC state, and therefore it has significant implications in pathogenesis, bioremediation, and other branches of microbiology.
+
+The existence of the VBNC state is controversial. The validity and interpretation of the assays to determine the VBNC state have been questioned.
+
+Species known to enter a VBNC state:
+
+

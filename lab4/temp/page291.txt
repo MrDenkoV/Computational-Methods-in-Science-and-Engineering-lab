@@ -1,0 +1,38 @@
+Sardinas–Patterson algorithm
+
+In coding theory, the Sardinas–Patterson algorithm is a classical algorithm for determining in polynomial time whether a given variable-length code is uniquely decodable, named after August Albert Sardinas and George W. Patterson, who published it in 1953. The algorithm carries out a systematic search for a string which admits two different decompositions into codewords. As Knuth reports, the algorithm was rediscovered about ten years later in 1963 by Floyd, despite the fact that it was at the time already well known in coding theory.
+
+Consider the code formula_1. This code, which is based on an example by Berstel, is an example of a code which is not uniquely decodable, since the string
+
+can be interpreted as the sequence of codewords
+
+but also as the sequence of codewords
+
+Two possible decodings of this encoded string are thus given by "cdb" and "babe".
+
+In general, a codeword can be found by the following idea: In the first round, we choose two codewords formula_2 and formula_3 such that formula_2 is a prefix of formula_3, that is,
+formula_6 for some "dangling suffix" formula_7. If one tries first formula_8 and formula_9, the dangling suffix is formula_10. If we manage to find two sequences formula_11 and formula_12 of codewords such that
+formula_13, then we are finished: For then the string formula_14 can alternatively be decomposed as formula_15, and we have found the desired string having at least two different decompositions into codewords.
+
+In the second round, we try out two different approaches: the first trial is to look for a codeword that has "w" as prefix. Then we obtain a new dangling suffix "w"', with which we can continue our search. If we eventually encounter a dangling suffix that is itself a codeword (or the empty word), then the search will terminate, as we know there exists a string with two decompositions. The second trial is to seek for a codeword that is itself a prefix of "w". In our example, we have formula_10, and the sequence "1" is a codeword. We can thus also continue with "w'=0" as the new dangling suffix.
+
+The algorithm is described most conveniently using quotients of formal languages. In general, for two sets of strings "D" and "N", the (left) quotient formula_17 is defined as the residual words obtained from "D" by removing some prefix in "N". Formally, formula_18. Now let formula_19 denote the (finite) set of codewords in the given code.
+
+The algorithm proceeds in rounds, where we maintain in each round not only one dangling suffix as described above, but the (finite) set of all potential dangling suffixes. Starting with round formula_20, the set of potential dangling suffixes will be denoted by formula_21. The sets formula_21 are defined inductively as follows:
+
+formula_23. Here, the symbol formula_24 denotes the empty word.
+
+formula_25, for all formula_26.
+
+The algorithm computes the sets formula_21 in increasing order of formula_28. As soon as one of the formula_21 contains a word from "C" or the empty word, then the algorithm terminates and answers that the given code is not uniquely decodable. Otherwise, once a set formula_21
+equals a previously encountered set formula_31 with <math>j, then the algorithm would enter in principle an endless loop. Instead of continuing endlessly, it answers that the given code is uniquely decodable.
+
+Since all sets formula_21 are sets of suffixes of a finite set of codewords, there are only finitely many different candidates for formula_21. Since visiting one of the sets for the second time will cause the algorithm to stop, the algorithm cannot continue endlessly and thus must always terminate. More precisely, the total number of dangling suffixes that the algorithm considers is at most equal to the total of the lengths of the codewords in the input, so the algorithm runs in polynomial time as a function of this input length. By using a suffix tree to speed the comparison between each dangling suffix and the codewords, the time for the algorithm can be bounded by O("nk"), where "n" is the total length of the codewords and "k" is the number of codewords. The algorithm can be implemented using a pattern matching machine. The algorithm can also be implemented to run on a nondeterministic Turing machine that uses only logarithmic space; the problem of testing unique decipherability is NL-complete, so this space bound is optimal.
+
+A proof that the algorithm is correct, i.e. that it always gives the correct answer, is found in the textbooks by Salomaa and by Berstel et al.
+
+
+
+
+
+

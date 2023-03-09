@@ -1,0 +1,14 @@
+Bioprecipitation
+
+Bioprecipitation is the concept of rain-making bacteria and was proposed by David Sands from Montana State University in 1982. The formation of ice in clouds is required for snow and most rainfall. Dust and soot particles can serve as ice nuclei, but biological ice nuclei are capable of catalyzing freezing at much warmer temperatures. The ice-nucleating bacteria currently known are mostly plant pathogens. Recent research suggests that bacteria may be present in clouds as part of an evolved process of dispersal.
+
+Ice-nucleating proteins derived from ice-nucleating bacteria are used for snowmaking.
+
+Most known ice-nucleating bacteria are plant pathogens. These pathogens can cause freezing injury in plants. In the United States alone, it has been estimated that frost accounts for approximately $1 billion in crop damage each year. The ice-minus variant of "P. syringae" is a mutant, lacking the gene responsible for ice-nucleating surface protein production. This lack of surface protein provides a less favorable environment for ice formation. Both strains of P. syringae occur naturally, but recombinant DNA technology has allowed for the synthetic removal or alteration of specific genes, enabling the creation of the ice-minus strain. The introduction of an ice-minus strain of P. syringae to the surface of plants would incur competition between the strains. Should the ice-minus strain win out, the ice nucleate provided by P. syringae would no longer be present, lowering the level of frost development on plant surfaces at normal water freezing temperature (0°C).
+
+Bacteria present in clouds may have evolved to use rainfall as a means of dispersing themselves. The bacteria are found in snow, soils and seedlings in locations such as Antarctica, the Yukon Territory of Canada and the French Alps, according to Brent Christner, a microbiologist at Louisiana State University. It has been suggested that the bacteria are part of a constant feedback between terrestrial ecosystems and clouds. They may rely on the rainfall to spread to new habitats, in much the same way as plants rely on windblown pollen grains, Christner said, with this possibly a key element of the bacterial life cycle.
+
+Many ski resorts use a commercially available freeze-dried preparation of ice-nucleating proteins derived from the bacterium species Pseudomonas syringae to make snow in a snowgun. 
+
+
+

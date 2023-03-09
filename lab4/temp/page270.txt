@@ -1,0 +1,12 @@
+DONE
+
+The Data-based Online Nonlinear Extremumseeker (DONE) algorithm is a black-box optimization algorithm.
+DONE models the unknown cost function and attempts to find an optimum of the underlying function.
+The DONE algorithm is suitable for optimizing costly and noisy functions and does not require derivatives.
+An advantage of DONE over similar algorithms, such as Bayesian optimization, is that the computational cost per iteration is independent of the number of function evaluations.
+
+The DONE algorithm was first proposed by Hans Verstraete and Sander Wahls. The algorithm fits a surrogate model based on random Fourier features and then uses a well-known L-BFGS algorithm to find an optimum of the surrogate model.
+
+DONE was first demonstrated for maximizing the signal in optical coherence tomography measurements, but has since then been applied to various other applications. For example, it was used to help extending the field of view in light sheet fluorescence microscopy.
+
+

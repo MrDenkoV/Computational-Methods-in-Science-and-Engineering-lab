@@ -1,0 +1,35 @@
+Denitrifying bacteria
+
+Denitrifying bacteria are a diverse group of bacteria that encompass many different phyla. This group of bacteria, together with denitrifying fungi and archaea, is capable of performing denitrification as part of the nitrogen cycle. They metabolise nitrogenous compounds using various enzymes, turning nitrogen oxides back to nitrogen gas (<chem>N2</chem>) or nitrous oxide (<chem>N2O</chem>).
+
+There is a great diversity in biological traits. Denitrifying bacteria have been identified in over 50 genera with over 125 different species and are estimated to represent 10-15% of bacteria population in water, soil and sediment.
+Denitrifying include for example several species of "Pseudomonas", "Alkaligenes" , "Bacillus" and others. 
+The majority of denitrifying bacteria are facultative aerobic heterotrophs that switch from aerobic respiration to denitrification when oxygen as an available terminal electron acceptor (TEA) runs out. This forces the organism to use nitrate to be used as a TEA. Because the diversity of denitrifying bacteria is so large, this group can thrive in a wide range of habitats including some extreme environments such as environments that are highly saline and high in temperature. Aerobic denitrifiers can conduct an aerobic respiratory process in which nitrate is converted gradually to N (NO →NO → NO → NO → N ), using nitrate reductase (Nar or Nao), nitrite reductase (Nir), nitric oxide reductase (Nor), and nitrous oxide reductase (Nos). Phylogenetic analysis revealed that aerobic denitrifiers mainly belong to α-, β- and γ-"Proteobacteria". 
+
+Denitrifying bacteria use denitrification to generate ATP.
+
+The most common denitrification process is outlined below, with the nitrogen oxides being converted back to gaseous nitrogen:
+
+2 NO + 10 e + 12 H → N + 6 HO
+
+The result is one molecule of nitrogen and six molecules of water. Denitrifying bacteria are a part of the N cycle, and consists of sending the N back into the atmosphere. 
+The reaction above is the overall half reaction of the process of denitrification. The reaction can be further divided into different half reactions each requiring a specific enzyme. The transformation from nitrate to nitrite is performed by nitrate reductase (Nar)
+
+NO + 2 H + 2 e → NO + HO
+
+Nitrite reductase (Nir) then converts nitrite into nitric oxide
+
+2 NO + 4 H + 2 e → 2 NO + 2 HO
+Nitric oxide reductase (Nor) then converts nitric oxide into nitrous oxide
+
+2 NO + 2 H + 2 e → NO + HO
+
+Nitrous oxide reductase (Nos) terminates the reaction by converting nitrous oxide into dinitrogen
+NO + 2 H + 2 e → N + HO
+
+It is important to note that any of the products produced at any step can be exchanged with the soil environment.
+
+The process of denitrification can lower the fertility of soil as nitrogen, a growth-limiting factor, is removed from the soil and lost to the atmosphere. This loss of nitrogen to the atmosphere can eventually be regained via introduced nutrients, as part of the nitrogen cycle. Some nitrogen may also be fixated by species of nitrifying bacteria and the cyanobacteria. Another important environmental issue concerning denitrification is the fact that the process tends to produce large amounts of by-products. Examples of by-products are nitric oxide (NO) and nitrous oxide (NO). NO is an ozone depleting species and NO is a potent greenhouse gas which can contribute to global warming.
+
+
+

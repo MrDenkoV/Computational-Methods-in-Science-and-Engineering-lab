@@ -1,0 +1,18 @@
+Indicator organism
+
+Indicator organisms are used as a proxy to monitor conditions in a particular environment, ecosystem, area, habitat, or consumer product. Certain bacteria, fungi and helminth eggs are being used for various purposes.
+
+Certain bacteria can be used as indicator organisms in particular situations. The presence of bacteria commonly found in human feces, termed coliform bacteria (e.g. "E. coli"), in surface water is a common indicator of faecal contamination. For this reason, sanitation programs often test water for the presence of these organisms to ensure that drinking water systems are not contaminated with feces. This testing can be done using several methods which generally involve taking samples of water, or passing large amounts of water through a filter to sample bacteria, then testing to see if bacteria from that water grow on selective media such as MacConkey agar. Alternatively, the sample can be tested to see if it utilizes various nutrients in ways characteristic of coliform bacteria.
+
+Coliform bacteria selected as indicators of faecal contamination must not persist in the environment for long periods of time following efflux from the intestine, and their presence must be closely correlated with contamination by other faecal organisms. Indicator organisms need not be pathogenic.
+
+Non-coliform bacteria, such as "Streptococcus bovis" and certain clostridia may also be used as an index of faecal contamination.
+
+"Penicillium" species, "Aspergillus niger" and "Candida albicans" are used in the pharmaceutical industry for microbial limit testing, bioburden assessment, method validation, antimicrobial challenge tests, and quality control testing. When used in this capacity, "Penicillium" and "A. niger" are compendial mold indicator organisms.
+
+Molds such as "Trichoderma", "Exophiala", "Stachybotrys", "Aspergillus fumigatus", "Aspergillus versicolor", "Phialophora", "Fusarium", "Ulocladium" and certain yeasts are used as indicators of indoor air quality.
+
+Helminth eggs (or ova) are a good indicator organism to assess the safety of sanitation and wastewater reuse systems for resource recovery because they are the most environmentally resistant pathogens of all pathogens (viruses, bacteria, protozoa and helminths) and can in extreme cases survive for several years in soil.
+
+
+

@@ -1,0 +1,65 @@
+Hydrogen oxidizing bacteria
+
+Hydrogen oxidizing bacteria are a group of facultative autotrophs that can use hydrogen as an electron donor.
+
+They can be divided into aerobes and anaerobes. The former use hydrogen as an electron donor and oxygen as an acceptor while the latter use sulphate or nitrogen dioxide as electron acceptors. Some species of both bacteria types have been isolated in different environments, for example in fresh waters, sediments, soils, activated sludge, hot springs, hydrothermal vents and percolating water.
+
+These organisms are able to exploit the special properties of molecular hydrogen (for instance redox potential and diffusion coefficient) thanks to the presence of hydrogenases. The aerobic hydrogen oxidizing bacteria are facultative autotrophs, but they can also have mixotrophic or completely heterotrophic growth. Most of them show greater growth on organic substrates.The use of hydrogen as an electron donor coupled with the ability to synthesize organic matter, through the reductive assimilation of CO, characterize the hydrogen oxidizing bacteria. Among the most represented genres of these organisms we find: Caminibacter, Aquifex, Ralstonia and Paracoccus. 
+
+The most widespread element on our Earth is hydrogen, which represents around three-quarters of all the elements. In the atmosphere, its concentration is about 0.5-0.6 ppm and so here it represents the most abundant trace gas, after methane. Therefore, H can be used as energy source in several biological processes, also because it has a highly negative redox potential (E’= -0.414 V) . It can be coupled with different compounds:
+
+-       O: the oxic respiration is performed (H+1/2O → HO)
+
+-       Oxidized compounds, such as carbon dioxide or sulfate. 
+
+In the ecosystems, hydrogen can be produced through biological and abiotic processes .
+
+The abiotic processes are mainly due to geothermal production and serpentinization. In the first case, hydrogen is usually present as a gas and probably can be obtained by different reactions:
+
+1.      Water may react with silicon radical at high temperature:
+
+Si· + HO → SiOH + H·
+
+H· + H· → H
+
+2.      The proposed reaction between iron oxides and water, at temperatures higher than 800°C:
+
+2FeO + HO → FeO + H
+
+2FeO + HO → 3FeO + H 
+
+On the other hand, serpentinization is an exothermic geochemical mechanism that occurs when, thanks to the tectonic movements, the ultramafic rocks raise and reach the water. This process can bring to the production of large quantities of H, but also of methane and organic substances. 
+
+The main mechanisms that lead to the formation of hydrogen, involving different microorganisms, are nitrogen fixation and fermentation. The first one happens in some bacteria, such as heterocystous and non-heterocystous cyanobacteria, that have a specialized enzyme, the nitrogenase, which catalizes the reduction of N to NH. In addition, these microorganisms have another enzyme, the hydrogenase, that oxidizes the H released as a by-product. Therefore, in this type of bacteria, the amount of hydrogen produced depends on the ratio between H production and consumption. In some cases, the H can be present in the environments because the N-fixing bacteria can have a low quantity of hydrogenases. Instead, fermentation is performed by some strict or facultative anaerobic heterotrophic bacteria, in particular Clostridia ,that degrade organic molecules, producing hydrogen as one of the products. Therefore, this type of metabolism mainly occurs in anoxic sites, such as lake sediments, deep-sea hydrothermal vents and human gut. 
+
+Probably mainly due to the biotic processes, in the marine habitats it was observed that the concentrations of hydrogen were supersaturated. In all these environments, the highest concentrations were in the first metres, decreasing to the thermocline and reaching the lowest concentrations in the deep oceans. Globally, tropical and subtropical oceans appear to have the most abundant quantity of H, while the least amount is present in higher latitudes However, it was observed that the release of hydrogen in the oceans is dependent on the solar radiation, showing a daily change with the maximum peak at noon. Nitrogen fixation, performed by cyanobacteria, leads to the production of one molecule of H at least. This metabolism is thought to be the major one involved in the increase of H in the oceans . Despite there are some evidences of this, more data need to be collected to finally correlate the two phenomena.
+
+H is an important electron donor in a particular environment: Hydrothermal vents. In this environment hydrogen oxidation represents a significant origin of energy, sufficient to conduct ATP synthesis and autotrophic CO fixation so hydrogen oxidizing bacteria are relevant in deep sea habitats. Among the main chemosynthetic reactions that take place in hydrothermal vents, the oxidation of the sulphide and the hydrogen one covers a central role. In particular, for autotrophic carbon fixation, hydrogen oxidation metabolism is more favored than the sulfide/thiosulfate oxidation, although less energy is released (only -237 kJ/mol compared to – 797 kJ/mol). To fix a mole of carbon during the hydrogen oxidation, one third of the energy necessary for the sulphide oxidation is used. This is due to the redox potential of hydrogen, which is more negative than NAD (P)/H. Based on the amount of sulphide, hydrogen and other farm biotics, this phenomenon can be intensified leading, in some cases, to an energy production by oxidation of the hydrogen of 10 -18 times higher than produced one by the sulphide oxidation.
+
+Aerobic Hydrogen oxidizing bacteria, or sometimes "Knallgas"-bacteria, are bacteria that oxidize hydrogen as a source of energy with oxygen as final electron acceptor. See microbial metabolism (hydrogen oxidation). These bacteria include "Hydrogenobacter thermophilus", "Cupriavidus necator", and "Hydrogenovibrio marinus" There are both Gram positive and Gram negative knallgas bacteria.
+
+Most grow best under microaerobic conditions. They do this because the hydrogenase enzyme used in hydrogen oxidation is inhibited by the presence of oxygen, but oxygen is still needed as a terminal electron acceptor.
+
+The word "Knallgas" means "oxyhydrogen" (a mixture of hydrogen and oxygen, literally "bang-gas") in Germanic languages.
+
+Ocean’s surface water is characterised by a high concentration of hydrogen . In 1989, for the first time, an aerobic hydrogen oxidizing bacteria was isolated from sea water and the discovery of this strain was very important also because for the first time a hydrogen oxidizing bacteria was identified in normal temperature condition. Experimentally it has been shown that the MH-110 strain is able to grow in an atmosphere (under a continuous gas flow system) characterized by an oxygen concentration of 40% (analogue characteristics are present in the surface water from which the bacteria were isolated which is, in fact, a fairly aerated region). This differs from the usual behaviour of hydrogen oxidizing bacteria which in general thrive strictly under microaerophilic conditions (<10% O).
+
+This strain is also capable to couple the Hydrogen oxidation with the reduction of sulfur compounds such as thiosulfate and tetrathionate.
+
+Knallgas bacteria are a group of bacteria which are able to fix carbon dioxide using H as electron donor and energy source and O as terminal electron acceptor. Actually, Knallgas bacteria stand out from the hydrogen oxydizing bacteria which, although using H as an electron donor, are not able to fix CO, as Knallgas do.
+
+This aerobic hydrogen oxidation, also known as the Knallgas reaction, which releases a considerable amount of energy, determines the formation of proton motive force (PMF).
+
+H + O formula_1 HO ΔG = -237 Kj
+
+The key enzymes involved in this reaction are the hydrogenase which lead the electrons through the electron transport chain, from hydrogen to the final acceptor, that is O which is actually reduced in water, the only by-product. The hydrogenases that are divided into three categories according to the type of metal present in the active site, are the enzymes that allow the oxidation of hydrogen. The first evidence of the presence of these enzymes has been found for the first time in "Pseudomonas saccharophila", "Alcaligenes ruhlandii" and "Alcaligenese eutrophus" in which there were two types of hydrogenases: cytoplasmatic and membrane-bound. If the first enzyme takes up hydrogen and reduce the NAD in NADH for carbon fixation, the second is involved in the generation of the proton motive force. Anyway, in most of the knallgas bacteria only one type of hydrogensase was observed, the one bound to the membrane that provided hydrogen activation.
+
+These microorganisms are also defined as facultative authotrophs, neverthless some of them are also able to live in completely heterotrophic conditions using organic substances as electron donor and energy source, even if in this case the hydrogenase activity takes on less importance or is completely absent. 
+
+However, Knallgas bacteria, growing as chemolithoautotrophs, as soon as they integrate every molecule of Co, they can produce, through the Calvin Benson Cycle or reverse citric acid cycle (TCA cycle), biomolecules necessary for the cell.
+
+6H + 2O + CO formula_1 (CHO) + 5HO
+
+In particular, a recent study carried out on "Alcaligenes eutropha", one of the most representative species of Knallgas bacteria,  highlighted that at low concentrations of O (about 10 mol %) and consequently with a low ΔH/ΔCO molar ratio (3.3), the energy efficiency of Co2 fixation increasing until of 50%.This is an interesting characteristic of these microorganisms because once assimilated, the carbon dioxide is reduced to polyhydroxybutyrate , from which its derivatives, being biodegradable, are used in various eco-sustainable applications.
+
+

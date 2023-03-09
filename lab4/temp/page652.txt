@@ -1,0 +1,17 @@
+Analytical profile index
+
+The analytical profile index or API is a classification of bacteria based on experiments, allowing fast identification. This system is developed for quick identification of clinically relevant bacteria. Because of this, only known bacteria can be identified.
+
+It was invented in the 1970s in the United States by Pierre Janin of Analytab Products, Inc. Presently, the API test system is manufactured by bioMérieux. The API range introduced a standardized, miniaturized version of existing techniques, which up until then were complicated to perform and difficult to read.
+
+The API 20E/NE fast identification system combines some conventional tests and allows the identification of a limited number of Gram-negative Enterobacteriaceae or non-Enterobacteriaceae. The test systems are stored in 20 small reaction tubes, which include the substrates. An identification is only possible with microbiological culture. 
+To guarantee a comparability of different samples, follow the instructions of the manufacturer.
+
+Before starting a test, one must confirm the culture is of an Enterobacteriaceae. To test this, a quick oxidase test for cytochrome c oxidase is performed. Enterobacteriaceae are typically oxidase negative, meaning they either do not use oxygen as an electron acceptor in the electron transport chain, or they use a different cytochrome enzyme for transferring electrons to oxygen. If the culture is determined to be oxidase positive, alternative tests must be carried out to correctly identify the bacterial species.
+
+API stands for Analytical Profile Index and is a commercial system to identify different bacteria. One of the API systems is specific for differentiating between members of the Gram negative bacterial Family Enterobacteriaceae and is called API-20E. The other API system is specific for Gram positive bacteria, including Staphylococcus species, Micrococcus, species, and related organisms, and is called API-Staph.
+
+API test strips consists of wells containing dehydrated substrates to detect enzymatic activity, usually related to fermentation of carbohydrate or catabolism of proteins or amino acids by the inoculated organisms. A bacterial suspension is used to rehydrate each of the wells and the strips are incubated. During incubation, metabolism produces color changes that are either spontaneous or revealed by the addition of reagents. For example, when carbohydrates are fermented, the pH within the well decreases and that change is indicated by a change in the color of the pH indicator. All positive and negative test results are compiled to obtain a profile number, which is then compared with profile numbers in a commercial codebook (or online) to determine the identification of the bacterial species.
+
+
+

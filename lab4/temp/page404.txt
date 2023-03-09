@@ -1,0 +1,12 @@
+Drug reference standard
+
+1. Definition<br>
+A pharmaceutical reference standard is a highly characterized material suitable to test the identity, strength, quality and purity of substances for pharmaceutical use and medicinal products.
+
+2. Pharmacopoeial Reference standards<br>
+Pharmacopoeial Reference standards are a subset of Pharmaceutical Reference Standards. They are established for the intended use described in Pharmacopeial texts (monographs and general chapters). Pharmacopeial Reference Standards are available from various pharmacopoeias such as United States Pharmacopeia and the European Pharmacopoeia.
+Where pharmacopoeial tests or assays call for the use of a Pharmacopoeial Reference Standard, only those results obtained using the specified Pharmacopoeial Reference Standard are conclusive.
+
+
+
+

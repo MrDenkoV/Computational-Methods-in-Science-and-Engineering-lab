@@ -1,0 +1,27 @@
+Biogenic sulfide corrosion
+
+Biogenic sulfide corrosion is a bacterially mediated process of forming hydrogen sulfide gas and the subsequent conversion to sulfuric acid that attacks concrete and steel within wastewater environments. The hydrogen sulfide gas is biochemically oxidized in the presence of moisture to form sulfuric acid. The effect of sulfuric acid on concrete and steel surfaces exposed to severe wastewater environments can be devastating. In the USA alone, corrosion is causing sewer asset losses estimated at
+around $14 billion per year. This cost is expected to increase as the aging infrastructure continues to fail.
+
+Corrosion may occur where stale sewage generates hydrogen sulfide gas into an atmosphere containing oxygen gas and high relative humidity. There must be an underlying anaerobic aquatic habitat containing sulfates and an overlying aerobic aquatic habitat separated by a gas phase containing both oxygen and hydrogen sulfide at concentrations in excess of 2 ppm.
+
+Fresh domestic sewage entering a wastewater collection system contains proteins including organic sulfur compounds oxidizable to sulfates and may contain inorganic sulfates. Dissolved oxygen is depleted as bacteria begin to catabolize organic material in sewage. In the absence of dissolved oxygen and nitrates, sulfates are reduced to hydrogen sulfide as an alternative source of oxygen for catabolizing organic waste by sulfate reducing bacteria (SRB), identified primarily from the obligate anaerobic species "Desulfovibrio".
+
+Hydrogen sulfide production depends on various physicochemical, topographic and hydraulic parameters such as:
+
+Some hydrogen sulfide gas diffuses into the headspace environment above the wastewater. Moisture evaporated from warm sewage may condense on unsubmerged walls of sewers, and is likely to hang in partially formed droplets from the horizontal crown of the sewer. As a portion of the hydrogen sulfide gas and oxygen gas from the air above the sewage dissolves into these stationary droplets, they become a habitat for sulfur oxidizing bacteria (SOB), of the genus "Acidithiobacillus". Colonies of these aerobic bacteria metabolize the hydrogen sulfide gas to sulfuric acid.
+
+Sulfuric acid produced by microorganisms will interact with the surface of the structure material. For ordinary Portland cement, it reacts with the calcium hydroxide in concrete to form calcium sulfate. This change simultaneously destroys the polymeric nature of calcium hydroxide and substitutes a larger molecule into the matrix causing pressure and spalling of the adjacent concrete and aggregate particles. The weakened crown may then collapse under heavy overburden loads. Even within a well-designed sewer network, a rule of thumb in the industry suggests that 5% of the total length may/will suffer from biogenic corrosion. In these specific areas, biogenic sulfide corrosion can deteriorate metal or several millimeters per year of concrete (see Table).
+
+For calcium aluminate cements, processes are completely different because they are based on another chemical composition. At least three different mechanisms contribute to the better resistance to biogenic corrosion:
+A mortar made of calcium aluminate cement combined with
+calcium aluminate aggregates, i.e. a 100% calcium aluminate material, will last much longer as aggregates can also limit microorganisms’ growth and inhibits the acid generation at the source itself.
+
+There are several options to address biogenic sulfide corrosion problems: impairing HS formation, venting out the HS or using materials resistant to biogenic corrosion. For example, sewage flows more rapidly through steeper gradient sewers reducing time available for hydrogen sulfide generation. Likewise, removing sludge and sediments from the bottom of the pipes reduces the amount of anoxic areas responsible for sulfate reducing bacteria growth. Providing good ventilation of sewers can reduce atmospheric concentrations of hydrogen sulfide gas and may dry exposed sewer crowns, but this may create odor issues with neighbors around the venting shafts. Three other efficient methods can be used involving continuous operation of mechanical equipment: chemical reactant like calcium nitrate can be continuously added in the sewerage water to impair the HS formation, an active ventilation through odor treatment units to remove HS, or an injection of compressed air in pressurized mains to avoid the anaerobic condition to develop. In sewerage areas where biogenic sulfide corrosion is expected, acid resistant materials like calcium aluminate cements, PVC or vitrified clay pipe may be substituted to ordinary concrete or steel sewers. 
+Existing structures that have extensive exposure to biogenic corrosion such as sewer manholes and pump station wet wells can be rehabilitated. Rehabilitation can be done with materials such as a structural epoxy coating, this epoxy is designed to be both acid resistant and strengthen the compromised concrete structure.
+
+
+
+Pomeroy's report contains errors in the equation: the pipeline slope (S, p. 8) is quoted as m/100m, but should be m/m. This introduces a factor of 10 underestimate in the calculation of the 'Z factor', used to indicate if there is a risk of sulphide-induced corrosion, if the published units are used. The web link is to the revised 1992 edition, which contains the units error - the 1976 edition has the correct units.
+
+

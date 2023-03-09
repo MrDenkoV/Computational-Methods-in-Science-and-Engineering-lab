@@ -1,0 +1,65 @@
+Pan–Tompkins algorithm
+
+The Pan–Tompkins algorithm is commonly used to detect QRS complexes in electrocardiographic signals (ECG). The QRS complex represents the ventricular depolarization and the main spike visible in an ECG signal (see figure). This feature makes it particularly suitable for measuring heart rate, the first way to assess the heart health state. In the first derivation of Einthoven of a physiological heart, the QRS complex is composed by a downward deflection (Q wave), a high upward deflection (R wave) and a final downward deflection (S wave).
+
+The Pan–Tompkins algorithm applies a series of filters to highlight the frequency content of this rapid heart depolarization and removes the background noise. Then, it squares the signal to amplify the QRS contribute. Finally, it applies adaptive thresholds to detect the peaks of the filtered signal. The algorithm was proposed by Jiapu Pan and Willis J. Tompkins in 1985, in the journal IEEE Transactions on Biomedical Engineering. The performance of the method was tested on an annotated arrhythmia database (MIT/BIH) and evaluated also in presence of noise. Pan and Tompkins reported that the 99.3 percent of QRS complexes was correctly detected.
+
+As a first step, a band-pass filter is applied to increase the signal-to-noise ratio. A filter bandwidth of 5-15 Hz is suggested to maximize the QRS contribute and reduce muscle noise, baseline wander, powerline interference and the P wave/T wave frequency content. In the original algorithm proposed in 1985, the band-pass filter was obtained with a low-pass filter and a high-pass filter in cascade to reduce the computational cost and allow a real-time detection, while ensuring a 3 dB passband in the 5–12 Hz frequency range, reasonably close to the design goal.
+
+For a signal sampled at a frequency of 200 Hz, Pan and Tompkins suggested the filters with the following transfer functions formula_1 in an updated version of their article:
+
+
+As a third step, a derivative filter is applied to provide information about the slope of the QRS. For a signal sampled at 200 Hz, Pan and Tompkins suggested the following transfer function:
+
+formula_4for a 5-point derivative filter with gain of 0.1 and a processing delay of 2 samples.
+
+The filtered signal is squared to enhance the dominant peaks (QRSs) and reduce the possibility of erroneously recognizing a T wave as an R peak. Then, a moving average filter is applied to provide information about the duration of the QRS complex. The number of samples to average is chosen in order to average on windows of 150 ms. The signal so obtained is called integrated signal.
+
+In order to detect a QRS complex, the local peaks of the integrated signal are found. A peak is defined as the point in which the signal changes direction (from an increasing direction to a decreasing direction). After each peak, no peak can be detected in the next 200 ms (ie. the lockout time). This is a physiological constraint due to the refractory period during which ventricular depolarization cannot occur even in the presence of a stimulus.
+
+Each fiducial mark is considered as a potential QRS. To reduce the possibility of wrongly selecting a noise peak as a QRS, each peak amplitude is compared to a threshold ("Threshold") that takes into account the available information about already detected QRS and the noise level:
+
+formula_5
+
+where "NoiseLevel" is the running estimate of the noise level in the integrated signal and "SignalLevel" is the running estimate of the signal level in the integrated signal.
+
+The threshold is automatically updated after detecting a new peak, based on its classification as signal or noise peak:
+
+formula_6(if "PEAK" is a signal peak)
+
+formula_7(if "PEAK" is a noise peak)
+
+where "PEAK" is the new peak found in the integrated signal.
+
+At the beginning of the QRS detection, a 2 seconds learning phase is needed to initialize "SignalLevel" and "NoiseLevel" as a percentage of the maximum and average amplitude of the integrated signal, respectively.
+
+If a new "PEAK" is under the "Threshold", the noise level is updated. If "PEAK" is above the "Threshold", the algorithm implements a further check before confirming the peak as a true QRS, taking into consideration the information provided by the bandpass filtered signal.
+
+In the filtered signal the peak corresponding to the one evaluated on the integrated signal is searched and compared with a threshold, calculated in a similar way to the previous step:
+
+formula_8
+
+formula_9(if "PEAK" is a signal peak)
+
+formula_10(if "PEAK" is a noise peak)
+
+where the final F stands for filtered signal.
+
+The algorithm takes into account the possibility of setting too high values of "ThresholdI" and "ThresholdI" A check is performed to continuously assess the RR intervals (namely the temporal interval between two consecutively QRS peaks) to overcome this issue. The average RR is computed in two ways to consider both regular and irregular heart rhythm. In the first method "RRaverage1" is computed as the mean of the last RR intervals. In the second method "RRaverage2" is computed as the mean of the last RR intervals that fell between the limits specified as:
+
+formula_11
+
+formula_12
+
+If no QRS is detected in a window of 166% of the average RR ("RRaverage1" or "RRaverage2", if the heart rhythm is regular or irregular, respectively)"," the algorithm adds the maximal peak in the window as a potential QRS and classify it considering half the values of the thresholds (both "ThresholdI and ThresholdI"). This check is implemented because the temporal distance between two consecutive beats cannot physiologically change more quickly than this.
+
+The algorithm takes particularly into consideration the possibility of a false detection of T waves. If a potential QRS falls up to a 160 ms window after the refractory periody from the last correctly detected QRS complex, the algorithm evaluates if it could be a T wave with particular high amplitude. In this case, its slope is compared to the one of the precedent QRS complex. If the slope is less than half the previous one, the current QRS is recognized as a T wave and discarded, and it also updates the "NoiseLevel" (both in the filtered signal and the integrated signal).
+
+Once the QRS complex is successfully recognized, the heart rate is computed as a function of the distance in seconds between two consecutive QRS complexes (or R peaks):
+
+formula_13
+
+where bpm stands for beats per minute. The HR is often used to compute the heart rate variability (HRV) a measure of the variability of the time interval between heartbeats. HRV is often used in the clinical field to diagnose and monitor pathological conditions and their treatment, but also in the affective computing research to study new methods to assess the emotional state of people.
+
+
+

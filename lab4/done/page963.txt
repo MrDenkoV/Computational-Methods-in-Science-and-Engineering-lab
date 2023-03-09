@@ -1,0 +1,49 @@
+Glossary of engineering
+
+"Most of the terms listed in Wikipedia glossaries are already defined and explained within Wikipedia itself. However, glossaries like this one are useful for looking up, comparing and reviewing large numbers of terms together. You can help enhance this page by adding new terms or writing definitions for existing ones."
+
+This glossary of engineering terms is a list of definitions about the major concepts of engineering. Please see the bottom of the page for glossaries of specific fields of engineering.
+
+ 
+
+ 
+
+where formula_1 is the infinitesimal amount of heat absorbed by the system from the reservoir and formula_2 is the temperature of the external reservoir (surroundings) at a particular instant in time. In the special case of a reversible process, the equality holds. The reversible case is used to introduce the entropy state function. This is because in a cyclic process the variation of a state function is zero. In words, the Clausius statement states that it is impossible to construct a device whose sole effect is the transfer of heat from a cool reservoir to a hot reservoir. Equivalently, heat spontaneously flows from a hot body to a cooler one, not the other way around. The generalized "inequality of Clausius"
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+

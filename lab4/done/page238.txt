@@ -1,0 +1,34 @@
+Predictor–corrector method
+
+In numerical analysis, predictor–corrector methods belong to a class of algorithms designed to integrate ordinary differential equationsto find an unknown function that satisfies a given differential equation. All such algorithms proceed in two steps: 
+
+
+When considering the numerical solution of ordinary differential equations (ODEs), a predictor–corrector method typically uses an explicit method for the predictor step and an implicit method for the corrector step.
+
+A simple predictor–corrector method (known as Heun's method) can be constructed from the Euler method (an explicit method) and the trapezoidal rule (an implicit method).
+
+Consider the differential equation
+
+and denote the step size by formula_2.
+
+First, the predictor step: starting from the current value formula_3, calculate an initial guess value formula_4 via the Euler method,
+
+Next, the corrector step: improve the initial guess using trapezoidal rule,
+
+That value is used as the next step.
+
+There are different variants of a predictor–corrector method, depending on how often the corrector method is applied. The Predict–Evaluate–Correct–Evaluate (PECE) mode refers to the variant in the above example:
+
+It is also possible to evaluate the function "f" only once per step by using the method in Predict–Evaluate–Correct (PEC) mode:
+
+Additionally, the corrector step can be repeated in the hope that this achieves an even better approximation to the true solution. If the corrector method is run twice, this yields the PECECE mode:
+
+The PECEC mode has one fewer function evaluation than PECECE mode.
+
+More generally, if the corrector is run "k" times, the method is in P(EC)
+or P(EC)E mode. If the corrector method is iterated until it converges, this could be called PE(CE).
+
+
+
+
+

@@ -1,0 +1,15 @@
+Buchnera (bacterium)
+
+Buchnera aphidicola, a member of the Proteobacteria, is the primary endosymbiont of aphids, and has been studied in the pea aphid, "Acyrthosiphon pisum". "Buchnera" is believed to have had a free-living, Gram-negative ancestor similar to a modern Enterobacterales, such as "Escherichia coli". "Buchnera" is 3 µm in diameter and has some of the key characteristics of their Enterobacterales relatives, such as a Gram-negative cell wall. However, unlike most other Gram-negative bacteria, "Buchnera" lacks the genes to produce lipopolysaccharides for its outer membrane. The long association with aphids and the limitation of crossover events due to strictly vertical transmission has seen the deletion of genes required for anaerobic respiration, the synthesis of amino sugars, fatty acids, phospholipids, and complex carbohydrates. This has resulted not only in one of the smallest known genomes of any living organism, but also one of the most genetically stable.
+
+The symbiotic relationship with aphids began between 160 million and 280 million years ago, and has persisted through maternal transmission and cospeciation. Aphids have developed bacteriocyte cells to house "Buchnera". A mature aphid may carry an estimated 5.6 × 10 "Buchnera" cells. "Buchnera" has lost regulatory factors, allowing continuous overproduction of tryptophan and other amino acids. Each bacteriocyte contains multiple vesicles, symbiosomes derived from the cell membrane.
+
+The sizes of various "Buchnera" genomes are in the range of 600 to 650 kb and encode on the order of 500 to 560 proteins. Many contain also one or two plasmids (2.3 to 11 kb in size).
+
+"Buchnera" also increases the transmission of plant viruses by producing symbionin, a protein that binds to the viral coat and protects it inside the aphid. This makes it more likely that the virion will survive and be able to infect another plant when the aphid next feeds.
+
+"Buchnera" was named after by Paul Baumann and his graduate student, and the first molecular characterization of a symbiotic bacterium was carried out by Baumann, using "Buchnera". The initial studies on "Buchnera" later led to studies on symbionts of many groups of insects, pursued by numerous investigators, including Paul and Linda Baumann, Nancy Moran, Serap Aksoy, and Roy Gross, who together investigated symbionts of aphids, tsetse flies, ants, leafhoppers, mealybugs, whiteflies, psyllids, and others.
+
+
+
+

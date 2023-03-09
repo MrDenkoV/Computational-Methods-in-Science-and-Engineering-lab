@@ -1,0 +1,27 @@
+Miller's recurrence algorithm
+
+Miller's recurrence algorithm is a procedure for calculating a rapidly decreasing solution of a linear recurrence relation developed by J. C. P. Miller. It was originally developed to compute tables of the modified Bessel function but also applies to Bessel functions of the first kind and has other applications such as computation of the coefficients of Chebyshev expansions of other special functions.
+
+Many families of special functions satisfy a recurrence relation that relates the values of the functions of different orders with common argument formula_1.
+
+The modified Bessel functions of the first kind formula_2 satisfy the recurrence relation
+However, the modified Bessel functions of the second kind formula_4 also satisfy the same recurrence relation
+
+The first solution decreases rapidly with formula_6. The second solution increases rapidly with formula_6. Miller's algorithm provides a numerically stable procedure to obtain the decreasing solution.
+
+To compute the terms of a recurrence formula_8 through formula_9 according to Miller's algorithm, one first chooses a value formula_10 much larger than formula_11 and computes a trial solution taking initial conditionformula_12 to an arbitrary non-zero value (such as 1) and taking formula_13 and later terms to be zero. Then the recurrence relation is used to successively compute trial values for formula_14, formula_15 down to formula_8. Noting that a second sequence obtained from the trial sequence by multiplication by a constant normalizing factor will still satisfy the same recurrence relation, one can then apply a separate normalizing relationship to determine the normalizing factor that yields the actual solution.
+
+In the example of the modified Bessel functions, a suitable normalizing relation is a summation involving the even terms of the recurrence: 
+where the infinite summation becomes finite due to the approximation that formula_13 and later terms are zero.
+
+Finally, it is confirmed that the approximation error of the procedure is acceptable by repeating the procedure with a second choice of formula_10 larger than the initial choice and confirming that the second set of results for formula_8 through formula_9 agree within the first set within the desired tolerance. Note that to obtain this agreement, the value of formula_10 must be large enough such that the term formula_12 is small compared to the desired tolerance.
+
+In contrast to Miller's algorithm, attempts to apply the recurrence relation in the forward direction starting from known values of formula_24 and formula_25 obtained by other methods will fail as rounding errors introduce components of the rapidly increasing solution.
+
+Olver and Gautschi analyses the error propagation of the algorithm in detail.
+
+For Bessel functions of the first kind, the equivalent recurrence relation and normalizing relationship are :
+
+The algorithm is particularly efficient in applications that require the values of the Bessel functions for all orders formula_28 for each value of formula_1 compared to direct independent computations of formula_30 separate functions.
+
+

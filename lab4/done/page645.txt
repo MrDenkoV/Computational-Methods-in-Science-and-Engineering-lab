@@ -1,0 +1,21 @@
+HACEK organisms
+
+The HACEK organisms are a group of fastidious Gram-negative bacteria that are an unusual cause of infective endocarditis, which is an inflammation of the heart due to bacterial infection. HACEK is an abbreviation of the initials of the genera of this group of bacteria: "Haemophilus", "Aggregatibacter" (previously "Actinobacillus"), "Cardiobacterium", "Eikenella", "Kingella". The HACEK organisms are a normal part of the human microbiota, living in the oral-pharyngeal region.
+
+The bacteria were originally grouped because they were thought to be a significant cause of infective endocarditis, but recent research has shown that they are rare and only responsible for 1.4–3.0% of all cases of this disease.
+
+HACEK originally referred to "Haemophilus parainfluenzae", "Haemophilus aphrophilus", "Actinobacillus actinomycetemcomitans", "Cardiobacterium hominis", "Eikenella corrodens", and "Kingella kingae". However, taxonomic rearrangements have changed the A to "Aggregatibacter" species and the H to "Haemophilus" species to reflect the recategorization and novel identification of many of the species in these genera. Some reviews of medical literature on HACEK organisms use the older classification, but recent papers are using the new classification.
+
+A list of HACEK organisms:
+
+
+
+
+
+All of these organisms are part of the normal oropharyngeal flora, which grow slowly (up to 14 days), prefer a carbon dioxide–enriched atmosphere, and share an enhanced capacity to produce endocardial infections, especially in young children. Collectively, they account for 5–10% of cases of infective endocarditis involving native valves and are the most common Gram-negative cause of endocarditis among people who do not use drugs intravenously. They have been a frequent cause of culture-negative endocarditis. Culture-negative refers to an inability to produce a colony on regular agar plates because these bacteria are fastidious (require a specific nutrient).
+
+In addition to valvular infections in the heart, they can also produce other infections, such as bacteremia, abscess, peritonitis, otitis media, conjunctivitis, pneumonia, arthritis, osteomyelitis, and periodontal infections.
+
+The treatment of choice for HACEK organisms in endocarditis is the third-generation cephalosporin and β-Lactam antibiotic ceftriaxone. Ampicillin (a penicillin), combined with low-dose gentamicin (an aminoglycoside) is another therapeutic option.
+
+

@@ -1,0 +1,48 @@
+Tomasulo algorithm
+
+Tomasulo’s algorithm is a computer architecture hardware algorithm for dynamic scheduling of instructions that allows out-of-order execution and enables more efficient use of multiple execution units. It was developed by Robert Tomasulo at IBM in 1967 and was first implemented in the IBM System/360 Model 91’s floating point unit.
+
+The major innovations of Tomasulo’s algorithm include register renaming in hardware, reservation stations for all execution units, and a common data bus (CDB) on which computed values broadcast to all reservation stations that may need them. These developments allow for improved parallel execution of instructions that would otherwise stall under the use of scoreboarding or other earlier algorithms.
+
+Robert Tomasulo received the Eckert–Mauchly Award in 1997 for his work on the algorithm.
+
+The following are the concepts necessary to the implementation of Tomasulo's Algorithm:
+
+The Common Data Bus (CDB) connects reservation stations directly to functional units. According to Tomasulo it "preserves precedence while encouraging concurrency". This has two important effects:
+
+Instructions are issued sequentially so that the effects of a sequence of instructions, such as exceptions raised by these instructions, occur in the same order as they would on an in-order processor, regardless of the fact that they are being executed out-of-order (i.e. non-sequentially). 
+
+Tomasulo's Algorithm uses register renaming to correctly perform out-of-order execution. All general-purpose and reservation station registers hold either a real value or a placeholder value. If a real value is unavailable to a destination register during the issue stage, a placeholder value is initially used. The placeholder value is a tag indicating which reservation station will produce the real value. When the unit finishes and broadcasts the result on the CDB, the placeholder will be replaced with the real value.
+
+Each functional unit has a single reservation station. Reservation stations hold information needed to execute a single instruction, including the operation and the operands. The functional unit begins processing when it is free and when all source operands needed for an instruction are real.
+
+Practically speaking, there may be exceptions for which not enough status information about an exception is available, in which case the processor may raise a special exception, called an "imprecise" exception. Imprecise exceptions cannot occur in in-order implementations, as processor state is changed only in program order (see RISC Pipeline Exceptions).
+
+Programs that experience "precise" exceptions, where the specific instruction that took the exception can be determined, can restart or re-execute at the point of the exception. However, those that experience "imprecise" exceptions generally cannot restart or re-execute, as the system cannot determine the specific instruction that took the exception.
+
+The three stages listed below are the stages through which each instruction passes from the time it is issued to the time its execution is complete.
+
+
+In the issue stage, instructions are issued for execution if all operands and reservation stations are ready or else they are stalled. Registers are renamed in this step, eliminating WAR and WAW hazards.
+
+
+In the execute stage, the instruction operations are carried out. Instructions are delayed in this step until all of their operands are available, eliminating RAW hazards. Program correctness is maintained through effective address calculation to prevent hazards through memory.
+
+
+In the write Result stage, ALU operations results are written back to registers and store operations are written back to memory.
+
+The concepts of reservation stations, register renaming, and the common data bus in Tomasulo's algorithm presents significant advancements in the design of high-performance computers.
+
+Reservation stations take on the responsibility of waiting for operands in the presence of data dependencies and other inconsistencies such as varying storage access time and circuit speeds, thus freeing up the functional units. This improvement overcomes long floating point delays and memory accesses. In particular the algorithm is more tolerant of cache misses. Additionally, programmers are freed from implementing optimized code. This is a result of the common data bus and reservation station working together to preserve dependencies as well as encouraging concurrency.
+
+By tracking operands for instructions in the reservation stations and register renaming in hardware the algorithm minimizes read-after-write (RAW) and eliminates write-after-write (WAW) and Write-after-Read (WAR) computer architecture hazards. This improves performance by reducing wasted time that would otherwise be required for stalls.
+
+An equally important improvement in the algorithm is the design is not limited to a specific pipeline structure. This improvement allows the algorithm to be more widely adopted by multiple-issue processors. Additionally, the algorithm is easily extended to enable branch speculation. 
+
+Tomasulo's algorithm, outside of IBM, was unused for several years after its implementation in the System/360 Model 91 architecture. However, it saw a vast increase in usage during the 1990s for 3 reasons:
+
+Many modern processors implement dynamic scheduling schemes that are derivative of Tomasulo’s original algorithm, including popular Intel x86-64 chips.
+
+
+
+

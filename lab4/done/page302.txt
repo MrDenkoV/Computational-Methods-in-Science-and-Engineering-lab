@@ -1,0 +1,61 @@
+Join-based tree algorithms
+
+In computer science, join-based tree algorithms are a class of algorithms for self-balancing binary search trees.
+The algorithmic framework is based on a single operation "join". Under this framework, the "join" operation captures all balancing criteria of different balancing schemes, and all other functions "join" have generic implementation across different balancing schemes. The "join-based algorithms" can be applied to at least four balancing schemes: AVL trees, red-black trees, weight-balanced trees and treaps.
+
+The "join"formula_1 operation takes as input two binary balanced trees formula_2 and formula_3 of the same balancing scheme, and a key formula_4, and outputs a new balanced binary tree formula_5 whose in-order traversal is the in-order traversal of formula_2, then formula_4 then the in-order traversal of formula_3. In particular, if the trees are search trees, which means that the in-order of the trees maintain a total ordering on keys, it must satisfy the condition that all keys in formula_2 are smaller than formula_4 and all keys in formula_3 are greater than formula_4.
+
+The "join" operation was first defined by Tarjan on red-black trees, which runs in worst-case logarithmic time. Later Sleator and Tarjan described a "join" algorithm for splay trees which runs in amortized logarithmic time. Later Adams extended "join" to weight-balanced trees and used it for fast set-set functions including union, intersection and set difference. In 1998, Blelloch and Reid-Miller extended "join" on treaps, and proved the bound of the set functions to be formula_13 for two trees of size formula_14 and formula_15, which is optimal in the comparison model. They also brought up parallelism in Adams' algorithm by using a divide-and-conquer scheme. In 2016, Blelloch et al. formally proposed the join-based algorithms, and formalized the "join" algorithm for four different balancing schemes: AVL trees, red-black trees, weight-balanced trees and treaps. In the same work they proved that Adams' algorithms on union, intersection and difference are work-optimal on all the four balancing schemes.
+
+The function "join"formula_16 considers rebalancing the tree, and thus depends on the input balancing scheme. If the two trees are balanced, "join" simply creates a new node with left subtree , root and right subtree . Suppose that is heavier (this "heavier" depends on the balancing scheme) than (the other case is symmetric). "Join" follows the right spine of until a node which is balanced with . At this point a new node with left child , root and right child is created to replace c. The new node may invalidate the balancing invariant. This can be fixed with rotations.
+
+The following is the "join" algorithms on different balancing schemes.
+
+The "join" algorithm for AVL trees:
+
+Here formula_17 of a node formula_18 the height of formula_18. expose(v)=(l,k,r) means to extract a tree node formula_18's left child formula_21, the key of the node formula_4, and the right child formula_23. Node(l,k,r) means to create a node of left child formula_21, key formula_4, and right child formula_23.
+
+The "join" algorithm for red-black trees:
+
+Here formula_27 of a node formula_18 means twice the black height of a black node, and the twice the black height of a red node. expose(v)=(l,⟨k,c⟩,r) means to extract a tree node formula_18's left child formula_21, the key of the node formula_4, the color of the node formula_32 and the right child formula_23. Node(l,⟨k,c⟩,r) means to create a node of left child formula_21, key formula_4, color formula_32 and right child formula_23.
+
+The "join" algorithm for weight-balanced trees:
+
+Here balanceformula_38 means two weights formula_39 and formula_40 are balanced. expose(v)=(l,k,r) means to extract a tree node formula_18's left child formula_21, the key of the node formula_4 and the right child formula_23. Node(l,k,r) means to create a node of left child formula_21, key formula_4 and right child formula_23.
+
+In the following, expose(v)=(l,k,r) means to extract a tree node formula_18's left child formula_21, the key of the node formula_4 and the right child formula_23. Node(l,k,r) means to create a node of left child formula_21, key formula_4 and right child formula_23. right(formula_18) and left(formula_18) extracts the right child and the left child of a tree nodeformula_18, respectively. formula_58 extract the key of a node formula_18. "formula_60" means that two statements formula_61 and formula_62 can run in parallel.
+
+To split a tree into two trees, those smaller than key "x", and those larger than key "x", we first draw a path from the root by inserting "x" into the tree. After this insertion, all values less than "x" will be found on the left of the path, and all values greater than "x" will be found on the right. By applying "Join", all the subtrees on the left side are merged bottom-up using keys on the path as intermediate nodes from bottom to top to form the left tree, and the right part is asymmetric. For some applications, "Split" also returns a boolean value denoting if "x" appears in the tree. The cost of "Split" is formula_63, order of the height of the tree. 
+
+The split algorithm is as follows:
+
+This function is defined similarly as "join" but without the middle key. It first splits out the last key formula_4 of the left tree, and then join the rest part of the left tree with the right tree with formula_4.
+The algorithm is as follows:
+
+The cost is formula_63 for a tree of size formula_67.
+
+The insertion and deletion algorithms, when making use of "join" can be independent of balancing schemes. For an insertion, the algorithm compares the key to be inserted with the key in the root, inserts it to the left/right subtree if the key is smaller/greater than the key in the root, and joins the two subtrees back with the root. A deletion compares the key to be deleted with the key in the root. If they are equal, return join2 on the two subtrees. Otherwise, delete the key from the corresponding subtree, and join the two subtrees back with the root.
+The algorithms are as follows:
+
+Both insertion and deletion requires formula_63 time if formula_69.
+
+Several set operations have been defined on weight-balanced trees: union, intersection and set difference. The union of two weight-balanced trees and representing sets and , is a tree that represents . The following recursive function computes this union:
+
+Similarly, the algorithms of intersection and set-difference are as follows:
+
+The complexity of each of union, intersection and difference is formula_70 for two weight-balanced trees of sizes formula_14 and formula_15. This complexity is optimal in terms of the number of comparisons. More importantly, since the recursive calls to union, intersection or difference are independent of each other, they can be executed in parallel with a parallel depth formula_73. When formula_74, the join-based implementation applies the same computation as in a single-element insertion or deletion if the root of the larger tree is used to split the smaller tree.
+
+The algorithm for building a tree can make use of the union algorithm, and use the divide-and-conquer scheme:
+
+This algorithm costs formula_75 work and has formula_76 depth. A more-efficient algorithm makes use of a parallel sorting algorithm.
+
+This algorithm costs formula_75 work and has formula_63 depth assuming the sorting algorithm has formula_75 work and formula_63 depth.
+
+This function selects all entries in a tree satisfying an indicator formula_81, and return a tree containing all selected entries. It recursively filters the two subtrees, and join them with the root if the root satisfies formula_81, otherwise "join2" the two subtrees.
+
+This algorithm costs work formula_83 and depth formula_63 on a tree of size formula_67, assuming formula_81 has constant cost.
+
+The join-based algorithms are applied to support interface for sets, maps, and augmented maps in libarays such as Hackage, SML/NJ, and PAM.
+
+
+

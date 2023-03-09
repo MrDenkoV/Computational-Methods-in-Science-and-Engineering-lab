@@ -1,0 +1,24 @@
+Simulation algorithms for atomic DEVS
+
+Given an atomic DEVS model, simulation algorithms are methods to generate the model's legal behaviors which are trajectories not to reach to illegal states. (see Behavior of DEVS). [Zeigler84] originally introduced the algorithms that handle time variables related to "lifespan" formula_1 and "elapsed time" formula_2 by introducing two other time variables, "last event time", formula_3, and "next event time" formula_4 with the following relations: 
+formula_5
+
+and
+
+formula_6
+
+where formula_7 denotes the "current time". And the "remaining time",
+
+formula_9, apparently formula_10.
+
+Since the behavior of a given atomic DEVS model can be defined in two different views depending on the total state and the external transition function (refer to Behavior of DEVS), the simulation algorithms are also introduced in two different views as below.
+
+Regardless of two different views of total states, algorithms for initialization and internal transition cases are commonly defined as below.
+
+As addressed in Behavior of Atomic DEVS, when DEVS receives an input event, right calling formula_24, the last event time,formula_11 is set by the current time,formula_14, thus the elapsed timeformula_27 becomes zero because formula_28.
+
+Notice that as addressed in Behavior of Atomic DEVS, depending on the value of formula_36 return by formula_37, last event time,formula_11, and next event time,formula_12,consequently, elapsed time, formula_27, and lifespanformula_12, are updated (if formula_42) or preserved (if formula_43).
+
+
+
+

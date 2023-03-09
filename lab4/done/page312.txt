@@ -1,0 +1,82 @@
+Broadcast (parallel pattern)
+
+Broadcast is a collective communication primitive in parallel programming to distribute programming instructions or data to nodes in a cluster it is the reverse operation of reduce. The broadcast operation is widely used in parallel algorithms, such as matrix-vector multiplication, Gaussian elimination and shortest paths.
+
+The Message Passing Interface implements broadcast in codice_1.
+
+A message formula_1of length n should be distributed from one node to all other formula_2 nodes.
+
+formula_3is the time it takes to send one byte.
+
+formula_4is the time it takes for a message to travel to another node, independent of its length.
+
+Therefore, the time to send a package from one node to another is formula_5.
+
+formula_6 is the number of nodes and the number of processors.
+
+With Binomial Tree Broadcast the whole message is sent at once. Each node that has already received the message sends it on further. This grows exponentially as each time step the amount of sending nodes is doubled. The algorithm is ideal for short messages but falls short with longer ones as during the time when the first transfer happens and only one node is busy.
+
+Sending a message to all nodes takes formula_7 time which results in a runtime of formula_8
+Message M
+
+id := node number
+p := number of nodes
+
+if id > 0 
+for (i := ceil(log_2(id)) - 1; i >= 0; i--)
+
+The message is split up into formula_9 packages and send piecewise from node formula_10 to node formula_11. The time needed to distribute the first message piece is formula_12 whereby formula_13 is the time needed to send a package from one processor to another.
+
+Sending a whole message takes formula_14.
+
+Optimal is to choose formula_15 resulting in a runtime of approximately formula_16
+
+The run time is dependent on not only message length but also the number of processors that play roles. This approach shines when the length of the message is much larger than the amount of processors.
+Message M := [m_1, m_2, ... ,m_n]
+id = node number
+
+for (i := 1; i <= n; i++) in parallel
+
+This algorithm combines Binomial Tree Broadcast and Linear Pipeline Broadcast, which makes the algorithm work well for both short and long messages. The aim is to have as many nodes work as possible while maintaining the ability to send short messages quickly. A good approach is to use Fibonacci trees for splitting up the tree, which are a good choice as a message cannot be sent to both children at the same time. This results in a binary tree structure.
+
+We will assume in the following that communication is full-duplex. The Fibonacci tree structure has a depth of about formula_17whereby formula_18the golden ratio.
+
+The resulting runtime is formula_19. Optimal is formula_20.
+
+This results in a runtime of formula_21.
+Message M := [m_1, m_2, ... ,m_k]
+
+for i = 1 to k 
+
+This algorithm aims to improve on some disadvantages of tree structure models with pipelines. Normally in tree structure models with pipelines (see above methods), leaves receive just their data and cannot contribute to send and spread data.
+
+The algorithm concurrently uses two binary trees to communicate over. Those trees will be called tree A and B. Structurally in binary trees there are relatively more leave nodes than inner nodes. Basic Idea of this algorithm is to make a leaf node of tree A be an inner node of tree B. It has also the same technical function in opposite side from B to A tree. This means, two packets are sent and received by inner nodes and leaves in different steps.
+
+The number of steps needed to construct construct two parallel-working binary trees is dependent on the amount of processors. Like with other structures one processor can is the root node who sends messages to two trees. It is not necessary to set a root node, because it is not hard to recognize that the direction of sending messages in binary tree is normally top to bottom. There is no limitation on the number of processors to build two binary trees. Let the height of the combined tree be . Tree A and B can have a height of formula_22. Especially, if the number of processors correspond to formula_23, we can make both sides trees and a root node.
+
+To construct this model efficiently and easily with a fully built tree, we can use two methods called "Shifting" and "Mirroring" to get second tree. Let assume tree A is already modelled and tree B is supposed to be constructed based on tree A. We assume that we have formula_24 processors ordered from 0 to formula_25.
+
+The "Shifting" method, first copies tree A and moves every node one position to the left to get tree B. The node, which will be located on -1, becomes a child of processor formula_26.
+
+"Mirroring" is ideal for an even number of processors. With this method tree B can be more easily constructed by tree A, because there are no structural transformations in order to create the new tree. In addition, a symmetric process makes this approach simple. This method can also handle an odd number of processors, in this case, we can set processor formula_25 as root node for both trees. For the remaining processors "Mirroring" can be used.
+
+We need to find a schedule in order to make sure that no processor has to send or receive two messages from two trees in a step. The edge, is a communication connection to connect two nodes, and can be labelled as either 0 or 1 to make sure that every processor can alternate between 0 and 1-labelled edges. The edges of and can be colored with two colors (0 and 1) such that
+
+
+In every even step the edges with 0 are activated and edges with 1 are activated in every odd step.
+
+In this case the number of packet k is divided in half for each tree. Both trees are working together the total number of packets formula_28 (upper tree + bottom tree)
+
+In each binary tree sending a message to another nodes takes formula_29 steps until a processor has at least a packet in step formula_30. Therefore, we can calculate all steps as formula_31.
+The resulting run time is formula_32. (Optimal formula_33)
+
+This results in a run time of formula_34.
+
+In this section, another broadcasting algorithm with an underlying telephone communication model will be introduced. A Hypercube creates network system with formula_35. Every node is represented by binary formula_36 depending on the number of dimensions. Fundamentally ESBT(Edge-disjoint Spanning Binomial Trees) is based on hypercube graphs, pipelining(formula_37 messages are divided by formula_38 packets) and binomial trees. The Processor formula_39 cyclically spreads packets to roots of ESBTs. The roots of ESBTs broadcast data with binomial tree. To leave all of formula_38 from formula_41, formula_38 steps are required, because all packets are distributed by formula_43. It takes another d steps until the last leaf node receives the packet. In total formula_44 steps are necessary to broadcast formula_37 message through ESBT.
+
+The resulting run time is formula_46. formula_47.
+
+This results in a run time of formula_48.
+
+
+

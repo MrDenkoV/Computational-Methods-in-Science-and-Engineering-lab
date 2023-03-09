@@ -1,0 +1,6 @@
+CASTOR calorimeter
+
+CASTOR (standing for "Centauro And Strange Object Research") is an electromagnetic (EM) and hadronic (HAD) calorimeter of the CMS experiment at CERN. It is based on plates made out of tungsten and quartz layers, positioned around the beam pipe in the very forward region of the CMS (at 14.385 m from the interaction point), covering the pseudorapidity range 5.1 — 6.55. It is used in collider physics, proton-proton collisions and heavy ion collisions, for example lead collisions. It is designed to search for strangelets and centauro events, kinds of exotic matter in the baryon dense, very forward phase region in lead (Pb) collisions at the particle accelerator LHC, CERN near Geneva.
+
+
+

@@ -1,0 +1,15 @@
+Komagataeibacter xylinus
+
+Komagataeibacter xylinus is a species of bacteria best known for its ability to produce cellulose.
+
+The species was first described in 1886 by Adrian John Brown, who identified the bacteria while studying fermentation. Brown gave the species the name "Bacterium xylinum". It has since been known by several other names, mainly "Acetobacter xylinum" and "Gluconacetobacter xylinus". It was given its current name, with the establishment of the new genus "Komagataeibacter", in 2012. It is the type species of the genus.
+
+"K. xylinus" is a member of the acetic acid bacteria, a group of Gram-negative aerobic bacteria that produce acetic acid during fermentation. "K. xylinus" is unusual among the group in also producing cellulose. Bacterial cellulose (also sometimes known as nanocellulose) is involved in the formation of biofilms. It is chemically identical to plant cellulose, but has distinct physical structure and properties.
+
+The genome of a cellulose-deficient strain of "K. xylinus" was sequenced in 2011, and followed by the genomes of cellulose-producing strains in 2014 and 2018. The first cellulose-producing strain had a genome consisting of one chromosome 3.4 megabase pairs and five plasmids, of which one is a "megaplasmid" of about 330 kilobase pairs.
+
+Key genes related to cellulose production occur in the four-gene operon "bcsABCD", which codes for the four subunits of the cellulose synthase enzyme. All four genes are required for efficient cellulose production "in vivo", although BcsA and BscB are sufficient "in vitro". Several other genes in the "K. xylinus" genome are also involved in cellulose production and regulation, including a cellulase enzyme.
+
+"K. xylinus" was used for a long time as a model organism for the study of cellulose production in plants. It is also studied in its own right to explore bacterial biofilm production, cell-cell communication, and other topics of interest. Production of bacterial cellulose for industrial uses has been the subject of extensive research, but is limited by productivity and scalability.
+
+

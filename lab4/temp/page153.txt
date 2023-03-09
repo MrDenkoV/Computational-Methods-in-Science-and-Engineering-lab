@@ -1,0 +1,46 @@
+CERN Hadron Linacs
+
+The CERN hadron Linacs are linear accelerators that accelerate beams of hadrons from a standstill to be used by the larger circular accelerators at the facility.
+
+Linac 1 was CERN's first linear accelerator, built to inject 50 MeV protons into the Proton Synchrotron (PS). Conceived in the early 1950s, its principle design was based on a similar accelerator at AERE in England. 
+The first beams were accelerated in 1958, at currents of 5 mA and a pulse length of 20 μs, which was the world record at that time. 
+The accelerator was fully operational by September 1959, when the design energy of 50 MeV was first reached.
+
+From then on, Linac 1 experienced a phase of rapid development and constant improve of the output parameters. This culminated in 1978, when a maximal proton current of 70 mA at pulse lengths of 100 μs could be reached. 
+From 1972 on, Linac 1 didn't deliver the protons directly to the PS anymore, but to the Proton Synchrotron Booster (PSB). The PSB had been built to allow for higher energies of the protons beams already before they enter the PS.
+
+After Linac 2 had taken over the task of accelerating protons in 1978, Linac 1 continued to be used as a reliable testbed for new developments. This included the testing and implementation of a Radio-frequency quadrupole as the initial accelerator, which replaced the original Cockcroft-Walton generator in 1984. Furthermore, ways to create and accelerate deuterons, α-particles and H atoms were developed.
+The latter were used as test beams for LEAR. 
+From late 1986 on, Linac 1 was also used to accelerate oxygen and sulphur ions.
+
+Linac 1 ceased to be used in experiments in summer of 1992. It was then decommissioned and removed from its tunnel to make room for Linac 3; the construction of which started October 1992 after Linac 1 had been removed from the tunnel. Parts of Linac 1 remain as museum pieces in the Microcosm exhibit.
+
+In 1973, it was decided to build a new linear accelerator, since Linac 1 was unable to keep up with the technical advances of the other machines within CERN's accelerator complex. Linac 2 replaced Linac 1 as CERN's primary source of proton beams in 1978. It kept the same beam energy of 50 MeV, but allowed for more intense beams with beam currents of up to 150 mA and a longer pulse duration of 200 μs. 
+
+Originally, it had been discussed to further upgrade Linac 1 instead of building a completely new linear accelerator. However, it quickly became clear that the costs of such an update would almost be as expensive as the new Linac 2. Another fact in favor of this new construction was the possibility to ensure a smooth transition from one Linac to the other without any downtime in between. Also this 2 linac approach meant that Linac 1 could provide a back-up for Linac 2 for the first years of operation.
+
+Construction of Linac 2 started in December 1973, with an estimated budget of 21.3 million CHF, and was completed in 1978. Linac 2 was 36 meters long and was based at ground level at the main CERN site. It was located in a building parallel to the Linac 1 tunnel. 
+
+Throughout its lifetime, Linac 2 went through several updates to keep up with the advances of CERN's accelerator system. The most important upgrade was the replacement of the old 750 kV Cockcroft-Walton generator with a Radio-frequency quadrupole in 1993. This raised the output current to 180 mA.
+
+In late 2000s, it was considered whether to upgrade Linac 2 or build a new linac for injecting particles into HL-LHC. The decision was in the end made to build a new accelerator, the Linac 4 to succeed Linac 2 in 2020. Linac 2 was switched off 12 November 2018 and was subsequently decommissioned as part of the HL-LHC project. In the decommissioning process, Linac 2 was disconnected from the other accelerators of CERN, so that it could not even in theory used to inject particles into CERN accelerators or experiments. However, the Linac 2 accelerator hardware is left (as of October 2019) in place untouched, with the hope of making it into an exhibition about the history of CERN. 
+
+Linac 3 was constructed inside the former tunnel of Linac 1 and got commissioned in the summer of 1994 (construction started October 1992). It had been specially constructed to accelerate heavy ions, after tests with Linac 1 and an increasing demand from the scientific community suggested to build a new Linac dedicated specifically to this task. 
+The accelerated particles are mainly lead ions, which are provided to the PSB, LHC and fixed target experiments at the SPS and LEIR. For LEIR's commissioning, also oxygen ions were accelerated.
+
+After preparations from 2013 on, Linac 3 was adapted to accelerate argon ions in 2015. These were used by the NA61/SHINE experiment.
+
+Similarly, Linac 3 accelerated xenon ions in 2017 for NA61's fixed-target physics programme. On October 12, 2017, these were delivered to the Large Hadron Collider (LHC) for a unique run of data taking: For the first time, xenon ions were accelerated and collided in the LHC. For six hours, LHC's four experiments could take data of the colliding xenon ions.
+
+Linac 3 is expected to stay in use at least until 2022.
+
+Linac 4 is a current linear accelerator as of 2019 pretty much replaced Linac 2. Unlike its predecessors, Linac 4 will accelerate negative hydrogen ions to an energy of 160 MeV. The ions are then injected to the PSB where both electrons are then stripped from each of the hydrogen ions and thus only the nucleus containing one proton remains. By using hydrogen ions instead of protons, the beam loss at the injection is reduced and simplified and this also allows more particles to accumulate in the synchrotron.
+
+CERN approved the construction of Linac 4 on June 2007. Project started in 2008.
+
+Linac 4 has been built in its own tunnel, parallel to Linac 2, in the main CERN site. The reason for building the accelerator in its own new tunnel is that its building could take place simultaneously with the operation of Linac 2.
+
+Linac 4 has increased the energy by a factor of three over its predecessor, Linac 2, and achieve an energy of 160 MeV. This energy increase, when combined with the increased accumulation of particles, will enable the beam intensity to double when later delivered to LHC. This is part of the planned luminosity increase of the LHC which is scheduled for 2021.
+
+
+

@@ -1,0 +1,25 @@
+Chandy–Misra–Haas algorithm resource model
+
+The Chandy–Misra–Haas algorithm resource model checks for deadlock in a distributed system. It was developed by K. Mani Chandy, Jayadev Misra and Laura M Haas.
+
+Consider the n processes "P", "P", "P", "P", "P", ... ,"P" which are performed in a single system (controller). "P" is locally dependent on "P", if "P" depends on "P", "P" on "P" so on and "P" on "P". That is, if formula_1, then formula_2 is locally dependent on formula_3. If "P" is said to be locally dependent to itself if it is locally dependent on "P" and "P" depends on "P": i.e. if formula_4, then formula_2 is locally dependent on itself.
+
+The algorithm uses a message called probe(i,j,k) to transfer a message from controller of process "P" to controller of process "P". It specifies a message started by process "P" to find whether a deadlock has occurred or not. Every process "P" maintains a boolean array "dependent" which contains the information about the processes that depend on it. Initially the values of each array are all "false".
+
+Before sending, the probe checks whether "P" is locally dependent on itself. If so, a deadlock occurs. Otherwise it checks whether "P", and "P" are in different controllers, are locally dependent and "P" is waiting for the resource that is locked by "P". Once all the conditions are satisfied it sends the probe.
+
+On the receiving side, the controller checks whether "P" is performing a task. If so, it neglects the probe. Otherwise, it checks the responses given "P" to "P" and "dependent"(i) is false. Once it is verified, it assigns true to "dependent"(i). Then it checks whether k is equal to i. If both are equal, a deadlock occurs, otherwise it sends the probe to next dependent process.
+
+In pseudocode, the algorithm works as follows:
+
+ if "P" is locally dependent on itself
+
+ if
+
+"P" initiates deadlock detection. "C" sends the probe saying "P" depends on "P". Once the message is received by "C", it checks whether "P" is idle. "P" is idle because it is locally dependent on "P" and updates "dependent"(2) to True.
+
+As above, "C" sends probe to "C" and "C" sends probe to "C". At "C", "P" is idle so it update "dependent"(1) to True. Therefore, deadlock can be declared.
+
+Consider that there are "m" controllers and "p" process to perform, to declare whether a deadlock has occurred or not, the worst case for controllers and processes must be visited. Therefore, the solution is O(m+p). The time complexity is O(n).
+
+

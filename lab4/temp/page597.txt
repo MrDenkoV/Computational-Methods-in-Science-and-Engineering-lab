@@ -1,0 +1,35 @@
+Pteridophyte
+
+A pteridophyte is a vascular plant (with xylem and phloem) that disperses spores. Because pteridophytes produce neither flowers nor seeds, they are sometimes referred to as "cryptogams", meaning that their means of reproduction is hidden. Ferns, horsetails (often treated as ferns), and lycophytes (clubmosses, spikemosses, and quillworts) are all pteridophytes. However, they do not form a monophyletic group because ferns (and horsetails) are more closely related to seed plants than to lycophytes. "Pteridophyta" is thus no longer a widely accepted taxon, but the term "pteridophyte" remains in common parlance, as do "pteridology" and "pteridologist" as a science and its practitioner, respectively. Ferns and lycophytes share a life cycle and are often collectively treated or studied, for example by the International Association of Pteridologists and the Pteridophyte Phylogeny Group.
+
+Pteridophytes (ferns and lycophytes) are free-sporing vascular plants that have a life cycle with alternating, free-living gametophyte and sporophyte phases that are independent at maturity. The body of the sporophyte is well differentiated into roots, stem and leaves. The root system is always adventitious. The stem is either underground or aerial. The leaves may be microphylls or megaphylls. Their other common characteristics include vascular plant apomorphies (e.g., vascular tissue) and land plant plesiomorphies (e.g., spore dispersal and the absence of seeds). 
+
+Of the pteridophytes, ferns account for nearly 90% of the extant diversity. Smith et al. (2006), the first higher-level pteridophyte classification published in the molecular phylogenetic era, considered the ferns as monilophytes, as follows:
+
+where the monilophytes comprise about 9,000 species, including horsetails (Equisetaceae), whisk ferns (Psilotaceae), and all eusporangiate and all leptosporangiate ferns. Historically both lycophytes and monilophytes were grouped together as pteridophytes (ferns and fern allies) on the basis of being spore-bearing ("seed-free"). In Smith's molecular phylogenetic study the ferns are characterised by lateral root origin in the endodermis, usually mesarch protoxylem in shoots, a pseudoendospore, plasmodial tapetum, and sperm cells with 30-1000 flagella. The term "moniliform" as in Moniliformopses and monilophytes means "bead-shaped" and was introduced by Kenrick and Crane (1997) as a scientific replacement for "fern" (including Equisetaceae) and became established by Pryer et al. (2004). Christenhusz and Chase (2014) in their review of classification schemes provide a critique of this usage, which they discouraged as irrational. In fact the alternative name Filicopsida was already in use. By comparison "lycopod" or lycophyte (club moss) means wolf-plant. The term "fern ally" included under Pteridophyta generally refers to vascular spore-bearing plants that are not ferns, including lycopods, horsetails, whisk ferns and water ferns (Marsileaceae, Salviniaceae and "Ceratopteris"), and even a much wider range of taxa. This is not a natural grouping but rather a convenient term for non-fern, and is also discouraged, as is eusporangiate for non-leptosporangiate ferns.
+
+However both Infradivision and Moniliformopses are also invalid names under the International Code of Botanical Nomenclature. Ferns, despite forming a monophyletic clade, are formally only considered as four classes (Psilotopsida; Equisetopsida; Marattiopsida; Polypodiopsida), 11 orders and 37 families, without assigning a higher taxonomic rank.
+
+Furthermore, within the Polypodiopsida, the largest grouping, a number of informal clades were recognised, including leptosporangiates, core leptosporangiates, polypods (Polypodiales), and eupolypods (including Eupolypods I and Eupolypods II).
+
+In 2014 Christenhusz and Chase, summarising the known knowledge at that time, treated this group as two separate unrelated taxa in a consensus classification;
+These subclasses correspond to Smith's four classes, with Ophioglossidae corresponding to Psilotopsida.
+
+The two major groups previously included in Pteridophyta are phylogenetically related as follows:
+
+Pteridophytes consist of two separate but related classes, whose nomenclature has varied. The system put forward by the Pteridophyte Phylogeny Group in 2016, PPG I, is:
+
+
+In addition to these living groups, several groups of pteridophytes are now extinct and known only from fossils. These groups include the Rhyniopsida, Zosterophyllopsida, Trimerophytopsida, the Lepidodendrales and the Progymnospermopsida.
+
+Modern studies of the land plants agree that all pteridophytes share a common ancestor with seed plants. Therefore, pteridophytes do not form a clade but constitute a paraphyletic group.
+
+Just as with bryophytes and spermatophytes (seed plants), the life cycle of pteridophytes involves alternation of generations. This means that a diploid generation (the sporophyte, which produces spores) is followed by a haploid generation (the gametophyte or prothallus, which produces gametes). Pteridophytes differ from bryophytes in that the sporophyte is branched and generally much larger and more conspicuous, and from seed plants in that both generations are independent and free-living. The sexuality of pteridophyte gametophytes can be classified as follows:
+
+
+These terms are "not" the same as monoecious and dioecious, which refer to whether a seed plant's sporophyte bears both male and female gametophytes, i. e., produces both pollen and seeds, or just one of the sexes.
+
+
+
+
+

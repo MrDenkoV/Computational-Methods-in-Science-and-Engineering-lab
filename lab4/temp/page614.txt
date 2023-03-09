@@ -1,0 +1,62 @@
+Diplococcus
+
+A diplococcus (plural diplococci) is a round bacterium (a coccus) that typically occurs in the form of two joined cells. 
+
+Examples of gram-negative diplococci are "Neisseria spp." and "Moraxella catarrhalis." Examples of gram-positive diplococci are "Streptococcus pneumoniae" and "Enterococcus" spp. 
+Presumably, diplococcus has been implicated in encephalitis lethargica.
+
+Phylum: Proteobacteria
+
+Class: Betaproteobacteria
+
+Order: Neisseriales
+
+Family: Neisseriaceae
+
+Genus: "Neisseria"
+
+The genus "Neisseria" belongs to the family Neisseriaceae. This genus, "Neisseria," is divided into more than ten different species, but most of them are gram negative and coccoid. The gram-negative, coccoid species include: "Neisseria cinerea, Neisseria gonorrhoeae, Neisseria polysaccharea", "Neisseria lactamica", "Neisseria meningitidis", "Neisseria mucosa", "Neisseria oralis and Neisseria subflava." Of these "Neisseria species," the most common, pathogenic species are "N. meningitidis" and "N.gonorrhoeae." 
+
+Phylum: Proteobacteria
+
+Class: Gammaproteobacteria
+
+Order: Pseudomonadales
+
+Family: Moraxellaceae
+
+Genus: "Moraxella"
+
+The genus "Moraxella" belongs to the family "Moraxellaceae." This genus, "Moraxellaceae," comprises gram-negative coccobacilli bacteria: "Moraxella lacunata, Moraxella atlantae, Moraxella boevrei, Moraxella bovis, Moraxella canis, Moraxella caprae, Moraxella caviae, Moraxella cuniculi, Moraxella equi, Moraxella lincolnii, Moraxella nonliquefaciens, Moraxella osloensis, Moraxella ovis and Moraxella saccharolytica, Moraxella pluranimalium". However, only one has a morphology of diplococcus, "Moraxella catarrhalis. M. catarrhalis" is a salient pathogen contributing to infections in the human body.
+
+Phylum: Firmicutes
+
+Class: Bacilli
+
+Order: Lactobacillales
+
+Family: Streptococcaceae
+
+Genus: Streptococcus
+
+Species: "Streptococcus pneumoniae"
+
+The species "Streptococcus pneumoniae" belongs to the genus "Streptococcus" and the family "Streptococcaceae." The genus "Streptococcus" has around 129 species and 23 subspeciesthat benefit to many micrbiomes on the human body. There are many species that show non-pathogenic characteristics; however, there are some, like "S. pneumoniae," that exhibit pathogenic characteristics in the human body.
+
+Phylum: Firmicutes
+
+Class: Bacilli
+
+Order: Lactobacillales
+
+Family: Enterococcaceae
+
+Genus: "Enterococcus"
+
+The genus "Enterococcus" belongs to the family "Enterococcaceae." This genus is divided into 58 species and two subspecies. These gram-positive, coccoid bacteria were once thought to be harmless to the human body. However, within the last ten years, there has been an influx of nosocomial pathogens originating from "Enterococcus" bacteria.
+
+Many of these diplococci bacteria have species (strains) exhibit pathogenic characteristics. Examples of gram-negative, diplococci pathogens would be "N.gonorrhoeae" and "N. meningitidis." "N. gonorrhea" is transmitted through copulation with a person who is infected. This bacterium embeds in the reproductive tract tissue in women, causing cervical and uterine infections. Once the membranous tissues within the fallopian tubes are infected, complications in pregnancies will arise. In men, this bacterium infects the urethra. Testing on male subjects, showed apparent bacteria forming colonies within the epithelium and exhibiting signs of damage in these cells. "N. meningitidis," also known as meningococcus, can cause bacterial infections on/in the body, i.e. lungs, nasopharynx, or skin, which eventually enters the bloodstream. (web arch) The malignant bacteria within the bloodstream burgeon and often ends in fatality if extreme enough. Another example of a gram-negative, diplococci pathogen is "Moraxella catarrhalis." A study of "M. catarrhalis" was conducted on 58 cases and all presented similar, yet different results. Many cases appeared to have infections within the body: pharyngitis, tracheitis, sinusitis, bronchitis, and otitis. Few showed chracteristics of meningitis, endocarditis, and septic arthritis. 
+
+Examples of gram-positive, diplococci pathogens include S"treptococcus pneumoniae" and some species in "Enterococcus" bacteria. S"treptococcus pneumoniae" infects the human anatomy in the respiratory tract and the immune system. This bacteria congregates at the end of the bronchial tubes in the alveoli, which elicits an inflammatory results. Then, this elicited response fills with blood and all its components fill the alveoli; resulting in pneumonia. "Enterococcus" has given rise to Entercoccal meningitis, an uncommon nosocomial disease. These nosocomial infections also affect the urinary tract and post-surgical wounds, still healing.
+
+

@@ -1,0 +1,11 @@
+Coprothermobacter
+
+Coprothermobacter is a genus of rod-shaped microorganisms, belonging to the new bacterial family "Coprothermobacteraceae" of the new phylum "Coprothermobacterota". This taxonomic genus has been reclassified in 2018, after different phylogenetic studies showed that these bacteria represented a deeply branched taxon of the domain "Bacteria"; consequently, the clade including this genus has been classified in a separate phylum from "Firmicutes", the phylum where it was included before reclassification.
+
+According to the first description of this genus, the etymology of its name derives from Greek words "kopros", meaning dung, from the source where one of the species ("Coprothermobacter proteolyticus") was isolated, and "thermos", meaning hot, warm, because of the relatively high temperatures at which these bacteria are able to grow, which can be as high as 75°C.
+
+Actually, very few known bacterial species are included in this genus, which are characterized by sharing genetic information with microorganisms belonging to "Archaea", a taxonomic domain separate from the domain "Bacteria". For this reason, "Coprothermobacteria" are considered a diverging lineage of bacteria.
+
+Among the species included in this genus, "Coprothermobacter platensis" and "Coprothermobacter proteolyticus" (formerly named "Thermobacteroides proteolyticus)" are the only strains with validly published names. 
+
+

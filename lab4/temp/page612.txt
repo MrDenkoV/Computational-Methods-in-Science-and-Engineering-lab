@@ -1,0 +1,26 @@
+Spheroplast
+
+A spheroplast (or sphaeroplast in British usage) is a microbial cell from which the cell wall has been almost completely removed, as by the action of penicillin or lysozyme. According to some definitions, the term is used to describe Gram-negative bacteria. According to other definitions, the term also encompasses yeasts. The name spheroplast stems from the fact that after the microbe's cell wall is digested, membrane tension causes the cell to acquire a characteristic spherical shape. Spheroplasts are osmotically fragile, and will lyse if transferred to a hypotonic solution.
+
+When used to describe Gram-negative bacteria, the term spheroplast refers to cells from which the peptidoglycan component but not the outer membrane component of the cell wall has been removed.
+
+Various antibiotics convert Gram-negative bacteria into spheroplasts. These include peptidoglycan synthesis inhibitors such as fosfomycin, vancomycin, moenomycin, lactivicin and the β-lactam antibiotics. Antibiotics that inhibit biochemical pathways directly upstream of peptidoglycan synthesis induce spheroplasts too (eg. fosmidomycin, phosphoenolpyruvate).
+
+In addition to the above antibiotics, inhibitors of protein synthesis (eg. chloramphenicol, oxytetracycline, several aminoglycosides) and inhibitors of folic acid synthesis (eg. trimethoprim, sulfamethoxazole) also cause Gram-negative bacteria to form spheroplasts.
+
+The enzyme lysozyme causes Gram-negative bacteria to form spheroplasts, but only if a membrane permeabilizer such as lactoferrin or ethylenediaminetetraacetate (EDTA) is used to ease the enzyme’s passage through the outer membrane. EDTA acts as a permeabilizer by binding to divalent ions such as Ca and removing them from the outer membrane.
+
+The yeast "Candida albicans" can be converted to spheroplasts using the enzymes lyticase, chitinase and β-glucuronidase.
+
+From the 1960s into the 1990s, Merck and Co. used a spheroplast screen as a primary method for discovery of antibiotics that inhibit cell wall biosynthesis. In this screen devised by Eugene Dulaney, growing bacteria were exposed to test substances under hypertonic conditions. Inhibitors of cell wall synthesis caused growing bacteria to form spheroplasts. This screen enabled the discovery of fosfomycin, cephamycin C, thienamycin and several carbapenems.
+
+Specially prepared giant spheroplasts of Gram-negative bacteria can be used to study the function of bacterial ion channels through a technique called patch clamp, which was originally designed for characterizing the behavior of neurons and other excitable cells. To prepare giant spheroplasts, bacteria are treated with a septation inhibitor (eg. cephalexin). This causes the bacteria to form filaments, elongated cells that lack internal cross-walls. After a period of time, the cell walls of the filaments are digested, and the bacteria collapse into very large spheres surrounded by just their cytoplasmic and outer membranes. The membranes can then be analyzed on a patch clamp apparatus to determine the phenotype of the ion channels embedded in it. It is also common to overexpress a particular channel to amplify its effect and make it easier to characterize.
+
+The technique of patch clamping giant "E. coli" spheroplasts has been used to study the native mechanosensitive channels (MscL, MscS, and MscM) of "E. coli". It has been extended to study other heterologously expressed ion channels and it has been shown that the giant "E. coli" spheroplast can be used as an ion-channel expression system comparable to the "Xenopus" oocyte.
+
+Yeast cells are normally protected by a thick cell wall which makes extraction of cellular proteins difficult. Enzymatic digestion of the cell wall with zymolyase, creating spheroplasts, renders the cells vulnerable to easy lysis with detergents or rapid osmolar pressure changes.
+
+Bacterial spheroplasts, with suitable recombinant DNA inserted into them, can be used to transfect animal cells. Spheroplasts with recombinant DNA are introduced into the media containing animal cells and are fused by polyethylene glycol (PEG). With this method, nearly 100% of the animal cells may take up the foreign DNA. Upon conducting experiments following a modified Hanahan protocol using calcium chloride in "E. coli", it was determined that spheroplasts may be able to transform at 4.9x10.
+
+
+

@@ -1,0 +1,118 @@
+OSTO System Model
+
+The OSTO System Model is based on the OSTO System Theory, which comprehends complex systems and organizations as living systems and maps these by means of the OSTO System Model. The model is cybernetic in nature and is deduced from the theory of closed loops. The basics of this theory have been formulated by David P. Hanna in the 1980’s and have been published initially in 1988. The model assumes that several central transformation processes take place on the inside of a complex organization. These are deeply influenced by mutual reactions between the inner life of the organization and the outside (environment). In terms of closed loop theory, the OSTO System Model depicts the essential elements of such a living system in its interconnectedness, dependencies, and reciprocal reactions. Thinking in network structures is, thus, a crucial part of the OSTO System Theory.
+
+The acronym “OSTO” stands for open, sociotechnical, economic (German: “oekonomisch”) aspects of a system. With regard to organizations and economically working companies, the model takes into consideration the openness of systems towards their environments as well as the fact that they are multidimensional, socio-techno-economic structures. Taking into consideration these four aspects, the model displays the complexity of such a system in its numerous dimensions.
+
+The OSTO System Model is a concrete model of the OSTO thought framework. In practice this model is used as a managerial and reflection tool.
+
+Looking through the so-called “OSTO glasses” is to facilitate managing the steadily increasing dynamism and complexity of systems such as to find new action strategies by creating distance.
+Consequently, for organizational development the method is applied in the field of change management. Companies use the methods in the area of 
+diagnosis, design and redesign of organizations as well as in project management. 
+OSTO has developed concepts for education and human resource development in line with the systemic qualification of managers (“SYMA®”). 
+The approach is mainly taught at the University of Klagenfurt and at RWTH Aachen University. 
+It is mainly concentrated in the institute of cybernetics as well as at the chair of information management in mechanical engineering and at the center 
+for learning and knowledge management. Each year, more than 1000 students acquire knowledge of the OSTO System Theory during a mandatory course 
+in their studies of mechanical engineering.
+
+In the OSTO System approach, organizations are analyzed as open systems. In this context, the attribute “open” refers as well to the spatial and subject 
+level as to the temporal aspect. On the spatial and subject level, not only intended but also unintended exchange with the environment is analyzed. 
+Systems are hardly ever closed. In consequence of that, bidirectional reciprocal exchange between a system and its environment has to be monitored very 
+closely. Internal relationships as well as external dependencies of the entire system have to be grasped in order to develop a long-term strategy that 
+takes consequences into consideration.
+
+The social side of the system comprises the classical areas of design and process organization, information and decision procedures, 
+division of functions and tasks, as well as the reward and control system. This aspect does, however, also consider the motivation throughout the 
+company and the relationships among employees and the overall organizational culture. For understanding this part and its influence on the whole 
+system it is crucial to know that trust plays the most important part in all procedures and processes in which humans are involved.
+
+The technical side of the system mainly focuses on the material aspects of companies, such as machines, equipment, internal and external architecture 
+as well as tools and procedures. Additionally, it comprises the conceptualization of technology with regard to centralized and/or decentralized solutions. 
+Another problem that is tackled within this part of the model is the question as to how technical concepts and tool further fragmentation of work or – if 
+intended so- in how far they enable integrated wholesome work structures.
+
+The economic side of the system describes all aspects which are directly linked to the economic efficiency of the organization, such as revenue trends, productivity development, controlling procedures, remuneration systems, investment and budget planning, fiscal aspects, lead times, cost structure, etc.
+
+Complexity, with regard to entrepreneurial action was first described by organizational theorists in the years around 1975. Hence, different management 
+schools and consultants tried to develop new forms of organizational development since: They intended to understand the internal and external complexities 
+of companies by developing thought frameworks and creating models. 
+Up to this point, there were models describing organizations as Tayloristic structures with subdivision of work (design and process organization). 
+These models are still in use. However, they bear the disadvantage of being incapable of depicting the necessary flexibility. The systemic approach 
+represents organizations as living organisms which need to flexibly adapt to new conditions. The new aspect of these models is the fact that they consider 
+the internal and external complexity of an organization and the social psychological phenomena in and around an organization enter the scope of analysis.
+The three most important models in this development are the viable system model (cf. Stafford Beer, 1959), the new St. Gallen Management Model 
+(cf. Rüegg-Stürm, 2002) and the OSTO System Model. These models structure the (multidimensional) complexity of large organizational structures into 
+illustrations of one or more dimensions. Another, rather non-famous model, is the “Sensitivity Model” by Frederic Vester.
+
+The OSTO System Model is based on the “Organization Performance Model” which has been developed, tested and published by David P. Hanna in 1988 in his 
+time as a consultant for Procter & Gamble. Further important participants in this development include Clark/Krone 1972, Krone 1974 and Krug 1992. 
+Later on, the model has been further developed and systemized for science by Heijo Rieckmann (Klagenfurt University) and Klaus Henning (RWTH Aachen University) as well as for systemic consulting of organizations by Renate Henning.
+
+Every organization is separated from its environments (at least) theoretically by differing borders. Possible forms of such borders are: Physical 
+(e.g. buildings), temporal (e.g. work shifts), social (e.g. teams), or psychological (stereotypes, prejudices) system borders. In order to describe and define a system as accurately as possible it is necessary to determine the borders of a system very carefully. It is a current perception that system borders are partly permeable.
+
+The environments of a system, i.e. everything outside its borders, have a strong influence on every organization. The model assumes that systems without 
+any environment that they interact with cannot exist. A system that is hardly influenced by an environment described as an autarkical system. On the 
+contrary, a system that is strongly formed by external influences is named a dependent system. In the context of companies an environment can be as 
+diverse as to be the marketplace, customers, political conditions etc.
+
+The reason for existing of a system – also to be grasped as the purpose – is the contractual, reciprocal relationship between the system and its environments. It describes which need of the environments is to be satisfied by the core processes of the organization. The Reason for Existing can never be defined unilaterally, which separates it from unilateral, personal interests. In its form it is not to be seen as static, but is also influenced in various ways from the inside and by external factors of the system such that a regular comparison with reality is important. In conjunction with the mission and the goals the Reason for Existing incorporates the overruling “company strategy”.
+
+Next to the Reason for Existing, for every living system a sound mission that is oriented towards the future bears many advantages. The mission questions the long-term sensibility of the Reason for Existing. The internal motivation and identification on the one hand and the acceptance in society on the other hand are maintained through long-term, future oriented thinking. The mission focuses on sensibility with regard to sustainability based on individual, cultural, ethical and further aspects.
+
+In applied practice, the Ultimate Anchor plays a minor role. It deeply analyses [basis and meta value, views on life and the world, images of people and gods which creates the framework of convictions and beliefs in which “questions for meaning” are shaped.] 
+
+Mission as well as Ultimate Anchor were added to the OSTO System Model by Rieckmann and Henning in the second half of the 1980´s since both aspects become increasingly important under the influence of globalization and crisis in society.,
+
+An appropriate depiction of the initial outputs is necessary for the organizational diagnosis. In that regard it is important that “Output” comprises both numerically graspable as well as qualitative aspects (e.g. work place satisfaction, motivation etc.). It is just as important to capture the factually or seemingly useless initial results and not only the “official” or “desired” results.
+
+The term “Outcome” comprises all financial events of an organization: Income from product sales, R&D, etc. It is intended so that the term is slightly broader such that the organization under scrutiny utilizing the model decides itself whether “Outcome” includes prices, sales volume, return on investment (ROI), or other aspects.
+
+The OSTO System Model points out that inside an organization the information from the environment, the Reason for Existing and the outputs/outcome are turned into real results through transformational processes. The model provides two explanations for that
+
+The process version explains the processing of information from the environment, the reason for existing and the outputs/outcome by means of a transformational process. This process is made up of three central core processes. The term “core process” is to underline that only processes that go to the core of the subject matter, i.e. those which ensure the existence of the company, are relevant. There are three core process that are to be distinguished:
+
+The task core process comprises all activities, communications, actions, etc. which aim at creating the system results (output).
+
+An important basis for all processes of within a system is the energy (work power, performance) which each single person in a system provides and is capable of deploying towards the goals of a system. The systemic approach describes this by the term “Individual Core Process”.
+
+Throughout the social core process, the humans in an organization work towards the goals of a system. In the SCP, the individual core process and the task core process are linked such that synergy effects are yielded from collaboration.
+
+The Structural version explains the system’s internal transformation process through strategies, design elements and (system-) behavior. The transformational process is such structured by the design elements of the company. They are intended to concentrate and to structure all processes and structures within an organization:
+
+In the OSTO map, the goals of a company belong to the internal design of an organization, i.e. the so-called transformational process. With respect to systemic theory, the goals are to be grasped as an internal specification and are derived from the reason for existing. They define the internal needs for actions. For reaching the goals it is necessary to formulate strategies that define how things are to be implemented such that the goals are achieved. The strategies are realized by appropriate adaptions to the design elements.
+
+In every system/organization there is an abundance of very different behavioral patterns (e.g. leadership behavior, work behavior, etc.) which are produced by the design elements. This implies that the system behavior can only be influenced through the design elements. Since systems are dynamic processes, they are not oriented towards subjects but rather towards events. The overall system can have characteristics which are not inert to any of its component parts (loyal/cooperative characteristic) and does in general not behave like the sum of its parts. The OSTO System Model is currently the only model of this kind which closely analyses the behavior of an organization.
+
+The design element human comprises the members of a company/organization and their roles (talents, qualifications etc.), expectations and needs of material character. Furthermore, the network of socio-emotional relationships and interaction circumstances (“climate”) is included in these conditions of collaboration.
+
+Technology as a design element comprises the technical machines, the means of production, property plant and equipment, etc. and the relationships among them, i.e. all material and spatial conditions of a system.
+
+The organizational structure describes the operating procedures and processes of an organization, i.e. the functions, hierarchies, reporting structures as well as the regulation of processes in temporal, spatial and subject aspects.
+
+Functions and tasks as a design element is derived from the open property of companies/organizations. It comprises the description of the tasks which stem from customer needs as well as the division of tasks as specific work orders, expectations towards functions, jobs, etc. Consequently it is possible to develop processes in order to install and foster changes in organizations.
+
+The decision making system describes where, how, to whom, on which level, at which spot and by means of which tools decisions are made. It furthermore describes which mechanisms, processes, rules etc. guide the decision processes.
+
+The information system describes who receives or does not receive which information when, from whom and by which means. It also analyzes why this is so.
+
+Amplifying and reduction systems of material and immaterial as well as formal and informal character are described through the reward and control system of an organization. As such it analyzes mechanisms and procedures which observe and guide human and technical behavior, results and processes. This includes amongst others remuneration structures and the unwritten rules of a company.
+
+By means of the development and renewal system the flexibility as well as the performance and adaption capacities of an organization are maintained and increased. This can also revolve around a group of employees within the company which have the mandate to develop the company internally and externally. Generally, this can be subsumed under the term innovation management.
+
+According to the model, feedback is of crucial importance for the survival of a system, i.e. of an organization that is confronted with turbulent environments. As systems are to be understood as open systems they rely on feedback loops in order to remain existent. The feedback consists of loops that have a guiding, stabilizing and renewing effect on the system. According to literature there are four types of feedback.
+
+Quality feedbacks are reactions to the quality of the output. Usually, all types of quality management use quality feedback as a starting point of their methods.
+
+Renewal feedbacks report reaction of the environment with regard to the reason for existing. This form of feedback is to analyze the demands of the environment (e.g. Development of new markets).
+
+Responsibility feedbacks question the mission of the system. They refer to the long-term chances of survival of the system and its environment (earth-humanity-future-problem). In that regard the focus of this form of feedback is sustainability.
+
+Awareness feedbacks contain information about basic “truths” – about humans, the way humans live together and transcendent values – and about absolute (“true”) values. In this context, the consequences for the system and the members of the system (e.g. through religious orientations) are reflected.
+
+The OSTO System Model is, just like the St. Gallen Management Model and the Viable System Model, to be categorized into economic and sociological system theory. The difference from these rather production oriented models is the fact that the OSTO System Model is process oriented and assumes an open system which is guided by permanent feedback. In contrast to other models it analyzes systems independently from hierarchies and is not based on management ratios. It is also the only model which takes (system-) behavior into consideration. Additionally, conscious and unconscious goals and strategies are rendered visible and intended as well as unintended outputs are unveiled and taken into consideration.
+
+The model assumes that the central transformational processes marked in the model take place on the inside of a complex organization. However, the concepts with regard to system and organization are not definitely pointed out in theory. On the part of system theory there is hardly any link to the modern theory of social systems with their core concepts of the observed observer and the autopoiesis. On the part of organizational theory, Karl E. Weick described the problem that the term organization leaves open in how far a special behavior of an involved person takes place at a certain place or refers to a certain place very early on. In the same manner it is not clear in how far behavior is controlled by an organization or contributes to the embodiment of an organization or if both or none of this is true. Gareth Morgan also alluded to the fact that organizations can be analyzed from different perspectives. Dependent upon the perspective the analysis yields pronouncedly different implications for the design, change, and the guiding- and leadership concepts.
+
+
+

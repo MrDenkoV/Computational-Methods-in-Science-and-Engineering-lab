@@ -1,0 +1,388 @@
+Hindley–Milner type system
+
+A Hindley–Milner (HM) type system is a classical type system for the lambda calculus with parametric polymorphism. It is also known as Damas–Milner or Damas–Hindley–Milner. It was first described by J. Roger Hindley and later rediscovered by Robin Milner. Luis Damas contributed a close formal analysis and proof of the method in his PhD thesis.
+
+Among HM's more notable properties are its completeness and its ability to infer the most general type of a given program without programmer-supplied type annotations or other hints. Algorithm W is an efficient type inference method that performs in almost linear time with respect to the size of the source, making it practically useful to type large programs. HM is preferably used for functional languages. It was first implemented as part of the type system of the programming language ML. Since then, HM has been extended in various ways, most notably with type class constraints like those in Haskell.
+
+One and the same thing can be used for many purposes. A chair might be used to support a sitting person but also as a ladder to stand on while changing a light bulb or as a clothes valet. Beside having particular material qualities, which make a chair usable as such, it also has the particular designation for its use. When no chair is at hand, other things might be used as a seat, and so the designation of a thing can be changed as fast as one can turn an empty bottle crate upside down to change its purpose from a container to that of a support.
+
+Different uses of physically near-identical things are usually accompanied by giving those things different names to emphasize the intended purpose. Depending on the use, seamen have a dozen or more words for a rope though it might materially be the same thing. The same in everyday language, where a leash indicates a use different to a line.
+
+In computer science, this practice of naming things by its intended use is put to an extreme called "typing" and the names or expressions called "types":
+
+
+Beside structuring objects, (data) types serve as means to validate that these objects are used as intended. Much like a bucket that could only be worn as a helmet or used to contain water at a time, a particular arrangement of bytes designated for one purpose might exclude other possible uses.
+
+In programming, these uses are expressed as "functions" or "procedures" which serve the role of verbs in natural language. As an example for typing verbs, an English dictionary might define "gift" as "to give someone something", indicating that the object must be a person and the indirect object a physical thing. In programming, "someone" and "something" would be called types. Using a physical thing in the place of "someone" would be indicated as a programming error by a type checker.
+
+Beside checking, one can use the types in this example to gain knowledge about an unknown word. Reading the sentence "Mary gifts John a bilber" the types could be used to conclude that a "bilber" is likely a physical thing. This activity and conclusion is called "type inference". As the story unfolds, more and more information about the unknown "bilber" may be gained, and eventually enough details become known to form a complete image of that kind of thing.
+
+The type inference method designed by Hindley and Milner does just this for programming languages. The advantage of type inference over type checking is that it allows a more natural and dense style of programming. Instead of starting a program text with a glossary defining what a bilber and everything else is, one can distribute this information over the text simply by using the yet undefined words and let a program collect all the details about them. The method works for both nouns (data types) and for verbs (functions types). As a consequence, a programmer can proceed without ever mentioning types at all, while still having the full support of a type checker that validates their writing. When reading a program, the programmer can use type inference to query the full definition of anything named in the program whenever needed.
+
+Historically, type inference to this extent was developed for a particular group of programming languages, called functional languages. These started in 1958 with Lisp, a programming language based on the lambda calculus and that compares well with modern scripting languages like Python or Lua. Lisp was mainly used for computer science research, often for symbol manipulation purposes where large, tree-like data structures were common.
+
+Data in Lisp is dynamically typed and the types are only available to some degree while running a program. Debugging type errors was no less of a concern than it is with modern script languages. But, being completely untyped, i.e. written without any explicit type information, maintaining large programs written in Lisp soon became a problem because the many complicated types of the data were mentioned only in the program documentation and comments at best.
+
+Thus, the need to have a Lisp-like language with machine-checkable types became more and more pressing. At some point, programming language development faced two challenges:
+
+
+As an example, polymorphically constructing the list "(1 2)" of two numbers would mean writing:
+
+This example was quite typical. Every third word a type, monotonously serving the type checker in every step. This worsens when the types become more complex. Then, the methods to be expressed in code become buried in types.
+
+To handle this issue, effective methods for type inference were the subject of research, and Hindley–Milner's method was one of them. Their method was first used in ML (1973) and is also used in an extended form in Haskell (1990). The HM type inference method is strong enough to infer types not only for expressions, but for whole programs including the procedures and local definitions, providing a type-less style of programming.
+
+The following text gives an impression of the resulting programming style for the quicksort procedure in Haskell:
+
+Though all of the functions in the above example need type parameters, types are nowhere mentioned. The code is statically type-checked even though the type of the function defined is unknown and must be inferred to type-check the applications in the body.
+
+Over the years, other programming languages added their own version of parametric types. C++ templates were introduced in 1998 and Java introduced generics in 2004. As programming with type parameters became more common, problems similar to the ones sketched for Lisp surfaced in imperative languages too, perhaps not as pressing as it was for the functional languages. As a consequence, these languages obtained support for some type inference techniques, for instance "auto" in C++11 (2014). Typically, the stronger type inference methods developed for functional programming cannot easily be integrated in the imperative languages, as their type systems' features are in part incompatible. However, through the support of additional techniques, it is actually possible to provide Haskell- and ML-style type inference even for a language like C which was designed decades ago, without any consideration for such a mechanism.
+
+Before presenting the HM type system and related algorithms, the following sections make some features of HM more formal and precise.
+
+In a typing, an expression E is opposed to a type T, formally written as E : T. Usually a typing only makes sense within some context, which is omitted here.
+
+In this setting, the following questions are of particular interest:
+
+
+For the simply typed lambda calculus, all three questions are decidable. The situation is not as comfortable when more expressive types are allowed. Additionally, the simply typed lambda calculus makes the types of the parameters of each function explicit, while they are not needed in HM. While HM is a method for type inference, it can be used also for type checking and answer the first question. To do that, a type is first inferred from E and then compared with the type wanted. The third question becomes of interest when looking at recursively-defined functions at the end of this article.
+
+In the simply typed lambda calculus, types formula_1 are either atomic type constants or function types of form formula_2. Such types are "monomorphic". Typical examples are the types used in arithmetic values:
+
+Contrary to this, the untyped lambda calculus is neutral to typing at all, and many of its functions can be meaningfully applied to all type of arguments. The trivial example is the identity function
+
+which simply returns whatever value it is applied to. Less trivial examples include parametric types like lists.
+
+While polymorphism in general means that operations accept values of more than one type, the polymorphism used here is parametric. One finds the notation of "type schemes" in the literature, too, emphasizing the parametric nature of the polymorphism. Additionally, constants may be typed with (quantified) type variables. E.g.:
+
+Polymorphic types can become monomorphic by consistent substitution of their variables. Examples of monomorphic "instances" are:
+
+More generally, types are polymorphic when they contain type variables, while types without them are monomorphic.
+
+Contrary to the type systems used for example in Pascal (1970) or C (1972), which only support monomorphic types, HM is designed with emphasis on parametric polymorphism. The successors of the languages mentioned, like C++ (1985), focused on different types of polymorphism, namely subtyping in connection with object-oriented programming and overloading. While subtyping is incompatible with HM, a variant of systematic overloading is available in the HM-based type system of Haskell.
+
+When extending the type inference for the simply-typed lambda calculus towards polymorphism, one has to define when deriving an instance of a value is admissible. Ideally, this would be allowed with any use of a bound variable, as in:
+
+Unfortunately, type inference in polymorphic lambda calculus is not decidable. Instead, HM provides a "let-polymorphism" of the form
+
+restricting the binding mechanism in an extension of the expression syntax. Only values bound in a let construct are subject to instantiation, i.e. are polymorphic, while the parameters in lambda-abstractions are treated as being monomorphic.
+
+The remainder of the article is more technical as it has to present the HM method as it is handled in the literature. It proceeds as follows:
+
+
+The same description of the deduction system is used throughout, even for the two algorithms, to make the various forms in which the HM method is presented directly comparable.
+
+The type system can be formally described by syntax rules that fix a language for the expressions, types, etc. The presentation here of such a syntax is not too formal, in that it is written down not to study the surface grammar, but rather the depth grammar, and leaves some syntactical details open. This form of presentation is usual. Building on this, type rules are used to define how expressions and types are related. As before, the form used is a bit liberal.
+
+The expressions to be typed are exactly those of the lambda calculus extended with a let-expression as shown in the adjacent table. Parentheses can be used to disambiguate an expression. The application is left-binding and binds stronger than abstraction or the let-in construct.
+
+Types are syntactically split into two groups, monotypes and polytypes.
+
+Monotypes always designate a particular type. Monotypes formula_4 are syntactically represented as terms.
+
+Examples of monotypes include type constants like formula_5 or formula_6, and parametric types like formula_7. The latter types are examples of "applications" of type functions, for example, from the set
+formula_8, 
+where the superscript indicates the number of type parameters. The complete set of type functions formula_9 is arbitrary in HM, except that it "must" contain at least formula_10, the type of functions. It is often written in infix notation for convenience. For example, a function mapping integers to strings has type formula_11. Again, parentheses can be used to disambiguate a type expression. The application binds stronger than the infix arrow, which is right-binding.
+
+Type variables are admitted as monotypes. Monotypes are not to be confused with monomorphic types, which exclude variables and allow only ground terms.
+
+Two monotypes are equal if they have identical terms.
+
+"Polytypes" (or "type schemes") are types containing variables bound by one or more for-all quantifiers, e.g. formula_12.
+
+A function with polytype formula_12 can map "any" value of the same type to itself,
+and the identity function is a value for this type.
+
+As another example, formula_14 is the type of a function mapping all finite sets to integers. A function which returns the cardinality of a set would be a value of this type.
+
+Quantifiers can only appear top level. For instance, a type formula_15 is excluded by the syntax of types. Also monotypes are included in the polytypes, thus a type has the general form formula_16, where formula_4 is a monotype.
+
+Equality of polytypes is up to reordering the quantification and renaming the quantified variables (formula_18-conversion). Further, quantified variables not occurring in the monotype can be dropped.
+
+To meaningfully bring together the still disjoint parts (syntax expressions and types) a third part is needed: context. Syntactically, a context is a list of pairs formula_19, called assignments, assumptions or bindings, each pair stating that value variable formula_20has type formula_21. All three parts combined give a "typing judgment" of the form formula_22, stating that under assumptions formula_23, the expression formula_24 has type formula_25.
+
+In a type formula_26, the symbol formula_27 is the quantifier binding the type variables formula_28 in the monotype formula_4. The variables formula_28 are called "quantified" and any occurrence of a quantified type variable in formula_4 is called "bound" and all unbound type variables in formula_4 are called "free". Additionally to the quantification formula_27 in polytypes, type variables can also be bound by occurring in the context, but with the inverse effect on the right hand side of the formula_34. Such variables then behave like type constants there. Finally, a type variable may legally occur unbound in a typing, in which case they are implicitly all-quantified.
+
+The presence of both bound and unbound type variables is a bit uncommon in programming languages. Often, all type variables are implicitly treated all-quantified. For instance, one does not have clauses with free variables in Prolog. Likely in Haskell, where all type variables implicitly occur quantified, i.e. a Haskell type codice_4 means formula_12 here. Related and also very uncommon is the binding effect of the right hand side formula_25 of the assignments.
+
+Typically, the mixture of both bound and unbound type variables originate from the use of free variables in an expression. The constant function K = formula_37 provides an example. It has the monotype formula_38. One can force polymorphism by formula_39. Herein, formula_40 has the type formula_41. The free monotype variable formula_18 originates from the type of the variable formula_43 bound in the surrounding scope. formula_44 has the type formula_45. One could imagine the free type variable formula_18 in the type of formula_40 be bound by the formula_48 in the type of formula_44. But such a scoping cannot be expressed in HM. Rather, the binding is realized by the context.
+
+Polymorphism means that one and the same expression can have (perhaps
+infinitely) many types. But in this type system, these types are not completely
+unrelated, but rather orchestrated by the parametric polymorphism.
+
+As an example, the identity formula_50 can have formula_51 as its type as well as
+formula_52 or formula_53 and many others, but not formula_54. The most general type for this function is
+formula_55, while the
+others are more specific and can be derived from the general one by consistently
+replacing another type for the "type parameter", i.e. the quantified
+variable formula_18. The counter-example fails because the
+replacement is not consistent.
+
+The consistent replacement can be made formal by applying a substitution formula_57 to the term of a type formula_4, written formula_59. As the example suggests, substitution is not only strongly related to an order, that expresses that a type is more or less special, but also with the all-quantification which allows the substitution to be applied.
+Formally, in HM, a type formula_25 is 
+more general than formula_61, formally formula_62 if some quantified variable in formula_25 is
+consistently substituted such that one gains formula_61 as shown in the side bar.
+This order is part of the type definition of the type system.
+
+While substituting a monomorphic (ground) type for a quantified variable is
+straight forward, substituting a polytype has some pitfalls caused by the
+presence of free variables. Most particularly, unbound variables must not be
+replaced. They are treated as constants here. Additionally, quantifications can only occur top-level. Substituting a parametric type,
+one has to lift its quantors. The table on the right makes the rule precise.
+
+Alternatively, consider an equivalent notation for the polytypes without
+quantors in which quantified variables are represented by a different set of
+symbols. In such a notation, the specialization reduces to plain consistent
+replacement of such variables.
+
+The relation formula_65 is a partial order
+and formula_66 is its smallest element.
+
+While specialization of a type scheme is one use of the order, it plays a
+crucial second role in the type system. Type inference with polymorphism
+faces the challenge of summarizing all possible types an expression may have.
+The order guarantees that such a summary exists as the most general type
+of the expression.
+
+The type order defined above can be extended to typings because the implied all-quantification of typings enables consistent replacement:
+Contrary to the specialisation rule, this is not part of the definition, but like the implicit all-quantification rather a consequence of the type rules defined next.
+Free type variables in a typing serve as placeholders for possible refinement. The binding effect of the environment to free type
+variables on the right hand side of formula_34 that prohibits their substitution in the specialisation rule is again
+that a replacement has to be consistent and would need to include the whole typing.
+
+The syntax of HM is carried forward to the syntax of the inference rules that form the body of the formal system, by using the typings as judgments. Each of the rules define what conclusion could be drawn from what premises. Additionally to the judgments, some extra conditions introduced above might be used as premises, too.
+
+A proof using the rules is a sequence of judgments such that all premises are listed before a conclusion. The examples below show a possible format of proofs. From left to right, each line shows the conclusion, the formula_69 of the rule applied and the premises, either by referring to an earlier line (number) if the premise is a judgment or by making the predicate explicit.
+
+The side box shows the deduction rules of the HM type system. One can roughly divide the rules into two groups:
+
+The first four rules formula_70 (variable or function access), formula_71 ("application", i.e. function call with one parameter), formula_72 ("abstraction", i.e. function declaration) and formula_73 (variable declaration) are centered around the syntax, presenting one rule for each of the expression forms. Their meaning is obvious at the first glance, as they decompose each expression, prove their sub-expressions and finally combine the individual types found in the premises to the type in the conclusion.
+
+The second group is formed by the remaining two rules formula_74 and formula_75.
+They handle specialization and generalization of types. While the rule formula_74 should be clear from the section on specialization above, formula_75 complements the former, working in the opposite direction. It allows generalization, i.e. to quantify monotype variables not bound in the context.
+The following two examples exercise the rule system in action. Since both the expression and the type are given, they are a type-checking use of the rules.
+
+Example: A proof for formula_78 where formula_79,
+could be written
+
+Example: To demonstrate generalization,
+formula_81
+is shown below:
+
+Not visible immediately, the rule set encodes a regulation under which circumstances a type might be generalized or not by a slightly varying use of mono- and polytypes in the rules formula_72 and formula_73. Remember that formula_25 and formula_4 denote poly- and monotypes respectively.
+
+In rule formula_72, the value variable of the parameter of the function formula_88 is added to the context with a monomorphic type through the premise formula_89, while in the rule formula_73, the variable enters the environment in polymorphic form formula_91. Though in both cases the presence of formula_43 in the context prevents the use of the generalisation rule for any free variable in the assignment, this regulation forces the type of parameter formula_43 in a formula_94-expression to remain monomorphic, while in a let-expression, the variable could be introduced polymorphic, making specializations possible.
+
+As a consequence of this regulation, formula_95 cannot be typed,
+since the parameter formula_40 is in a monomorphic position, while formula_97 has type formula_98, because formula_40 has been introduced in a let-expression and is treated polymorphic therefore.
+
+The generalisation rule is also worth for closer look. Here, the all-quantification implicit in the premise formula_100 is simply moved to the right hand side of formula_101 in the conclusion. This is possible, since formula_18 does not occur free in the context. Again, while this makes the generalisation rule plausible, it is not really a consequence. Vis versa, the generalisation rule is part of the definition of HM's type system and the implicit all-quantification a consequence.
+
+Now that the deduction system of HM is at hand, one could present an algorithm and validate it with respect to the rules.
+Alternatively, it might be possible to derive it by taking a closer look on how the rules interact and proof are
+formed. This is done in the remainder of this article focusing on the possible decisions one can make while proving a typing.
+
+Isolating the points in a proof, where no decision is possible at all,
+the first group of rules centered around the syntax leaves no choice since
+to each syntactical rule corresponds a unique typing rule, which determines
+a part of the proof, while between the conclusion and the premises of these
+fixed parts chains of formula_74 and formula_75
+could occur. Such a chain could also exist between the conclusion of the
+proof and the rule for topmost expression. All proofs must have
+the so sketched shape.
+
+Because the only choice in a proof with respect of rule selection are the
+formula_74 and formula_75 chains, the
+form of the proof suggests the question whether it can be made more precise,
+where these chains might be needed. This is in fact possible and leads to a
+variant of the rules system with no such rules.
+
+A contemporary treatment of HM uses a purely syntax-directed rule system due to
+Clement
+as an intermediate step. In this system, the specialization is located directly after the original formula_70 rule
+and merged into it, while the generalization becomes part of the formula_73 rule. There the generalization is
+also determined to always produce the most general type by introducing the function formula_109, which quantifies
+all monotype variables not bound in formula_23.
+
+Formally, to validate, that this new rule system formula_111 is equivalent to the original formula_101, one has
+to show that formula_113, which falls apart into two sub-proofs:
+
+
+While consistency can be seen by decomposing the rules formula_73 and formula_70
+of formula_111 into proofs in formula_101, it is likely visible that formula_111 is incomplete, as
+one cannot show formula_121 in formula_111, for instance, but only
+formula_123. An only slightly weaker version of completeness is provable
+
+
+implying, one can derive the principal type for an expression in formula_111 allowing us to generalize the proof in the end.
+
+Comparing formula_101 and formula_111, now only monotypes appear in the judgments of all rules. Additionally, the shape of any possible proof with the deduction system is now identical to the shape of the expression (both seen as trees). Thus the expression fully determines the shape of the proof. In formula_101 the shape would likely be determined with respect to all rules except formula_74 and formula_75, which allow building arbitrarily long branches (chains) between the other nodes.
+
+Now that the shape of the proof is known, one is already close to formulating a type inference algorithm.
+Because any proof for a given expression must have the same shape, one can assume the monotypes in the
+proof's judgements to be undetermined and consider how to determine them.
+
+Here, the substitution (specialisation) order comes into play. Although at the first glance one cannot determine the types locally, the hope is that it is possible to refine them with the help of the order while traversing the proof tree, additionally assuming, because the resulting algorithm is to become an inference method, that the type in any premise will be determined as the best possible. And in fact, one can, as looking at the rules of formula_111 suggests:
+
+
+The first premise forces the outcome of the inference to be of the form formula_143.
+
+The second premise requires that the inferred type is equal to formula_4 of the first premise. Now there are two possibly different types, perhaps with open type variables, at hand to compare and to make equal if it is possible. If it is, a refinement is found, and if not, a type error is detected again. An effective method is known to "make two terms equal" by substitution, Robinson's Unification in combination with the so-called Union-Find algorithm.
+
+To briefly summarize the union-find algorithm, given the set of all types in a proof, it allows one to group them together into equivalence classes by means of a formula_146
+procedure and to pick a representative for each such class using a formula_147 procedure. Emphasizing the word procedure in the sense of side effect, we're clearly leaving the realm of logic in order to prepare an effective algorithm. The representative of a formula_148 is determined such that, if both formula_149 and formula_150 are type variables then the representative is arbitrarily one of them, but while uniting a variable and a term, the term becomes the representative. Assuming an implementation of union-find at hand, one can formulate the unification of two monotypes as follows:
+
+Now having a sketch of an inference algorithm at hand, a more formal presentation is given in the next section. It is described in Milner P. 370 ff. as algorithm J.
+
+The presentation of Algorithm J is a misuse of the notation of logical rules, since it includes side effects but allows a direct comparison with formula_111 while expressing an efficient implementation at the same time. The rules now specify a procedure with parameters formula_152 yielding formula_4 in the conclusion where the execution of the premises proceeds from left to right.
+
+The procedure formula_154 specializes the polytype formula_25 by copying the term and replacing the bound type variables consistently by new monotype variables. 'formula_156' produces a new monotype variable. Likely, formula_109 has to copy the type introducing new variables for the quantification to avoid unwanted captures. Overall, the algorithm now proceeds by always making the most general choice leaving the specialization to the unification, which by itself produces the most general result. As noted above, the final result formula_4 has to be generalized to formula_109 in the end, to gain the most general type for a given expression.
+
+Because the procedures used in the algorithm have nearly O(1) cost, the overall cost of the algorithm is close to linear in the size of the expression for which a type is to be inferred. This is in strong contrast to many other attempts to derive type inference algorithms, which often came out to be NP-hard, if not undecidable with respect to termination. Thus the HM performs as well as the best fully informed type-checking algorithms can. Type-checking here means that an algorithm does not have to find a proof, but only to validate a given one.
+
+Efficiency is slightly reduced because the binding of type variables in the context has to be maintained to allow computation of formula_109 and enable an occurs check to prevent the building of recursive types during formula_161.
+An example of such a case is formula_162, for which no type can be derived using HM. Practically, types are only small terms and do not build up expanding structures. Thus, in complexity analysis, one can treat comparing them as a constant, retaining O(1) costs.
+
+In the previous section, while sketching the algorithm its proof was hinted at with metalogical argumentation. While this leads to an efficient algorithm J, it is
+not clear whether the algorithm properly reflects the deduction systems D or S
+which serve as a semantic base line.
+
+The most critical point in the above argumentation is the refinement of monotype
+variables bound by the context. For instance, the algorithm boldly changes the
+context while inferring e.g. formula_163,
+because the monotype variable added to the context for the parameter formula_40 later needs to be refined
+to formula_165 when handling application.
+The problem is that the deduction rules do not allow such a refinement.
+Arguing that the refined type could have been added earlier instead of the
+monotype variable is an expedient at best.
+
+The key to reaching a formally satisfying argument is to properly include
+the context within the refinement. Formally,
+typing is compatible with substitution of free type variables.
+
+To refine the free variables thus means to refine the whole typing.
+
+From there, a proof of algorithm J leads to algorithm W, which only makes the
+side effects imposed by the procedure formula_167 explicit by
+expressing its serial composition by means of the substitutions
+formula_168. The presentation of algorithm W in the sidebar still makes use of side effects
+in the operations set in italic, but these are now limited to generating
+fresh symbols. The form of judgement is formula_169,
+denoting a function with a context and expression as parameter producing a monotype together with
+a substitution. formula_170 is a side-effect free version
+of formula_167 producing a substitution which is the most general unifier.
+
+While algorithm W is normally considered to be "the" HM algorithm and is
+often directly presented after the rule system in literature, its purpose is
+described by Milner on P. 369 as follows:
+
+While he considered W more complicated and less efficient, he presented it 
+in his publication before J. It has its merits when side effects are unavailable or unwanted.
+By the way, W is also needed to prove completeness, which is factored by him into the soundness proof.
+
+Before formulating the proof obligations, a deviation between the rules systems
+D and S and the algorithms presented needs to be emphasized.
+
+While the development above sort of misused the monotypes as "open" proof variables, the possibility that proper monotype variables might be harmed was sidestepped by introducing fresh variables and hoping for the best. But there's a catch: One of the promises made was that these fresh variables would be "kept in mind" as such. This promise is not fulfilled by the algorithm.
+
+Having a context formula_172, the expression formula_173
+cannot be typed in either formula_101 or formula_111, but the algorithms come up with
+the type formula_176, where W additionally delivers the substitution formula_177,
+meaning that the algorithm fails to detect all type errors. This omission can easily be fixed by more carefully distinguishing proof
+variables and monotype variables.
+
+The authors were well aware of the problem but decided not to fix it. One might assume a pragmatic reason behind this.
+While more properly implementing the type inference would have enabled the algorithm to deal with abstract monotypes,
+they were not needed for the intended application where none of the items in a preexisting context have free
+variables. In this light, the unneeded complication was dropped in favor of a simpler algorithm.
+The remaining downside is that the proof of the algorithm with respect to the rule system is less general and can only be made
+for contexts with formula_178 as a side condition.
+
+formula_179
+
+The side condition in the completeness obligation addresses how the deduction may give many types, while the algorithm always produces one. At the same time, the side condition demands that the type inferred is actually the most general.
+
+To properly prove the obligations one needs to strengthen them first to allow activating the substitution lemma threading the substitution formula_180 through formula_111 and formula_182. From there, the proofs are by induction over the expression.
+
+Another proof obligation is the substitution lemma itself, i.e. the substitution of the typing, which finally establishes the all-quantification. The later cannot formally be proven, since no such syntax is at hand.
+
+To make programming practical recursive functions are needed.
+A central property of the lambda calculus is that recursive definitions
+are not directly available, but can instead be expressed with a fixed point combinator.
+But unfortunately, the fixpoint combinator cannot be formulated in a typed version
+of the lambda calculus without having a disastrous effect on the system as outlined
+below.
+
+The original paper shows recursion can be realized by a combinator
+formula_183. A possible recursive definition could thus be formulated as
+formula_184.
+
+Alternatively an extension of the expression syntax and an extra typing rule is possible:
+
+where
+basically merging formula_72 and formula_73 while including the recursively defined
+variables in monotype positions where they occur to the left of the formula_190 but as polytypes to the right of it. This
+formulation perhaps best summarizes the essence of let-polymorphism.
+
+While the above is straightforward it does come at a price.
+
+Type theory connects lambda calculus computation and logic.
+The easy modification above has effects on both:
+
+
+Programs in simply typed lambda calculus are guaranteed to always terminate. Moreover, they
+are even guaranteed to terminate under any evaluation strategy, be it top down, bottom up, breadth first, whatever. The same is true for expressions that have types in HM. It is well-known that separating
+terminating from non-terminating programs is most difficult, and especially in lambda calculus,
+which is so expressive that it can formulate recursion with just a few symbols. Thus the initial
+inability of HM to provide recursive functions was not an omission, but a feature. Adding
+recursion enables normal programming but the guarantee is not longer valid.
+
+Another reading of the typing is given by the Curry–Howard isomorphism. Here
+the types are interpreted as logical expressions. Let's look at the type of the fixpoint combinator from this
+perspective, assuming the variables to have logical value:
+But this is invalid.
+Adding an invalid axiom will break the logic in the sense that
+every formula can then be shown to be true in it, e.g. formula_192.
+Thus the ability to distinguish even two simple things is no longer given. Everything is the same and
+collapses into 42. The fixpoint
+combinator that came in so handy above also plays a role in Curry's paradox.
+
+Logic aside, does this matter for typing programs? It does. Since one is now able to formulate
+non-terminating functions, one can make a function that would return whatever one wants but never really returns:
+In practical programming such a function can come in handy when breaking out of a computation,
+like with codice_5 in C, while silencing the type checker in
+the current branch by returning essentially nothing but with a suitable type.
+
+Less desirable is that the type checker (type inferencer) now succeeds with a type for a function that in fact never returns any value, like formula_194. The function "would" return a value of this type, but it "cannot" because no terminating function with this type exists. The type checker's claim that everything is ok thus has to be taken with a grain of salt. The types might only be "claimed" to be checked, but the program can still be typed wrong. Only if all functions are terminating does formula_18 in the logic above have a "true" value, and the assertions of the type checker become strong again.
+
+Overloading means, that different functions still can be defined and used with the same name. Most programming languages at least provide overloading with the built-in arithmetic operations (+,<,etc.), to allow the programmer to write arithmetic expressions in the same form, even for different numerical types like codice_6 or codice_7. Because a mixture of these different types within the same expression also demands for implicit conversion, overloading especially for these operations is often built into the programming language itself. In some languages, this feature is generalized and made available to the user, e.g. in C++.
+
+While ad-hoc overloading has been avoided in functional programming for the computation costs both in type checking and inference, a means to systematise overloading has been introduced that resembles both in form and naming to object oriented programming, but works one level upwards. "Instances" in this systematic are not objects (i.e. on value level), but rather types.
+The quicksort example mentioned in the introduction uses the overloading in the orders, having the following type annotation in Haskell:
+
+Herein, the type codice_8 is not only polymorphic, but also restricted to be an instance of some type class codice_9, that provides the order predicates codice_10 and codice_11 used in the functions body. The proper implementations of these predicates are then passed to quicksorts as additional parameters, as soon as quicksort is used on more concrete types providing a single implementation of the overloaded function quickSort.
+
+Because the "classes" only allow a single type as their argument, the resulting type system can still provide inference. Additionally, the type classes can then be equipped with some kind of overloading order allowing one to arrange the classes as a lattice.
+
+Parametric polymorphism implies that types themselves are passed as parameters as if they were proper values. Passed as arguments into a proper functions as in the introduction, but also into "type functions" as in the "parametric" type constants, leads to the question how to more properly type types themselves. A meta type, the "type of types" would be useful to create an even more expressive type system.
+
+Though this would be a straight forward extension, unfortunately, only unification is not longer decidable in the presence of meta types, rendering type inference impossible in this extend of generality.
+Additionally, assuming a type of all types that includes itself as type leads into a paradox, as in the set of all sets, so one must proceed in steps of levels of abstraction.
+Research in second order lambda calculus, one step upwards, showed, that type inference is undecidable in this generality.
+
+Parts of one extra level has been introduced into Haskell named kind, where it is used helping to type monads. Kinds are left implicit, working behind the scenes in the inner mechanics of the extended type system.
+
+Attempts to combine subtyping and type inference have caused quite some frustration. While type inference is needed in object-oriented programming for the same reason as in functional languages, methods like HM cannot be made going for this purpose. It is not difficult to set up a type system with subtyping enabling object-oriented style, as e.g. Cardelli
+
+
+Such objects would be immutable in a functional language context, but the type system would enable object-oriented programming style and the type inference method could be reused in imperative languages.
+
+The subtyping rule for the record types is:
+Syntatically, record expressions would have form
+and have a type rule leading to the above type.
+Such record values could then be used the same way as objects in object-oriented programming.
+
+
+
+

@@ -1,0 +1,15 @@
+Algorithmic logic
+
+Algorithmic logic is a calculus of programs which allows the expression of semantic properties of programs by appropriate logical formulas. It provides a framework that enables proving the formulas from the axioms of program constructs such as assignment, iteration and composition instructions and from the axioms of the data structures in question see , .
+
+The following diagram helps to locate algorithmic logic among other logics.
+formula_1
+The formalized language of algorithmic logic (and of algorithmic theories of various data structures) contains three types of well formed expressions: "Terms" - i.e. expressions denoting operations on elements of data structures, 
+"formulas" - i.e. expressions denoting the relations among elements of data structures, "programs" - i.e. algorithms - these expressions describe the computations.
+For semantics of terms and formulas consult pages on first order logic and Tarski's semantic. The meaning of a program formula_2 is the set of possible computations of the program.
+
+Algorithmic logic is one of many logics of programs.
+Another logic of programs is dynamic logic, see dynamic logic, .
+
+
+

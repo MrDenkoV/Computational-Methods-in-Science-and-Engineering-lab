@@ -1,0 +1,40 @@
+Kleene's algorithm
+
+In theoretical computer science, in particular in formal language theory, Kleene's algorithm transforms a given nondeterministic finite automaton (NFA) into a regular expression. 
+Together with other conversion algorithms, it establishes the equivalence of several description formats for regular languages. Alternative presentations of the same method include the "elimination method" attributed to Brzozowski and McCluskey, the algorithm of McNaughton and Yamada, and the use of Arden's lemma.
+
+According to Gross and Yellen (2004), the algorithm can be traced back to Kleene (1956). A presentation of the algorithm in the case of deterministic finite automata (DFAs) is given in Hopcroft and Ullman (1979). The presentation of the algorithm for NFAs below follows Gross and Yellen (2004).
+
+Given a nondeterministic finite automaton "M" = ("Q", Σ, δ, "q", "F"), with "Q" = { "q"...,"q" } its set of states, the algorithm computes 
+Here, "going through a state" means entering "and" leaving it, so both "i" and "j" may be higher than "k", but no intermediate state may.
+Each set "R" is represented by a regular expression; the algorithm computes them step by step for "k" = -1, 0, ..., "n". Since there is no state numbered higher than "n", the regular expression "R" represents the set of all strings that take "M" from its start state "q" to "q". If "F" = { "q"...,"q" } is the set of accept states, the regular expression "R" | ... | "R" represents the language accepted by "M".
+
+The initial regular expressions, for "k" = -1, are computed as follows for "i"≠"j":
+and as follows for "i"="j":
+
+In other words, "R" mentions all letters that label a transition from "i" to "j", and we also include ε in the case where "i"="j".
+
+After that, in each step the expressions "R" are computed from the previous ones by
+
+Another way to understand the operation of the algorithm is as an "elimination method", where the states from 0 to "n" are successively removed: when state "k" is removed, the regular expression "R", which describes the words that label a path from state "i">"k" to state "j">"k", is rewritten into "R" so as to take into account the possibility of going via the "eliminated" state "k".
+
+By induction on "k", it can be shown that the length of each expression "R" is at most (4(6"s"+7) - 4) symbols, where "s" denotes the number of characters in Σ.
+Therefore, the length of the regular expression representing the language accepted by "M" is at most (4(6"s"+7)"f" - "f" - 3) symbols, where "f" denotes the number of final states.
+This exponential blowup is inevitable, because there exist families of DFAs for which any equivalent regular expression must be of exponential size.
+
+In practice, the size of the regular expression obtained by running the algorithm can be very different depending on the order in which the states are considered by the procedure, i.e., the order in which they are numbered from 0 to "n".
+
+The automaton shown in the picture can be described as "M" = ("Q", Σ, δ, "q", "F") with
+
+Kleene's algorithm computes the initial regular expressions as
+
+After that, the "R" are computed from the "R" step by step for "k" = 0, 1, 2.
+Kleene algebra equalities are used to simplify the regular expressions as much as possible.
+
+
+
+
+Since "q" is the start state and "q" is the only accept state, the regular expression "R" denotes the set of all strings accepted by the automaton.
+
+
+

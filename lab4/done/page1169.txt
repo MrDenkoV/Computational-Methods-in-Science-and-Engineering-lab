@@ -1,0 +1,15 @@
+Is Philadelphia the capital of Pennsylvania?
+What do you think most people will respond to that question?
+
+The difference between the answers to the "right" question and the "popular" question:
+
+Thus, the "No" answer is surprisingly popular (10% > −10%). Because of the relatively high margin of 10%, there can be high confidence that the correct answer is "No". (The capital is indeed not Philadelphia, but Harrisburg.)
+
+An illustrative breakdown of this follows. There are four groups of people.
+
+This technique causes groups A and C to be eliminated from consideration and measures the difference in size between groups B and D.
+
+Both groups B and D think they know something other people don't, but B is wrong and D is right. In cases where people feel like they have "inside" knowledge, it's more often the case that it's because they are correct and knowledgeable (group D), not because they are misled (group B).
+
+
+

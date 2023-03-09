@@ -1,0 +1,12 @@
+Stress wave tomography
+
+Acoustic or stress wave tomography is a non-destructive measurement method for the visualization of the structural integrity of a solid object. It is being used to test the preservation of wood or concrete, for example. The term "acoustic tomography" refers to the perceptible sounds that are caused by the mechanical impulses used for measuring. The term "stress wave tomography" describes the measurement method more accurately.
+
+The method is based on multiple measurements of the propagation speed of stress waves which are connected to a two- or three-dimensional sampling grid. In the acoustic stress wave tomography of trees ("see also:" tree diagnosis), concussion sensors are attached in one or several planes around a trunk or a branch and their positions are measured. Impulses are induced through strokes of a hammer and the propagation speeds amongst the sensors are recorded.
+
+The propagation speed of impulses in solid objects correlates with the density and the elastic modulus of the material ("see also:" speed of sound). Internal damage, like rot or cracks, slows down the impulses or forms barriers that render transition of impulses more difficult. This leads to longer propagation times and gets interpreted as reduced speed. Special mathematical algorithms turn the matrix of sampled areas' results into a color or greyscale image (tomogram) which enables an assessment of the extent of damage. The precision of the method is limited by the number of sensors used. Image quality is inferior to X-ray computed tomography due to the longer wavelength of the signals, but avoids issues with high energy radiation. 
+
+Devices of this kind are the Arbotom, the PiCUS acoustic tomograph and the Arborsonic 3D.
+
+
+

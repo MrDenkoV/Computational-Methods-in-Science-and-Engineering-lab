@@ -1,0 +1,83 @@
+Whitehead's algorithm
+
+Whitehead's algorithm is a mathematical algorithm in group theory for solving the automorphic equivalence problem in the finite rank free group "F". The algorithm is based on a classic 1936 paper of J. H. C. Whitehead. It is still unknown (except for the case "n" = 2) if Whitehead's algorithm has polynomial time complexity.
+
+Let formula_1 be a free group of rank formula_2 with a free basis formula_3. The automorphism problem, or the automorphic equivalence problem for formula_4 asks, given two freely reduced words formula_5 whether there exists an automorphism formula_6 such that formula_7.
+
+Thus the automorphism problem asks, for formula_5 whether formula_9.
+For formula_5 one has formula_9 if and only if formula_12, where formula_13 are conjugacy classes in formula_4 of formula_15 accordingly. Therefore, the automorphism problem for formula_4 is often formulated in terms of formula_17-equivalence of conjugacy classes of elements of formula_4.
+
+For an element formula_19, formula_20 denotes the freely reduced length of formula_21 with respect to formula_22, and formula_23 denotes the cyclically reduced length of formula_21 with respect to formula_22. For the automorphism problem, the length of an input formula_21 is measured as formula_20 or as formula_23, depending on whether one views formula_21 as an element of formula_4 or as defining the corresponding conjugacy class formula_31 in formula_4.
+
+The automorphism problem for formula_4 was algorithmically solved by J. H. C. Whitehead in a classic 1936 paper, and his solution came to be known as Whitehead's algorithm. Whitehead used a topological approach in his paper. Namely, consider the 3-manifold formula_34, the connected sum of formula_35 copies of formula_36. Then formula_37, and, moreover, up to a quotient by a finite normal subgroup isomorphic to formula_38, the mapping class group of formula_39 is equal to formula_17; see. Different free bases of formula_4 can be represented by isotopy classes of "sphere systems" in formula_39, and the cyclically reduced form of an element formula_43, as well as the Whitehead graph of formula_31, can be "read-off" from how a loop in general position representing formula_31 intersects the spheres in the system. Whitehead moves can be represented by certain kinds of topological "swapping" moves modifying the sphere system.
+
+Subsequently, Rapaport, and later, based on her work, Higgins and Lyndon, gave a purely combinatorial and algebraic re-interpretation of Whitehead's work and of Whitehead's algorithm. The exposition of Whitehead's algorithm in the book of Lyndon and Schupp is based on this combinatorial approach. Culler and Vogtmann, in their 1986 paper that introduced the Outer space, gave a hybrid approach to Whitehead's algorithm, presented in combinatorial terms but closely following Whitehead's original ideas.
+
+Our exposition regarding Whitehead's algorithm mostly follows Ch.I.4 in the book of Lyndon and Schupp, as well as.
+
+The automorphism group formula_46 has a particularly useful finite generating set formula_47 of Whitehead automorphisms or Whitehead moves. Given formula_48 the first part of Whitehead's algorithm consists of iteratively applying Whitehead moves to formula_49 to take each of them to an ``automorphically minimal" form, where the cyclically reduced length strictly decreases at each step. Once we find automorphically these minimal forms formula_50 of formula_49, we check if formula_52. If formula_53 then formula_49 are not automorphically equivalent in formula_4.
+
+If formula_52, we check if there exists a finite chain of Whitehead moves taking formula_57 to formula_58 so that the cyclically reduced length remains constant throughout this chain. The elements formula_49 are not automorphically equivalent in formula_4 if and only if such a chain exists.
+
+Whitehead's algorithm also solves the "search automorphism problem" for formula_4. Namely, given formula_48, if Whitehead's algorithm concludes that formula_9, the algorithm also outputs an automorphism formula_64 such that formula_65. Such an element formula_64 is produced as the composition of a chain of Whitehead moves arising from the above procedure and taking formula_21 to formula_68.
+
+A Whitehead automorphism, or Whitehead move, of formula_4 is an automorphism formula_70 of formula_4 of one of the following two types:
+
+(i) There is a permutation formula_72 of formula_73 such that for formula_74
+
+(ii) There is an element formula_77, called the multiplier, such that for every formula_78
+
+Often, for a Whitehead automorphism formula_84, the corresponding outer automorphism in formula_17 is also called a Whitehead automorphism or a Whitehead move.
+Let formula_86.
+
+Let formula_87 be a homomorphism such that
+Then formula_76 is actually an automorphism of formula_90, and, moreover, formula_76 is a Whitehead automorphism of the second kind, with the multiplier formula_92.
+
+Let formula_93 be a homomorphism such that
+Then formula_95 is actually an inner automorphism of formula_90 given by conjugation by formula_97, and, moreover, formula_95is a Whitehead automorphism of the second kind, with the multiplier formula_99.
+
+For formula_43, the conjugacy class formula_31 is called automorphically minimal if for every formula_64 we have formula_103. 
+Also, a conjugacy class formula_31 is called Whitehead minimal if for every Whitehead move formula_70 we have formula_106.
+
+Thus, by definition, if formula_31 is automorphically minimal then it is also Whitehead minimal. It turns out that the converse is also true.
+
+The following statement is referred to as Whitehead's "Peak Reduction Lemma", see Proposition 4.20 in and Proposition 1.2 in:
+
+Let formula_43. Then the following hold:
+
+(1) If formula_31 is not automorphically minimal, then there exists a Whitehead automorphism formula_70 such that formula_111.
+
+(2) Suppose that formula_31 is automorphically minimal, and that another conjugacy class formula_113 is also automorphically minimal. Then formula_9 if and only if formula_115 and there exists a finite sequence of Whitehead moves formula_116 such that
+and
+
+Part (1) of the Peak Reduction Lemma implies that a conjugacy class formula_31 is Whitehead minimal if and only if it is automorphically minimal.
+
+The automorphism graph formula_120 of formula_4 is a graph with the vertex set being the set of conjugacy classes formula_122 of elements formula_123. Two distinct vertices formula_124 are adjacent in formula_120 if formula_126 and there exists a Whitehead automorphism formula_76 such that formula_128. For a vertex formula_122 of formula_120, the connected component of formula_122 in formula_120 is denoted formula_133.
+
+For formula_134 with cyclically reduced form formula_57, the Whitehead graph formula_136 is a labelled graph with the vertex set formula_137, where for formula_138 there is an edge joining formula_139 and formula_140 with the label or "weight" formula_141 which is equal to the number of distinct occurrences of subwords formula_142 read cyclically in formula_57. (In some versions of the Whitehead graph one only includes the edges with formula_144.)
+
+If formula_84 is a Whitehead automorphism, then the length change formula_146 can be expressed as a linear combination, with integer coefficients determined by formula_76, of the weights formula_141 in the Whitehead graph formula_136. See Proposition 4.6 in Ch. I of. This fact plays a key role in the proof of Whitehead's peak reduction result.
+
+Whitehead's minimization algorithm, given a freely reduced word formula_43, finds an automorphically minimal formula_151 such that formula_152
+
+This algorithm proceeds as follows. Given formula_43, put formula_154. If formula_155 is already constructed, check if there exists a Whitehead automorphism formula_84 such that formula_157. (This condition can be checked since the set of Whitehead automorphisms of formula_4 is finite.) If such formula_76 exists, put formula_160 and go to the next step. If no such formula_76 exists, declare that formula_162 is automorphically minimal, with formula_163, and terminate the algorithm.
+
+Part (1) of the Peak Reduction Lemma implies that the Whitehead's minimization algorithm terminates with some formula_164, where formula_165, and that then formula_166 is indeed automorphically minimal and satisfies formula_167.
+
+Whitehead's algorithm for the automorphic equivalence problem, given formula_168 decides whether or not formula_9.
+
+The algorithm proceeds as follows. Given formula_168, first apply the Whitehead minimization algorithm to each of formula_49 to find automorphically minimal formula_172 such that formula_173 and formula_174. If formula_175, declare that formula_176 and terminate the algorithm. Suppose now that formula_177. Then check if there exists a 
+finite sequence of Whitehead moves formula_116 such that
+
+and
+
+This condition can be checked since the number of cyclically reduced words of length formula_181 in formula_4 is finite. More specifically, using the breadth-first approach, one constructs the connected components formula_183 of the automorphism graph and checks if formula_184.
+
+If such a sequence exists, declare that formula_9, and terminate the algorithm. If no such sequence exists, declare that formula_186 and terminate the algorithm.
+
+The Peak Reduction Lemma implies that Whitehead's algorithm correctly solves the automorphic equivalence problem in formula_187. Moreover, if formula_9, the algorithm actually produces (as a composition of Whitehead moves) an automorphism formula_64 such that formula_65.
+
+
+
+
+

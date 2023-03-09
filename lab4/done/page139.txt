@@ -1,0 +1,18 @@
+Microcosm (CERN)
+
+Microcosm or CERN Museum is an interactive exhibition presenting the work of the CERN particle physics laboratory and its flagship accelerator the Large Hadron Collider (LHC). The current exhibition officially opened in January 2016. Contents were developed by CERN in collaboration with Spanish design team Indissoluble.
+
+The project was approved by the CERN Directorate in February 1988. The initial construction, to a large extent completed in 1989, was financed through contributions from the Canton of Geneva, the Swiss Confederation, neighbouring France, banks and industrial firms.
+
+The exhibition displays many real objects, taking visitors on a journey through CERN’s key installations, from the Hydrogen bottle, source of the protons that are injected into the LHC, through the first step in the accelerator chain, the Linac, on to a model of a section of the Large Hadron Collider including elements from the superconducting magnets. Visitors can interact with the displays to try their hand at the controls of a particle accelerator – simulating the acceleration of protons in the LHC and bringing them into collision inside the experiments.
+
+The exhibition continues with a 1 :1 scale model of a complete slice through the CMS experiment at the LHC. The computing section displays some of the Oracle data tapes used to store the 30-40 petabytes of data produced yearly by the experiments, made available for analysis using the LHC Computing GRID. The annex to the exhibition contains other historical artifacts such as the central tracker from the UA1 detector, which ran at the Super Proton Synchrotron at CERN from 1981 to 1984, and helped discover the W and Z bosons.
+
+A project began in 2013 to preserve the original hardware and software associated with the birth of the World Wide Web. Some of the original code resides on Tim Berners-Lee's NeXT Computer in the CERN museum and has not been recovered due to the computer's status as a historical artifact. This effort coincided with the 20th anniversary of the research center giving the web to the world.
+
+The Microcosm garden is named Léon Van Hove Square in honour of CERN's Research Director-General from 1976–1980. The garden features several large components of old CERN experiments.
+
+Microcosm is located at CERN in the Canton of Geneva, Switzerland, near the town of Meyrin. Entrance is free, without reservation, open 6 days a week.
+
+
+

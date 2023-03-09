@@ -1,0 +1,13 @@
+CERN Open Hardware Licence
+
+The CERN Open Hardware Licence (OHL or CERN OHL) is a license used in open-source hardware projects. It was created by CERN, which published version 1.0 in March 2011. Version 1.1 was published in July 2011. Version 1.2 was published in September 2013. Version 2.0, which utilizes a simplified language and covers also integrated circuit designs, was published in March 2020. 
+
+Contrary to most of license names, the CERN OHL uses the British English spelling licence, not the American English spelling license containing an s.
+
+On the CERN OHL website they have a list of projects using their license. These projects include:
+
+The CERN OHL is an accepted free content license according to the Free Cultural Works definition.
+
+
+
+

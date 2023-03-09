@@ -1,0 +1,10 @@
+Ultramicrobacteria
+
+Ultramicrobacteria are bacteria that are smaller than 0.1 μm under all growth conditions. This term was coined in 1981, describing cocci in seawater that were less than 0.3 μm in diameter. Ultramicrobacteria have also been recovered from soil and appear to be a mixture of Gram-positive, Gram-negative and cell-wall-lacking species. Ultramicrobacteria possess a relatively high surface-area-to-volume ratio due to their small size, which aids in growth under oligotrophic (i.e. nutrient-poor) conditions. The relatively small size of ultramicrobacteria also enables parasitism of larger organisms; some ultramicrobacteria have been observed to be obligate or facultative parasites of various eukaryotes and prokaryotes. One factor allowing ultramicrobacteria to achieve their small size seems to be genome minimization such as in the case of the ultramicrobacterium "P. ubique" whose small 1.3 Mb genome is seemingly devoid of extraneous genetic elements like nonworking genes, transposons, extrachromosomal elements etc. However, genomic data from ultramicrobacteria is lacking since the study of ultramicrobacteria, like many other prokaryotes, is hindered by difficulties in cultivating them.
+
+Ultramicrobacteria are commonly confused with ultramicrocells, the latter of which are the dormant, stress-resistant forms of larger cells that form under starvation conditions (ie. these larger cells downregulate their metabolism, stop growing and stabilize their DNA to create ultramicrocells that remain viable for years) whereas the small size of ultramicrobacteria is not a starvation response and is consistent even under nutrient-rich conditions.
+
+The term "nanobacteria" is sometimes used synonymously with ultramicrobacteria in the scientific literature, but ultramicrobacteria are distinct from the purported nanobacteria or "calcifying nanoparticles", which were proposed to be living organisms that were 0.1 μm in diameter. These structures are now thought to be non-living, and likely precipitated particles of inorganic material.
+
+
+

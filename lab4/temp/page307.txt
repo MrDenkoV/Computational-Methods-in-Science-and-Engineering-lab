@@ -1,0 +1,45 @@
+Parallel external memory
+
+In computer science, a parallel external memory (PEM) model is a cache-aware, external-memory abstract machine. It is the parallel-computing analogy to the single-processor external memory (EM) model. In a similar way, it is the cache-aware analogy to the parallel random-access machine (PRAM). The PEM model consists of a number of processors, together with their respective private caches and a shared main memory.
+
+The PEM model is a combination of the EM model and the PRAM model. The PEM model is a computation model which consists of formula_1 processors and a two-level memory hierarchy. This memory hierarchy consists of a large external memory (main memory) of size formula_2 and formula_1 small internal memories (caches). The processors share the main memory. Each cache is exclusive to a single processor. A processor can't access another’s cache. The caches have a size formula_4 which is partitioned in blocks of size formula_5. The processors can only perform operations on data which are in their cache. The data can be transferred between the main memory and the cache in blocks of size formula_5.
+
+The complexity measure of the PEM model is the I/O complexity, which determines the number of parallel blocks transfers between the main memory and the cache. During a parallel block transfer each processor can transfer a block. So if formula_1 processors load parallelly a data block of size formula_5 form the main memory into their caches, it is considered as an I/O complexity of formula_9 not formula_10. A program in the PEM model should minimize the data transfer between main memory and caches and operate as much as possible on the data in the caches.
+
+In the PEM model, there is no direct communication network between the P processors. The processors have to communicate indirectly over the main memory. If multiple processors try to access the same block in main memory concurrently read/write conflicts occur. Like in the PRAM model, three different variations of this problem are considered:
+The following two algorithms solve the CREW and EREW problem if formula_11 processors write to the same block simultaneously.
+A first approach is to serialize the write operations. Only one processor after the other writes to the block. This results in a total of formula_1 parallel block transfers. A second approach needs formula_13 parallel block transfers and an additional block for each processor. The main idea is to schedule the write operations in a binary tree fashion and gradually combine the data into a single block. In the first round formula_1 processors combine their blocks into formula_15 blocks. Then formula_15 processors combine the formula_15 blocks into formula_18. This procedure is continued until all the data is combined in one block.
+
+Let formula_19 be a vector of d-1 pivots sorted in increasing order. Let formula_20 be an unordered set of N elements. A d-way partition of formula_20 is a set formula_22 , where formula_23 and formula_24 for formula_25. formula_26 is called the i-th bucket. The number of elements in formula_26 is greater than formula_28 and smaller than formula_29. In the following algorithm the input is partitioned into N/P-sized contiguous segments formula_30 in main memory. The processor i primarily works on the segment formula_31. The multiway partitioning algorithm (codice_1) uses a PEM prefix sum algorithm to calculate the prefix sum with the optimal formula_32 I/O complexity. This algorithm simulates an optimal PRAM prefix sum algorithm.
+
+If the vector of formula_43 pivots M and the input set A are located in contiguous memory, then the d-way partitioning problem can be solved in the PEM model with formula_44 I/O complexity. The content of the final buckets have to be located in contiguous memory.
+
+The selection problem is about finding the k-th smallest item in an unordered list formula_20 of size formula_2.
+The following code makes use of codice_2 which is a PRAM optimal sorting algorithm which runs in formula_47, and codice_3, which is a cache optimal single-processor selection algorithm.
+
+Under the assumption that the input is stored in contiguous memory, codice_4 has an I/O complexity of:
+
+formula_59
+
+Distribution sort partitions an input list formula_20 of size formula_2 into formula_62 disjoint buckets of similar size. Every bucket is then sorted recursively and the results are combined into a fully sorted list.
+
+If formula_63 the task is delegated to a cache-optimal single-processor sorting algorithm.
+
+Otherwise the following algorithm is used:
+
+The I/O complexity of codice_5 is:
+
+formula_96
+
+where
+
+formula_97
+
+If the number of processors is chosen that formula_98and formula_99 the I/O complexity is then:
+
+formula_100
+
+Where formula_101 is the time it takes to sort formula_2 items with formula_1 processors in the PEM model.
+
+
+

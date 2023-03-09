@@ -1,0 +1,28 @@
+Bacterial cellular morphologies
+
+Bacteria and Archaea are classified by direct examination with the light microscope according to their morphology and arrangement.
+
+The basic morphologies are spheres (coccus) and round-ended cylinders (bacillus). But there may be others such as helically twisted cylinders (spirochetes), cylinders curved in one plane (selenomonads) and unusual morphologies (such as the square, flat box-shaped cells of the archaean genus "Haloquadratum)". Arrangements include pairs, tetrads, clusters, chains and palisades.
+
+A coccus (plural "cocci", from the Latin "coccinus" (scarlet) and derived from the Greek "kokkos" (berry)) is any microorganism (usually bacteria) whose overall shape is spherical or nearly spherical. Describing a bacterium as a coccus, or sphere, distinguishes it from bacillus, or rod. This is the first of many taxonomic traits for identifying and classifying a bacterium according to binomial nomenclature.
+
+Important human diseases caused by coccoid bacteria include staphylococcal infections, some types of food poisoning, some urinary tract infections, toxic shock syndrome, gonorrhea, as well as some forms of meningitis, throat infections, pneumonias, and sinusitis.
+
+Coccoid bacteria often occur in characteristic arrangements and these forms have specific names as well; listed here are the basic forms as well as representative bacterial genera:
+
+A bacillus (plural bacilli) is a rod-shaped bacterium. Although "Bacillus", capitalized and italicized, specifically refers to the genus, the word bacillus (plural "bacilli") may also be used to describe any rod-shaped bacterium, and in this sense, bacilli are found in many different taxonomic groups of bacteria. There is no connection between the shape of a bacterium and its colors in the Gram staining.
+
+Bacilli usually divide in the same plane and are solitary, but can combine to form diplobacilli, streptobacilli, and palisades.
+
+
+A coccobacillus (plural "coccobacilli") is a type of rod-shaped bacteria. The word "coccobacillus" reflects an intermediate shape between "coccus" (spherical) and "bacillus" (elongated). Coccobacilli rods are so short and wide that they resemble cocci. "Haemophilus influenzae" and "Chlamydia trachomatis" are coccobacilli. "Aggregatibacter actinomycetemcomitans" is a gram negative coccobacillus which is prevalent in subgingival plaques. "Acinetobacter" strains may grow on solid media as coccobacilli.
+
+"Coxiella burnetti" is also a coccobacillus.
+
+Spiral bacteria are another major bacterial cell morphology. Spiral bacteria can be sub-classified as spirilla, spirochetes, or vibrios based on the number of twists per cell, cell thickness, cell flexibility, and motility.
+
+Bacteria are known to evolve specific traits to survive in their ideal environment. Bacteria-caused illnesses hinge on the bacteria’s physiology and their ability to interact with their environment, including the ability to shapeshift. Researchers discovered a protein that allows the bacterium "Vibrio cholerae" to morph into a corkscrew shape that likely helps it twist into — and then escape — the protective mucus that lines the inside of the gut.
+
+
+
+

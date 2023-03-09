@@ -1,0 +1,5 @@
+FGLM algorithm
+
+FGLM is one of the main algorithms in computer algebra, named after its designers, Faugère, Gianni, Lazard and Mora. They introduced their algorithm in 1993. The input of the algorithm is a Gröbner basis of a zero-dimensional ideal in the ring of polynomials over a field with respect to a monomial order and a second monomial order; As its output, it returns a Gröbner basis of the ideal with respect to the second ordering. The algorithm is a fundamental tool in computer algebra and has been implemented in most of the computer algebra systems. The complexity of FGLM is "O"("nD"), where "n" is the number of variables of the polynomials and D is the degree of the ideal. There are several generalization and various application for FGLM.
+
+

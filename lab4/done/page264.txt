@@ -1,0 +1,15 @@
+The Algorithm Auction
+
+The Algorithm Auction is the world’s first auction of computer algorithms. Created by Ruse Laboratories, the initial auction featured seven lots and was held at the Cooper Hewitt, Smithsonian Design Museum on March 27, 2015.
+
+Five lots were physical representations of famous code or algorithms, including a signed, handwritten copy of the original Hello, World! C program by its creator Brian Kernighan on dot-matrix printer paper, a printed copy of 5,000 lines of Assembly code comprising the earliest known version of Turtle Graphics, signed by its creator Hal Abelson, a necktie containing the six-line qrpff algorithm capable of decrypting content on a commercially produced DVD video disc, and a pair of drawings representing OKCupid’s original Compatibility Calculation algorithm, signed by the company founders. The qrpff lot sold for $2,500.
+
+Two other lots were “living algorithms,” including a set of JavaScript tools for building applications that are accessible to the visually impaired and the other is for a program that converts lines of software code into music. Winning bidders received, along with artifacts related to the algorithms, a full intellectual property license to use, modify, or open-source the code. All lots were sold, with Hello World receiving the most bids.
+
+Exhibited alongside the auction lots were a facsimile of the Plimpton 322 tablet on loan from Columbia University, and Nigella, an art-world facing computer virus named after Nigella Lawson and created by cypherpunk and hacktivist Richard Jones.
+
+Sebastian Chan, Director of Digital & Emerging Media at the Cooper–Hewitt, attended the event remotely from Milan, Italy via a Beam Pro telepresence robot.
+
+Following the auction, the Museum of Modern Art held a salon titled "The Way of the Algorithm" highlighting algorithms as "a ubiquitous and indispensable component of our lives."
+
+

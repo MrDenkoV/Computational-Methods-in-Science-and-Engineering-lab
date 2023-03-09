@@ -1,0 +1,9 @@
+PelB leader sequence
+
+The pelB leader sequence is a sequence of amino acids which, when attached to a protein, directs the protein to the bacterial periplasm, where the sequence is removed by a signal peptidase. Specifically, pelB refers to pectate lyase B of "Erwinia carotovora" CE. The leader sequence consists of the 22 N-terminal amino acid residues. This leader sequence can be attached to any other protein (on the DNA level) resulting in a transfer of such a fused protein to the periplasmic space of Gram-negative bacteria, such as "Escherichia coli", often used in genetic engineering.
+Protein secretion can increase the stability of cloned gene products. For instance it was shown that the half-life of the recombinant proinsulin is increased 10-fold when the protein is secreted to the periplasmic space. (vijji. Narne, R.S.Ramya)
+
+One of pelB's possible applications is to direct coat protein-antigen fusions to the cell surface for the construction of engineered bacteriophages for the purpose of phage display.
+
+
+

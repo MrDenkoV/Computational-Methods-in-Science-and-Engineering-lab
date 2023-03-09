@@ -1,0 +1,36 @@
+Fuzzy concept
+
+A fuzzy concept is a concept of which the boundaries of application can vary considerably according to context or conditions, instead of being fixed once and for all. This means the concept is vague in some way, lacking a fixed, precise meaning, without however being unclear or meaningless altogether. It has a definite meaning, which can be made more precise only through further elaboration and specification - including a closer definition of the context in which the concept is used. The study of the characteristics of fuzzy concepts and fuzzy language is called "fuzzy semantics". The inverse of a "fuzzy concept" is a "crisp concept" (i.e. a precise concept).
+
+A fuzzy concept is understood by scientists as a concept which is "to an extent applicable" in a situation. That means the concept has "gradations" of significance or "unsharp" (variable) boundaries of application. A fuzzy statement is a statement which is true "to some extent", and that extent can often be represented by a scaled value. The best known example of a fuzzy concept around the world is an amber traffic light, and indeed fuzzy concepts are widely used in traffic control systems. The term is also used these days in a more general, popular sense - in contrast to its technical meaning - to refer to a concept which is "rather vague" for any kind of reason.
+
+In the past, the very idea of reasoning with fuzzy concepts faced considerable resistance from academic elites. They did not want to endorse the use of imprecise concepts in research or argumentation. Yet although people might not be aware of it, the use of fuzzy concepts has risen gigantically in all walks of life from the 1970s onward. That is mainly due to advances in electronic engineering, fuzzy mathematics and digital computer programming. The new technology allows very complex inferences about "variations on a theme" to be anticipated and fixed in a program.
+
+The new neuro-fuzzy computational methods make it possible, to identify, to measure and respond to fine gradations of significance, with great precision. It means that practically useful concepts can be coded and applied to all kinds of tasks, even if, ordinarily, these concepts are never precisely defined. Nowadays engineers, statisticians and programmers often represent fuzzy concepts mathematically, using fuzzy logic, fuzzy values, fuzzy variables and fuzzy sets.
+
+Problems of vagueness and fuzziness have probably always existed in human experience. The boundary between different things can appear blurry. Sometimes people have to think, when they are not in the best frame of mind to do it, or, they have to talk about something out there, which just isn't sharply defined. Across time, however, philosophers and scientists began to reflect about those kinds of problems, in much more systematic ways.
+
+The ancient Sorites paradox first raised the logical problem of how we could exactly define the threshold at which a change in quantitative gradation turns into a qualitative or categorical difference. With some physical processes this threshold is relatively easy to identify. For example, water turns into steam at 100 °C or 212 °F (the boiling point depends partly on atmospheric pressure, which decreases at higher altitudes).
+
+With many other processes and gradations, however, the point of change is much more difficult to locate, and remains somewhat vague. Thus, the boundaries between qualitatively different things may be "unsharp": we know that there are boundaries, but we cannot define them exactly.
+
+According to the modern idea of the continuum fallacy, the fact that a statement is to an extent vague, does not automatically mean that it is invalid. The problem then becomes one of how we could ascertain the kind of validity that the statement does have.
+
+The Nordic myth of Loki's wager suggested that concepts that lack precise meanings or precise boundaries of application cannot be usefully discussed at all. However, the 20th-century idea of "fuzzy concepts" proposes that "somewhat vague terms" can be operated with, since we can explicate and define the variability of their application, by assigning numbers to gradations of applicability. This idea sounds simple enough, but it had large implications.
+
+The intellectual origins of the species of fuzzy concepts as a logical category have been traced back to a diversity of famous and less well-known thinkers, including (among many others) Eubulides, Plato, Cicero, Georg Wilhelm Friedrich Hegel, Karl Marx and Friedrich Engels, Friedrich Nietzsche, Hugh MacColl, Charles S. Peirce, Max Black, Jan Łukasiewicz, Emil Leon Post, Alfred Tarski, Georg Cantor, Nicolai A. Vasiliev, Kurt Gödel, Stanisław Jaśkowski and Donald Knuth.
+
+Across at least two and a half millennia, all of them had something to say about graded concepts with unsharp boundaries. This suggests at least that the awareness of the existence of concepts with "fuzzy" characteristics, in one form or another, has a very long history in human thought. Quite a few logicians and philosophers have also tried to "analyze" the characteristics of fuzzy concepts as a recognized species, sometimes with the aid of some kind of many-valued logic or substructural logic.
+
+An early attempt in the post-WW2 era to create a theory of sets where set membership is a matter of degree was made by Abraham Kaplan and Hermann Schott in 1951. They intended to apply the idea to empirical research. Kaplan and Schott measured the degree of membership of empirical classes using real numbers between 0 and 1, and they defined corresponding notions of intersection, union, complementation and subset. However, at the time, their idea "fell on stony ground". J. Barkley Rosser Sr. published a treatise on many-valued logics in 1952, anticipating "many-valued sets". Another treatise was published in 1963 by Aleksandr A. Zinov'ev and others
+
+In 1964, the American philosopher William Alston introduced the term "degree vagueness" to describe vagueness in an idea that results from the absence of a definite cut-off point along an implied scale (in contrast to "combinatory vagueness" caused by a term that has a number of logically independent conditions of application).
+
+The German mathematician Dieter Klaua published a German-language paper on fuzzy sets in 1965, but he used a different terminology (he referred to "many-valued sets", not "fuzzy sets").
+
+Two popular introductions to many-valued logic in the late 1960s were by Robert J. Ackermann and Nicholas Rescher respectively. Rescher's book includes a bibliography on fuzzy theory up to 1965, which was extended by Robert Wolf for 1966-1974. Haack provides references to significant works after 1974. Bergmann provides a more recent (2008) introduction to fuzzy reasoning.
+
+Usually the Iranian-born American computer scientist Lotfi A. Zadeh (1921-2017) is credited with inventing the specific idea of a "fuzzy concept" in his seminal 1965 paper on fuzzy sets, because he gave a formal mathematical presentation of the phenomenon that was widely accepted by scholars.<ref>Lotfi A. Zadeh, "Fuzzy sets". In: "Information and Control", Vol. 8, June 1965, pp. 338–353.
+
+
+

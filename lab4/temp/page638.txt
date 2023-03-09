@@ -1,0 +1,16 @@
+Asymmetric bacterium
+
+Asymmetric bacteria are bacteria that undergo "non-symmetrical" life cycles. This especially includes those that differentiate temporally, such as prosthecate bacteria.
+
+Cell division asymmetries have appeared alongside the evolution of complex developmental processes. While bacteria were historically considered symmetric simple cells, this idea has been overturned by novel technology and observation techniques. However, asymmetric bacteria remain difficult to detect. Asymmetrical growth aids in determining the age of bacteria, because it gives rise to an "old pole", or region of inert cell wall material found at the ends of a rod-shaped bacterial cell. Following the "old pole" of the cell wall material allows an observer to create a bacterial lineage.
+
+Bacteria exhibit three different types of asymmetry: conditional asymmetry, reproductive asymmetry, and morphological asymmetry.
+
+Conditional asymmetry is well defined in the case of endospore formation, which is triggered by stressful environmental conditions such as increased heat, pH change, and nutrient depletion. This type of asymmetry is usually seen in Bacilli and Clostridia.
+
+Reproductive asymmetry is classically linked to bacterial budding, where a mother cell concentrates cell wall material to one area and a daughter cell begins to bud from that thickening. Cell growth which gives rise to reproductive asymmetry occurs in three phases: stalk elongation, daughter cell elongation, and septum formation.
+
+Morphological asymmetry is classified by polar elongation. In this type of asymmetrical growth, the daughter cell receives most of the new cell wall material.
+
+
+

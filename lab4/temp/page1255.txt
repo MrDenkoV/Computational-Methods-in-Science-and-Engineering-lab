@@ -1,0 +1,30 @@
+Military call sign
+
+Military call signs are call signs assigned as unique identifiers to military communications. In wartime, monitoring an adversary's communications can be a valuable form of intelligence. Consistent call signs can aid in this monitoring, so in wartime, military units often employ tactical call signs and sometimes change them at regular intervals. In peacetime, some military stations will use fixed call signs in the international series.
+
+The United States Army uses fixed station call signs which begin with "W", such as WAR, used by U.S. Army Headquarters. Tactical call signs are often assigned to a company sized unit or higher. For example, the collective "Checkmate" might be assigned to an entire company and thus "Checkmate Red 6" would be the first platoon leader (platoons are red for first, white for second, blue for third, black for headquarters, and often additional colors for other portions under the command), "Checkmate white 6" to the second platoon leader, etc. "Checkmate 6" is the Company Commander and "Checkmate 6 Romeo" is the commander's radio-telephone operator (Romeo the NATO phonetic of the letter R). Under NATO conventions, 6 is designated the commander or leader, 5 the second-in-command or executive officer, 7 the chief NCO. Also, companies often have the letter they are designated by ('A', 'B', 'C' or 'D') be the first letter of their call sign. This means a 'C' Company could potentially have 'Checkmate' as its call sign. One specific call sign used Army wide is DUSTOFF, dating back to the first dedicated Air Ambulance unit in Vietnam. 
+
+Fixed call signs for the United States Air Force stations begin with "A", such as AIR, used by USAF Headquarters.
+The USAF also uses semi-fixed identifiers consisting of a name followed by a two or three digit number. The name is assigned to a unit on a semi-permanent basis; they change only when the U.S. Department of Defense goes to DEFCON 3. For example, JAMBO 51 would be assigned to a particular B-52 aircrew of the 5th Bomb Wing, while NODAK 1 would be an F-16 fighter with the North Dakota Air National Guard. Individual military pilots or other flight officers usually adopt a personal aviator call sign.
+
+The most recognizable call sign of this type is "Air Force One", used when any Air Force aircraft is transporting the U.S. President. Similarly, when the President is flown in a U.S. Marine Corps helicopter, the call sign is Marine One. When then-president George W. Bush, a former Air National Guard fighter pilot, was flown to the aircraft carrier USS "Abraham Lincoln" in a Navy S-3B Viking, it was the first use of the "Navy One" call sign.
+
+The United States Navy, United States Marine Corps, and United States Coast Guard use a mixture of tactical call signs and international call signs, with ships beginning with the letter "N". For example, the carrier USS "John F. Kennedy" had the call sign NJFK for unclassified and navigation communications with other vessels, but uses tactical call signs that vary with its mission. 
+
+Navy and Marine Corps aircraft will typically use a stateside naming convention based on the aircraft tail code, identifying the squadron or air wing assigned, and a three digit number painted on the aircraft's nose known as the MODEX. Examples might be "November Lima Two-Zero-One" or "Navy November Lima Two-Zero-One." Another option would be to use a unit callsign from the publication known as JANAP 119, such as "Old Nick Two-Zero-One." A Marine Corps aircraft might use a call sign like "Marine Delta November One-Zero-Two" or "Shamrock One-Zero-Two." Other tactical call signs may be employed as mission necessities dictate.
+
+Coast Guard aircraft callsigns are almost always the word "Coast Guard" and the 4-digit aircraft number, e.g., "Coast Guard Six-Five-Seven-Niner," although other call signs may be used for special operations such as counter-narcotics interdiction. 
+
+In tactical situations, the Marine Corps utilizes call signs naming conventions similar to the Army's.
+
+In May 2019, United States Navy announced new procedures for assigning call signs to pilots in training to avoid potentially racist names.
+
+Tactical voice communications ("combat net radio") use a system of call signs of the form "letter-digit-digit". Within a standard infantry battalion these characters represent companies, platoons and sections respectively, so that 3 Section, 1 Platoon of B Company might be F13. In addition, a suffix following the initial call sign can denote a specific individual or grouping within the designated call sign, so F13C would be the Charlie fire team. Unused suffixes can be used for other call signs that do not fall into the standard call sign matrix, for example the unused 33A call sign is used to refer to the Company Sergeant Major.
+
+The letter part of the call sign is not the company's letter (B vs F in the above example). Instead, letter designations are randomly assigned using BATCO sheets, and appear on CEIs (communication electronic instructions), and change along with the BATCO codes every 24 hours. This, together with frequency changes and voice procedure aimed at making every unit sound the same, protects the military against simple traffic analysis and eavesdropping. Other radio users, like B20, do not fit into the standard battalion model but are also assigned a call sign for protection.
+
+The controller of each net has the call sign 0 ("zero"). There may also be a second controller - either a backup station or a commander who has delegated communication tasks to a signaller but may occasionally wish to speak in person - using the call sign 0A ("zero alpha").
+
+Earlier systems used a series of appointment titles to identify users and individuals, "Sunray", for instance, referring to the appropriate leader. Most appointment titles are no longer used by the British Army, but titles such as "Sunray" and (Sunray) Minor are still used. Several other armed forces still use appointment titles, including the Australian, New Zealand, and Canadian armies.
+
+

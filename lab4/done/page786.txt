@@ -1,0 +1,11 @@
+Neotropical Birds Online
+
+Neotropical Birds Online is an online encyclopedia whose subject is the bird species that breed in the Neotropics.
+
+"Neotropical Birds Online" is patterned after "Birds of North America". Each account profiles a single species, and the accounts are published in the order in which they are completed. The project is sponsored by the Cornell Lab of Ornithology at Cornell University, a leading US research center in ornithology. The list of species covered by "Neotropical Birds Online" is based on the two avian checklist committees of the American Ornithologists' Union: the North American Classification Committee (NACC), which is responsible for the taxonomy and nomenclature of bird species found in North and Central America, including the Caribbean; and the South American Classification Committee, which covers the birds of South America and of related islands.
+
+Each species account has a consistent format. The content of each account provides comprehensive information for each species. The topics that are covered include identification, distribution and habitat, foraging and reproductive behavior, the conservation status of the species, and the author's suggestions for the highest priorities for future research on that species. Also provided are a map of the distribution of the species and, when available, photographs of the species, its habitat, and of the nest and eggs. Also provided, when available, are recordings of the species' song and calls, selected from the collection in the Macaulay Library at the Cornell Lab of Ornithology and from other online sources, such as xeno-canto.
+
+
+
+

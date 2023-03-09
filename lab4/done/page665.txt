@@ -1,0 +1,28 @@
+L-form bacteria
+
+L-form bacteria, also known as L-phase bacteria, L-phase variants, and cell wall-deficient (CWD) bacteria, are strains of bacteria that lack cell walls. They were first isolated in 1935 by Emmy Klieneberger-Nobel, who named them "L-forms" after the Lister Institute in London where she was working.
+
+Two types of L-forms are distinguished: "unstable L-forms", spheroplasts that are capable of dividing, but can revert to the original morphology, and "stable L-forms", L-forms that are unable to revert to the original bacteria.
+
+Some parasitic species of bacteria, such as mycoplasma, also lack a cell wall, but these are not considered L-forms since they are not derived from bacteria that normally have cell walls.
+
+Bacterial morphology is determined by the cell wall. Since the L-form has no cell wall, its morphology is different from that of the strain of bacteria from which it is derived. Typical L-form cells are spheres or spheroids. For example, L-forms of the rod-shaped bacterium "Bacillus subtilis" appear round when viewed by phase contrast microscopy or by transmission electron microscopy.
+
+Although L-forms can develop from Gram-positive as well as from Gram-negative bacteria, in a Gram stain test, the L-forms always colour Gram-negative, due to the lack of a cell wall.
+
+The cell wall is important for cell division, which, in most bacteria, occurs by binary fission. This process usually requires a cell wall and components of the bacterial cytoskeleton such as FtsZ. The ability of L-form bacteria to grow and divide in the absence of both of these structures is highly unusual, and may represent a form of cell division that was important in early forms of life. This novel mode of division seems to involve the extension of thin protrusions from the cell's surface and these protrusions then pinching off to form new cells. The lack of cell wall in L-forms means that division is disorganised, giving rise to a variety of cell sizes, from very tiny to very big.
+
+L-forms can be generated in the laboratory from many bacterial species that usually have cell walls, such as "Bacillus subtilis" or "Escherichia coli". This is done by inhibiting peptidoglycan synthesis with antibiotics or treating the cells with lysozyme, an enzyme that digests cell walls. The L-forms are generated in a culture medium that is the same osmolarity as the bacterial cytosol (an isotonic solution), which prevents cell lysis by osmotic shock. L-form strains can be unstable, tending to revert to the normal form of the bacteria by regrowing a cell wall, but this can be prevented by long-term culture of the cells under the same conditions that were used to produce them – letting the wall-disabling mutations to accumulate by genetic drift.
+
+Some studies have identified mutations that occur, as these strains are derived from normal bacteria. One such point mutation D92E is in an enzyme "yqiD"/"ispA" () involved in the mevalonate pathway of lipid metabolism that increased the frequency of L-form formation 1,000-fold. The reason for this effect is not known, but it is presumed that the increase is related to this enzyme's role in making a lipid important in peptidoglycan synthesis.
+
+Another methodology of induction relies on nanotechnology and landscape ecology. Microfluidics devices can be built in order to challenge peptidoglycan synthesis by extreme spatial confinement. After biological dispersal through a constricted (sub-micrometre scale) biological corridor connecting adjacent micro habitat patches, L-form-like cells can be derived using a microfluifics-based (synthetic) ecosystem implementing an adaptive landscape selecting for shape-shifting phenotypes similar to L-forms.
+
+Some publications have suggested that L-form bacteria might cause diseases in humans, and other animals but, as the evidence that links these organisms to disease is fragmentary and frequently contradictory, this hypothesis remains controversial. The two extreme viewpoints on this question are that L-form bacteria are either laboratory curiosities of no clinical significance or important but unappreciated causes of disease. Research on L-form bacteria is continuing. For example, L-form organisms have been observed in mouse lungs after experimental inoculation with "Nocardia caviae", and a recent study suggested that these organisms may infect immunosuppressed patients having undergone bone marrow transplants. The formation of strains of bacteria lacking cell walls has also been proposed to be important in the acquisition of bacterial antibiotic resistance.
+
+L-form bacteria may be useful in research on early forms of life, and in biotechnology. These strains are being examined for possible uses in biotechnology as host strains for recombinant protein production. Here, the absence of a cell wall can allow production of large amounts of secreted proteins that would otherwise accumulate in the periplasmic space of bacteria.
+
+
+
+
+

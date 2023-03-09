@@ -1,0 +1,75 @@
+Rendezvous hashing
+
+Rendezvous or highest random weight (HRW) hashing is an algorithm that allows clients to achieve distributed agreement on a set of formula_1 options out of a possible set of formula_2 options. A typical application is when clients need to agree on which sites (or proxies) objects are assigned to.
+
+Rendezvous hashing is more general than consistent hashing, which becomes a special case (for formula_3) of rendezvous hashing.
+
+Rendezvous hashing was invented by David Thaler and Chinya Ravishankar at the University of Michigan in 1996. Consistent hashing appeared a year later in the literature. One of the first applications of rendezvous hashing was to enable multicast clients on the Internet (in contexts such as the MBONE) to identify multicast rendezvous points in a distributed fashion. It was used in 1998 by Microsoft's Cache Array Routing Protocol (CARP) for distributed cache coordination and routing. Some Protocol Independent Multicast routing protocols use rendezvous hashing to pick a rendezvous point.
+
+Given its simplicity and generality, rendezvous hashing has been applied in a wide variety of applications, including mobile caching, router design, secure key establishment, and sharding and distributed databases.
+
+Rendezvous hashing solves the distributed hash table problem: How can a set of clients, given an object formula_4, agree on where in a set of formula_2 sites (servers, say) to place formula_4? Each client is to select a site independently, but all clients must end up picking the same site. This is non-trivial if we add a "minimal disruption" constraint, and require that only objects mapping to a removed site may be reassigned to other sites.
+
+The basic idea is to give each site formula_7 a score (a "weight") for each object formula_8, and assign the object to the highest scoring site. All clients first agree on a hash function formula_9. For object formula_8, the site formula_7 is defined to have weight formula_12. HRW assigns formula_8 to the site formula_14 whose weight formula_15 is the largest. Since formula_9 is agreed upon, each client can independently compute the weights formula_17 and pick the largest. If the goal is distributed formula_1-agreement, the clients can independently pick the sites with the formula_1 largest hash values.
+
+If a site formula_20 is added or removed, only the objects mapping to formula_20 are remapped to different sites, satisfying the minimal disruption constraint above. The HRW assignment can be computed independently by any client, since it depends only on the identifiers for the set of sites formula_22 and the object being assigned.
+
+HRW easily accommodates different capacities among sites. If site formula_23 has twice the capacity of the other sites, we simply represent formula_23 twice in the list, say, as formula_25. Clearly, twice as many objects will now map to formula_23 as to the other sites.
+
+It might first appear sufficient to treat the "n" sites as buckets in a hash table and hash the object name "O" into this table. However, if any of the sites fails or is unreachable, the hash table size changes, requiring all objects to be remapped. This massive disruption makes such direct hashing unworkable. Under rendezvous hashing, however, clients handle site failures by picking the site that yields the next largest weight. Remapping is required only for objects currently mapped to the failed site, and disruption is minimal.
+
+Rendezvous hashing has the following properties:
+
+
+Consistent hashing operates by mapping sites uniformly and randomly to points on a unit circle called tokens. Objects are also mapped to the unit circle and placed in the site whose token is the first encountered traveling clockwise from the object's location. When a site is removed, the objects it owns are transferred to the site owning the next token encountered moving clockwise. Provided each site is mapped to a large number (100–200, say) of tokens this will reassign objects in a relatively uniform fashion among the remaining sites.
+
+If sites are mapped to points on the circle randomly by hashing 200 variants of the site ID, say, the assignment of any object requires storing or recalculating 200 hash values for each site. However, the tokens associated with a given site can be precomputed and stored in a sorted list, requiring only a single application of the hash function to the object, and a binary search to compute the assignment. Even with many tokens per site, however, the basic version of consistent hashing may not balance objects uniformly over sites, since when a site is removed each object assigned to it is distributed only over as many other sites as the site has tokens (say 100–200).
+
+Variants of consistent hashing (such as Amazon's Dynamo) that use more complex logic to distribute tokens on the unit circle offer better load balancing than basic consistent hashing, reduce the overhead of adding new sites, and reduce metadata overhead and offer other benefits.
+
+In contrast, rendezvous hashing (HRW) is much simpler conceptually and in practice. It also distributes objects uniformly over all sites, given a uniform hash function. Unlike consistent hashing, HRW requires no precomputing or storage of tokens. An object formula_8 is placed into one of formula_2 sites formula_22 by computing the formula_2 hash values formula_31 and picking the site formula_23 that yields the highest hash value. If a new site formula_33 is added, new object placements or requests will compute formula_34 hash values, and pick the largest of these. If an object already in the system at formula_23 maps to this new site formula_33, it will be fetched afresh and cached at formula_33. All clients will henceforth obtain it from this site, and the old cached copy at formula_38 will ultimately be replaced by the local cache management algorithm. If formula_23 is taken offline, its objects will be remapped uniformly to the remaining formula_40 sites.
+
+Variants of the HRW algorithm, such as the use of a skeleton (see below), can reduce the formula_41 time for object location to formula_42, at the cost of less global uniformity of placement. When formula_2 is not too large, however, the formula_41 placement cost of basic HRW is not likely to be a problem. HRW completely avoids all the overhead and complexity associated with correctly handling multiple tokens for each site and associated metadata.
+
+Rendezvous hashing also has the great advantage that it provides simple solutions to other important problems, such as distributed formula_1-agreement.
+
+Consistent hashing can be reduced to an instance of HRW by an appropriate choice of a two-place hash function. From the site identifier formula_20 the simplest version of consistent hashing computes a list of token positions, e.g., formula_47 where formula_48 hashes values to locations on the unit circle. Define the two place hash function formula_49 to be formula_50 where formula_51 denotes the distance along the unit circle from formula_52 to formula_53 (since formula_51 has some minimal non-zero value there is no problem translating this value to a unique integer in some bounded range). This will duplicate exactly the assignment produced by consistent hashing.
+
+It is not possible, however, to reduce HRW to consistent hashing (assuming the number of tokens per site is bounded), since HRW potentially reassigns the objects from a removed site to an unbounded number of other sites.
+
+In the standard implementation of rendezvous hashing, every node receives a statically equal proportion of the keys. This behavior, however, is undesirable when the nodes have different capacities for processing or holding their assigned keys. For example, if one of the nodes had twice the storage capacity as the others, it would be beneficial if the algorithm could take this into account such that this more powerful node would receive twice the number of keys as each of the others.
+
+A straightforward mechanism to handle this case is to assign two virtual locations to this node, so that if either of that larger node's virtual locations has the highest hash, that node receives the key. But this strategy does not work when the relative weights are not integer multiples. For example, if one node had 42% more storage capacity, it would require adding many virtual nodes in different proportions, leading to greatly reduced performance. Several modifications to rendezvous hashing have been proposed to overcome this limitation.
+
+The Cache Array Routing Protocol (CARP) is a 1998 IETF draft that describes a method for computing "load factors" which can be multiplied by each node's hash score to yield an arbitrary level of precision for weighting nodes differently. However, one disadvantage of this approach is that when any node's weight is changed, or when any node is added or removed, all the load factors must be re-computed and relatively scaled. When the load factors change relative to one another, it triggers movement of keys between nodes whose weight was not changed, but whose load factor did change relative to other nodes in the system. This results in excess movement of keys.
+
+Controlled replication under scalable hashing or CRUSH is an extension to RUSH that improves upon rendezvous hashing by constructing a tree where a pseudo-random function (hash) is used to navigate down the tree to find which node is ultimately responsible for a given key. It permits perfect stability for adding nodes however it is not perfectly stable when removing or re-weighting nodes, with the excess movement of keys being proportional to the height of the tree.
+
+The CRUSH algorithm is used by the ceph data storage system to map data objects to the nodes responsible for storing them.
+
+When formula_2 is extremely large, a skeleton-based variant can improve running time. This approach creates a virtual hierarchical structure (called a "skeleton"), and achieves formula_42 running time by applying HRW at each level while descending the hierarchy. The idea is to first choose some constant formula_57 and organize the formula_2 sites into formula_59 clusters formula_60 Next, build a virtual hierarchy by choosing a constant formula_61 and imagining these formula_62 clusters placed at the leaves of a tree formula_63 of virtual nodes, each with fanout formula_64.
+
+In the accompanying diagram, the cluster size is formula_65, and the skeleton fanout is formula_66. Assuming 108 sites (real nodes) for convenience, we get a three-tier virtual hierarchy. Since formula_66, each virtual node has a natural numbering in octal. Thus, the 27 virtual nodes at the lowest tier would be numbered formula_68 in octal (we can, of course, vary the fanout at each level - in that case, each node will be identified with the corresponding mixed-radix number).
+
+Instead of applying HRW to all 108 real nodes, we can first apply HRW to the 27 lowest-tier virtual nodes, selecting one. We then apply HRW to the four real nodes in its cluster, and choose the winning site. We only need formula_69 hashes, rather than 108. If we apply this method starting one level higher in the hierarchy, we would need formula_70 hashes to get to the winning site. The figure shows how, if we proceed starting from the root of the skeleton, we may successively choose the virtual nodes formula_71, formula_72, and formula_73, and finally end up with site 74.
+
+We can start at any level in the virtual hierarchy, not just at the root. Starting lower in the hierarchy requires more hashes, but may improve load distribution in the case of failures. Also, the virtual hierarchy need not be stored, but can be created on demand, since the virtual nodes names are simply prefixes of base-formula_64 (or mixed-radix) representations. We can easily create appropriately sorted strings from the digits, as required. In the example, we would be working with the strings formula_75 (at tier 1), formula_76 (at tier 2), and formula_77 (at tier 3). Clearly, formula_63 has height formula_79, since formula_57 and formula_64 are both constants. The work done at each level is formula_82, since formula_64 is a constant.
+
+For any given object, it is clear that the method chooses each cluster, and hence each of the formula_2 sites, with equal probability. If the site finally selected is unavailable, we can select a different site within the same cluster, in the usual manner. Alternatively, we could go up one or more tiers in the skeleton and select an alternate from among the sibling virtual nodes at that tier, and once again descend the hierarchy to the real nodes, as above.
+
+The value of formula_57 can be chosen based on factors like the anticipated failure rate and the degree of desired load balancing. A higher value of formula_57 leads to less load skew in the event of failure at the cost of higher search overhead.
+
+The choice formula_87 is equivalent to non-hierarchical rendezvous hashing. In practice, the hash function formula_9 is very cheap, so formula_89 can work quite well unless formula_2 is very high.
+
+In 2005, Christian Schindelhauer and Gunnar Schomaker described a logarithmic method for re-weighting hash scores in a way that does not require relative scaling of load factors when a node's weight changes or when nodes are added or removed. This enabled the dual benefits of perfect precision when weighting nodes, along with perfect stability, as only a minimum number of keys needed to be remapped to new nodes.
+
+A similar logarithm-based hashing strategy is used to assign data to storage nodes in Cleversafe's data storage system, now IBM Cloud Object Storage.
+
+Implementation is straightforward once a hash function formula_9 is chosen (the original work on the HRW method makes a hash function recommendation). Each client only needs to compute a hash value for each of the formula_2 sites, and then pick the largest. This algorithm runs in formula_41 time. If the hash function is efficient, the formula_41 running time is not a problem unless formula_2 is very large.
+
+Python code implementing a weighted rendezvous hash:
+
+Example outputs of WRH:
+
+
+

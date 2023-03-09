@@ -1,0 +1,22 @@
+EdgeRank
+
+EdgeRank is the name commonly given to the algorithm that Facebook uses to determine what articles should be displayed in a user's News Feed. As of 2011, Facebook has stopped using the EdgeRank system and uses a machine learning algorithm that, as of 2013, takes more than 100,000 factors into account.
+
+EdgeRank was developed and implemented by Serkan Piantino.
+
+In 2010, a simplified version of the EdgeRank algorithm was presented as:
+
+where:
+
+
+Some of the methods that Facebook uses to adjust the parameters are proprietary and not available to the public.
+
+EdgeRank and its successors have a broad impact on what users actually see out of what they ostensibly follow: for instance, the selection can produce a filter bubble (if users are exposed to updates which confirm their opinions etc.) or alter people's mood (if users are shown a disproportionate amount of positive or negative updates).
+
+As a result, for Facebook pages, the typical engagement rate is less than 1% (or less than 0.1% for the bigger ones) and organic reach 10% or less for most non-profits.
+
+As a consequence, for pages it may be nearly impossible to reach any significant audience without paying to promote their content.
+
+
+
+

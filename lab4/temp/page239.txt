@@ -1,0 +1,11 @@
+Driver scheduling problem
+
+The driver scheduling problem (DSP) is type of problem in operations research and theoretical computer science.
+
+The DSP consists of selecting a set of duties (assignments) for the drivers or pilots of vehicles (e.g., buses, trains, boats, or planes) involved in the transportation of passengers or goods.
+
+This very complex problem involves several constraints related to labour and company rules and also different evaluation criteria and objectives. Being able to solve this problem efficiently can have a great impact on costs and quality of service for public transportation companies. There is a large number of different rules that a feasible duty might be required to satisfy, such as
+Operations research has provided optimization models and algorithms that lead to efficient solutions for this problem. Among the most common models proposed to solve the DSP are the Set Covering and Set Partitioning Models (SPP/SCP). In the SPP model, each work piece (task) is covered by only one duty. In the SCP model, it is possible to have more than one duty covering a given work piece.
+In both models, the set of work pieces that needs to be covered is laid out in rows, and the set of previously defined feasible duties available for covering specific work pieces is arranged in columns. The DSP resolution, based on either of these models, is the selection of the set of feasible duties that guarantees that there is one (SPP) or more (SCP) duties covering each work piece while minimizing the total cost of the final schedule.
+
+

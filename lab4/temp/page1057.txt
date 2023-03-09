@@ -1,0 +1,26 @@
+Page layout (cartography)
+
+Page layout, also map layout, is the part of cartography that involves assembling various map elements on a page. It follows principles similar to page layout in graphic design, like balance, gestalt, and visual hierarchy. Some of the non-map elements involved in map layout are legends, titles, scale bars, inset maps, and north arrows. 
+
+Some of the major principles involved in map layout are balance, gestalt, and visual hierarchy. Map elements should be well-balanced, meaning that their visual weight is evenly distributed on the page. Gestalt is the overall effect of a composition, stemming from the idea that the whole is more than the sum of its parts. A map’s visual hierarchy (the elements that stand out the most) should match its intellectual hierarchy (the most important parts of the map).
+
+In addition to the map itself, there are various elements that are included in the map layout. The following are common elements of a map layout.
+
+Legends explain how to interpret the map's symbols. Explanations of point, line, and area symbols can all be included in the legend. However, generally, the legend only includes explanations of symbols that are not already obvious. The legend may also give details about the variable being displayed, publication, or authorship. Often, the legend is critical to understanding a map, so it is important that legends are designed effectively. Using principles of gestalt, various sets of rules have been created for legend spacing, alignment, and grouping.
+
+Titles should be short and to the point. They typically include information about the location of the map and the subject of the map. The title should be an important part of the layout's visual hierarchy because the title tells people what the map is about.
+
+Scale is important to include on a map because it explains the size relationship between map features and the real world. Scale is commonly represented with a scale bar, a representative fraction, or a verbal scale.
+
+Inset maps are smaller maps that are included on the same page as the main map. They can show additional information related to the main map. For example, a locator map can be used to show where the map’s area of interest is in a larger context or to zoom in on an area of the main map. Inset maps may also show non-contiguous areas of the main map, like Alaska and Hawaii in a map of the United States.
+
+North arrows orient readers and tell them which way the map is facing. They are especially important in areas that map viewers are not familiar with. In other cases, they may be unnecessary. North arrows can be very complex or very simple.
+
+Charts and graphs can provide a non-spatial view of data to support the map. This allows for data to be included in the layout that is not appropriate for a map or difficult to achieve in a map such as change over time.
+
+Supplementary text is used to provide context or explain the map or other map elements. Thematic mapping often uses text to add content that supports the purpose of the map.
+
+Non-map images can be added to a layout for a variety of reasons. It can offer a photo view of the area modeled in the map so that a reader can see the location looks like. Images can also be used to show examples of data points or methods used for data collection data collection. Logos of companies are also a common use of images on layout.
+
+
+

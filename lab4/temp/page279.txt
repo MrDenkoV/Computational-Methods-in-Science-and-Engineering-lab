@@ -1,0 +1,8 @@
+Automate This
+
+Automate This: How Algorithms Came to Rule Our World is a book written by Christopher Steiner and published by Penguin Group. Steiner begins his study of algorithms on Wall Street in the 1980s but also provides examples from other industries. For example, he explains the history of Pandora Radio and the use of algorithms in music identification. He expresses concern that such use of algorithms may lead to the homogenization of music over time. Steiner also discusses the algorithms that eLoyalty (now owned by Mattersight Corporation following divestiture of the technology) was created by dissecting 2 million speech patterns and can now identify a caller's personality style and direct the caller with a compatible customer support representative.
+
+Steiner's book shares both the warning and the opportunity that algorithms bring to just about every industry in the world, and the pros and cons of the societal impact of automation (e.g. impact on employment).
+
+
+

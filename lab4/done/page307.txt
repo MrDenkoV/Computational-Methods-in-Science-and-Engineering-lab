@@ -1,0 +1,41 @@
+Neural Style Transfer
+
+Neural Style Transfer (NST) refers to a class of software algorithms that manipulate digital images, or videos, to adopt the appearance or visual style of another image. NST algorithms are characterized by their use of deep neural networks in order to perform the image transformation. Common uses for NST are the creation of artificial artwork from photographs, for example by transferring the appearance of famous paintings to user supplied photographs. Several notable mobile apps use NST techniques for this purpose, including DeepArt and Prisma.
+
+NST is an example of image stylization, a problem studied for over two decades within the field of non-photorealistic rendering. Prior to NST, the transfer of image style was performed using machine learning techniques based on image analogy. Given a training pair of images–a photo and an artwork depicting that photo–a transformation could be learned and then applied to create a new artwork from a new photo, by analogy. The drawback of this method is that such a training pair rarely exists in practice. For example, original source material (photos) are rarely available for famous artworks.
+
+NST requires no such pairing; only a single example of artwork is needed for the algorithm to transfer its style.
+
+NST was first published in the paper "A Neural Algorithm of Artistic Style" by Gatys et al., originally released to ArXiv 2015, and subsequently accepted by the peer-reviewed Computer Vision and Pattern Recognition (CVPR) in 2016.
+
+The core innovation of NST is the use of deep learning to disentangle the representation of the content (structure) of an image, from the appearance (style) in which it is depicted. The original paper used a convolutional neural network (CNN) VGG-19 architecture that has been pre-trained to perform object recognition using the ImageNet dataset.
+
+The process of NST assumes an input image formula_1 and an example style image formula_2.
+
+The image formula_1 is fed through the CNN, and network activations are sampled at a late convolution layer of the VGG-19 architecture. Let formula_4 be the resulting output sample, called the 'content' of the input formula_1.
+
+The style image formula_2 is then fed through the same CNN, and network activations are sampled at the early to middle layers of the CNN. These activations are encoded into a Gramian matrix representation, call it formula_7 to denote the 'style' of formula_2.
+
+The goal of NST is to synthesize an output image formula_9 that exhibits the content of formula_1 applied with the style of formula_2, i.e. formula_12 and formula_13.
+
+An iterative optimization (usually gradient descent) then gradually updates formula_9 to minimize the loss function error:
+
+formula_15,
+
+where formula_16 is the L2 distance. The constant formula_17 controls the level of the stylization effect.
+
+Image formula_9 is initially approximated by adding a small amount of white noise to input image formula_1 and feeding it through the CNN. Then we successively backpropagate this loss through the network with the CNN weights fixed in order to update the pixels of formula_9. After several thousand epochs of training, an formula_9 (hopefully) emerges that matches the style of formula_2 and the content of formula_1.
+
+Algorithms are typically implemented for GPUs, so that training takes a few minutes.
+
+NST has also been extended to videos.
+
+Subsequent work improved the speed of NST for images.
+
+In a paper by Fei-Fei Li et al. adopted a different regularized loss metric and accelerated method for training to produce results in real time (three times faster than Gatys). Their idea was to use not the "pixel-based loss" defined above but rather a 'perceptual loss' measuring the differences between higher level layers within the CNN. They used a symmetric encoder-decoder CNN. Training uses a similar loss function to the basic NST method but also regularizes the output for smoothness using a total variation (TV) loss. Once trained, the network may be used to transform an image into the style used during training, using a single feed-forward pass of the network. However the network is restricted to the single style in which it has been trained.
+
+In a work by Chen Dongdong et al. they explored the fusion of optical flow information into feedforward networks in order to improve the temporal coherence of the output.
+
+Most recently, feature transform based NST methods have been explored for fast stylization that are not coupled to single specific style and enable user-controllable "blending" of styles, for example the Whitening and Coloring Transform (WCT).
+
+

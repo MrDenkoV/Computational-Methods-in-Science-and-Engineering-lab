@@ -1,0 +1,10 @@
+Logical reasoning
+
+Two kinds of logical reasoning can be distinguished in addition to formal deduction: induction and abduction. Given a precondition or "premise", a conclusion or "logical consequence" and a rule or "material conditional" that implies the "conclusion" given the "precondition", one can explain the following.
+
+
+Within the context of a mathematical model, the three kinds of reasoning can be described as follows. The construction/creation of the structure of the model is "abduction". Assigning values (or probability distributions) to the parameters of the model is "induction". Executing/running the model is "deduction".
+
+
+
+

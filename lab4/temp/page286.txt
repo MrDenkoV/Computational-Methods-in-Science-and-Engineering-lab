@@ -1,0 +1,14 @@
+Seidel's algorithm
+
+Seidel's algorithm is an algorithm designed by Raimund Seidel in 1992 for the all-pairs-shortest-path problem for undirected, unweighted, connected graphs. It solves the problem in formula_1 expected time for a graph with formula_2 vertices, where formula_3 is the exponent in the complexity formula_4 of formula_5 matrix multiplication. If only the distances between each pair of vertices are sought, the same time bound can be achieved in the worst case. Even though the algorithm is designed for connected graphs, it can be applied individually to each connected component of a graph with the same running time overall. There is an exception to the expected running time given above for computing the paths: if formula_6 the expected running time becomes formula_7.
+
+The core of the algorithm is a procedure that computes the length of the shortest-paths between any pair of vertices.
+This can be done in formula_1 time in the worst case. Once the lengths are computed, the paths can be reconstructed using a Las Vegas algorithm whose expected running time is formula_1 for formula_10 and formula_7 for formula_6.
+
+The Python code below assumes the input graph is given as a formula_13 formula_14-formula_15 adjacency matrix formula_16 with zeros on the diagonal. It defines the function APD which returns a matrix with entries formula_17 such that formula_17 is the length of the shortest path between the vertices formula_19 and formula_20. The matrix class used can be any matrix class implementation supporting the multiplication, exponentiation, and indexing operators (for example numpy.matrix).
+def apd(A, n: int):
+The base case tests whether the input adjacency matrix describes a complete graph, in which case all shortest paths have length formula_15.
+
+Algorithms for undirected and directed graphs with weights from a finite universe formula_22 also exist. The best known algorithm for the directed case is in time formula_23 by Zwick in 1998. This algorithm uses rectangular matrix multiplication instead of square matrix multiplication. Better upper bounds can be obtained if one uses the best rectangular matrix multiplication algorithm available instead of achieving rectangular multiplication via multiple square matrix multiplications. The best known algorithm for the undirected case is in time formula_24 by Shoshan and Zwick in 1999. The original implementation of this algorithm was erroneous and has been corrected by Eirinakis, Williamson, and Subramani in 2016.
+
+

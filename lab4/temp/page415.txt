@@ -1,0 +1,27 @@
+Botanical drug
+
+A botanical drug is defined in the United States Federal Food, Drug, and Cosmetic Act as a botanical product that is marketed as diagnosing, mitigating, treating, or curing a disease; a botanical product in turn, is a finished, labeled product that contains ingredients from plants. Chemicals that are purified from plants, like paclitaxel, and highly purified products of industrial fermentation, like biopharmaceuticals, are not considered to be botanical products.
+
+In 2006 the Food and Drug Administration approved the first botanical drug in the United States: sinecatechins, a green tea extract for genital warts.
+
+A botanical drug product is defined in the United States Federal Food, Drug, and Cosmetic Act (FD&C) as a botanical drug that is marketed as diagnosing, mitigating, treating, or curing a disease; a botanical product in turn, is a finished, labeled product that contains vegetable matter as ingredients. Chemicals that are purified from plants, like paclitaxel or artemisinin, and highly purified products of industrial fermentation, like biopharmaceuticals, are not considered to be botanical products.
+
+The FD&C act separately regulates uses of botanical products as food (including dietary supplements), medical devices (e.g., gutta-percha), and cosmetics.
+
+Like other drugs, botanical drugs may be sold over the counter (OTC) or by prescription only. For OTC drugs, a monograph must be created by the company that wants to market the drug and then approved by the FDA, after which it is published in the Federal Register. For prescription drugs, a New Drug Application (NDA) must be filed with and approved by the FDA; clinical data included in the NDA is gathered under an Investigational New Drug Application which the FDA also must approve before clinical testing begins.
+
+Assessment of the safety and toxicity of botanical drugs in clinical trials, and in ensuring their quality once the drug is on the market, is complicated by the nature of the raw ingredients; problems arise in identifying the correct plants to harvest, in the quality of plants harvested, in their processing, and in the stability of the active components, which are often poorly understood.
+
+The FDA relies on a combination of tests and controls to ensure the identity and quality of botanical drugs. The tests include "fingerprinting" using spectroscopy or chromatography, chemical or biological assays, and process controls on raw material collection and processing. The standards are higher for botanical drugs than for extracts or plant matter used in dietary supplements.
+
+If the substance being developed as a botanical drug has been used in traditional medicine, it may be possible to begin initial, small clinical trials without conducting extensive toxicology testing. However, toxicity testing is required before beginning larger clinical trials and trials that will be used to get approval to sell a botanical drug.
+
+The endogenous Chinese pharmaceutical industry is made up mostly of companies that make herbal traditional chinese medicines and sell them over the counter; the US regulatory pathway is similar to that established by the China Food and Drug Administration.
+
+The European regulatory pathway is also similar.
+
+
+As of 2012, the pharmaceutical industry had expressed strong interest in developing botanical drugs, with more than 500 applications pending at the FDA. Part of the interest stems from a desire to address the Chinese market, where herbal medicines remain widely used and had $13 billion in sales in 2011.
+
+
+

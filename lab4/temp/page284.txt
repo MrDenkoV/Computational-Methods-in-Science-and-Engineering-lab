@@ -1,0 +1,12 @@
+How to Solve it by Computer
+
+How to Solve it by Computer is a computer science book by R. G. Dromey, first published by Prentice-Hall in 1982.
+It is occasionally used as a textbook, especially in India.
+
+It is an introduction to the "why"s of algorithms and data structures.
+Features of the book:
+
+The very fundamental algorithms portrayed by this book are mostly presented in Pseudocode and/or Pascal notation.
+
+
+

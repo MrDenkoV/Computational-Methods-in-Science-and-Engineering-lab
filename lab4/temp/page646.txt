@@ -1,0 +1,19 @@
+Candidate division TM7
+
+Saccharibacteria, formerly known as "TM7", 
+is a major lineage of Bacteria, the existence of which until recently was known solely through environmental 16S rRNA sequences as no species had been grown in the lab, a requirement for taxonomy, making it a candidate phylum. In a recent study, the first cultivated TM7 (TM7x) from the human oral cavity revealed that TM7 is an extremely small coccus (200-300 nm) has a distinctive lifestyle not previously observed in human-associated microbes. It is an obligate epibiont of various hosts, including "Actinomyces odontolyticus" strain (XH001) yet also has a parasitic phase thereby killing its host. The full genome sequence revealed a highly reduced genome (705kB) and a complete lack of amino acid biosynthetic capacity. An axenic culture of TM7 from the oral cavity was reported in 2014 but no sequence or culture was made available.
+Along with Candidate Phylum TM6, it was named after sequences obtained in 1994 in an environmental study of a soil sample of peat bog from near Gifhorn, Lower Saxony, Germany (), where 262 PCR amplified 16S rDNA fragments were cloned into a plasmid vector, named TM clones for "" (lit. peat, middle layer).
+It has been found in several environments since such as from activated sludges, water treatment plant sludge rainforest soil, human saliva, in association with sponges, cockroaches, gold mines, acetate-amended aquifer sediment, and other environments (bar thermophilic), making it an abundant and widespread phylum. Recently, TM7 rDNA and whole-cells were detected in activated sludge with >99.7% identity to a human skin TM7 and 98.6% identity to the human oral TM7a, suggesting metabolically active TM7 isolates in environmental sites may serve as model organisms to investigate the role TM7 species play in human health.
+
+Species singled out with TM7 specific FISH probes form a bioreactor sludge revealed the presence of a gram-positive cell envelopes and several morphotypes: a sheathed filament (abundant), a rod occurring in short chains, a thick filament and cocci; the former may be the cause of Eikelboom type 0041 (bulking problems of activated sludges).
+The majority of bacterial phyla are Gram-negative diderms, whereas only the Firmicutes, the Actinobacteria and Chloroflexi are monoderms. Candidate phylum TM7 is in fact a close relative of the Chloroflexi.
+
+Using a polycarbonate membrane as a growth support and soil extract as the substrate, microcolonies of this clade were grown consisting of long filamentous rods up to 15 μm long with less than 50 cells or short rods with several hundred cells per colony, after 10 days incubation.
+
+Thanks to a microfluidic chip allowing the isolation and amplification of the genome of a single cell, the genome of 3 long filament morphology cells with identical 16S rRNA were sequenced to create a draft sequence of the genome confirming some previously ascertained properties, elucidating some of its metabolic capabilities, revealing novel genes and hinting to potential pathogenic abilities.
+
+Over 50 different phylotypes have been identified and it has a relatively modest intradivision 16S rDNA sequence divergence of 17%, which ranges from 13 to 33%. An interactive phylogenetic tree of TM7, built using jsPhyloSVG, allows for quick access to GenBank sequences and distance matrix calculations between tree branches.
+
+Stable-isotope probing studies have found that some members of this phylum can degrade toluene.
+
+

@@ -1,0 +1,40 @@
+Jumble algorithm
+
+Each clue in a Jumble word puzzle is a word that has been “jumbled” by permuting the letters of each word to make an anagram. A dictionary of such anagrams may be used to solve puzzles or verify that a jumbled word is unique when creating puzzles.
+
+Algorithms have been designed to solve Jumbles, using a dictionary. Common algorithms work by printing all words that can be formed from a set of letters. The solver then chooses the right word.
+
+First algorithm:
+
+
+Second algorithm:
+
+
+Algorithm to find the permutations of J:
+
+
+J(1)J(2)
+
+J(2)J(1)
+
+
+J(1)J(2)J(3)
+
+J(1)J(3)J(2)
+
+J(3)J(1)J(2)
+
+J(2)J(1)J(3)
+
+J(2)J(3)J(1)
+
+J(3)J(2)J(1)
+
+
+Though the algorithm looks complex it is easy to program.
+
+Douglas Hofstadter developed a program called Jumbo that tries to solve Jumble problems as a human mind would.
+The program doesn't rely on a dictionary and doesn't try to find real English words, but rather words that could be English, exploiting a database of plausibilities for various combinations of letters.
+Letters are combined non-deterministically, following a strategy inspired by chemical reactions and free associations.
+
+

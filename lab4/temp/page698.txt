@@ -1,0 +1,9 @@
+Dyadobacter
+
+Dyadobacter is a genus of gram negative rod-shaped bacteria belonging to the family Cytophagaceae in the phylum Bacteroidetes. Typical traits of the genus include yellow colony colour, positive flexirubin test and non-motile behaviours. They possess an anaerobic metabolism (oxidase positive), can utilise a broad range of carbon sources, and test positive for peroxide catalase activity. The type species is "Dyadobacter fermentans", which was isolated from surface sterilised maize leaves, (apparently named after its ability to ferment glucose and fructose).
+
+Species of "Dyadobacter" have been isolated from a diverse range of environments worldwide, including glacial ice, seawater and factories, however a large number of the currently described species belonging to the genus "Dyadobacter" have been isolated from soil communities. Several studies observing the microbiome associated with plants have identified "Dyadobacter" species. These studies have recognized "Dyadobacter" strains from microbiomes of corn, potato, canola, wheat and "Arabidopsis thaliana". In some cases, "Dyadobacter" isolates have been shown to be one of the major cohorts of bacteria on plant phyllospheres. It is currently unknown what role "Dyadobacter" species play in these plant-associated communities.
+
+Several species of "Dyadobacter" have been identified as potentially useful in bioremediation. "Dyadobacter beijingensis" was identified in a hydrocarbonoclastic community of bacteria remediating soil contaminated with crude oil, and Strains of "D. fermentans" have been observed degrading 7,8-Benzoquinoline, an azaarene with mutagenic properties.
+
+

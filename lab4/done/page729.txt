@@ -1,0 +1,5 @@
+Electric bacteria
+
+Electric bacteria are forms of bacteria that directly consume and excrete electrons at different energy potentials without requiring the metabolization of any sugars or other nutrients. "Shewanella" and "Geobacter" are two known types of electric bacteria. This form of life appears to be especially adapted to low-oxygen environments. Normal life forms require an oxygen environment in which to release the excess of electrons which are produced in metabolizing sugars. In a low oxygen environment, this pathway for releasing electrons is not available. Instead, electric bacteria "breath" metals instead of oxygen, which effectively results in both an intake of and excretion of electrical charges.
+
+

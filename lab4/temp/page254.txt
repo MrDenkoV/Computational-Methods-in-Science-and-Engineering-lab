@@ -1,0 +1,24 @@
+Flajolet–Martin algorithm
+
+The Flajolet–Martin algorithm is an algorithm for approximating the number of distinct elements in a stream with a single pass and space-consumption logarithmic in the maximal number of possible distinct elements in the stream (the count-distinct problem). The algorithm was introduced by Philippe Flajolet and G. Nigel Martin in their 1984 article "Probabilistic Counting Algorithms for Data Base Applications". Later it has been refined in "LogLog counting of large cardinalities" by Marianne Durand and Philippe Flajolet, and "HyperLogLog: The analysis of a near-optimal cardinality estimation algorithm" by Philippe Flajolet et al.
+
+In their 2010 article "An optimal algorithm for the distinct elements problem", Daniel M. Kane, Jelani Nelson and David P. Woodruff give an improved algorithm, which uses nearly optimal space and has optimal "O"(1) update and reporting times.
+
+Assume that we are given a hash function formula_1 that maps input formula_2 to integers in the range formula_3, and where the outputs are sufficiently uniformly distributed. Note that the set of integers from 0 to formula_4 corresponds to the set of binary strings of length formula_5. For any non-negative integer formula_6, define formula_7 to be the formula_8-th bit in the binary representation of formula_6, such that:
+
+We then define a function formula_11 that outputs the position of the least-significant set bit in the binary representation of formula_6:
+
+where formula_14. Note that with the above definition we are using 0-indexing for the positions. For example, formula_15, since the least significant bit is a 1 (0th position), and formula_16, since the least significant bit is at the 3rd position. At this point, note that under the assumption that the output of our hash function is uniformly distributed, then the probability of observing a hash output ending with formula_17 (a one, followed by formula_8 zeroes) is formula_19, since this corresponds to flipping formula_8 heads and then a tail with a fair coin.
+
+Now the Flajolet–Martin algorithm for estimating the cardinality of a multiset formula_21 is as follows:
+
+The idea is that if formula_33 is the number of distinct elements in the multiset formula_21, then formula_35 is accessed approximately formula_36 times, formula_37 is accessed approximately formula_38 times and so on. Consequently, if formula_39, then formula_40 is almost certainly 0, and if formula_41, then formula_40 is almost certainly 1. If formula_43, then formula_40 can be expected to be either 1 or 0.
+
+The correction factor formula_32 is found by calculations, which can be found in the original article.
+
+A problem with the Flajolet–Martin algorithm in the above form is that the results vary significantly. A common solution has been to run the algorithm multiple times with formula_8 different hash functions and combine the results from the different runs. One idea is to take the mean of the formula_8 results together from each hash function, obtaining a single estimate of the cardinality. The problem with this is that averaging is very susceptible to outliers (which are likely here). A different idea is to use the median, which is less prone to be influences by outliers. The problem with this is that the results can only take form formula_31, where formula_27 is integer. A common solution is to combine both the mean and the median: Create formula_50 hash functions and split them into formula_8 distinct groups (each of size formula_52). Within each group use the median for aggregating together the formula_52 results, and finally take the mean of the formula_8 group estimates as the final estimate.
+
+The 2007 HyperLogLog algorithm splits the multiset into subsets and estimates their cardinalities, then it uses the harmonic mean to combine them into an estimate for the original cardinality.
+
+
+

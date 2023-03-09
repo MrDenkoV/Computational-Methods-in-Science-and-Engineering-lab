@@ -1,0 +1,29 @@
+Bartels–Stewart algorithm
+
+In numerical linear algebra, the Bartels–Stewart algorithm is used to numerically solve the Sylvester matrix equation formula_1. Developed by R.H. Bartels and G.W. Stewart in 1971, it was the first numerically stable method that could be systematically applied to solve such equations. The algorithm works by using the real Schur decompositions of formula_2 and formula_3 to transform formula_1 into a triangular system that can then be solved using forward or backward substitution. In 1979, G. Golub, C. Van Loan and S. Nash introduced an improved version of the algorithm, known as the Hessenberg–Schur algorithm. It remains a standard approach for solving Sylvester equations when formula_5 is of small to moderate size.
+
+Let formula_6, and assume that the eigenvalues of formula_2 are distinct from the eigenvalues of formula_3. Then, the matrix equation formula_1 has a unique solution. The Bartels–Stewart algorithm computes formula_5 by applying the following steps: 
+
+1.Compute the real Schur decompositions
+
+The matrices formula_13 and formula_14 are block-upper triangular matrices, with diagonal blocks of size formula_15 or formula_16.
+
+2. Set formula_17
+
+3. Solve the simplified system formula_18, where formula_19. This can be done using forward substitution on the blocks. Specifically, if formula_20, then
+
+where formula_22is the formula_23th column of formula_24. When formula_25, columns formula_26 should be concatenated and solved for simultaneously. 
+
+4. Set formula_27
+
+Using the QR algorithm, the real Schur decompositions in step 1 require approximately formula_28 flops, so that the overall computational cost is formula_29. 
+
+In the special case where formula_30 and formula_31 is symmetric, the solution formula_5 will also be symmetric. This symmetry can be exploited so that formula_24 is found more efficiently in step 3 of the algorithm.
+
+The Hessenberg–Schur algorithm replaces the decomposition formula_34 in step 1 with the decomposition formula_35, where formula_36 is an upper-Hessenberg matrix. This leads to a system of the form formula_37 that can be solved using forward substitution. The advantage of this approach is that formula_35 can be found using Householder reflections at a cost of formula_39 flops, compared to the formula_40 flops required to compute the real Schur decomposition of formula_2. 
+
+The subroutines required for the Hessenberg-Schur variant of the Bartels–Stewart algorithm are implemented in the SLICOT library. These are used in the MATLAB control system toolbox.
+
+For large systems, the formula_42 cost of the Bartels–Stewart algorithm can be prohibitive. When formula_2 and formula_3 are sparse or structured, so that linear solves and matrix vector multiplies involving them are efficient, iterative algorithms can potentially perform better. These include projection-based methods, which use Krylov subspace iterations, methods based on the alternating direction implicit (ADI) iteration, and hybridizations that involve both projection and ADI. Iterative methods can also be used to directly construct low rank approximations to formula_5 when solving formula_46. 
+
+

@@ -1,0 +1,21 @@
+List of graphs
+
+This partial list of graphs contains definitions of graphs and graph families which are known by particular names, but do not have a Wikipedia article of their own.
+
+For collected definitions of graph theory terms that do not refer to individual graph types, such as "vertex" and "path", see Glossary of graph theory. For links to existing articles about particular kinds of graphs, see .
+
+A gear graph, denoted "G" is a graph obtained by inserting an extra vertex between each pair of adjacent vertices on the perimeter of a wheel graph "W". Thus, "G" has 2"n"+1 vertices and 3"n" edges. Gear graphs are examples of squaregraphs, and play a key role in the forbidden graph characterization of squaregraphs. Gear graphs are also known as cogwheels and bipartite wheels.
+
+A grid graph is a unit distance graph corresponding to the square lattice, so that it is isomorphic to the graph having a vertex corresponding to every pair of integers ("a", "b"), and an edge connecting ("a", "b") to ("a"+1, "b") and ("a", "b"+1). The finite grid graph "G" is an "m"×"n" rectangular graph isomorphic to the one obtained by restricting the ordered pairs to the range 0 ≤ "a" < "m", 0 ≤ "b" < "n". Grid graphs can be obtained as the Cartesian product of two paths: "G" = "P" × "P". Every grid graph is a median graph.
+
+A helm graph, denoted H is a graph obtained by attaching a single edge and node to each node of the outer circuit of a wheel graph W.
+
+A lobster graph is a tree in which all the vertices are within distance 2 of a central path. Compare "caterpillar".
+
+The web graph "W" is a graph consisting of "r" concentric copies of the cycle graph "C", with corresponding vertices connected by "spokes". Thus "W" is the same graph as "C", and "W" is a prism.
+
+A web graph has also been defined as a prism graph "Y", with the edges of the outer cycle removed.
+
+Gallery of named graphs
+
+

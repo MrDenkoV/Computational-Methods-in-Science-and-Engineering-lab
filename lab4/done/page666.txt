@@ -1,0 +1,14 @@
+Prosthecate bacteria
+
+Prosthecate bacteria are a non-phylogenetically related group of Gram-negative bacteria that possess appendages, termed "prosthecae". These cellular appendages are neither pili nor flagella, as they are extensions of the cellular membrane and contain cytosol. One notable group of prosthecates is the genus "Caulobacter".
+
+Prosthecates are generally chemoorganotrophic aerobes that can grow in nutrient-poor habitats, being able to survive at nutrient levels on the order of parts-per-million for which reason they are often found in aquatic habitats. These bacteria will attach to surfaces with their prosthecae, allowing a greater surface area with which to take up nutrients (and release waste products). Some prosthecates will grow in nutrient-poor soils as aerobic heterotrophs.
+
+"Caulobacter"<br>
+Oligotrophic<br>
+Flagella<br>
+Pilus
+
+Poindexter, Jeanne S. Dimorphic Prosthecate Bacteria: The Genera "Caulobacter", "Asticcacaulis", "Hyphomicrobium", "Pedomicrobium", "Hyphomonas" and "Thiodendron".
+
+

@@ -1,0 +1,15 @@
+Acid-fastness
+
+Acid-fastness is a physical property of certain bacterial and eukaryotic cells, as well as some sub-cellular structures, specifically their resistance to decolorization by acids during laboratory staining procedures. Once stained as part of a sample, these organisms can resist the acid and/or ethanol-based decolorization procedures common in many staining protocols, hence the name "acid-fast".
+
+The mechanisms of acid-fastness vary by species, although the most well-known example is in the genus "Mycobacterium", which includes the species responsible for tuberculosis and leprosy. The acid-fastness of "Mycobacteria" is due to the high mycolic acid content of their cell walls, which is responsible for the staining pattern of poor absorption followed by high retention. Some bacteria may also be partially acid-fast, such as "Nocardia".
+
+Acid-fast organisms are difficult to characterize using standard microbiological techniques, though they can be stained using concentrated dyes, particularly when the staining process is combined with heat. Some, such as "Mycobacteria", can be stained with the Gram stain, but they do not take the crystal violet well and thus appear light purple, which can still potentially result in an incorrect gram positive identification.
+
+The most common staining technique used to identify acid-fast bacteria is the Ziehl-Neelsen stain, in which the acid-fast species are stained bright red and stand out clearly against a blue background. Another method is the Kinyoun method, in which the bacteria are stained bright red and stand out clearly against a green background. Acid-fast "Mycobacteria" can also be visualized by fluorescence microscopy using specific fluorescent dyes (auramine-rhodamine stain, for example). The eggs of the parasitic lung fluke "Paragonimus westermani" are actually destroyed by the stain, which can hinder diagnosis in patients who present with TB-like symptoms.
+
+
+Very few structures are acid-fast; this makes staining for acid-fastness particularly useful in diagnosis. The following are notable examples of structures which are acid-fast or modified acid-fast:
+
+
+

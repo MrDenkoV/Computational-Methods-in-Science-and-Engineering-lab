@@ -1,0 +1,15 @@
+Gracilicutes
+
+Gracilicutes (Latin: "gracilis", slender, and "cutis", skin, referring to the cell wall) is a clade in bacterial phylogeny.
+
+Traditionally gram staining results were most commonly used as a classification tool, consequently until the advent of molecular phylogeny, the Kingdom Monera (as the domains Bacteria and Archaea were known then) was divided into four phyla,
+
+This classification system was abandoned in favour of the three-domain system based on molecular phylogeny started by C. Woese.
+
+This taxon was revived in 2006 by Cavalier-Smith as an infrakindgom containing the phyla Spirochaetae, Sphingobacteria (FCB), Planctobacteria (PVC), and Proteobacteria. It is a gram-negative clade that branched off from other bacteria just before the evolutionary loss of the outer membrane or capsule, and just after the evolution of flagella. This taxon is not generally accepted and the three-domain system is followed.
+
+An almost identical taxon called Hydrobacteria was defined in 2009 using bioinfomatic methods. It is in contrast to the other major group of eubacteria called Terrabacteria. The analysis also altered the internal phylogeny of this group, with PVC-FCB-Spirochaetae placed forming a clade next to Proteobacteria. What was PVC is described as polyphyletic.
+
+The following graph shows Cavalier-Smith's version of the tree of life, indicating the status of Gracilicutes.
+
+

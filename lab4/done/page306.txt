@@ -1,0 +1,9 @@
+Newest vertex bisection
+
+Newest Vertex Bisection is an algorithmic method to locally refine triangulations. It is widely used in computational science, numerical simulation, and computer graphics. The advantage of newest vertex bisection is that it allows local refinement of triangulations without degenerating the shape of the triangles after repeated usage.
+
+In newest vertex bisection, whenever a triangle is to be split into smaller triangles, it will be bisected by drawing a line from the newest vertex to the midpoint of the edge opposite to that vertex. That midpoint becomes the newest vertex of the two newer triangles. One can show that repeating this procedure for a given triangulation leads to triangles that belong to only a finite number of similarity classes.
+
+Generalizations of newest vertex bisection to dimension three and higher are known. Newest vertex bisection is used in local mesh refinement for adaptive finite element methods, where it is an alternative to red-green refinement and uniform mesh refinement.
+
+

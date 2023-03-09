@@ -1,0 +1,16 @@
+Chlorobactane
+
+Chlorobactane is the diagenetic product of an aromatic carotenoid produced uniquely by green-pigmented green sulfur bacteria (GSB) in the order "Chlorobiales". Observed in organic matter as far back as the Paleoproterozoic, its identity as a diagnostic biomarker has been used to interpret ancient environments.
+
+Chlorobactene is a monocyclic accessory pigment used by green sulfur bacteria to capture electrons from wavelengths in the visible light spectrum. Green sulfur bacteria (GSB) live in anaerobic and sulfidic (euxinic) zones in the presence of light, so they are found most often in meromictic lakes and ponds, sediments, and certain regions of the Black Sea. The enzyme CrtU converts γ-carotene into chlorobactene by shifting the C17 methyl group from the C1 site to the C2 site.
+
+Following transport and burial, diagenetic processes saturate the hydrocarbon chain, turning it into the fully saturated structure of chlorobactane.
+
+Isoreneiratene is an aromatic light-harvesting molecule interpreted as a biomarker for brown-pigmented GSB in the same order, "Chlorobiales", and its fossil form (isoreneiratane) is often found co-occurring with chlorobactene in ancient organic material. Purple sulfur bacteria (PSB) also live in euxinic regions. They produce a different accessory pigment, okenone, that is preserved as okenane and often observed co-occurring with chlorobactane.
+
+Organic molecules are first extracted from rocks using solvents, capitalizing on chemical properties like the polarity of the molecules to dissolve the molecules. Usually, less than one percent of the organic material from a rock is successfully pulled out in this process, leaving behind undissolved material called kerogen. The organic-rich extract is subsequently purified using silica gel column packed chromatography – eluting the extract through the column with targeted solvents pulls out contaminants and remnant undissolved organic material, which will bind to the polar silica moieties. When the sample is then run through a gas chromatography (GC) column, the compounds separate based on their boiling points and interaction with a stationary phase within the column. The temperature ramping of a gas chromatography column can be programmed to obtain optimal separation of the compounds. After the GC, the molecules are ionized and fragmented into smaller, charged molecules. A mass spectrometer then separates the individual compounds based on their mass-to-charge (M/Z) ratio and measures their relative abundance, producing a characteristic mass spectrum. Peaks representing the relative abundance of the compounds are identified as molecules based on their relative retention times, matches to a library of mass spectra with known compound identities, and comparison to standards.
+
+Because green-pigmented green sulfur bacteria require higher light intensities than their brown-pigmented counterparts, the presence of chlorobactane in the rock record has been used as key evidence in interpretations for a very shallow euxinic layer in the ocean. The euxinic zone may have changed depth in the ocean at various points in Earth's history, such as with the advent of an oxygenated atmosphere around 2.45 billion years ago and the shallowing of the oxic zone within the last six kyr.
+
+
+

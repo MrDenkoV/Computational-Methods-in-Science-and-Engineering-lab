@@ -1,0 +1,24 @@
+Regulation of algorithms
+
+Regulation of algorithms, or algorithmic regulation, is the creation of laws, rules and public sector policies for promotion and regulation of algorithms, particularly in artificial intelligence and machine learning. For the subset of AI algorithms, the term regulation of artificial intelligence is used. The regulatory and policy landscape for artificial intelligence (AI) is an emerging issue in jurisdictions globally, including in the European Union. Regulation of AI is considered necessary to both encourage AI and manage associated risks, but challenging. Another emerging topic is the regulation of blockchain algorithms and is mentioned alongside with regulation of AI algorithms. Many countries have enacted regulations of high frequency trades, which is shifting due to technological progress into the realm of AI algorithms. 
+
+The motivation for regulation of algorithms is the apprehension of losing control over the algorithms, whose impact on human life increases. Multiple countries have already introduced regulations in case of automated credit score calculation—right to explanation is mandatory for those algorithms. 
+
+In 2017 Elon Musk advocated regulation of algorithms in the context of the existential risk from artificial general intelligence. According to NPR, the Tesla CEO was "clearly not thrilled" to be advocating for government scrutiny that could impact his own industry, but believed the risks of going completely without oversight are too high: "Normally the way regulations are set up is when a bunch of bad things happen, there's a public outcry, and after many years a regulatory agency is set up to regulate that industry. It takes forever. That, in the past, has been bad but not something which represented a fundamental risk to the existence of civilisation." 
+
+In response, some politicians expressed skepticism about the wisdom of regulating a technology that is still in development. Responding both to Musk and to February 2017 proposals by European Union lawmakers to regulate AI and robotics, Intel CEO Brian Krzanich has argued that artificial intelligence is in its infancy and that it is too early to regulate the technology. Instead of trying to regulate the technology itself, some scholars suggest to rather develop common norms including requirements for the testing and transparency of algorithms, possibly in combination with some form of warranty. One suggestion has been for the development of a global governance board to regulate AI development. In 2020, the European Union published its draft strategy paper for promoting and regulating AI.
+
+AI law and regulations can be divided into three main topics, namely governance of autonomous intelligence systems, responsibility and accountability for the systems, and privacy and safety issues. The development of public sector strategies for management and regulation of AI has been increasingly deemed necessary at the local, national, and international levels and in a variety of fields, from public service management to law enforcement, the financial sector, robotics, the military, and international law.
+
+In the United States, on January 7, 2019, following an Executive Order on 'Maintaining American Leadership in Artificial Intelligence', the White House’s Office of Science and Technology Policy released a draft "Guidance for Regulation of Artificial Intelligence Applications", which includes ten principles for United States agencies when deciding whether and how to regulate AI. In response, the National Institute of Standards and Technology has released a position paper, the National Security Commission on Artificial Intelligence has published an interim report, and the Defense Innovation Board has issued recommendations on the ethical use of AI. 
+
+In 2016, China published a position paper questioning the adequacy of existing international law to address the eventuality of fully autonomous weapons, becoming the first permanent member of the U.N. Security Council to broach the issue, and leading to proposals for global regulation. In the United States, steering on regulating security-related AI is provided by the National Security Commission on Artificial Intelligence.
+
+Blockchain systems provide transparent and fixed records of transactions and hereby contradict the very nature of the European GDPR.
+
+In 1942, author Isaac Asimov addressed regulation of algorithms by introducing the fictional Three Laws of Robotics:
+In Frank Herbert's "Dune" universe, thinking machines is a collective term for artificial intelligence, which have been completely destroyed and banned after a revolt known as Butlerian Jihad:
+JIHAD, BUTLERIAN: (see also Great Revolt) — the crusade against computers, thinking machines, and conscious robots begun in 201 B.G. and concluded in 108 B.G. Its chief commandment remains in the O.C. Bible as "Thou shalt not make a machine in the likeness of a human mind."
+
+
+

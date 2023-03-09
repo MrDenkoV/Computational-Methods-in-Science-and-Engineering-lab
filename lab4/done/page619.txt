@@ -1,0 +1,35 @@
+DD-transpeptidase
+
+DD-transpeptidase (, "DD-peptidase", "DD-transpeptidase", "DD-carboxypeptidase", "D-alanyl-D-alanine carboxypeptidase", "D-alanyl-D-alanine-cleaving-peptidase", "D-alanine carboxypeptidase", "D-alanyl carboxypeptidase", and "serine-type D-Ala-D-Ala carboxypeptidase".) is a bacterial enzyme that catalyzes the transfer of the R-L-aca-D-alanyl moiety of R-L-aca-D-alanyl-D-alanine carbonyl donors to the γ-OH of their active-site serine and from this to a final acceptor. It is involved in bacterial cell wall biosynthesis, namely, the transpeptidation that crosslinks the peptide side chains of peptidoglycan strands.
+
+The antibiotic penicillin irreversibly binds to and inhibits the activity of the transpeptidase enzyme by forming a highly stable penicilloyl-enzyme intermediate. Because of the interaction between penicillin and transpeptidase, this enzyme is also known as penicillin-binding protein (PBP).
+
+DD-transpeptidase is mechanistically similar to the proteolytic reactions of the trypsin protein family.
+
+Crosslinking of peptidyl moieties of adjacent glycan strands is a two-step reaction. The first step involves the cleavage of the D-alanyl-D-alanine bond of a peptide unit precursor acting as carbonyl donor, the release of the carboxyl-terminal D-alanine, and the formation of the acyl-enzyme. The second step involves the breakdown of the acyl-enzyme intermediate and the formation of a new peptide bond between the carbonyl of the D-alanyl moiety and theamino group of another peptide unit.
+
+Most discussion of DD-peptidase mechanisms revolves around the catalysts of proton transfer. During formation of the acyl-enzyme intermediate, a proton must be removed from the active site serine hydroxyl group and one must be added to the amine leaving group. A similar proton movement must be facilitated in deacylation. The identity of the general acid and base catalysts involved in these proton transfers has not yet been elucidated. However, the catalytic triad tyrosine, lysine, and serine, as well as serine, lysine, serine have been proposed.
+
+Transpeptidases are members of the penicilloyl-serine transferase superfamily, which has a signature SxxK conserved motif. With "x" denoting a variable amino acid residue, the transpeptidases of this superfamily show a trend in the form of three motifs: SxxK, SxN (or analogue), and KTG (or analogue). These motifs occur at equivalent places, and are roughly equally spaced, along the polypeptide chain. The folded protein brings these motifs close to each other at the catalytic center between an all-α domain and an α/β domain. With "x" denoting a variable amino acid residue, the transpeptidases of this superfamily show a trend in the form of three motifs: SxxK, SxN (or analogue), and KTG (or analogue). These motifs occur at equivalent places, and are roughly equally spaced, along the polypeptide chain. The folded protein brings these motifs close to each other at the catalytic center between an all-α domain and an α/β domain.
+
+The structure of the streptomyces K15 DD-transpeptidase has been studied, and consists of a single polypeptide chain organized into two domains. One domain contains mainly α-helices, and the second one is of α/β-type. The center of the catalytic cleft is occupied by the Ser35-Thr36-Thr37-Lys38 tetrad, which includes the nucleophilic Ser35 residue at the amino-terminal end of helix α2. One side of the cavity is defined by the Ser96-Gly97-Cys98 loop connecting helices α4 and α5. The Lys213-Thr214-Gly215 triad lies on strand β3 on the opposite side of the cavity. The backbone NH group of the essential Ser35 residue and that of Ser216 downstream from the motif Lys213-Thr214-Gly215 occupy positions that are compatible with the oxyanion hole function required for catalysis.
+
+The enzyme is classified as a DD-transpeptidase because the susceptible peptide bond of the carbonyl donor extends between two carbon atoms with the D-configuration.
+
+All bacteria possess at least one, most often several, monofunctional serine DD-peptidases.
+
+This enzyme is an excellent drug target because it is essential, is accessible from the periplasm, and has no equivalent in mammalian cells. DD-transpeptidase is the target protein of β-lactam antibiotics (e.g. penicillin) This is because the structure of the β-lactam closely resembles the D-ala-D-ala residue.
+
+β-lactams exert their effect by competitively inactivating the serine DD-transpeptidase catalytic site. Penicillin is a cyclic analogue of the D-Ala-D-Ala terminated carbonyl donors, therefore in the presence of this antibiotic, the reaction stops at the level of the serine ester-linked penicilloyl enzyme. Thus β-lactam antibiotics force these enzymes to behave like penicillin binding proteins.
+
+Kinetically, the interaction between the DD-peptidase and beta-lactams is a three-step reaction:
+
+formula_1
+
+Beta-Iactams may form an adduct E-I* of high stability with DD-transpeptidase. The half life of this adduct is around hours, whereas the half-life of the normal reaction is in the order of milliseconds.
+
+The interference with the enzyme processes responsible for cell wall formation results in cellular lysis and death due to the triggering of the autolytic system in the bacteria.
+
+
+
+

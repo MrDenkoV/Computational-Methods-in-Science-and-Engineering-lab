@@ -1,0 +1,10 @@
+DSatur
+
+DSatur is a graph colouring algorithm put forward by Daniel Brélaz in 1979. Similarly to the greedy colouring algorithm, DSatur colours the vertices of a graph one after another, expending a previously unused colour when needed. Once a new vertex has been coloured, the algorithm determines which of the remaining uncoloured vertices has the highest number of colours in its neighbourhood and colours this vertex next. Brélaz defines this number as the "degree of saturation" of a given vertex. The contraction of the degree of saturation forms the name of the algorithm. DSatur is a heuristic graph colouring algorithm, yet produces exact results for bipartite, cycle, and wheel graphs. DSatur has also been referred to as saturation LF in the literature.
+
+Define the degree of saturation of a vertex as the number of different colours in its neighbourhood. Given a simple, undirected graph "G" compromising vertex set "V" and edge set "E":
+
+
+The worst-case complexity of DSatur is "Ο"("n"), however in practical some additional expenses result from the need for holding the degree of saturation of the uncoloured vertices. DSatur has been proven to be exact for bipartite graphs, as well as for cycle and wheel graphs. In an empirical comparison by Lewis 2015, DSatur produced significantly better vertex colourings than the greedy algorithm on random graphs with edge probability "p" = 0.5 at varying number of vertices, while in turn producing significantly worse colourings than the Recursive Largest First algorithm.
+
+

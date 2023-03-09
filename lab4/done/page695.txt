@@ -1,0 +1,5 @@
+Merodiploid
+
+A merodiploid is a partially diploid bacterium, which has its own chromosome complement and a chromosome fragment introduced by conjugation, transformation or transduction. It can also be defined as an essentially haploid organism that carries a second copy of a part of its genome. The term is derived from the Greek, meros = part, and was originally used to describe both unstable partial diploidy, such as that which occurs briefly in recipients after mating with an Hfr strain (1), and the stable state, exemplified by F-prime strains (see Hfr'S And F-Primes). Over time the usage has tended to confine the term to descriptions of stable genetic states. Merodiploidy refers to the partial duplication of chromosomes in a haploid organism.
+
+

@@ -1,0 +1,24 @@
+Carbon-based life
+
+Carbon is a primary component of all known life on Earth, representing approximately 45–50% of all dry biomass. Carbon compounds occur naturally in great abundance on Earth. Complex biological molecules almost always consist of carbon atoms bonded with other elements, especially oxygen and hydrogen and frequently also nitrogen, phosphorus, and sulfur.
+
+Because it is lightweight and relatively small in size, carbon molecules are easy for enzymes to manipulate. It is frequently assumed in astrobiology that if life exists elsewhere in the Universe, it will also be carbon-based. Critics refer to this assumption as carbon chauvinism.
+
+Carbon is capable of forming a vast number of compounds, more than any other element, with almost ten million compounds described to date, and yet that number is but a fraction of the number of theoretically possible compounds under standard conditions. For this reason, carbon has often been referred to as the "king of the elements". The enormous diversity of carbon-containing compounds, known as organic compounds, has led to a distinction between them and compounds that do not contain carbon, known as inorganic compounds. The branch of chemistry that studies organic compounds is known as organic chemistry.
+
+Carbon is the 15th most abundant element in the Earth's crust, and the fourth most abundant element in the universe by mass, after hydrogen, helium, and oxygen. Carbon's widespread abundance, its ability to form stable bonds with numerous other elements, and its unusual ability to form polymers at the temperatures commonly encountered on Earth enables it to serve as a common element of all known living organisms. In a 2018 study, carbon was found to compose approximately 550 billion tons of all life on Earth. It is the second most abundant element in the human body by mass (about 18.5%) after oxygen.
+
+The most important characteristics of carbon as a basis for the chemistry of life are that each carbon atom is capable of forming up to four valence bonds with other atoms simultaneously, and that the energy required to make or break a bond with a carbon atom is at an appropriate level for building large and complex molecules which may be both stable and reactive. Carbon atoms bond readily to other carbon atoms; this allows the building of arbitrarily long macromolecules and polymers in a process known as catenation. "What we normally think of as 'life' is based on chains of carbon atoms, with a few other atoms, such as nitrogen or phosphorus", per Stephen Hawking in a 2008 lecture, "carbon [...] has the richest chemistry."
+
+The most notable classes of biological macromolecules used in the fundamental processes of living organisms include:
+
+
+There are not many other elements which appear to be promising candidates for supporting biological systems and processes as fundamentally as carbon does, for example, processes such as metabolism. The most frequently suggested alternative is silicon. Silicon shares a group in the periodic table with carbon, can also form four valence bonds, and also bonds to itself readily, though generally in the form of crystal lattices rather than long chains. Despite these similarities, silicon is considerably more electropositive than carbon, and silicon compounds do not readily recombine into different permutations in a manner that would plausibly support lifelike processes.
+
+Speculations about the chemical structure and properties of hypothetical non-carbon-based life have been a recurring theme in science fiction. Silicon is often used as a substitute for carbon in fictional lifeforms because of its chemical similarities. In cinematic and literary science fiction, when man-made machines cross from non-living to living, this new form is often presented as an example of non-carbon-based life. Since the advent of the microprocessor in the late 1960s, such machines are often classed as "silicon-based life". Other examples of fictional "silicon-based life" can be seen in the episode "The Devil in the Dark" from "", in which a living rock creature's biochemistry is based on silicon, and in "The X-Files" episode "Firewalker", in which a silicon-based organism is discovered in a volcano.
+
+In the film adaptation of Arthur C. Clarke's "2010" (1984), a character argues, "Whether we are based on carbon or on silicon makes no fundamental difference; we should each be treated with appropriate respect." This quote may be the basis of Steve Jobs' quip when he introduced Carbon within Mac OS X, "Carbon. All life forms will be based on it."
+
+
+
+

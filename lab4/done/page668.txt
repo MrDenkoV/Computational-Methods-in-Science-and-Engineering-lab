@@ -1,0 +1,22 @@
+CoRR hypothesis
+
+The CoRR hypothesis states that the location of genetic information in cytoplasmic organelles permits regulation of its expression by the reduction-oxidation ("redox") state of its gene products.
+
+CoRR is short for "co-location for redox regulation", itself a shortened form of "co-location (of gene and gene product) for (evolutionary) continuity of redox regulation of gene expression".
+CoRR was put forward explicitly in 1993 in a paper in the "Journal of Theoretical Biology" with the title "Control of gene expression by redox potential and the requirement for chloroplast and mitochondrial genomes". The central concept had been outlined in a review of 1992. The term CoRR was introduced in 2003 in a paper in "Philosophical Transactions of the Royal Society" entitled "The function of genomes in bioenergetic organelles".
+
+Chloroplasts and mitochondria are energy-converting organelles in the cytoplasm of eukaryotic cells. Chloroplasts in plant cells perform photosynthesis; the capture and conversion of the energy of sunlight. Mitochondria in both plant and animal cells perform respiration; the release of this stored energy when work is done. In addition to these key reactions of bioenergetics, chloroplasts and mitochondria each contain specialized and discrete genetic systems. These genetic systems enable chloroplasts and mitochondria to make some of their own proteins.
+
+Both the genetic and energy-converting systems of chloroplasts and mitochondria are descended, with little modification, from those of the free-living bacteria that these organelles once were. The existence of these cytoplasmic genomes is consistent with, and counts as evidence for, the endosymbiont hypothesis. Most genes for proteins of chloroplasts and mitochondria are, however, now located on chromosomes in the nuclei of eukaryotic cells. There they code for protein precursors that are made in the cytosol for subsequent import into the organelles.
+
+CoRR seeks to explain why chloroplasts and mitochondria retain DNA, and thus why some characters are inherited through the cytoplasm in the phenomenon of cytoplasmic, non-Mendelian, uniparental, or maternal inheritance. CoRR does so by offering an answer to this question: why, in evolution, did some bacterial, endosymbiont genes move to the cell nucleus, while others did not?
+
+CoRR states that chloroplasts and mitochondria contain those genes whose expression is required to be under the direct, regulatory control of the redox state of their gene products, or of electron carriers with which those gene products interact. Such genes comprise a core, or primary subset, of organellar genes. The requirement for redox control of each gene in the primary subset then confers an advantage upon location of that gene within the organelle. Natural selection therefore anchors some genes in organelles, while favouring location of others in the cell nucleus.
+
+Chloroplast and mitochondrial genomes also contain genes for components of the chloroplast and mitochondrial genetic systems themselves. These genes comprise a secondary subset of organellar genes: genetic system genes. There is generally no requirement for redox control of expression of genetic system genes, though their being subject to redox control may, in some cases, allow amplification of redox signals acting upon genes in the primary subset (bioenergetic genes).
+
+Retention of genes of the secondary subset (genetic system genes) is necessary for the operation of redox control of expression of genes in the primary subset. If all genes disappear from the primary subset, CoRR predicts that there is no function for genes in the secondary subset, and such organelles will then, eventually, lose their genomes completely. However, if even only one gene remains under redox control, then an organelle genetic system is required for the synthesis of its single gene product.
+
+
+
+

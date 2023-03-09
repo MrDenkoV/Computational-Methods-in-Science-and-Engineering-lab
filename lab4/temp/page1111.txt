@@ -1,0 +1,22 @@
+The Seven Pillars of Life
+
+The Seven Pillars of Life are the essential principles of life described by Daniel E. Koshland in 2002 in order to create a universal definition of life. One stated goal of this universal definition is to aid in understanding and identifying artificial and extraterrestrial life. The seven pillars are Program, Improvisation, Compartmentalization, Energy, Regeneration, Adaptability, and Seclusion. These can be abbreviated as PICERAS.
+
+Koshland defines "Program" as an "organized plan that describes both the ingredients themselves and the kinetics of the interactions among ingredients as the living system persists through time." In natural life as it is known on Earth, the program operates through the mechanisms of nucleic acids and amino acids, but the concept of program can apply to other imagined or undiscovered mechanisms.
+
+"Improvisation" refers to the living system's ability to change its program in response to the larger environment in which it exists. An example of improvisation on earth is natural selection.
+
+"Compartmentalization" refers to the separation of spaces in the living system that allow for separate environments for necessary chemical processes. Compartmentalization is necessary to protect the concentration of the ingredients for a reaction from outside environments.
+
+Because living systems involve net movement in terms of chemical movement or body movement, and lose energy in those movements through entropy, energy is required for a living system to exist. The main source of energy on Earth is the sun, but other sources of energy exist for life on Earth, such as hydrogen gas or methane, used in chemosynthesis.
+
+"Regeneration" in a living system refers to the general compensation for losses and degradation in the various components and processes in the system. This covers the thermodynamic loss in chemical reactions, the wear and tear of larger parts, and the larger decline of components of the system in ageing. Living systems replace these losses by importing molecules from the outside environment, synthesizing new molecules and components, or creating new generations to start the system over again.
+
+"Adaptability" is the ability of a living system to respond to needs, dangers, or changes. It is distinguished from improvisation because the response is timely and does not involve a change of the program. Adaptability occurs from a molecular level to a behavioral level through feedback and feedforward systems. For example, an animal seeing a predator will respond to the danger with hormonal changes and escape behavior.
+
+"Seclusion" is the separation of chemical pathways and the specificity of the effect of molecules, so that processes can function separately within the living system. In organisms on Earth, proteins aid in seclusion because of their individualized structure that are specific for their function, so that they can efficiently act without affecting separate functions.
+
+Y. N. Zhuravlev and V. A. Avetisov have analyzed Koshland's seven pillars from the context of primordial life and, though calling the concept "elegant," point out that the pillars of compartmentalization, program, and seclusion don't apply well to the non-differentiated earliest life.
+
+
+

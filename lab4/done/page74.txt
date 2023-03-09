@@ -1,0 +1,10 @@
+THL Simplified Phonetic Transcription
+
+The THL Simplified Phonetic Transcription of Standard Tibetan (or "THL Phonetic Transcription" for short) is a system for the phonetic rendering of the Tibetan language.
+
+It was created by David Germano and Nicolas Tournadre and was published on 12 December 2003. It is essentially a simplified form of the Tournadre Phonetic System, which is used by Tournadre in his Tibetan-language textbooks.
+
+THL (formerly THDL) stands for the "Tibetan and Himalayan Library" project, which is hosted at the University of Virginia.
+
+
+
